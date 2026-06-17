@@ -46,6 +46,27 @@ const STUDY_MODES = [
   }
 ];
 
+const REWARD_CARDS = {
+  "context-first": {
+    tag: "语境挑战首胜",
+    title: "长难句雷达上线",
+    text: "你刚完成了第一次语境判断。考研阅读里，词义不是孤立背出来的，是被修饰语、搭配和句子关系锁定的。",
+    tip: "下一次看到熟词，先问：它在这句话里服务于哪个对象或态度？"
+  },
+  "streak-10": {
+    tag: "连续 10 个",
+    title: "稳定提取奖励",
+    text: "连续答对 10 个说明这组词已经形成较顺的提取路径。别急着加速，继续保持盲猜后再翻牌。",
+    tip: "真正能提分的是稳定、快速、放进句子里还不跑偏的词义。"
+  },
+  "daily-clear": {
+    tag: "今日任务清空",
+    title: "今天的词债已结清",
+    text: "今日新词目标已经完成。现在最值钱的不是硬塞新词，而是回头处理慢想、熟词生义和错词。",
+    tip: "考研冲刺的减负原则：会的移开，卡住的留下。"
+  }
+};
+
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => Array.from(root.querySelectorAll(selector));
 
@@ -66,7 +87,8 @@ const defaultState = {
   libraryFilter: "all",
   theme: "dark",
   progress: {},
-  daily: {}
+  daily: {},
+  rewards: {}
 };
 
 let state = loadState();
@@ -125,6 +147,58 @@ function ensureBankProgress(bank = getBank()) {
     state.progress[bank.id] = {};
   }
   return state.progress[bank.id];
+}
+
+function ensureRewards() {
+  state.rewards = {
+    correctStreak: 0,
+    unlocked: {},
+    active: null,
+    queue: [],
+    ...(state.rewards || {})
+  };
+  state.rewards.unlocked = { ...(state.rewards.unlocked || {}) };
+  state.rewards.queue = Array.isArray(state.rewards.queue) ? state.rewards.queue : [];
+  return state.rewards;
+}
+
+function rewardScope(type, context = {}) {
+  if (type === "context-first") return `${state.selectedBank}:context-first`;
+  if (type === "streak-10") return `${todayKey()}:${state.selectedBank}:streak-10`;
+  if (type === "daily-clear") return `${todayKey()}:${state.selectedBank}:daily-clear`;
+  return `${state.selectedBank}:${type}:${context.wordId || "global"}`;
+}
+
+function triggerReward(type, context = {}) {
+  const rewards = ensureRewards();
+  const card = REWARD_CARDS[type];
+  if (!card) return false;
+
+  const key = rewardScope(type, context);
+  if (rewards.unlocked[key]) return false;
+
+  const drop = {
+    ...card,
+    type,
+    key,
+    word: context.word || "",
+    at: now()
+  };
+
+  rewards.unlocked[key] = drop.at;
+  if (rewards.active) {
+    rewards.queue.push(drop);
+  } else {
+    rewards.active = drop;
+  }
+  return true;
+}
+
+function dismissReward() {
+  const rewards = ensureRewards();
+  rewards.active = rewards.queue.shift() || null;
+  saveState();
+  render();
 }
 
 function getRecord(word, bank = getBank()) {
@@ -398,6 +472,7 @@ function renderPronounceButton(word, label = "发音") {
 function render() {
   const bank = getBank();
   ensureBankProgress(bank);
+  ensureRewards();
   document.body.classList.toggle("study-focus", state.view === "study");
   document.documentElement.dataset.theme = state.theme;
   document.documentElement.style.setProperty("--accent", bank.accent || "#5eead4");
@@ -704,6 +779,7 @@ function renderStudy(bank) {
             <button class="primary-button" type="button" data-action="reveal-word">${icon("book")}进入语境挑战</button>
           `}
         </div>
+        ${renderRewardDrop()}
       </article>
 
       <aside class="panel">
@@ -719,6 +795,23 @@ function renderStudy(bank) {
         <p class="micro-copy">确认已经稳定掌握时使用，冲刺期可以减少复习负担。</p>
       </aside>
     </div>
+  `;
+}
+
+function renderRewardDrop() {
+  const reward = ensureRewards().active;
+  if (!reward) return "";
+
+  return `
+    <section class="reward-drop" data-reward="${escapeHtml(reward.type)}">
+      <div>
+        <span class="eyebrow">掉落卡片 · ${escapeHtml(reward.tag)}</span>
+        <h3>${escapeHtml(reward.title)}</h3>
+        <p>${escapeHtml(reward.text)}</p>
+        <p class="micro-copy">${escapeHtml(reward.tip)}</p>
+      </div>
+      <button class="ghost-button" type="button" data-action="dismiss-reward">收下</button>
+    </section>
   `;
 }
 
@@ -953,9 +1046,11 @@ function gradeWord(grade) {
   const record = getRecord(word, bank);
   const firstSeen = !record.seen;
   const daily = getDaily();
+  const learnedBefore = daily.learned;
   const current = now();
   const responseMs = state.blindMs || (state.cardStartedAt ? current - state.cardStartedAt : 0);
   const slowRecall = responseMs > 3000;
+  const isCorrect = grade === "easy" || grade === "slow";
   const plan = getExamPlan();
   const schedule = {
     easy: { level: 2, correct: 1, wrong: 0, baseDays: 4 },
@@ -993,9 +1088,18 @@ function gradeWord(grade) {
   ];
 
   daily.reviewed += 1;
-  daily.correct += grade === "easy" || grade === "slow" ? 1 : 0;
+  daily.correct += isCorrect ? 1 : 0;
   daily.slow += slowRecall ? 1 : 0;
   daily.learned += firstSeen ? 1 : 0;
+
+  const rewards = ensureRewards();
+  rewards.correctStreak = isCorrect ? rewards.correctStreak + 1 : 0;
+  if (rewards.correctStreak === 10) {
+    triggerReward("streak-10", { word: word.word });
+  }
+  if (learnedBefore < (bank.dailyTarget || 18) && daily.learned >= (bank.dailyTarget || 18)) {
+    triggerReward("daily-clear", { target: bank.dailyTarget || 18 });
+  }
 
   state.studyCursor += 1;
   state.studyWordId = null;
@@ -1414,6 +1518,7 @@ function revealAnswer() {
     return;
   }
   state.answerRevealed = true;
+  triggerReward("context-first", { word: getCurrentStudyWord(getBank(), { lock: false })?.word || "" });
   saveState();
   render();
 }
@@ -1497,6 +1602,7 @@ document.addEventListener("click", (event) => {
     },
     "reveal-word": revealWord,
     "reveal-answer": revealAnswer,
+    "dismiss-reward": dismissReward,
     "toggle-star": toggleStar,
     "bury-word": buryCurrentWord,
     "play-pronunciation": () => playPronunciation(actionButton.dataset.wordId),

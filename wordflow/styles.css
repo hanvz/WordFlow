@@ -826,6 +826,36 @@ select:focus {
   line-height: 1.6;
 }
 
+.reward-drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(100%, 70rem);
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--good) 36%, var(--line));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--good) 13%, transparent), transparent 48%),
+    color-mix(in srgb, var(--surface-2) 94%, transparent);
+}
+
+.reward-drop h3 {
+  margin: 0.25rem 0;
+}
+
+.reward-drop p {
+  margin-bottom: 0;
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.reward-drop .micro-copy {
+  margin-top: 0.25rem;
+  color: var(--muted);
+}
+
 .study-answer-grid {
   grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.34fr);
   align-items: stretch;
@@ -1367,6 +1397,11 @@ select:focus {
 
   .study-focus .focus-actions {
     justify-content: space-between;
+  }
+
+  .reward-drop {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .study-focus .word-title strong {

@@ -168,6 +168,8 @@ const revealedStudy = getElement("appView").innerHTML;
 ["考研优先义", "本词状态", "语境"].forEach((label) => {
   assert(revealedStudy.includes(label), `Revealed study card is missing module: ${label}`);
 });
+assert(revealedStudy.includes("掉落卡片") && revealedStudy.includes("语境挑战首胜"), "First context challenge reward does not appear");
+sandbox.dismissReward();
 ["秒懂考研义", "认出但慢", "只记得常见义", "不认识"].forEach((label) => {
   assert(revealedStudy.includes(label), `Revealed study card is missing grade button: ${label}`);
 });
@@ -182,6 +184,21 @@ const revealedStudy = getElement("appView").innerHTML;
 ].forEach(([keyCheck, gradeCall]) => {
   assert(appSource.includes(keyCheck) && appSource.includes(gradeCall), `Keyboard shortcut is missing: ${keyCheck}`);
 });
+for (let index = 0; index < 10; index += 1) {
+  sandbox.revealWord();
+  sandbox.revealAnswer();
+  sandbox.gradeWord("easy");
+}
+const streakReward = getElement("appView").innerHTML;
+assert(streakReward.includes("连续 10 个"), "Ten-correct streak reward does not appear");
+sandbox.dismissReward();
+sandbox.getDaily().learned = 17;
+sandbox.revealWord();
+sandbox.revealAnswer();
+sandbox.gradeWord("easy");
+const dailyReward = getElement("appView").innerHTML;
+assert(dailyReward.includes("今日任务清空"), "Daily target reward does not appear");
+sandbox.dismissReward();
 ["core-intensive", "syllabus-recognition", "paper-polysemy", "weak-words"].forEach((modeId) => {
   sandbox.setStudyMode(modeId);
   const html = getElement("appView").innerHTML;
@@ -193,6 +210,7 @@ assert(css.includes(".study-focus .study-grid > aside"), "Focus CSS does not hid
 assert(css.includes("font-size: clamp(3.8rem, 10vw, 8.4rem)"), "Focus word size is not tuned for the complete study layout");
 assert(css.includes(".study-answer-grid") && css.includes(".study-detail-grid"), "Study CSS is missing complete card grids");
 assert(css.includes(".pronounce-button"), "Pronunciation button CSS is missing");
+assert(css.includes(".reward-drop"), "Reward drop CSS is missing");
 assert(css.includes("body.study-focus {\n    overflow: hidden;"), "Mobile focus mode does not lock body overflow");
 
 console.log(JSON.stringify({
