@@ -112,6 +112,12 @@ const ids = bank.words.map((word) => word.id);
 const dashboard = getElement("appView").innerHTML;
 const major = bank.words.find((word) => word.word === "major");
 const conditionWord = bank.words.find((word) => word.word === "condition");
+const initialLayerStats = {
+  coreIntensive: sandbox.getModeStats(bank, "core-intensive"),
+  syllabusRecognition: sandbox.getModeStats(bank, "syllabus-recognition"),
+  paperPolysemy: sandbox.getModeStats(bank, "paper-polysemy"),
+  weakWords: sandbox.getModeStats(bank, "weak-words")
+};
 
 sandbox.setView("study");
 const study = getElement("appView").innerHTML;
@@ -137,6 +143,15 @@ assert(dashboard.includes("6 套可用 · 432 词命中"), "Dashboard does not s
 ["核心精背", "考纲速认", "真题熟词生义", "我的错词"].forEach((label) => {
   assert(dashboard.includes(label), `Dashboard does not show study layer: ${label}`);
 });
+[
+  initialLayerStats.coreIntensive,
+  initialLayerStats.syllabusRecognition,
+  initialLayerStats.paperPolysemy
+].forEach((stats) => {
+  assert(dashboard.includes(`<span class="level-badge">0/${stats.total}</span>`), "Mode card does not show learned/total progress");
+});
+const emptyModeBars = dashboard.match(/class="mode-bar" style="--mode-progress:0%"/g) || [];
+assert(emptyModeBars.length === 4, "Mode progress bars should start empty before learning");
 assert(getElement("body").className === "study-focus", "Study view does not enter focus mode");
 assert(study.includes("真题命中"), "Study card does not show past-paper hit tag");
 ["主动提取", "英文到中文", "语境位置", "风险检查"].forEach((label) => {

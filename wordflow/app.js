@@ -556,21 +556,21 @@ function renderDashboard(bank) {
 function renderModeCards(bank) {
   return STUDY_MODES.map((mode) => {
     const stats = getModeStats(bank, mode.id);
-    const coverage = `${stats.total} 词`;
+    const progressLabel = stats.total ? `${stats.learned}/${stats.total}` : "0 个";
     const targetLabel = mode.target
-      ? `目标 ${mode.target}+ · ${stats.total >= mode.target ? "已达标" : `还差 ${mode.target - stats.total}`}`
+      ? `本层 ${stats.total} 词 · 目标 ${mode.target}+`
       : "动态生成";
-    const percent = mode.target ? Math.min(100, Math.round((stats.total / mode.target) * 100)) : Math.min(100, stats.completion);
+    const percent = stats.total ? Math.min(100, stats.completion) : 0;
     const isActive = mode.id === getStudyMode().id;
     return `
       <button class="mode-card ${isActive ? "is-active" : ""}" type="button" data-study-mode="${escapeHtml(mode.id)}">
         <span class="mode-card-head">
           <strong>${escapeHtml(mode.title)}</strong>
-          <span class="level-badge">${escapeHtml(coverage)}</span>
+          <span class="level-badge">${escapeHtml(progressLabel)}</span>
         </span>
         <span class="mode-bar" style="--mode-progress:${percent}%"><i></i></span>
         <span class="micro-copy">${escapeHtml(mode.description)}</span>
-        <span class="word-meta">${escapeHtml(targetLabel)} · 已学 ${stats.learned} · 待复 ${stats.due}</span>
+        <span class="word-meta">${escapeHtml(targetLabel)} · 待复 ${stats.due} · 薄弱 ${stats.weak}</span>
         <span class="word-meta">${escapeHtml(mode.hint)}</span>
       </button>
     `;
