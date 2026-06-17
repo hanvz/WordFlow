@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suntory 考研背词台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg class="svg-sprite" aria-hidden="true">
+      <symbol id="icon-home" viewBox="0 0 24 24">
+        <path d="M3 11.5 12 4l9 7.5" />
+        <path d="M5 10v10h5v-6h4v6h5V10" />
+      </symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24">
+        <path d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v18H7.5A2.5 2.5 0 0 0 5 22z" />
+        <path d="M5 4.5v15A2.5 2.5 0 0 1 7.5 17H20" />
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24">
+        <path d="M8 5v14l11-7z" />
+      </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="m4 12 5 5L20 6" />
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24">
+        <path d="M18 6 6 18" />
+        <path d="m6 6 12 12" />
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24">
+        <path d="m12 3 2.75 5.58 6.16.9-4.45 4.33 1.05 6.13L12 17.05 6.49 19.94l1.05-6.13-4.45-4.33 6.16-.9z" />
+      </symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <path d="m21 21-4.35-4.35" />
+        <circle cx="11" cy="11" r="7" />
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M4 19V5" />
+        <path d="M4 19h16" />
+        <path d="M8 16v-5" />
+        <path d="M12 16V8" />
+        <path d="M16 16v-9" />
+      </symbol>
+      <symbol id="icon-layers" viewBox="0 0 24 24">
+        <path d="m12 3 9 5-9 5-9-5z" />
+        <path d="m3 12 9 5 9-5" />
+        <path d="m3 16 9 5 9-5" />
+      </symbol>
+      <symbol id="icon-refresh" viewBox="0 0 24 24">
+        <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+        <path d="M20 4v6h-6" />
+      </symbol>
+    </svg>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <a class="brand" href="#" data-action="go-dashboard" aria-label="返回首页">
+          <span class="brand-mark">W</span>
+          <span>
+            <strong>WordFlow</strong>
+            <small>考研背词台</small>
+          </span>
+        </a>
+
+        <section class="profile-panel" aria-label="用户信息">
+          <div class="avatar">S</div>
+          <div>
+            <span>学习账号</span>
+            <strong>Suntory</strong>
+          </div>
+        </section>
+
+        <nav class="nav-stack">
+          <button class="nav-item is-active" type="button" data-view="dashboard">
+            <svg><use href="#icon-home"></use></svg>
+            今日首页
+          </button>
+          <button class="nav-item" type="button" data-view="study">
+            <svg><use href="#icon-play"></use></svg>
+            开始背词
+          </button>
+          <button class="nav-item" type="button" data-view="review">
+            <svg><use href="#icon-refresh"></use></svg>
+            复习队列
+          </button>
+          <button class="nav-item" type="button" data-view="quiz">
+            <svg><use href="#icon-chart"></use></svg>
+            快速测验
+          </button>
+          <button class="nav-item" type="button" data-view="library">
+            <svg><use href="#icon-book"></use></svg>
+            词库管理
+          </button>
+        </nav>
+
+        <button class="reset-button" type="button" data-action="reset-progress">
+          <svg><use href="#icon-refresh"></use></svg>
+          重置本地进度
+        </button>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p id="bankEyebrow" class="eyebrow">考研核心词</p>
+            <h1 id="viewTitle">今日学习</h1>
+          </div>
+          <div class="top-actions">
+            <label class="select-wrap">
+              <span>词库</span>
+              <select id="bankSelect" aria-label="选择词库"></select>
+            </label>
+            <button class="icon-button" type="button" data-action="toggle-theme" aria-label="切换明暗主题" title="切换主题">
+              <svg><use href="#icon-layers"></use></svg>
+            </button>
+          </div>
+        </header>
+
+        <section id="bankNotice" class="bank-notice" hidden></section>
+        <section id="appView" class="view-stage" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="data/kaoyan-core-pack.js"></script>
+    <script src="data/kaoyan-extended-pack.js"></script>
+    <script src="data/kaoyan-complete-pack.js"></script>
+    <script src="data/kaoyan-syllabus-recognition-pack.js"></script>
+    <script src="data/pastpapers-index.js"></script>
+    <script src="data/pastpapers-vocab-stats.js"></script>
+    <script src="data/word-banks.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
