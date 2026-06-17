@@ -12,6 +12,7 @@ const ENDPOINT = process.env.DEEPSEEK_API_URL || "https://api.deepseek.com/chat/
 const args = parseArgs(process.argv.slice(2));
 const limit = Number(args.limit || 20);
 const focus = args.focus || "sample";
+const allFocuses = ["paper", "polysemy", "core", "recognition", "all"];
 const outFile = path.resolve(args.out || DEFAULT_OUT);
 const dryRun = !args.apply;
 
@@ -23,6 +24,10 @@ main().catch((error) => {
 async function main() {
   const bank = loadBank();
   const existing = loadOverrides(outFile);
+  if (args.all) {
+    await runAllBatches(bank, existing);
+    return;
+  }
   const words = selectWords(bank, existing, focus, limit);
 
   if (!words.length) {
@@ -72,6 +77,55 @@ async function main() {
   const merged = { ...existing, ...generated };
   writeOverrides(outFile, merged);
   console.log(`Wrote ${Object.keys(generated).length} overrides to ${path.relative(process.cwd(), outFile)}`);
+}
+
+async function runAllBatches(bank, initialExisting) {
+  if (dryRun) {
+    const plan = allFocuses.map((item) => ({
+      focus: item,
+      limit,
+      selected: selectWords(bank, initialExisting, item, limit).map((word) => word.id)
+    }));
+    console.log(JSON.stringify({ mode: "dry-run-all", plan }, null, 2));
+    console.log("\nRun with --all --apply and DEEPSEEK_API_KEY in your environment to write overrides.");
+    return;
+  }
+
+  let existing = initialExisting;
+  for (const item of allFocuses) {
+    const words = selectWords(bank, existing, item, limit);
+    if (!words.length) {
+      console.log(`Skipping ${item}: no candidates`);
+      continue;
+    }
+    console.log(`\n=== Focus ${item}: ${words.length} words ===`);
+    const generated = {};
+    for (const word of words) {
+      process.stdout.write(`Enriching ${word.word}... `);
+      const context = await generateContext(word);
+      validateGenerated(word, context);
+      generated[word.id] = {
+        en: context.en,
+        example: context.sentence,
+        exampleCn: context.translation,
+        examContext: {
+          source: word.paperHits ? "DeepSeek 考研真题同域语境" : "DeepSeek 考研同域语境",
+          year: word.paperHits ? `真题命中 ${word.paperCoverage || 1} 套` : "AI 校准语境",
+          sentence: context.sentence,
+          translation: context.translation,
+          analysis: context.analysis
+        },
+        sourceRefs: {
+          ...(word.sourceRefs || {}),
+          examCorpus: "DeepSeek context curation"
+        }
+      };
+      existing = { ...existing, [word.id]: generated[word.id] };
+      writeOverrides(outFile, existing);
+      console.log("ok");
+    }
+  }
+  console.log(`\nAll requested batches finished. Overrides: ${Object.keys(existing).length}`);
 }
 
 function parseArgs(argv) {

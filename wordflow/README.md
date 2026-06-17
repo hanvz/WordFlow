@@ -55,6 +55,16 @@ node tools/validate-wordbank.js
 node tools/audit-app.js
 ```
 
+全量优化建议分批跑。脚本会按真题命中、熟词生义、核心词、速认词、剩余词依次处理，并在每个词生成后立刻写入覆盖层，方便中断后续跑：
+
+```bash
+node tools/enrich-contexts-deepseek.js --all --limit 100 --apply
+node tools/validate-wordbank.js
+node tools/audit-app.js
+```
+
+如果中途失败，重新运行同一条命令即可跳过已生成词。确认风格稳定后，可以把 `--limit` 调大。
+
 可选 focus：
 
 - `sample`：核心词、熟词生义、真题命中词混合抽样。
