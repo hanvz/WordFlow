@@ -1698,8 +1698,8 @@ if (kaoyanBank) {
       paperCoverage: 0,
       paperRefs: [],
       ...word,
-      ...(KAOYAN_WORD_ENRICHMENTS[word.id] || {}),
       ...(window.KAOYAN_DEEPSEEK_CONTEXTS?.[word.id] || {}),
+      ...(KAOYAN_WORD_ENRICHMENTS[word.id] || {}),
       ...(paperStats || {})
     });
   });

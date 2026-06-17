@@ -15,6 +15,8 @@ const focus = args.focus || "sample";
 const allFocuses = ["paper", "polysemy", "core", "recognition", "all"];
 const outFile = path.resolve(args.out || DEFAULT_OUT);
 const dryRun = !args.apply;
+const skippedFile = path.resolve(args.skipped || outFile.replace(/\.js$/, ".skipped.json"));
+const retries = Number(args.retries || 2);
 
 main().catch((error) => {
   console.error(error.message);
@@ -51,32 +53,26 @@ async function main() {
   }
 
   const generated = {};
+  const skipped = [];
   for (const word of words) {
     process.stdout.write(`Enriching ${word.word}... `);
-    const context = await generateContext(word);
-    validateGenerated(word, context);
-    generated[word.id] = {
-      en: context.en,
-      example: context.sentence,
-      exampleCn: context.translation,
-      examContext: {
-        source: word.paperHits ? "DeepSeek 考研真题同域语境" : "DeepSeek 考研同域语境",
-        year: word.paperHits ? `真题命中 ${word.paperCoverage || 1} 套` : "AI 校准语境",
-        sentence: context.sentence,
-        translation: context.translation,
-        analysis: context.analysis
-      },
-      sourceRefs: {
-        ...(word.sourceRefs || {}),
-        examCorpus: "DeepSeek context curation"
-      }
-    };
-    console.log("ok");
+    try {
+      const context = await generateValidContext(word);
+      generated[word.id] = buildOverride(word, context);
+      console.log("ok");
+    } catch (error) {
+      console.log(`skip (${error.message})`);
+      skipped.push(skippedEntry(word, focus, error));
+    }
   }
 
   const merged = { ...existing, ...generated };
   writeOverrides(outFile, merged);
+  writeSkipped(skippedFile, skipped);
   console.log(`Wrote ${Object.keys(generated).length} overrides to ${path.relative(process.cwd(), outFile)}`);
+  if (skipped.length) {
+    console.log(`Skipped ${skipped.length} words. See ${path.relative(process.cwd(), skippedFile)}`);
+  }
 }
 
 async function runAllBatches(bank, initialExisting) {
@@ -92,6 +88,7 @@ async function runAllBatches(bank, initialExisting) {
   }
 
   let existing = initialExisting;
+  const skipped = [];
   for (const item of allFocuses) {
     const words = selectWords(bank, existing, item, limit);
     if (!words.length) {
@@ -102,30 +99,56 @@ async function runAllBatches(bank, initialExisting) {
     const generated = {};
     for (const word of words) {
       process.stdout.write(`Enriching ${word.word}... `);
-      const context = await generateContext(word);
-      validateGenerated(word, context);
-      generated[word.id] = {
-        en: context.en,
-        example: context.sentence,
-        exampleCn: context.translation,
-        examContext: {
-          source: word.paperHits ? "DeepSeek 考研真题同域语境" : "DeepSeek 考研同域语境",
-          year: word.paperHits ? `真题命中 ${word.paperCoverage || 1} 套` : "AI 校准语境",
-          sentence: context.sentence,
-          translation: context.translation,
-          analysis: context.analysis
-        },
-        sourceRefs: {
-          ...(word.sourceRefs || {}),
-          examCorpus: "DeepSeek context curation"
-        }
-      };
-      existing = { ...existing, [word.id]: generated[word.id] };
-      writeOverrides(outFile, existing);
-      console.log("ok");
+      try {
+        const context = await generateValidContext(word);
+        generated[word.id] = buildOverride(word, context);
+        existing = { ...existing, [word.id]: generated[word.id] };
+        writeOverrides(outFile, existing);
+        console.log("ok");
+      } catch (error) {
+        console.log(`skip (${error.message})`);
+        skipped.push(skippedEntry(word, item, error));
+      }
     }
   }
+  writeSkipped(skippedFile, skipped);
   console.log(`\nAll requested batches finished. Overrides: ${Object.keys(existing).length}`);
+  if (skipped.length) {
+    console.log(`Skipped ${skipped.length} words. See ${path.relative(process.cwd(), skippedFile)}`);
+  }
+}
+
+async function generateValidContext(word) {
+  let lastError = null;
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    try {
+      const context = normalizeContext(word, await generateContext(word, attempt));
+      validateGenerated(word, context);
+      return context;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError;
+}
+
+function buildOverride(word, context) {
+  return {
+    en: context.en,
+    example: context.sentence,
+    exampleCn: context.translation,
+    examContext: {
+      source: word.paperHits ? "DeepSeek 考研真题同域语境" : "DeepSeek 考研同域语境",
+      year: word.paperHits ? `真题命中 ${word.paperCoverage || 1} 套` : "AI 校准语境",
+      sentence: context.sentence,
+      translation: context.translation,
+      analysis: context.analysis
+    },
+    sourceRefs: {
+      ...(word.sourceRefs || {}),
+      examCorpus: "DeepSeek context curation"
+    }
+  };
 }
 
 function parseArgs(argv) {
@@ -191,6 +214,19 @@ function writeOverrides(file, data) {
   fs.writeFileSync(file, body);
 }
 
+function writeSkipped(file, skipped) {
+  fs.writeFileSync(file, `${JSON.stringify(skipped, null, 2)}\n`);
+}
+
+function skippedEntry(word, focusName, error) {
+  return {
+    id: word.id,
+    word: word.word,
+    focus: focusName,
+    error: error.message
+  };
+}
+
 function selectWords(bank, existing, mode, max) {
   const idFilter = args.ids
     ? new Set(String(args.ids).split(",").map((item) => item.trim()).filter(Boolean))
@@ -241,7 +277,7 @@ function summaryForPrompt(word) {
   };
 }
 
-async function generateContext(word) {
+async function generateContext(word, attempt = 0) {
   const payload = {
     model: MODEL,
     temperature: 0.35,
@@ -262,12 +298,14 @@ async function generateContext(word) {
           task: "为目标词生成考研阅读同域语境，帮助学生判断句中含义。",
           constraints: [
             "sentence 必须自然包含目标英文词，长度 12-24 个英文词。",
+            `sentence 里必须原样出现英文单词 “${word.word}”，不要只写变形、派生词或同义词。`,
             "translation 必须是 sentence 的自然中文翻译。",
             "analysis 必须 1 句中文，说明看哪个搭配、词性或句子关系来定中文，少于 45 个汉字。",
             "en 必须是英文解释，少于 22 个英文词。",
             "避免抽象套话，如 作者论证脉络、真题反复命中、事实描述和作者评价。",
-            "如果是熟词生义，analysis 必须提醒常见义和考研义的区别。"
-          ],
+            "如果是熟词生义，analysis 必须提醒常见义和考研义的区别。",
+            attempt > 0 ? `这是第 ${attempt + 1} 次生成，务必修正上次未通过校验的问题。` : ""
+          ].filter(Boolean),
           word: summaryForPrompt(word)
         })
       }
@@ -334,6 +372,43 @@ function validateGenerated(word, context) {
   const badPhrase = badPhrases.find((phrase) => combined.includes(phrase));
   if (badPhrase) throw new Error(`${word.word}: generated content contains abstract phrase ${badPhrase}`);
   if (context.analysis.length > 55) throw new Error(`${word.word}: analysis is too long`);
+}
+
+function normalizeContext(word, context) {
+  const normalized = {
+    en: String(context.en || "").trim(),
+    sentence: String(context.sentence || "").trim(),
+    translation: String(context.translation || "").trim(),
+    analysis: String(context.analysis || "").trim()
+  };
+
+  normalized.analysis = normalized.analysis
+    .replace(/^解析[:：]\s*/, "")
+    .replace(/^注意[:：]\s*/, "");
+
+  const badPhrases = ["作者论证脉络", "真题反复命中", "事实描述和作者评价", "常出现在考研阅读"];
+  const hasBadPhrase = badPhrases.some((phrase) => normalized.analysis.includes(phrase));
+  if (hasBadPhrase || normalized.analysis.length > 55) {
+    normalized.analysis = fallbackAnalysis(word);
+  }
+
+  return normalized;
+}
+
+function fallbackAnalysis(word) {
+  const sense = firstSense(word.examSense || word.cn || word.word);
+  if (word.polysemy || word.familiarMeaning) {
+    return `别按常见义“${word.familiarMeaning || "原义"}”，这里先看搭配判断“${sense}”。`;
+  }
+  return `先把 ${word.word} 试译为“${sense}”，再看前后搭配是否贴合本句。`;
+}
+
+function firstSense(value) {
+  return String(value || "")
+    .replaceAll(",", "；")
+    .split("；")
+    .map((item) => item.trim())
+    .filter(Boolean)[0] || "";
 }
 
 function escapeRegExp(value) {
