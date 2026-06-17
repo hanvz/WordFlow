@@ -26,8 +26,9 @@ main().catch((error) => {
 async function main() {
   const bank = loadBank();
   const existing = loadOverrides(outFile);
+  const usedContent = collectUsedContent(bank);
   if (args.all) {
-    await runAllBatches(bank, existing);
+    await runAllBatches(bank, existing, usedContent);
     return;
   }
   const words = selectWords(bank, existing, focus, limit);
@@ -57,8 +58,9 @@ async function main() {
   for (const word of words) {
     process.stdout.write(`Enriching ${word.word}... `);
     try {
-      const context = await generateValidContext(word);
+      const context = await generateValidContext(word, usedContent);
       generated[word.id] = buildOverride(word, context);
+      rememberContent(usedContent, word, context);
       console.log("ok");
     } catch (error) {
       console.log(`skip (${error.message})`);
@@ -75,7 +77,7 @@ async function main() {
   }
 }
 
-async function runAllBatches(bank, initialExisting) {
+async function runAllBatches(bank, initialExisting, usedContent) {
   if (dryRun) {
     const plan = allFocuses.map((item) => ({
       focus: item,
@@ -100,9 +102,10 @@ async function runAllBatches(bank, initialExisting) {
     for (const word of words) {
       process.stdout.write(`Enriching ${word.word}... `);
       try {
-        const context = await generateValidContext(word);
+        const context = await generateValidContext(word, usedContent);
         generated[word.id] = buildOverride(word, context);
         existing = { ...existing, [word.id]: generated[word.id] };
+        rememberContent(usedContent, word, context);
         writeOverrides(outFile, existing);
         console.log("ok");
       } catch (error) {
@@ -118,12 +121,13 @@ async function runAllBatches(bank, initialExisting) {
   }
 }
 
-async function generateValidContext(word) {
+async function generateValidContext(word, usedContent) {
   let lastError = null;
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
       const context = normalizeContext(word, await generateContext(word, attempt));
       validateGenerated(word, context);
+      validateUniqueContent(word, context, usedContent);
       return context;
     } catch (error) {
       lastError = error;
@@ -218,6 +222,38 @@ function writeSkipped(file, skipped) {
   fs.writeFileSync(file, `${JSON.stringify(skipped, null, 2)}\n`);
 }
 
+function collectUsedContent(bank) {
+  const used = {
+    example: new Map(),
+    exampleCn: new Map()
+  };
+  bank.words.forEach((word) => {
+    if (word.example) used.example.set(normalizeForDuplicate(word.example), word.id);
+    if (word.exampleCn) used.exampleCn.set(normalizeForDuplicate(word.exampleCn), word.id);
+  });
+  return used;
+}
+
+function rememberContent(used, word, context) {
+  used.example.set(normalizeForDuplicate(context.sentence), word.id);
+  used.exampleCn.set(normalizeForDuplicate(context.translation), word.id);
+}
+
+function validateUniqueContent(word, context, used) {
+  const exampleOwner = used.example.get(normalizeForDuplicate(context.sentence));
+  if (exampleOwner && exampleOwner !== word.id) {
+    throw new Error(`${word.word}: sentence duplicates ${exampleOwner}`);
+  }
+  const translationOwner = used.exampleCn.get(normalizeForDuplicate(context.translation));
+  if (translationOwner && translationOwner !== word.id) {
+    throw new Error(`${word.word}: translation duplicates ${translationOwner}`);
+  }
+}
+
+function normalizeForDuplicate(value) {
+  return String(value || "").replace(/\s+/g, " ").trim().toLowerCase();
+}
+
 function skippedEntry(word, focusName, error) {
   return {
     id: word.id,
@@ -299,6 +335,8 @@ async function generateContext(word, attempt = 0) {
           constraints: [
             "sentence 必须自然包含目标英文词，长度 12-24 个英文词。",
             `sentence 里必须原样出现英文单词 “${word.word}”，不要只写变形、派生词或同义词。`,
+            "不要使用模板句，如 A careful analysis of the data reveals a clear trend.",
+            "sentence 和 translation 必须和其他单词卡片明显不同。",
             "translation 必须是 sentence 的自然中文翻译。",
             "analysis 必须 1 句中文，说明看哪个搭配、词性或句子关系来定中文，少于 45 个汉字。",
             "en 必须是英文解释，少于 22 个英文词。",
