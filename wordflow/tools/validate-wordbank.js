@@ -6,6 +6,7 @@ require("../data/kaoyan-complete-pack.js");
 require("../data/kaoyan-syllabus-recognition-pack.js");
 require("../data/pastpapers-index.js");
 require("../data/pastpapers-vocab-stats.js");
+require("../data/deepseek-context-overrides.js");
 require("../data/word-banks.js");
 
 const bank = global.WORD_BANKS.find((item) => item.id === "kaoyan");

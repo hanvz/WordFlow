@@ -90,6 +90,7 @@ function loadApp() {
     "data/kaoyan-syllabus-recognition-pack.js",
     "data/pastpapers-index.js",
     "data/pastpapers-vocab-stats.js",
+    "data/deepseek-context-overrides.js",
     "data/word-banks.js",
     "app.js"
   ].forEach((file) => {

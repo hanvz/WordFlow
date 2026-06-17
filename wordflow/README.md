@@ -28,6 +28,7 @@
 - 速认扩展包：`data/kaoyan-syllabus-recognition-pack.js`，由 ECDICT 开源英汉词典筛选 `ky` 考研标签和高频考试词生成。
 - 牛津参考：用户提供的 OALD MDX/MDD 作为后续释义校对来源，当前前端只记录精简学习字段。
 - DeepSeek：通过 OpenClaw 调用 `deepseek/deepseek-v4-pro` 做垂直方向校准和熟词生义种子校对，不把大批量词义完全交给模型生成。
+- DeepSeek API 覆盖层：`tools/enrich-contexts-deepseek.js` 可批量生成更自然的考研同域语境，输出到 `data/deepseek-context-overrides.js`，不直接改原始词库。
 
 重新生成速认包前，先下载 ECDICT CSV 到临时目录：
 
@@ -35,6 +36,39 @@
 curl -L --fail --show-error https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv -o /private/tmp/ecdict.csv
 node tools/build-syllabus-pack.js
 ```
+
+### DeepSeek 批量润色语境
+
+先 dry-run 看将要处理哪些词：
+
+```bash
+node tools/enrich-contexts-deepseek.js --focus sample --limit 20
+node tools/enrich-contexts-deepseek.js --ids quality,demand --limit 5
+```
+
+确认后再临时设置 API Key 并写入覆盖层。不要把 API Key 写入源码或提交到 Git：
+
+```bash
+export DEEPSEEK_API_KEY="你的 key"
+node tools/enrich-contexts-deepseek.js --focus paper --limit 30 --apply
+node tools/validate-wordbank.js
+node tools/audit-app.js
+```
+
+可选 focus：
+
+- `sample`：核心词、熟词生义、真题命中词混合抽样。
+- `paper`：优先真题命中词。
+- `polysemy`：优先熟词生义。
+- `core`：核心必背词。
+- `recognition`：考纲速认词。
+- `all`：全量候选。
+
+常用参数：
+
+- `--ids quality,demand`：只处理指定词。
+- `--force`：已有覆盖也重新生成。
+- `--out data/deepseek-context-overrides.js`：指定输出文件。
 
 ## 本地打开
 

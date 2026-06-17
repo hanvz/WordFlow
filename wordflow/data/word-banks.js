@@ -1699,6 +1699,7 @@ if (kaoyanBank) {
       paperRefs: [],
       ...word,
       ...(KAOYAN_WORD_ENRICHMENTS[word.id] || {}),
+      ...(window.KAOYAN_DEEPSEEK_CONTEXTS?.[word.id] || {}),
       ...(paperStats || {})
     });
   });
