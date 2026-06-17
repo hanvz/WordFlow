@@ -612,6 +612,31 @@ select:focus {
   font-weight: 800;
 }
 
+.pronounce-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.2rem;
+  padding: 0 0.7rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 10%, var(--surface-2));
+  color: color-mix(in srgb, var(--accent) 82%, var(--text));
+  font-size: 0.82rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.pronounce-button:hover {
+  border-color: color-mix(in srgb, var(--accent) 58%, var(--line));
+  background: color-mix(in srgb, var(--accent) 17%, var(--surface-2));
+}
+
+.pronounce-button svg {
+  width: 1rem;
+  height: 1rem;
+}
+
 .definition-panel {
   display: grid;
   gap: 0.9rem;

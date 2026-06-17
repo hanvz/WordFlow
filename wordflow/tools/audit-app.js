@@ -154,6 +154,7 @@ const emptyModeBars = dashboard.match(/class="mode-bar" style="--mode-progress:0
 assert(emptyModeBars.length === 4, "Mode progress bars should start empty before learning");
 assert(getElement("body").className === "study-focus", "Study view does not enter focus mode");
 assert(study.includes("真题命中"), "Study card does not show past-paper hit tag");
+assert(study.includes("data-action=\"play-pronunciation\""), "Study card does not show pronunciation action");
 ["主动提取", "英文到中文", "语境位置", "风险检查"].forEach((label) => {
   assert(study.includes(label), `Study card does not show blind-recall module: ${label}`);
 });
@@ -172,6 +173,7 @@ assert(css.includes(".study-focus .sidebar") && css.includes(".study-focus .topb
 assert(css.includes(".study-focus .study-grid > aside"), "Focus CSS does not hide the side panel");
 assert(css.includes("font-size: clamp(3.8rem, 10vw, 8.4rem)"), "Focus word size is not tuned for the complete study layout");
 assert(css.includes(".study-answer-grid") && css.includes(".study-detail-grid"), "Study CSS is missing complete card grids");
+assert(css.includes(".pronounce-button"), "Pronunciation button CSS is missing");
 assert(css.includes("body.study-focus {\n    overflow: hidden;"), "Mobile focus mode does not lock body overflow");
 
 console.log(JSON.stringify({

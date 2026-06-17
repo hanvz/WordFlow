@@ -383,6 +383,14 @@ function icon(name) {
   return `<svg aria-hidden="true"><use href="#icon-${name}"></use></svg>`;
 }
 
+function renderPronounceButton(word, label = "发音") {
+  return `
+    <button class="pronounce-button" type="button" data-action="play-pronunciation" data-word-id="${escapeHtml(word.id)}" aria-label="播放 ${escapeHtml(word.word)} 发音" title="播放发音">
+      ${icon("volume")}<span>${escapeHtml(label)}</span>
+    </button>
+  `;
+}
+
 function render() {
   const bank = getBank();
   ensureBankProgress(bank);
@@ -664,6 +672,7 @@ function renderStudy(bank) {
           <div class="word-title">
             <strong>${escapeHtml(currentWord.word)}</strong>
             <span class="phonetic">${escapeHtml(currentWord.phonetic)}</span>
+            ${renderPronounceButton(currentWord)}
           </div>
         </div>
 
@@ -1024,6 +1033,7 @@ function renderQuiz(bank) {
           <div class="word-title">
             <strong>${escapeHtml(target.word)}</strong>
             <span class="phonetic">${escapeHtml(target.phonetic)}</span>
+            ${renderPronounceButton(target)}
           </div>
         </div>
         <div class="option-stack">
@@ -1183,6 +1193,7 @@ function renderWordRow(item) {
         <div>
           <strong>${escapeHtml(item.word)}</strong>
           <span class="phonetic">${escapeHtml(item.phonetic)}</span>
+          ${renderPronounceButton(item, "听")}
         </div>
         <span class="level-badge">${item.record.level}/5</span>
       </div>
@@ -1251,6 +1262,53 @@ function emptyState(title, text) {
       </div>
     </div>
   `;
+}
+
+function findWordById(id) {
+  if (!id) return null;
+  return getEnrichedWords(getBank()).find((word) => word.id === id) || null;
+}
+
+function getAudioSource(word) {
+  if (!word?.audio) return "";
+  if (typeof word.audio === "string") return word.audio;
+  return word.audio.uk || word.audio.us || word.audio.oxford || word.audio.src || "";
+}
+
+function speakWithBrowser(word) {
+  if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return false;
+  const utterance = new SpeechSynthesisUtterance(word.word);
+  const voices = window.speechSynthesis.getVoices?.() || [];
+  const englishVoice = voices.find((voice) => /^en[-_](GB|UK)/i.test(voice.lang))
+    || voices.find((voice) => /^en[-_]US/i.test(voice.lang))
+    || voices.find((voice) => /^en/i.test(voice.lang));
+
+  if (englishVoice) utterance.voice = englishVoice;
+  utterance.lang = englishVoice?.lang || "en-GB";
+  utterance.rate = 0.88;
+  utterance.pitch = 1;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+  return true;
+}
+
+function playPronunciation(wordId) {
+  const bank = getBank();
+  const word = findWordById(wordId)
+    || getCurrentStudyWord(bank, { lock: false })
+    || (state.quiz?.targetId ? findWordById(state.quiz.targetId) : null);
+  if (!word) return;
+
+  const source = getAudioSource(word);
+  if (source && "Audio" in window) {
+    const audio = new Audio(source);
+    audio.play().catch(() => {
+      speakWithBrowser(word);
+    });
+    return;
+  }
+
+  speakWithBrowser(word);
 }
 
 function toggleStar() {
@@ -1352,6 +1410,7 @@ document.addEventListener("click", (event) => {
     "reveal-word": revealWord,
     "toggle-star": toggleStar,
     "bury-word": buryCurrentWord,
+    "play-pronunciation": () => playPronunciation(actionButton.dataset.wordId),
     "next-quiz": () => {
       state.quiz = createQuiz();
       saveState();
