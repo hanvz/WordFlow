@@ -1601,38 +1601,34 @@ function buildExamEnglish(word) {
 
 function buildExamExample(word) {
   const sense = getPrimaryExamSense(word);
-  const cue = getTopicCue(word);
-  const domain = getDomainCue(word);
   const templates = [
-    () => `In ${domain.frame}, the term ${word.word} points to "${sense}" and helps readers follow ${cue.en}.`,
-    () => `When a sentence mentions ${word.word}, the surrounding evidence usually decides whether "${sense}" is the right reading.`,
-    () => `The author uses the phrase around ${word.word} to connect a concrete detail with ${domain.en}.`,
-    () => `A question may test ${word.word} by asking how the detail supports the paragraph's main claim.`,
+    () => `The phrase around ${word.word} helps decide whether "${sense}" is the right meaning.`,
+    () => `Check the verb or adjective near ${word.word} before choosing the meaning "${sense}".`,
+    () => `In a reading passage, ${word.word} may point to "${sense}" rather than a loose Chinese label.`,
+    () => `The sentence uses ${word.word} to describe a specific object, standard, or attitude.`,
     () => `Readers should link ${word.word} with nearby modifiers before choosing the sense "${sense}".`,
-    () => `In a dense sentence, ${word.word} can identify the condition, object, or field being discussed.`,
-    () => `The context of ${word.word} keeps the translation tied to ${domain.en} rather than a memorized label.`,
-    () => `Recognizing ${word.word} helps separate factual description from the writer's evaluation.`,
-    () => `The sentence around ${word.word} asks readers to connect terminology with evidence and paragraph purpose.`,
-    () => `A precise translation of ${word.word} keeps the clause focused on ${cue.en} instead of isolated word meaning.`
+    () => `A dense sentence may test ${word.word} through its object, condition, or field.`,
+    () => `The context of ${word.word} tells readers which Chinese meaning fits the sentence.`,
+    () => `The words before and after ${word.word} show whether the sentence is describing, comparing, or judging.`,
+    () => `A question may test ${word.word} by asking what role it plays in the sentence.`,
+    () => `A precise translation of ${word.word} starts from "${sense}" and then checks the surrounding phrase.`
   ];
   return templates[wordHash(word.word) % templates.length]();
 }
 
 function buildExamExampleCn(word) {
   const sense = getPrimaryExamSense(word);
-  const cue = getTopicCue(word);
-  const domain = getDomainCue(word);
   const templates = [
-    () => `在${domain.cn}里，${word.word} 要围绕“${sense}”理解，并服务于${cue.cn}。`,
-    () => `句子提到 ${word.word} 时，周围证据通常决定是否取“${sense}”。`,
-    () => `${word.word} 周围的短语把具体细节和${domain.cn}连接起来。`,
-    () => `题目可能通过 ${word.word} 考查这个细节怎样支撑段落主旨。`,
+    () => `先看 ${word.word} 周围的短语，再判断这里是否取“${sense}”。`,
+    () => `句子提到 ${word.word} 时，附近的动词或形容词通常会提示“${sense}”。`,
+    () => `阅读中不要只背 ${word.word} 的一个中文，要回到句子里判断。`,
+    () => `${word.word} 在这里帮助说明一个对象、标准或态度。`,
     () => `先看 ${word.word} 附近的修饰语，再决定是否取“${sense}”。`,
-    () => `长难句中，${word.word} 可帮助识别正在讨论的条件、对象或领域。`,
-    () => `${word.word} 的上下文让翻译落回${domain.cn}，而不是机械套中文。`,
-    () => `识别 ${word.word} 有助于区分事实描述和作者评价。`,
-    () => `${word.word} 的上下文要求同时看术语、证据和段落目的。`,
-    () => `正确处理 ${word.word}，句子重心会落在${cue.cn}，而不是单个中文释义。`
+    () => `长难句可能通过 ${word.word} 的对象、条件或领域来考你。`,
+    () => `${word.word} 的上下文会告诉你哪个中文最贴合本句。`,
+    () => `${word.word} 前后的词能提示句子是在描述、比较还是评价。`,
+    () => `题目可能考 ${word.word} 在句子中承担什么作用。`,
+    () => `翻译 ${word.word} 时，先试“${sense}”，再用周围短语校正。`
   ];
   return templates[wordHash(word.word) % templates.length]();
 }
@@ -1645,7 +1641,7 @@ function buildExamContext(word) {
     translation: word.exampleCn,
     analysis: word.polysemy
       ? `${word.word} 有熟词生义风险，优先按“${getPrimaryExamSense(word)}”回到句子主干判断。`
-      : `${word.word} 在这里用于识别${getDomainCue(word).cn}中的${getTopicCue(word).cn}，先看搭配和句子关系，再定中文。`
+      : `先把 ${word.word} 试译为“${getPrimaryExamSense(word)}”，再看它前后的动词、形容词或介词短语，确认这个中文是否贴合本句。`
   };
 }
 

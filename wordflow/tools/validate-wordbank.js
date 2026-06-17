@@ -44,6 +44,8 @@ const stats = {
   genericEnglish: bank.words.filter((word) => !word.en || /^Kaoyan .+ vocabulary item/i.test(word.en) || /fast English-to-Chinese recall/i.test(word.en)).length,
   genericExamples: bank.words.filter((word) => !word.example || /^In exam reading, .+ often appears/i.test(word.example) || /^In exam reading, .+ should be recognized/i.test(word.example)).length,
   genericExampleCn: bank.words.filter((word) => !word.exampleCn || word.exampleCn.includes("常出现在考研阅读") || word.exampleCn.includes("属于考研速认词")).length,
+  abstractExamples: bank.words.filter((word) => /Recognizing .+ helps separate factual description from the writer's evaluation/i.test(word.example || "") || (word.exampleCn || "").includes("有助于区分事实描述和作者评价")).length,
+  abstractAnalysis: bank.words.filter((word) => (word.examContext?.analysis || "").includes("社会证据和作者论证脉络") || (word.examContext?.analysis || "").includes("真题反复命中的考点")).length,
   missingContext: bank.words.filter((word) => !word.examContext?.sentence || !word.examContext?.analysis).length,
   duplicateEnglish: countDuplicateValues(bank.words, "en"),
   duplicateExamples: countDuplicateValues(bank.words, "example"),
@@ -73,8 +75,8 @@ if (stats.total < 5500 || stats.recognitionOnly < 1500) {
   throw new Error(`Syllabus recognition bank is underfilled: total=${stats.total}, recognitionOnly=${stats.recognitionOnly}`);
 }
 
-if (stats.genericEnglish || stats.genericExamples || stats.genericExampleCn || stats.missingContext) {
-  throw new Error(`Generic study content remains: en=${stats.genericEnglish}, example=${stats.genericExamples}, exampleCn=${stats.genericExampleCn}, context=${stats.missingContext}`);
+if (stats.genericEnglish || stats.genericExamples || stats.genericExampleCn || stats.abstractExamples || stats.abstractAnalysis || stats.missingContext) {
+  throw new Error(`Generic study content remains: en=${stats.genericEnglish}, example=${stats.genericExamples}, exampleCn=${stats.genericExampleCn}, abstractExample=${stats.abstractExamples}, abstractAnalysis=${stats.abstractAnalysis}, context=${stats.missingContext}`);
 }
 
 if (stats.duplicateEnglish || stats.duplicateExamples || stats.duplicateExampleCn) {
