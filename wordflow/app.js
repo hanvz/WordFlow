@@ -556,8 +556,10 @@ function renderDashboard(bank) {
 function renderModeCards(bank) {
   return STUDY_MODES.map((mode) => {
     const stats = getModeStats(bank, mode.id);
-    const target = mode.target || Math.max(stats.total, 1);
-    const coverage = mode.target ? `${stats.total}/${mode.target}` : `${stats.total} 个`;
+    const coverage = `${stats.total} 词`;
+    const targetLabel = mode.target
+      ? `目标 ${mode.target}+ · ${stats.total >= mode.target ? "已达标" : `还差 ${mode.target - stats.total}`}`
+      : "动态生成";
     const percent = mode.target ? Math.min(100, Math.round((stats.total / mode.target) * 100)) : Math.min(100, stats.completion);
     const isActive = mode.id === getStudyMode().id;
     return `
@@ -568,7 +570,8 @@ function renderModeCards(bank) {
         </span>
         <span class="mode-bar" style="--mode-progress:${percent}%"><i></i></span>
         <span class="micro-copy">${escapeHtml(mode.description)}</span>
-        <span class="word-meta">${escapeHtml(mode.hint)} · 已学 ${stats.learned} · 待复 ${stats.due}</span>
+        <span class="word-meta">${escapeHtml(targetLabel)} · 已学 ${stats.learned} · 待复 ${stats.due}</span>
+        <span class="word-meta">${escapeHtml(mode.hint)}</span>
       </button>
     `;
   }).join("");
