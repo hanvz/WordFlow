@@ -54,6 +54,7 @@ const defaultState = {
   selectedBank: "kaoyan",
   view: "dashboard",
   revealed: false,
+  answerRevealed: false,
   cardStartedAt: 0,
   blindMs: 0,
   studyCursor: 0,
@@ -345,6 +346,7 @@ function formatPaperRefs(word) {
 function setView(view) {
   state.view = view;
   state.revealed = false;
+  state.answerRevealed = false;
   state.cardStartedAt = 0;
   state.blindMs = 0;
   if (view === "quiz" && !state.quiz) {
@@ -357,6 +359,7 @@ function setView(view) {
 function setBank(bankId) {
   state.selectedBank = bankId;
   state.revealed = false;
+  state.answerRevealed = false;
   state.studyCursor = 0;
   state.studyWordId = null;
   state.cardStartedAt = 0;
@@ -370,6 +373,7 @@ function setStudyMode(modeId, view = "study") {
   state.studyMode = getStudyMode(modeId).id;
   state.view = view;
   state.revealed = false;
+  state.answerRevealed = false;
   state.studyCursor = 0;
   state.studyWordId = null;
   state.cardStartedAt = 0;
@@ -686,16 +690,18 @@ function renderStudy(bank) {
           <span class="level-badge">熟练度 ${record.level}/5</span>
         </div>
 
-        ${state.revealed ? renderRevealedStudy(currentWord, record, plan) : renderBlindStudy(currentWord, record, plan)}
+        ${renderStudyPhase(currentWord, record, plan)}
 
         <div class="action-row">
-          ${state.revealed ? `
-            <button class="grade-button good" type="button" data-grade="easy">${icon("check")}秒懂</button>
-            <button class="grade-button slow" type="button" data-grade="slow">想了才想起</button>
-            <button class="grade-button warn" type="button" data-grade="vague">模糊</button>
-            <button class="grade-button bad" type="button" data-grade="unknown">${icon("x")}完全不认识</button>
+          ${state.answerRevealed ? `
+            <button class="grade-button good" type="button" data-grade="easy"><kbd>Q</kbd>${icon("check")}秒懂考研义</button>
+            <button class="grade-button slow" type="button" data-grade="slow"><kbd>W</kbd>认出但慢</button>
+            <button class="grade-button warn" type="button" data-grade="vague"><kbd>E</kbd>只记得常见义</button>
+            <button class="grade-button bad" type="button" data-grade="unknown"><kbd>R</kbd>${icon("x")}不认识</button>
+          ` : state.revealed ? `
+            <button class="primary-button" type="button" data-action="reveal-answer">${icon("book")}看答案解析</button>
           ` : `
-            <button class="primary-button" type="button" data-action="reveal-word">${icon("book")}翻牌</button>
+            <button class="primary-button" type="button" data-action="reveal-word">${icon("book")}进入语境挑战</button>
           `}
         </div>
       </article>
@@ -716,6 +722,12 @@ function renderStudy(bank) {
   `;
 }
 
+function renderStudyPhase(word, record, plan) {
+  if (!state.revealed) return renderBlindStudy(word, record, plan);
+  if (!state.answerRevealed) return renderContextChallenge(word, record, plan);
+  return renderRevealedStudy(word, record, plan);
+}
+
 function renderBlindStudy(word, record, plan) {
   return `
     <section class="definition-panel is-hidden blind-panel">
@@ -733,6 +745,44 @@ function renderBlindStudy(word, record, plan) {
         ${studyMiniStat("熟练度", `${record.level}/5`)}
         ${studyMiniStat("考期阶段", plan.phase)}
         ${studyMiniStat("平均提取", formatDuration(record.responseMs))}
+      </div>
+    </section>
+  `;
+}
+
+function renderContextChallenge(word, record, plan) {
+  const context = getStudyContext(word);
+  return `
+    <section class="context-challenge">
+      <div class="challenge-head">
+        <div>
+          <p class="eyebrow">语境挑战</p>
+          <h2>先在句子里判断考研义</h2>
+        </div>
+        <span class="level-badge">${escapeHtml(context.source)}</span>
+      </div>
+      <p class="challenge-sentence">${renderChallengeSentence(context.sentence, word.word)}</p>
+      <div class="challenge-grid">
+        <div>
+          <span>任务 1</span>
+          <strong>这个词在句中取什么义？</strong>
+          <p>先不要看中文，把答案压缩成一个考研释义。</p>
+        </div>
+        <div>
+          <span>任务 2</span>
+          <strong>它和谁构成搭配或修饰关系？</strong>
+          <p>考研阅读常考的不是孤立词义，而是句子关系。</p>
+        </div>
+        <div>
+          <span>任务 3</span>
+          <strong>${escapeHtml(word.polysemy ? "排除常见义" : "确认词性位置")}</strong>
+          <p>${escapeHtml(word.polysemy ? "如果只想起常见义，后面用 E 记录。" : "判断它是概念、动作、态度还是条件。")}</p>
+        </div>
+      </div>
+      <div class="study-mini-stats">
+        ${studyMiniStat("熟练度", `${record.level}/5`)}
+        ${studyMiniStat("考期阶段", plan.phase)}
+        ${studyMiniStat("已盲猜", formatDuration(state.blindMs))}
       </div>
     </section>
   `;
@@ -805,6 +855,31 @@ function renderLearningAnchor(word) {
       <p class="micro-copy">速认层先建立英文到中文的大意反应；进入核心精背时再补词根、词族和真题长难句。</p>
     </section>
   `;
+}
+
+function getStudyContext(word) {
+  const context = word.examContext || {};
+  return {
+    source: context.source || (word.paperHits ? "真题命中语境" : "同域训练语境"),
+    sentence: context.sentence || word.example || word.word,
+    translation: context.translation || word.exampleCn,
+    analysis: context.analysis || "",
+    year: context.year || ""
+  };
+}
+
+function renderChallengeSentence(sentence, targetWord) {
+  const source = String(sentence || targetWord || "");
+  const token = String(targetWord || "").trim();
+  if (!token) return escapeHtml(source);
+  const pattern = new RegExp(`\\b(${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")})\\b`, "ig");
+  const parts = source.split(pattern);
+  return parts.map((part) => {
+    if (part.toLowerCase() === token.toLowerCase()) {
+      return `<mark>${escapeHtml(part)}</mark>`;
+    }
+    return escapeHtml(part);
+  }).join("");
 }
 
 function renderExamContext(word) {
@@ -925,6 +1000,7 @@ function gradeWord(grade) {
   state.studyCursor += 1;
   state.studyWordId = null;
   state.revealed = false;
+  state.answerRevealed = false;
   state.cardStartedAt = 0;
   state.blindMs = 0;
   saveState();
@@ -1327,6 +1403,17 @@ function revealWord() {
   }
   state.blindMs = now() - state.cardStartedAt;
   state.revealed = true;
+  state.answerRevealed = false;
+  saveState();
+  render();
+}
+
+function revealAnswer() {
+  if (!state.revealed) {
+    revealWord();
+    return;
+  }
+  state.answerRevealed = true;
   saveState();
   render();
 }
@@ -1343,6 +1430,7 @@ function buryCurrentWord() {
   state.studyCursor += 1;
   state.studyWordId = null;
   state.revealed = false;
+  state.answerRevealed = false;
   state.cardStartedAt = 0;
   state.blindMs = 0;
   saveState();
@@ -1408,6 +1496,7 @@ document.addEventListener("click", (event) => {
       render();
     },
     "reveal-word": revealWord,
+    "reveal-answer": revealAnswer,
     "toggle-star": toggleStar,
     "bury-word": buryCurrentWord,
     "play-pronunciation": () => playPronunciation(actionButton.dataset.wordId),
@@ -1443,15 +1532,24 @@ $("#bankSelect").addEventListener("change", (event) => {
 
 document.addEventListener("keydown", (event) => {
   if (state.view !== "study") return;
+  if (["INPUT", "TEXTAREA", "SELECT"].includes(event.target.tagName)) return;
+  const key = event.key.toLowerCase();
+
   if (event.key === " " && !state.revealed) {
     event.preventDefault();
     revealWord();
+    return;
   }
-  if (!state.revealed) return;
-  if (event.key === "1") gradeWord("easy");
-  if (event.key === "2") gradeWord("slow");
-  if (event.key === "3") gradeWord("vague");
-  if (event.key === "4") gradeWord("unknown");
+  if (event.key === " " && state.revealed && !state.answerRevealed) {
+    event.preventDefault();
+    revealAnswer();
+    return;
+  }
+  if (!state.answerRevealed) return;
+  if (key === "q") gradeWord("easy");
+  if (key === "w") gradeWord("slow");
+  if (key === "e") gradeWord("vague");
+  if (key === "r") gradeWord("unknown");
 });
 
 render();

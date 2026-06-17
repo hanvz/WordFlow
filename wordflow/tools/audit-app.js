@@ -107,6 +107,7 @@ function assert(condition, message) {
 
 const sandbox = loadApp();
 const css = fs.readFileSync("styles.css", "utf8");
+const appSource = fs.readFileSync("app.js", "utf8");
 const bank = sandbox.window.WORD_BANKS.find((item) => item.id === "kaoyan");
 const ids = bank.words.map((word) => word.id);
 const dashboard = getElement("appView").innerHTML;
@@ -159,9 +160,27 @@ assert(study.includes("data-action=\"play-pronunciation\""), "Study card does no
   assert(study.includes(label), `Study card does not show blind-recall module: ${label}`);
 });
 sandbox.revealWord();
+const contextStudy = getElement("appView").innerHTML;
+assert(contextStudy.includes("语境挑战"), "Study card does not show the context challenge phase");
+assert(contextStudy.includes("data-action=\"reveal-answer\""), "Context challenge does not lead to answer reveal");
+sandbox.revealAnswer();
 const revealedStudy = getElement("appView").innerHTML;
 ["考研优先义", "本词状态", "语境"].forEach((label) => {
   assert(revealedStudy.includes(label), `Revealed study card is missing module: ${label}`);
+});
+["秒懂考研义", "认出但慢", "只记得常见义", "不认识"].forEach((label) => {
+  assert(revealedStudy.includes(label), `Revealed study card is missing grade button: ${label}`);
+});
+["<kbd>Q</kbd>", "<kbd>W</kbd>", "<kbd>E</kbd>", "<kbd>R</kbd>"].forEach((label) => {
+  assert(revealedStudy.includes(label), `Revealed study card is missing keyboard hint: ${label}`);
+});
+[
+  ['key === "q"', 'gradeWord("easy")'],
+  ['key === "w"', 'gradeWord("slow")'],
+  ['key === "e"', 'gradeWord("vague")'],
+  ['key === "r"', 'gradeWord("unknown")']
+].forEach(([keyCheck, gradeCall]) => {
+  assert(appSource.includes(keyCheck) && appSource.includes(gradeCall), `Keyboard shortcut is missing: ${keyCheck}`);
 });
 ["core-intensive", "syllabus-recognition", "paper-polysemy", "weak-words"].forEach((modeId) => {
   sandbox.setStudyMode(modeId);

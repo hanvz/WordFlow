@@ -533,6 +533,19 @@ select:focus {
   color: var(--bad);
 }
 
+.grade-button kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.45rem;
+  height: 1.45rem;
+  margin-right: 0.2rem;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  background: color-mix(in srgb, currentColor 9%, transparent);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
 .tag,
 .level-badge {
   display: inline-flex;
@@ -736,6 +749,81 @@ select:focus {
   display: block;
   margin-top: 0.2rem;
   color: var(--text);
+}
+
+.context-challenge {
+  display: grid;
+  gap: 1rem;
+  max-width: 70rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: clamp(1rem, 2.4vw, 2rem);
+  border: 1px solid color-mix(in srgb, var(--accent) 34%, var(--line));
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent 42%),
+    var(--surface-2);
+}
+
+.challenge-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.challenge-head h2 {
+  margin-top: 0.25rem;
+}
+
+.challenge-sentence {
+  margin: 0;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface-3) 72%, transparent);
+  color: var(--text);
+  font-size: clamp(1.15rem, 2vw, 1.65rem);
+  font-weight: 760;
+  line-height: 1.65;
+}
+
+.challenge-sentence mark {
+  padding: 0.05rem 0.28rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+  color: var(--text);
+}
+
+.challenge-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.challenge-grid > div {
+  min-height: 8.5rem;
+  padding: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--surface-3) 56%, transparent);
+}
+
+.challenge-grid span {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.challenge-grid strong {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+.challenge-grid p {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 .study-answer-grid {
@@ -1259,6 +1347,7 @@ select:focus {
   .study-mini-stats,
   .study-answer-grid,
   .study-detail-grid,
+  .challenge-grid,
   .study-progress-strip {
     grid-template-columns: 1fr;
   }
