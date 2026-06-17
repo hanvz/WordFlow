@@ -120,9 +120,6 @@ const initialLayerStats = {
   weakWords: sandbox.getModeStats(bank, "weak-words")
 };
 
-sandbox.setView("study");
-const study = getElement("appView").innerHTML;
-
 assert(bank.words.length >= bank.targetSize, "Kaoyan bank is below target size");
 assert(new Set(ids).size === ids.length, "Kaoyan bank has duplicate ids");
 assert(bank.words.filter((word) => word.level === "核心必背").length >= 600, "Core tier is underfilled");
@@ -138,6 +135,26 @@ assert(major?.polysemy && major.example.includes("major in humanities") && major
 assert(conditionWord?.polysemy && conditionWord.example.includes("instant gratification") && conditionWord.examContext?.analysis.includes("conditioned"), "condition is not enriched to the assume-level standard");
 assert(!bank.words.some((word) => /^Kaoyan .+ vocabulary item/i.test(word.en || "")), "Generic English explanation remains");
 assert(!bank.words.some((word) => /^In exam reading, .+ often appears/i.test(word.example || "") || /^In exam reading, .+ should be recognized/i.test(word.example || "")), "Generic example remains");
+const reviewCandidate = sandbox.getModeWords(bank, "core-intensive").find((word) => word.paperHits > 0 && word.record && !word.record.seen);
+const futureCandidate = sandbox.getModeWords(bank, "core-intensive").find((word) => word.id !== reviewCandidate.id && word.record && !word.record.seen);
+const currentTime = Date.now();
+const reviewCandidateRecord = sandbox.getRecord(reviewCandidate, bank);
+const futureCandidateRecord = sandbox.getRecord(futureCandidate, bank);
+reviewCandidateRecord.seen = true;
+reviewCandidateRecord.level = 3;
+reviewCandidateRecord.nextAt = currentTime - 1000;
+reviewCandidateRecord.lastAt = currentTime - 86400000;
+futureCandidateRecord.seen = true;
+futureCandidateRecord.level = 3;
+futureCandidateRecord.nextAt = currentTime + 7 * 86400000;
+futureCandidateRecord.lastAt = currentTime - 86400000;
+const studyQueueAfterReview = sandbox.getStudyQueue(bank, "core-intensive");
+assert(studyQueueAfterReview[0].id === reviewCandidate.id, "Due review word is not prioritized in the study queue");
+sandbox.setView("review");
+const reviewView = getElement("appView").innerHTML;
+assert(reviewView.includes(reviewCandidate.word), "Due review word does not appear in review view");
+assert(!reviewView.includes(futureCandidate.word), "Future review word appears before it is due");
+sandbox.setView("dashboard");
 assert(dashboard.includes(bank.coverageLabel), "Dashboard does not show coverage label");
 assert(dashboard.includes("词库规模"), "Dashboard does not show word-bank size");
 assert(dashboard.includes("6 套可用 · 432 词命中"), "Dashboard does not show past-paper hit stats");
@@ -153,6 +170,8 @@ assert(dashboard.includes("6 套可用 · 432 词命中"), "Dashboard does not s
 });
 const emptyModeBars = dashboard.match(/class="mode-bar" style="--mode-progress:0%"/g) || [];
 assert(emptyModeBars.length === 4, "Mode progress bars should start empty before learning");
+sandbox.setView("study");
+const study = getElement("appView").innerHTML;
 assert(getElement("body").className === "study-focus", "Study view does not enter focus mode");
 assert(study.includes("真题命中"), "Study card does not show past-paper hit tag");
 assert(study.includes("data-action=\"play-pronunciation\""), "Study card does not show pronunciation action");

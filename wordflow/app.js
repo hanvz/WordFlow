@@ -338,7 +338,7 @@ function getPriority(record, word, modeId = state.studyMode) {
   const plan = getExamPlan();
   let score = !record.seen ? 72 : 36 - record.level * 3;
   if (record.wrong > record.correct) score += 34;
-  if (record.seen && record.nextAt <= now()) score += 28;
+  if (record.seen && record.nextAt <= now()) score += 160;
   if (word.polysemy) score += plan.isSprint ? 18 : 10;
   if (word.level === "核心必背") score += plan.isSprint ? 14 : 8;
   score += (word.frequency || 3) * (plan.isSprint ? 4 : 2);
