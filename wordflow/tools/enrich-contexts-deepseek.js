@@ -236,7 +236,23 @@ function writeOverrides(file, data) {
 }
 
 function writeSkipped(file, skipped) {
-  fs.writeFileSync(file, `${JSON.stringify(skipped, null, 2)}\n`);
+  const merged = new Map();
+  if (fs.existsSync(file)) {
+    try {
+      JSON.parse(fs.readFileSync(file, "utf8")).forEach((item) => {
+        merged.set(`${item.id}:${item.focus}`, item);
+      });
+    } catch (error) {
+      console.warn(`Could not merge existing skipped file: ${error.message}`);
+    }
+  }
+  skipped.forEach((item) => {
+    merged.set(`${item.id}:${item.focus}`, item);
+  });
+  const sorted = [...merged.values()].sort((a, b) => (
+    a.id.localeCompare(b.id) || a.focus.localeCompare(b.focus)
+  ));
+  fs.writeFileSync(file, `${JSON.stringify(sorted, null, 2)}\n`);
 }
 
 function collectUsedContent(bank) {

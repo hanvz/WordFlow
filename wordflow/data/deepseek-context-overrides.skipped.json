@@ -8,6 +8,12 @@
   {
     "id": "subject",
     "word": "subject",
+    "focus": "sample",
+    "error": "subject: sentence does not include target word"
+  },
+  {
+    "id": "subject",
+    "word": "subject",
     "focus": "polysemy",
     "error": "subject: sentence does not include target word"
   },
