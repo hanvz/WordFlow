@@ -55,6 +55,14 @@ node tools/validate-wordbank.js
 node tools/audit-app.js
 ```
 
+也可以在项目根目录创建不会提交的 `.env.local`：
+
+```bash
+DEEPSEEK_API_KEY="你的 key"
+```
+
+脚本会自动读取这个文件。
+
 全量优化建议分批跑。脚本会按真题命中、熟词生义、核心词、速认词、剩余词依次处理，并在每个词生成后立刻写入覆盖层，方便中断后续跑：
 
 ```bash

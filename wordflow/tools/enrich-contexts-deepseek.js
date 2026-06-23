@@ -5,6 +5,8 @@ const https = require("node:https");
 const path = require("node:path");
 const vm = require("node:vm");
 
+loadLocalEnv();
+
 const DEFAULT_OUT = path.join(__dirname, "../data/deepseek-context-overrides.js");
 const MODEL = process.env.DEEPSEEK_MODEL || "deepseek-chat";
 const ENDPOINT = process.env.DEEPSEEK_API_URL || "https://api.deepseek.com/chat/completions";
@@ -22,6 +24,21 @@ main().catch((error) => {
   console.error(error.message);
   process.exit(1);
 });
+
+function loadLocalEnv() {
+  const envFile = path.join(__dirname, "../.env.local");
+  if (!fs.existsSync(envFile)) return;
+  const lines = fs.readFileSync(envFile, "utf8").split(/\r?\n/);
+  lines.forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) return;
+    const match = trimmed.match(/^([A-Za-z_][A-Za-z0-9_]*)=(.*)$/);
+    if (!match) return;
+    const [, key, rawValue] = match;
+    if (process.env[key]) return;
+    process.env[key] = rawValue.replace(/^["']|["']$/g, "");
+  });
+}
 
 async function main() {
   const bank = loadBank();
