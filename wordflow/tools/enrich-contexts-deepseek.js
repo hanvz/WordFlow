@@ -19,6 +19,7 @@ const outFile = path.resolve(args.out || DEFAULT_OUT);
 const dryRun = !args.apply;
 const skippedFile = path.resolve(args.skipped || outFile.replace(/\.js$/, ".skipped.json"));
 const retries = Number(args.retries || 2);
+const concurrency = Math.max(1, Number(args.concurrency || 1));
 
 main().catch((error) => {
   console.error(error.message);
@@ -72,18 +73,17 @@ async function main() {
 
   const generated = {};
   const skipped = [];
-  for (const word of words) {
-    process.stdout.write(`Enriching ${word.word}... `);
+  await runWordPool(words, async (word) => {
     try {
       const context = await generateValidContext(word, usedContent);
       generated[word.id] = buildOverride(word, context);
       rememberContent(usedContent, word, context);
-      console.log("ok");
+      console.log(`Enriching ${word.word}... ok`);
     } catch (error) {
-      console.log(`skip (${error.message})`);
+      console.log(`Enriching ${word.word}... skip (${error.message})`);
       skipped.push(skippedEntry(word, focus, error));
     }
-  }
+  });
 
   const merged = { ...existing, ...generated };
   writeOverrides(outFile, merged);
@@ -108,34 +108,47 @@ async function runAllBatches(bank, initialExisting, usedContent) {
 
   let existing = initialExisting;
   const skipped = [];
+  const attemptedIds = new Set();
   for (const item of allFocuses) {
-    const words = selectWords(bank, existing, item, limit);
+    const words = selectWords(bank, existing, item, limit).filter((word) => !attemptedIds.has(word.id));
     if (!words.length) {
       console.log(`Skipping ${item}: no candidates`);
       continue;
     }
     console.log(`\n=== Focus ${item}: ${words.length} words ===`);
     const generated = {};
-    for (const word of words) {
-      process.stdout.write(`Enriching ${word.word}... `);
+    await runWordPool(words, async (word) => {
+      attemptedIds.add(word.id);
       try {
         const context = await generateValidContext(word, usedContent);
         generated[word.id] = buildOverride(word, context);
         existing = { ...existing, [word.id]: generated[word.id] };
         rememberContent(usedContent, word, context);
         writeOverrides(outFile, existing);
-        console.log("ok");
+        console.log(`Enriching ${word.word}... ok`);
       } catch (error) {
-        console.log(`skip (${error.message})`);
+        console.log(`Enriching ${word.word}... skip (${error.message})`);
         skipped.push(skippedEntry(word, item, error));
       }
-    }
+    });
   }
   writeSkipped(skippedFile, skipped);
   console.log(`\nAll requested batches finished. Overrides: ${Object.keys(existing).length}`);
   if (skipped.length) {
     console.log(`Skipped ${skipped.length} words. See ${path.relative(process.cwd(), skippedFile)}`);
   }
+}
+
+async function runWordPool(words, worker) {
+  let index = 0;
+  const workers = Array.from({ length: Math.min(concurrency, words.length) }, async () => {
+    while (index < words.length) {
+      const word = words[index];
+      index += 1;
+      await worker(word);
+    }
+  });
+  await Promise.all(workers);
 }
 
 async function generateValidContext(word, usedContent) {
@@ -257,10 +270,12 @@ function writeSkipped(file, skipped) {
 
 function collectUsedContent(bank) {
   const used = {
+    en: new Map(),
     example: new Map(),
     exampleCn: new Map()
   };
   bank.words.forEach((word) => {
+    if (word.en) used.en.set(normalizeForDuplicate(word.en), word.id);
     if (word.example) used.example.set(normalizeForDuplicate(word.example), word.id);
     if (word.exampleCn) used.exampleCn.set(normalizeForDuplicate(word.exampleCn), word.id);
   });
@@ -268,11 +283,16 @@ function collectUsedContent(bank) {
 }
 
 function rememberContent(used, word, context) {
+  used.en.set(normalizeForDuplicate(context.en), word.id);
   used.example.set(normalizeForDuplicate(context.sentence), word.id);
   used.exampleCn.set(normalizeForDuplicate(context.translation), word.id);
 }
 
 function validateUniqueContent(word, context, used) {
+  const enOwner = used.en.get(normalizeForDuplicate(context.en));
+  if (enOwner && enOwner !== word.id) {
+    throw new Error(`${word.word}: English explanation duplicates ${enOwner}`);
+  }
   const exampleOwner = used.example.get(normalizeForDuplicate(context.sentence));
   if (exampleOwner && exampleOwner !== word.id) {
     throw new Error(`${word.word}: sentence duplicates ${exampleOwner}`);
