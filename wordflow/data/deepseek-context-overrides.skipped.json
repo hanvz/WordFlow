@@ -1,33 +1,9 @@
 [
   {
-    "id": "require",
-    "word": "require",
-    "focus": "paper",
-    "error": "require: sentence does not include target word"
-  },
-  {
     "id": "ensure",
     "word": "ensure",
     "focus": "paper",
     "error": "ensure: sentence does not include target word"
-  },
-  {
-    "id": "assume",
-    "word": "assume",
-    "focus": "polysemy",
-    "error": "assume: sentence does not include target word"
-  },
-  {
-    "id": "insist",
-    "word": "insist",
-    "focus": "polysemy",
-    "error": "insist: sentence does not include target word"
-  },
-  {
-    "id": "repeat",
-    "word": "repeat",
-    "focus": "polysemy",
-    "error": "repeat: sentence does not include target word"
   },
   {
     "id": "subject",
@@ -36,93 +12,99 @@
     "error": "subject: sentence does not include target word"
   },
   {
-    "id": "require",
-    "word": "require",
-    "focus": "core",
-    "error": "require: sentence does not include target word"
-  },
-  {
-    "id": "ensure",
-    "word": "ensure",
-    "focus": "core",
-    "error": "ensure: sentence does not include target word"
-  },
-  {
-    "id": "assume",
-    "word": "assume",
-    "focus": "core",
-    "error": "assume: sentence does not include target word"
-  },
-  {
     "id": "acknowledge",
     "word": "acknowledge",
     "focus": "core",
-    "error": "acknowledge: sentence does not include target word"
-  },
-  {
-    "id": "centimetre",
-    "word": "centimetre",
-    "focus": "core",
-    "error": "centimetre: sentence does not include target word"
-  },
-  {
-    "id": "require",
-    "word": "require",
-    "focus": "all",
-    "error": "require: sentence does not include target word"
-  },
-  {
-    "id": "ensure",
-    "word": "ensure",
-    "focus": "all",
-    "error": "ensure: sentence does not include target word"
-  },
-  {
-    "id": "assume",
-    "word": "assume",
-    "focus": "all",
-    "error": "assume: sentence does not include target word"
-  },
-  {
-    "id": "insist",
-    "word": "insist",
-    "focus": "all",
-    "error": "insist: sentence does not include target word"
-  },
-  {
-    "id": "repeat",
-    "word": "repeat",
-    "focus": "all",
-    "error": "repeat: sentence does not include target word"
-  },
-  {
-    "id": "subject",
-    "word": "subject",
-    "focus": "all",
-    "error": "subject: sentence does not include target word"
-  },
-  {
-    "id": "prompt",
-    "word": "prompt",
-    "focus": "all",
-    "error": "prompt: sentence does not include target word"
-  },
-  {
-    "id": "sanction",
-    "word": "sanction",
-    "focus": "all",
-    "error": "sanction: sentence does not include target word"
-  },
-  {
-    "id": "acknowledge",
-    "word": "acknowledge",
-    "focus": "all",
     "error": "acknowledge: sentence does not include target word"
   },
   {
     "id": "claim",
     "word": "claim",
-    "focus": "all",
+    "focus": "core",
     "error": "claim: sentence does not include target word"
+  },
+  {
+    "id": "destroy",
+    "word": "destroy",
+    "focus": "core",
+    "error": "destroy: sentence does not include target word"
+  },
+  {
+    "id": "gallon",
+    "word": "gallon",
+    "focus": "core",
+    "error": "gallon: sentence does not include target word"
+  },
+  {
+    "id": "hip",
+    "word": "hip",
+    "focus": "core",
+    "error": "hip: sentence does not include target word"
+  },
+  {
+    "id": "kilometre",
+    "word": "kilometre",
+    "focus": "core",
+    "error": "kilometre: sentence does not include target word"
+  },
+  {
+    "id": "destroy",
+    "word": "destroy",
+    "focus": "recognition",
+    "error": "destroy: sentence does not include target word"
+  },
+  {
+    "id": "gallon",
+    "word": "gallon",
+    "focus": "recognition",
+    "error": "gallon: sentence does not include target word"
+  },
+  {
+    "id": "litre",
+    "word": "litre",
+    "focus": "recognition",
+    "error": "litre: sentence does not include target word"
+  },
+  {
+    "id": "metre",
+    "word": "metre",
+    "focus": "recognition",
+    "error": "metre: sentence does not include target word"
+  },
+  {
+    "id": "subject",
+    "word": "subject",
+    "focus": "all",
+    "error": "subject: sentence does not include target word"
+  },
+  {
+    "id": "acknowledge",
+    "word": "acknowledge",
+    "focus": "all",
+    "error": "acknowledge: sentence does not include target word"
+  },
+  {
+    "id": "destroy",
+    "word": "destroy",
+    "focus": "all",
+    "error": "destroy: sentence does not include target word"
+  },
+  {
+    "id": "gallon",
+    "word": "gallon",
+    "focus": "all",
+    "error": "gallon: sentence does not include target word"
+  },
+  {
+    "id": "litre",
+    "word": "litre",
+    "focus": "all",
+    "error": "litre: sentence does not include target word"
+  },
+  {
+    "id": "metre",
+    "word": "metre",
+    "focus": "all",
+    "error": "metre: sentence does not include target word"
   }
 ]

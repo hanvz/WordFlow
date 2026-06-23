@@ -2047,6 +2047,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "assume": {
+    "en": "to suppose something is true without proof",
+    "example": "Many economic models assume that individuals always act in their own self-interest.",
+    "exampleCn": "许多经济模型假定个体总是按照自身利益行事。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many economic models assume that individuals always act in their own self-interest.",
+      "translation": "许多经济模型假定个体总是按照自身利益行事。",
+      "analysis": "从搭配“assume that”和宾语从句判断，此处意为“假定”，是考研常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "assumption": {
     "en": "a belief or statement taken for granted without proof",
     "example": "The assumption that economic growth always benefits everyone is increasingly questioned.",
@@ -5839,6 +5855,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "claim": {
+    "en": "to state something as true, especially when it may be disputed",
+    "example": "The researchers claim that their findings challenge the existing theory.",
+    "exampleCn": "研究人员声称他们的发现挑战了现有理论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researchers claim that their findings challenge the existing theory.",
+      "translation": "研究人员声称他们的发现挑战了现有理论。",
+      "analysis": "根据 claim that 后接从句，判断为“声称”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "clap": {
     "en": "a sudden loud sound, like thunder or a door closing",
     "example": "A sudden clap of thunder startled the hikers in the open field.",
@@ -6463,6 +6495,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "commitment": {
+    "en": "a promise or firm decision to do something",
+    "example": "The company's commitment to reducing emissions was evident in its new policy.",
+    "exampleCn": "该公司减少排放的承诺在其新政策中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's commitment to reducing emissions was evident in its new policy.",
+      "translation": "该公司减少排放的承诺在其新政策中显而易见。",
+      "analysis": "看介词to后的动名词短语，确定commitment意为“承诺”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "committee": {
     "en": "a group of people appointed to do a specific job",
     "example": "The committee will review the proposal before making a final decision.",
@@ -6511,6 +6559,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "communicate": {
+    "en": "to exchange information or ideas with others",
+    "example": "Effective leaders must communicate their vision clearly to inspire their teams.",
+    "exampleCn": "有效的领导者必须清晰地传达他们的愿景，以激励团队。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Effective leaders must communicate their vision clearly to inspire their teams.",
+      "translation": "有效的领导者必须清晰地传达他们的愿景，以激励团队。",
+      "analysis": "看宾语their vision，communicate在此表示传达、表达，而非日常交流。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "communication": {
     "en": "the act of sharing or exchanging information, ideas, or feelings",
     "example": "Effective communication is essential for successful teamwork in any organization.",
@@ -6527,6 +6591,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "community": {
+    "en": "a group of people living in the same place or having a common interest",
+    "example": "The local community strongly opposed the construction of the new factory.",
+    "exampleCn": "当地社区强烈反对新工厂的建设。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The local community strongly opposed the construction of the new factory.",
+      "translation": "当地社区强烈反对新工厂的建设。",
+      "analysis": "根据前后文“local”和“opposed”判断，community在此指地理上的社区。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "company": {
     "en": "a business organization that makes money by producing or selling goods or services",
     "example": "The company has expanded its operations into several new markets this year.",
@@ -6540,6 +6620,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "compare": {
+    "en": "to examine similarities and differences between two things",
+    "example": "We must compare the new policy with the old one to see the changes.",
+    "exampleCn": "我们必须将新政策与旧政策进行比较，以看出变化。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "We must compare the new policy with the old one to see the changes.",
+      "translation": "我们必须将新政策与旧政策进行比较，以看出变化。",
+      "analysis": "看 compare...with... 结构，表示将两者进行比较，确定词义为“比较”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "comparison": {
+    "en": "the act of examining similarities and differences",
+    "example": "A direct comparison between the two methods reveals significant differences in efficiency.",
+    "exampleCn": "直接比较这两种方法揭示了效率上的显著差异。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A direct comparison between the two methods reveals significant differences in efficiency.",
+      "translation": "直接比较这两种方法揭示了效率上的显著差异。",
+      "analysis": "看搭配“direct comparison”和动词“reveals”，可知此处是“比较”的动作。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -6572,6 +6684,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "competitive": {
+    "en": "having a strong desire to be more successful than others",
+    "example": "The company must maintain a competitive edge to survive in the global market.",
+    "exampleCn": "该公司必须保持竞争优势才能在全球市场中生存。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company must maintain a competitive edge to survive in the global market.",
+      "translation": "该公司必须保持竞争优势才能在全球市场中生存。",
+      "analysis": "看搭配“competitive edge”确定意为“竞争优势”，修饰名词edge。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -6639,6 +6767,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "complex": {
+    "en": "complicated; consisting of many connected parts",
+    "example": "The complex interplay of factors makes the problem hard to solve.",
+    "exampleCn": "各种因素的复杂相互作用使得这个问题难以解决。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The complex interplay of factors makes the problem hard to solve.",
+      "translation": "各种因素的复杂相互作用使得这个问题难以解决。",
+      "analysis": "先把 complex 试译为“复杂的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "complexity": {
+    "en": "the state of being complicated or intricate",
+    "example": "The complexity of the ecosystem makes it difficult to predict the effects of human intervention.",
+    "exampleCn": "生态系统的复杂性使得预测人类干预的影响变得困难。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The complexity of the ecosystem makes it difficult to predict the effects of human intervention.",
+      "translation": "生态系统的复杂性使得预测人类干预的影响变得困难。",
+      "analysis": "由“the complexity of”结构可知，此处为名词，表示“复杂性”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "composition": {
     "en": "a piece of writing, especially as a school exercise",
     "example": "The teacher asked us to write a composition on environmental protection.",
@@ -6684,6 +6844,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "concept": {
+    "en": "an abstract idea or general notion",
+    "example": "The concept of sustainable development has gained widespread acceptance.",
+    "exampleCn": "可持续发展的概念已获得广泛接受。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The concept of sustainable development has gained widespread acceptance.",
+      "translation": "可持续发展的概念已获得广泛接受。",
+      "analysis": "先把 concept 试译为“概念”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -6847,6 +7023,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "connection": {
+    "en": "a relationship or link between things or people",
+    "example": "The study found a strong connection between sleep quality and memory retention.",
+    "exampleCn": "研究发现睡眠质量与记忆力保持之间存在密切联系。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found a strong connection between sleep quality and memory retention.",
+      "translation": "研究发现睡眠质量与记忆力保持之间存在密切联系。",
+      "analysis": "看介词between和形容词strong，判断connection在此表示“联系”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "consciousness": {
     "en": "the state of being aware of something within oneself",
     "example": "The movement aims to raise public consciousness about environmental issues.",
@@ -6895,6 +7087,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "consequently": {
+    "en": "as a result; therefore",
+    "example": "The experiment failed to produce the expected results; consequently, the research team had to revise their hypothesis.",
+    "exampleCn": "实验未能产生预期结果；因此，研究团队不得不修改他们的假设。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment failed to produce the expected results; consequently, the research team had to revise their hypothesis.",
+      "translation": "实验未能产生预期结果；因此，研究团队不得不修改他们的假设。",
+      "analysis": "由分号连接两个因果分句，consequently 引出结果，意为“因此”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "consider": {
     "en": "think about carefully, especially before deciding",
     "example": "Before adopting a new policy, the committee must consider its long-term effects.",
@@ -6908,6 +7116,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "considerable": {
+    "en": "large in amount, size, or degree",
+    "example": "The project required a considerable investment of time and resources.",
+    "exampleCn": "该项目需要相当大的时间和资源投入。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project required a considerable investment of time and resources.",
+      "translation": "该项目需要相当大的时间和资源投入。",
+      "analysis": "看修饰的名词investment，表示投资规模大，译为“相当大的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -6991,6 +7215,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "consumer": {
+    "en": "a person who buys goods or services for personal use",
+    "example": "The new policy aims to protect consumer rights in online transactions.",
+    "exampleCn": "这项新政策旨在保护在线交易中的消费者权益。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to protect consumer rights in online transactions.",
+      "translation": "这项新政策旨在保护在线交易中的消费者权益。",
+      "analysis": "根据搭配“consumer rights”可知，此处consumer指“消费者”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "consumption": {
+    "en": "the act of using up resources, especially by buying goods or services",
+    "example": "The rise in household consumption has boosted the local economy significantly.",
+    "exampleCn": "家庭消费的上升显著促进了当地经济。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rise in household consumption has boosted the local economy significantly.",
+      "translation": "家庭消费的上升显著促进了当地经济。",
+      "analysis": "先把 consumption 试译为“消费”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "contact": {
+    "en": "the state or condition of touching or communicating",
+    "example": "The study suggests that physical contact can reduce stress levels in social interactions.",
+    "exampleCn": "该研究表明，身体接触可以降低社交互动中的压力水平。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study suggests that physical contact can reduce stress levels in social interactions.",
+      "translation": "该研究表明，身体接触可以降低社交互动中的压力水平。",
+      "analysis": "根据 physical 和 reduce stress 的搭配，判断 contact 在此意为“接触”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "contain": {
+    "en": "to have or hold something within",
+    "example": "The report must contain all relevant data for the analysis.",
+    "exampleCn": "报告必须包含所有相关数据以供分析。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report must contain all relevant data for the analysis.",
+      "translation": "报告必须包含所有相关数据以供分析。",
+      "analysis": "看宾语“all relevant data”可知意为“包含”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "content": {
+    "en": "the information or subject matter in a speech, book, or document",
+    "example": "The content of the report was carefully reviewed before publication.",
+    "exampleCn": "报告的内容在出版前经过了仔细审查。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The content of the report was carefully reviewed before publication.",
+      "translation": "报告的内容在出版前经过了仔细审查。",
+      "analysis": "看冠词 the 和 of 结构，content 指具体报告中的信息内容，不是形容词满足的。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "context": {
+    "en": "the situation or setting in which something exists or occurs",
+    "example": "The meaning of a word often depends on its context within the sentence.",
+    "exampleCn": "一个词的含义通常取决于它在句子中的语境。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The meaning of a word often depends on its context within the sentence.",
+      "translation": "一个词的含义通常取决于它在句子中的语境。",
+      "analysis": "看介词短语 'within the sentence' 确定 context 指语言环境，即语境。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "continue": {
     "en": "to keep happening or doing something without stopping",
     "example": "The trend is expected to continue for the next decade.",
@@ -7001,6 +7321,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The trend is expected to continue for the next decade.",
       "translation": "这一趋势预计将在未来十年内持续下去。",
       "analysis": "看主语 trend 和介词短语 for the next decade，判断为‘持续’义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "continuous": {
+    "en": "happening or existing without a break",
+    "example": "The continuous noise from the construction site disrupted our work.",
+    "exampleCn": "建筑工地连续不断的噪音干扰了我们的工作。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The continuous noise from the construction site disrupted our work.",
+      "translation": "建筑工地连续不断的噪音干扰了我们的工作。",
+      "analysis": "看 continuous 修饰 noise，表示噪音没有中断，取“连续的”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7039,6 +7375,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "contribution": {
+    "en": "something given or donated, especially money or goods",
+    "example": "The charity acknowledged her generous contribution to the disaster relief fund.",
+    "exampleCn": "慈善机构感谢她对救灾基金的慷慨捐助。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The charity acknowledged her generous contribution to the disaster relief fund.",
+      "translation": "慈善机构感谢她对救灾基金的慷慨捐助。",
+      "analysis": "先把 contribution 试译为“捐助”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "control": {
     "en": "the power to influence or direct behavior or the course of events",
     "example": "The central bank tightened monetary control to curb inflation.",
@@ -7049,6 +7401,374 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The central bank tightened monetary control to curb inflation.",
       "translation": "中央银行收紧货币控制以抑制通货膨胀。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“控制”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "convenient": {
+    "en": "easy to use or suitable for a particular purpose",
+    "example": "The new software offers a convenient way to manage large datasets.",
+    "exampleCn": "这款新软件提供了一种管理大型数据集的便捷方式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new software offers a convenient way to manage large datasets.",
+      "translation": "这款新软件提供了一种管理大型数据集的便捷方式。",
+      "analysis": "看形容词 convenient 修饰 way，表示“方便的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "conventional": {
+    "en": "following accepted customs or standards; traditional",
+    "example": "The conventional approach to urban planning often overlooks the needs of local communities.",
+    "exampleCn": "传统的城市规划方法常常忽视当地社区的需求。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conventional approach to urban planning often overlooks the needs of local communities.",
+      "translation": "传统的城市规划方法常常忽视当地社区的需求。",
+      "analysis": "先把 conventional 试译为“传统的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "conversation": {
+    "en": "a spoken exchange of thoughts, opinions, or feelings",
+    "example": "The conversation shifted to the impact of social media on mental health.",
+    "exampleCn": "对话转向了社交媒体对心理健康的影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conversation shifted to the impact of social media on mental health.",
+      "translation": "对话转向了社交媒体对心理健康的影响。",
+      "analysis": "根据 shifted to 这个搭配，判断 conversation 在此指话题的转换，即“对话”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cop": {
+    "en": "a police officer",
+    "example": "The cop on the beat knew every shop owner by name.",
+    "exampleCn": "巡逻的警官认识每一位店主的名字。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cop on the beat knew every shop owner by name.",
+      "translation": "巡逻的警官认识每一位店主的名字。",
+      "analysis": "根据冠词the和介词短语on the beat判断cop是名词，意为警官。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "copy": {
+    "en": "a thing made to be similar to another",
+    "example": "The museum displayed a perfect copy of the ancient manuscript.",
+    "exampleCn": "博物馆展示了一份完美的古代手稿副本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The museum displayed a perfect copy of the ancient manuscript.",
+      "translation": "博物馆展示了一份完美的古代手稿副本。",
+      "analysis": "根据“a perfect copy of”这个搭配，确定copy是“副本”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "core": {
+    "en": "the central or most important part of something",
+    "example": "The core of the argument lies in the economic data.",
+    "exampleCn": "争论的核心在于经济数据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The core of the argument lies in the economic data.",
+      "translation": "争论的核心在于经济数据。",
+      "analysis": "通过“of the argument”看出core是名词，表示“核心”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "corn": {
+    "en": "a tall plant with yellow seeds eaten as food",
+    "example": "The farmer harvested the corn before the autumn rains arrived.",
+    "exampleCn": "农民在秋雨来临前收割了玉米。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farmer harvested the corn before the autumn rains arrived.",
+      "translation": "农民在秋雨来临前收割了玉米。",
+      "analysis": "根据动词 harvested 和语境，corn 指农作物，取“玉蜀黍”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "corporation": {
+    "en": "a large business or organization that is legally recognized",
+    "example": "The corporation announced a new policy to reduce its carbon footprint.",
+    "exampleCn": "这家公司宣布了一项新政策以减少其碳足迹。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The corporation announced a new policy to reduce its carbon footprint.",
+      "translation": "这家公司宣布了一项新政策以减少其碳足迹。",
+      "analysis": "根据“announced a new policy”这一动作主体，判断corporation在此意为“公司”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "correct": {
+    "en": "free from error; in accordance with fact or truth",
+    "example": "The correct interpretation of the data is essential for drawing valid conclusions.",
+    "exampleCn": "对数据的正确解释对于得出有效结论至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The correct interpretation of the data is essential for drawing valid conclusions.",
+      "translation": "对数据的正确解释对于得出有效结论至关重要。",
+      "analysis": "看 correct 修饰 interpretation，表示“正确的”，是形容词常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "correctly": {
+    "en": "in a way that is accurate or appropriate",
+    "example": "To correctly interpret the data, one must consider the context.",
+    "exampleCn": "要正确解读数据，必须考虑上下文。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "To correctly interpret the data, one must consider the context.",
+      "translation": "要正确解读数据，必须考虑上下文。",
+      "analysis": "看副词修饰动词interpret，表示方式，意为“正确地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "correspondent": {
+    "en": "a person who reports news from a particular place",
+    "example": "The foreign correspondent filed a report on the political unrest.",
+    "exampleCn": "这位外国通讯记者就政治动荡发回了一篇报道。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The foreign correspondent filed a report on the political unrest.",
+      "translation": "这位外国通讯记者就政治动荡发回了一篇报道。",
+      "analysis": "看主语“foreign correspondent”和动作“filed a report”确定是通讯记者。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "corridor": {
+    "en": "a long narrow passage in a building or train",
+    "example": "The narrow corridor was lined with doors leading to various offices.",
+    "exampleCn": "狭窄的走廊两旁排列着通往各个办公室的门。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The narrow corridor was lined with doors leading to various offices.",
+      "translation": "狭窄的走廊两旁排列着通往各个办公室的门。",
+      "analysis": "根据主语corridor和谓语was lined with doors，判断为建筑内的走廊。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cost": {
+    "en": "the price paid to obtain something or achieve a goal",
+    "example": "The environmental cost of rapid industrialization is often overlooked.",
+    "exampleCn": "快速工业化的环境代价常常被忽视。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The environmental cost of rapid industrialization is often overlooked.",
+      "translation": "快速工业化的环境代价常常被忽视。",
+      "analysis": "看 cost 前有 environmental 修饰，且后接 of 短语，判断为抽象“代价”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cottage": {
+    "en": "a small house, especially in the countryside",
+    "example": "The old cottage stood at the edge of the forest, its roof covered with moss.",
+    "exampleCn": "那座旧小屋位于森林边缘，屋顶长满了苔藓。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old cottage stood at the edge of the forest, its roof covered with moss.",
+      "translation": "那座旧小屋位于森林边缘，屋顶长满了苔藓。",
+      "analysis": "根据冠词 the 和形容词 old 判断 cottage 是名词，意为小屋。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cotton": {
+    "en": "soft white fibrous substance around seeds of cotton plant",
+    "example": "The region's economy relied heavily on cotton exports until synthetic fibers emerged.",
+    "exampleCn": "该地区的经济严重依赖棉花出口，直到合成纤维出现。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The region's economy relied heavily on cotton exports until synthetic fibers emerged.",
+      "translation": "该地区的经济严重依赖棉花出口，直到合成纤维出现。",
+      "analysis": "根据搭配“cotton exports”和主语“economy”，可知cotton指棉花这种农作物。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cough": {
+    "en": "a sudden, forceful expulsion of air from the lungs",
+    "example": "The patient's persistent cough worried the doctor, who ordered a chest X-ray.",
+    "exampleCn": "病人持续的咳嗽让医生担忧，医生安排了胸部X光检查。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The patient's persistent cough worried the doctor, who ordered a chest X-ray.",
+      "translation": "病人持续的咳嗽让医生担忧，医生安排了胸部X光检查。",
+      "analysis": "根据主语patient's和修饰语persistent，判断cough为名词，意为“咳嗽”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "count": {
+    "en": "to calculate the total number of something",
+    "example": "The final vote count will determine the winner of the election.",
+    "exampleCn": "最终的计票结果将决定选举的获胜者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The final vote count will determine the winner of the election.",
+      "translation": "最终的计票结果将决定选举的获胜者。",
+      "analysis": "根据搭配“vote count”和句子逻辑，count 在此处是名词，意为“计数”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "counter": {
+    "en": "a device for counting or a person who counts",
+    "example": "The laboratory assistant used a counter to record the number of cells.",
+    "exampleCn": "实验室助理用计数器记录细胞数量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The laboratory assistant used a counter to record the number of cells.",
+      "translation": "实验室助理用计数器记录细胞数量。",
+      "analysis": "先把 counter 试译为“计算器”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "country": {
+    "en": "a nation or its territory, often used in political or economic contexts",
+    "example": "The country's economic growth has slowed due to global trade tensions.",
+    "exampleCn": "该国的经济增长因全球贸易紧张局势而放缓。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The country's economic growth has slowed due to global trade tensions.",
+      "translation": "该国的经济增长因全球贸易紧张局势而放缓。",
+      "analysis": "根据 country's 后接 economic growth，判断此处意为“国家”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "countryside": {
+    "en": "the rural area outside cities and towns",
+    "example": "The countryside offers a peaceful escape from the urban hustle.",
+    "exampleCn": "乡下地方提供了远离城市喧嚣的宁静去处。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The countryside offers a peaceful escape from the urban hustle.",
+      "translation": "乡下地方提供了远离城市喧嚣的宁静去处。",
+      "analysis": "先把 countryside 试译为“乡下地方”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "county": {
+    "en": "a territorial division for local government, smaller than a state or province",
+    "example": "The county council voted to allocate more funds to rural schools.",
+    "exampleCn": "县议会投票决定向农村学校拨付更多资金。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The county council voted to allocate more funds to rural schools.",
+      "translation": "县议会投票决定向农村学校拨付更多资金。",
+      "analysis": "看 county 后接 council，表示县级行政机构，确定词义为“县”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "couple": {
+    "en": "two people or things of the same sort considered together",
+    "example": "The couple of researchers published their findings in a leading journal.",
+    "exampleCn": "那对研究人员在顶级期刊上发表了他们的发现。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The couple of researchers published their findings in a leading journal.",
+      "translation": "那对研究人员在顶级期刊上发表了他们的发现。",
+      "analysis": "看冠词the和介词of，这里couple是名词，意为‘一对、两个’。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "courage": {
+    "en": "the ability to do something difficult or dangerous despite fear",
+    "example": "The climber showed remarkable courage when he continued upward despite the storm.",
+    "exampleCn": "这位登山者不顾暴风雨继续向上攀登，展现了非凡的勇气。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The climber showed remarkable courage when he continued upward despite the storm.",
+      "translation": "这位登山者不顾暴风雨继续向上攀登，展现了非凡的勇气。",
+      "analysis": "根据主语climber和动作continued upward，courage在此表示面对危险时的勇气。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7071,6 +7791,150 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "court": {
+    "en": "a place where legal cases are heard; also means to try to win favor",
+    "example": "The court ruled that the evidence was inadmissible in the trial.",
+    "exampleCn": "法院裁定该证据在审判中不可采纳。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court ruled that the evidence was inadmissible in the trial.",
+      "translation": "法院裁定该证据在审判中不可采纳。",
+      "analysis": "根据ruled（裁定）和trial（审判）判断court是“法院”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cousin": {
+    "en": "a thing related to or similar to another",
+    "example": "The new smartphone is a distant cousin of the original model, sharing only basic features.",
+    "exampleCn": "这款新智能手机是原始型号的远亲，仅共享基本功能。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new smartphone is a distant cousin of the original model, sharing only basic features.",
+      "translation": "这款新智能手机是原始型号的远亲，仅共享基本功能。",
+      "analysis": "看“distant cousin of”搭配，表示类似但关系较远的事物，非亲属义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cover": {
+    "en": "a thing that lies on or over something else",
+    "example": "The book's cover was torn, but the pages remained intact.",
+    "exampleCn": "书的封面破了，但内页完好无损。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The book's cover was torn, but the pages remained intact.",
+      "translation": "书的封面破了，但内页完好无损。",
+      "analysis": "根据“book's”和“torn”判断，cover在此指“封面”，是名词常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "coverage": {
+    "en": "the extent to which something is covered or reported",
+    "example": "The media coverage of the event was extensive, drawing global attention.",
+    "exampleCn": "媒体对该事件的报道范围很广，引起了全球关注。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The media coverage of the event was extensive, drawing global attention.",
+      "translation": "媒体对该事件的报道范围很广，引起了全球关注。",
+      "analysis": "看搭配“media coverage”，结合“extensive”可知此处指报道的覆盖范围。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cow": {
+    "en": "a large female animal kept for milk or meat",
+    "example": "The farmer milked the cow every morning before sunrise.",
+    "exampleCn": "农夫每天日出前给母牛挤奶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farmer milked the cow every morning before sunrise.",
+      "translation": "农夫每天日出前给母牛挤奶。",
+      "analysis": "根据动词milked和冠词the，判断cow是名词，指产奶的母牛。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crack": {
+    "en": "a narrow opening or break in a surface",
+    "example": "The earthquake left a visible crack running across the wall.",
+    "exampleCn": "地震在墙上留下了一道可见的裂缝。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The earthquake left a visible crack running across the wall.",
+      "translation": "地震在墙上留下了一道可见的裂缝。",
+      "analysis": "根据名词前有冠词a和形容词visible，判断crack在此为名词，意为裂缝。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crash": {
+    "en": "a sudden loud noise, as of something breaking or hitting",
+    "example": "The sudden crash of the falling tree startled the hikers in the quiet forest.",
+    "exampleCn": "那棵树突然倒下发出的哗啦声惊扰了安静森林中的徒步者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden crash of the falling tree startled the hikers in the quiet forest.",
+      "translation": "那棵树突然倒下发出的哗啦声惊扰了安静森林中的徒步者。",
+      "analysis": "根据crash前有冠词the、后有of短语，判断此处为名词，指物体倒下或撞击发出的哗啦声。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crazy": {
+    "en": "extremely enthusiastic or excited; not sensible",
+    "example": "The professor's crazy theory about time travel was dismissed by most scholars.",
+    "exampleCn": "教授关于时间旅行的疯狂理论被大多数学者否定了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor's crazy theory about time travel was dismissed by most scholars.",
+      "translation": "教授关于时间旅行的疯狂理论被大多数学者否定了。",
+      "analysis": "根据修饰理论（theory）的形容词位置，判断为“不切实际的、疯狂的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cream": {
+    "en": "the best part of something, often used metaphorically",
+    "example": "Only the cream of the crop gets selected for the elite program.",
+    "exampleCn": "只有最优秀的人才会被选入精英项目。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Only the cream of the crop gets selected for the elite program.",
+      "translation": "只有最优秀的人才会被选入精英项目。",
+      "analysis": "看“of the crop”这个搭配，cream 在这里是比喻义，指“精英、精华”，不是“乳酪”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "create": {
     "en": "bring into existence",
     "example": "The new policy may create more job opportunities for graduates.",
@@ -7087,6 +7951,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "creation": {
+    "en": "something that has been made or invented",
+    "example": "The creation of a new standard often sparks debate among experts.",
+    "exampleCn": "新标准的制定常常引发专家们的争论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The creation of a new standard often sparks debate among experts.",
+      "translation": "新标准的制定常常引发专家们的争论。",
+      "analysis": "根据 creation 后接 of a new standard 这一搭配，判断此处意为“创造、制定”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "creative": {
+    "en": "involving the use of imagination to produce new ideas or things",
+    "example": "The company encourages a creative approach to problem-solving among its employees.",
+    "exampleCn": "该公司鼓励员工采用有创造力的方法解决问题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company encourages a creative approach to problem-solving among its employees.",
+      "translation": "该公司鼓励员工采用有创造力的方法解决问题。",
+      "analysis": "看 creative 修饰 approach，表示解决问题的方式具有创新性，因此取“有创造力的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "creature": {
+    "en": "a living being, especially a human; often used in formal or literary contexts",
+    "example": "The poor creature was left alone in the dark room, trembling with fear.",
+    "exampleCn": "那个可怜的人被独自留在黑暗的房间里，害怕得发抖。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The poor creature was left alone in the dark room, trembling with fear.",
+      "translation": "那个可怜的人被独自留在黑暗的房间里，害怕得发抖。",
+      "analysis": "根据前文“poor”和后文“trembling with fear”判断，这里creature指人，而非动物。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "credit": {
+    "en": "financial trustworthiness or ability to borrow money",
+    "example": "Banks assess a borrower's credit before approving a loan application.",
+    "exampleCn": "银行在批准贷款申请前会评估借款人的信用。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Banks assess a borrower's credit before approving a loan application.",
+      "translation": "银行在批准贷款申请前会评估借款人的信用。",
+      "analysis": "根据主语 banks 和宾语 loan，判断 credit 为金融领域的“信用”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crew": {
+    "en": "all the people working on a ship, aircraft, or train",
+    "example": "The crew worked tirelessly to ensure the ship's safe arrival.",
+    "exampleCn": "全体船员不知疲倦地工作，以确保船只安全抵达。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The crew worked tirelessly to ensure the ship's safe arrival.",
+      "translation": "全体船员不知疲倦地工作，以确保船只安全抵达。",
+      "analysis": "根据“worked”和“ship's safe arrival”判断，crew指全体船员。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cricket": {
+    "en": "a small jumping insect that makes a chirping sound",
+    "example": "The chirping of the cricket outside my window kept me awake all night.",
+    "exampleCn": "窗外蟋蟀的唧唧叫声让我彻夜未眠。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The chirping of the cricket outside my window kept me awake all night.",
+      "translation": "窗外蟋蟀的唧唧叫声让我彻夜未眠。",
+      "analysis": "根据 chirping（唧唧声）和 outside（户外）判断是昆虫“蟋蟀”，而非板球运动。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "crime": {
     "en": "an illegal act for which someone can be punished by law",
     "example": "The report examines how poverty is linked to crime in urban areas.",
@@ -7097,6 +8057,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The report examines how poverty is linked to crime in urban areas.",
       "translation": "该报告探讨了贫困与城市地区犯罪之间的联系。",
       "analysis": "看 linked to 搭配，crime 在此为常见义“犯罪”，非熟词生义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "criminal": {
+    "en": "a person who has committed a crime",
+    "example": "The court sentenced the criminal to ten years in prison for theft.",
+    "exampleCn": "法院判处该罪犯十年监禁，因其盗窃罪。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court sentenced the criminal to ten years in prison for theft.",
+      "translation": "法院判处该罪犯十年监禁，因其盗窃罪。",
+      "analysis": "看冠词the和动词sentenced，确定criminal是名词，意为罪犯。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7119,6 +8095,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "crisp": {
+    "en": "fresh and firm, often describing food, air, or sound",
+    "example": "The autumn air was crisp and cool, carrying the scent of fallen leaves.",
+    "exampleCn": "秋天的空气清新凉爽，带着落叶的气息。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The autumn air was crisp and cool, carrying the scent of fallen leaves.",
+      "translation": "秋天的空气清新凉爽，带着落叶的气息。",
+      "analysis": "根据修饰的“air”判断为“清新的”，常见义为“脆的”，此处为熟词生义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "critic": {
+    "en": "a person who expresses disapproval or judges merits",
+    "example": "The critic argued that the policy failed to address the root causes of inequality.",
+    "exampleCn": "这位批评家认为，该政策未能解决不平等的根本原因。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The critic argued that the policy failed to address the root causes of inequality.",
+      "translation": "这位批评家认为，该政策未能解决不平等的根本原因。",
+      "analysis": "看主语“critic”与动词“argued”搭配，表示发表观点的人，确定为“批评家”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "critical": {
+    "en": "Expressing disapproval or making careful judgments about something.",
+    "example": "The report was critical of the government's handling of the crisis.",
+    "exampleCn": "这份报告对政府处理危机的方式提出了批评。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report was critical of the government's handling of the crisis.",
+      "translation": "这份报告对政府处理危机的方式提出了批评。",
+      "analysis": "通过搭配“be critical of”判断为“批评的”，而非“关键的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "criticism": {
+    "en": "the expression of disapproval or evaluation of someone or something",
+    "example": "The criticism of the new policy focused on its potential economic drawbacks.",
+    "exampleCn": "对新政策的批评集中在其潜在的经济缺陷上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The criticism of the new policy focused on its potential economic drawbacks.",
+      "translation": "对新政策的批评集中在其潜在的经济缺陷上。",
+      "analysis": "看介词 of 后的内容，criticism 表示“批评”，与 focused on 搭配。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "criticize": {
+    "en": "to express disapproval of someone or something",
+    "example": "Some economists criticize the policy for ignoring long-term environmental costs.",
+    "exampleCn": "一些经济学家批评这项政策忽视了长期的环境成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Some economists criticize the policy for ignoring long-term environmental costs.",
+      "translation": "一些经济学家批评这项政策忽视了长期的环境成本。",
+      "analysis": "看介词搭配“criticize...for...”，表示因某事批评，确定词义为“批评”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crop": {
+    "en": "a plant grown for food, or the amount produced",
+    "example": "The region's main crop is wheat, which thrives in the local climate.",
+    "exampleCn": "该地区的主要农作物是小麦，它在当地气候下生长良好。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The region's main crop is wheat, which thrives in the local climate.",
+      "translation": "该地区的主要农作物是小麦，它在当地气候下生长良好。",
+      "analysis": "根据主语 region's main 和谓语 is wheat，判断 crop 是名词，意为“农作物”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cross": {
+    "en": "a vertical post with a horizontal bar, used in ancient execution",
+    "example": "The cross on the hilltop was visible from miles away, a silent witness to history.",
+    "exampleCn": "山顶上的十字架从数英里外就能看到，它是历史的无声见证者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cross on the hilltop was visible from miles away, a silent witness to history.",
+      "translation": "山顶上的十字架从数英里外就能看到，它是历史的无声见证者。",
+      "analysis": "先把 cross 试译为“十字架”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "crowd": {
     "en": "a large group of people gathered together",
     "example": "The new policy aims to appeal to the crowd of young voters.",
@@ -7129,6 +8217,230 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new policy aims to appeal to the crowd of young voters.",
       "translation": "新政策旨在吸引年轻选民群体。",
       "analysis": "看 crowd of 结构，表示“一群”，此处为熟词生义，常见义“拥挤”与考研义“群体”不同。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crown": {
+    "en": "the top part of the head or a royal headpiece",
+    "example": "The crown of the mountain was covered with snow all year round.",
+    "exampleCn": "山顶终年积雪覆盖。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The crown of the mountain was covered with snow all year round.",
+      "translation": "山顶终年积雪覆盖。",
+      "analysis": "根据“of the mountain”这一所有格结构，判断crown在此意为“顶部”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crucial": {
+    "en": "extremely important, because it affects the result of something",
+    "example": "The crucial factor in the experiment was the temperature control.",
+    "exampleCn": "实验中至关重要的因素是温度控制。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The crucial factor in the experiment was the temperature control.",
+      "translation": "实验中至关重要的因素是温度控制。",
+      "analysis": "从“crucial factor”搭配看出，crucial 修饰“因素”，表示决定性的重要。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cruel": {
+    "en": "causing pain or suffering without pity",
+    "example": "The cruel treatment of prisoners sparked international outrage.",
+    "exampleCn": "对囚犯的残酷待遇引发了国际愤怒。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cruel treatment of prisoners sparked international outrage.",
+      "translation": "对囚犯的残酷待遇引发了国际愤怒。",
+      "analysis": "根据后接名词treatment，判断cruel意为“残酷的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "crush": {
+    "en": "to press or squeeze something so hard that it breaks or is damaged",
+    "example": "The heavy machinery can easily crush the fragile rocks into dust.",
+    "exampleCn": "重型机械可以轻易地将脆弱的岩石压碎成粉末。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heavy machinery can easily crush the fragile rocks into dust.",
+      "translation": "重型机械可以轻易地将脆弱的岩石压碎成粉末。",
+      "analysis": "先把 crush 试译为“压碎”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cultural": {
+    "en": "relating to the ideas, customs, and social behavior of a society",
+    "example": "The museum's new exhibit highlights the cultural heritage of ancient civilizations.",
+    "exampleCn": "博物馆的新展览突出了古代文明的文化遗产。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The museum's new exhibit highlights the cultural heritage of ancient civilizations.",
+      "translation": "博物馆的新展览突出了古代文明的文化遗产。",
+      "analysis": "看“cultural heritage”搭配，意为文化遗产，确定“文化的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "culture": {
+    "en": "the shared beliefs, customs, and arts of a group",
+    "example": "The study of culture reveals how societies develop unique traditions and values.",
+    "exampleCn": "对文化的研究揭示了社会如何发展出独特的传统和价值观。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study of culture reveals how societies develop unique traditions and values.",
+      "translation": "对文化的研究揭示了社会如何发展出独特的传统和价值观。",
+      "analysis": "根据主语study和谓语reveals的搭配，culture在此指“文化”这一抽象概念。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cup": {
+    "en": "a small open container for drinking from",
+    "example": "The athlete lifted the gold cup in triumph.",
+    "exampleCn": "运动员胜利地举起了金杯。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The athlete lifted the gold cup in triumph.",
+      "translation": "运动员胜利地举起了金杯。",
+      "analysis": "先把 cup 试译为“杯子”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cupboard": {
+    "en": "a piece of furniture with shelves and doors for storing food or dishes",
+    "example": "The old cupboard in the corner was filled with dusty jars and forgotten plates.",
+    "exampleCn": "角落里的旧食橱里堆满了布满灰尘的罐子和被遗忘的盘子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old cupboard in the corner was filled with dusty jars and forgotten plates.",
+      "translation": "角落里的旧食橱里堆满了布满灰尘的罐子和被遗忘的盘子。",
+      "analysis": "先把 cupboard 试译为“食橱”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curb": {
+    "en": "to control or limit something",
+    "example": "The government introduced new measures to curb inflation.",
+    "exampleCn": "政府推出了新措施来抑制通货膨胀。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government introduced new measures to curb inflation.",
+      "translation": "政府推出了新措施来抑制通货膨胀。",
+      "analysis": "看动词搭配“curb inflation”，根据宾语“通货膨胀”确定词义为“抑制”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cure": {
+    "en": "to make someone healthy again after an illness",
+    "example": "Scientists are working on a new drug to cure the disease.",
+    "exampleCn": "科学家们正在研发一种新药来治疗这种疾病。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Scientists are working on a new drug to cure the disease.",
+      "translation": "科学家们正在研发一种新药来治疗这种疾病。",
+      "analysis": "看 cure 后接疾病名词，表示“治疗”这一动作。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curious": {
+    "en": "eager to learn or know something",
+    "example": "The curious student asked the professor about the unusual phenomenon.",
+    "exampleCn": "那个好奇的学生向教授询问这个不寻常的现象。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The curious student asked the professor about the unusual phenomenon.",
+      "translation": "那个好奇的学生向教授询问这个不寻常的现象。",
+      "analysis": "根据“curious student”搭配，curious修饰人时意为“好奇的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curl": {
+    "en": "a small, curved piece or shape, especially of hair",
+    "example": "The cat's tail had a gentle curl at the tip, which was quite charming.",
+    "exampleCn": "猫的尾巴尖端有一个轻柔的拳曲，相当迷人。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cat's tail had a gentle curl at the tip, which was quite charming.",
+      "translation": "猫的尾巴尖端有一个轻柔的拳曲，相当迷人。",
+      "analysis": "看名词前有形容词 gentle 修饰，且与 tip 搭配，指形状上的弯曲。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curly": {
+    "en": "having a twisted or wavy shape, like a spiral",
+    "example": "The plant's curly tendrils wrapped tightly around the wooden stake.",
+    "exampleCn": "这种植物的卷曲卷须紧紧缠绕在木桩上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The plant's curly tendrils wrapped tightly around the wooden stake.",
+      "translation": "这种植物的卷曲卷须紧紧缠绕在木桩上。",
+      "analysis": "看 curly 修饰 tendrils，表示形状弯曲，结合植物特征确定词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "currency": {
+    "en": "money in circulation as a medium of exchange",
+    "example": "The stability of a nation's currency is crucial for international trade.",
+    "exampleCn": "一个国家货币的稳定性对国际贸易至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The stability of a nation's currency is crucial for international trade.",
+      "translation": "一个国家货币的稳定性对国际贸易至关重要。",
+      "analysis": "先把 currency 试译为“货币”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7151,6 +8463,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "currently": {
+    "en": "at the present time",
+    "example": "The company is currently expanding its operations overseas.",
+    "exampleCn": "该公司目前正在海外扩展业务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company is currently expanding its operations overseas.",
+      "translation": "该公司目前正在海外扩展业务。",
+      "analysis": "看 is currently expanding 这个现在进行时结构，确定 currently 表示“现在”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curtain": {
+    "en": "a piece of cloth that hangs to cover a window or divide a room",
+    "example": "The curtain of secrecy was finally lifted, revealing the truth.",
+    "exampleCn": "秘密的帷幕终于被揭开，真相大白。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The curtain of secrecy was finally lifted, revealing the truth.",
+      "translation": "秘密的帷幕终于被揭开，真相大白。",
+      "analysis": "根据“curtain of secrecy”搭配，curtain比喻为遮蔽物，意为“帷幕”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "curve": {
+    "en": "a line that bends continuously",
+    "example": "The learning curve for this software is steep, but essential.",
+    "exampleCn": "这个软件的学习曲线很陡，但很必要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The learning curve for this software is steep, but essential.",
+      "translation": "这个软件的学习曲线很陡，但很必要。",
+      "analysis": "看 learning curve 搭配，意为学习曲线，指学习难度随时间的变化。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "custom": {
+    "en": "a traditional practice or usual way of doing something",
+    "example": "The custom of tipping varies greatly across different cultures and service industries.",
+    "exampleCn": "给小费的习惯在不同文化和服务行业中差异很大。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The custom of tipping varies greatly across different cultures and service industries.",
+      "translation": "给小费的习惯在不同文化和服务行业中差异很大。",
+      "analysis": "通过“of tipping”这个of结构判断custom是“习惯”的意思，后面vary说明它是被描述的对象。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "customer": {
+    "en": "a person who buys goods or services, especially from a business",
+    "example": "The company's strategy focuses on retaining existing customer loyalty.",
+    "exampleCn": "该公司的策略侧重于保持现有消费者的忠诚度。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's strategy focuses on retaining existing customer loyalty.",
+      "translation": "该公司的策略侧重于保持现有消费者的忠诚度。",
+      "analysis": "根据“retaining...loyalty”搭配，customer 在此指“消费者”，而非其他含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cut": {
+    "en": "a narrow opening made by cutting or splitting",
+    "example": "The surgeon made a small cut in the patient's skin to access the vein.",
+    "exampleCn": "外科医生在病人皮肤上切了一个小口以进入静脉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The surgeon made a small cut in the patient's skin to access the vein.",
+      "translation": "外科医生在病人皮肤上切了一个小口以进入静脉。",
+      "analysis": "看搭配“made a small cut”，结合语境“surgeon”和“skin”，确定cut为“切口”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "cycle": {
+    "en": "a series of events that repeat in the same order",
+    "example": "The business cycle influences employment rates across industries.",
+    "exampleCn": "商业周期影响各行业的就业率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The business cycle influences employment rates across industries.",
+      "translation": "商业周期影响各行业的就业率。",
+      "analysis": "看“business cycle”这个固定搭配，确定cycle意为“周期”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "daily": {
+    "en": "happening or done every day",
+    "example": "The daily commute to work often takes over an hour in heavy traffic.",
+    "exampleCn": "每天通勤上班在交通拥堵时常常要花一个多小时。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The daily commute to work often takes over an hour in heavy traffic.",
+      "translation": "每天通勤上班在交通拥堵时常常要花一个多小时。",
+      "analysis": "看 daily 修饰 commute，表示“每日的”，是形容词常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "damage": {
     "en": "harm or injury that reduces value or function",
     "example": "The damage to the ecosystem from the oil spill was irreversible.",
@@ -7161,6 +8601,262 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The damage to the ecosystem from the oil spill was irreversible.",
       "translation": "石油泄漏对生态系统造成的损害是不可逆转的。",
       "analysis": "看 damage 后接 to 的介词短语，表示对某物造成的损害。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "damp": {
+    "en": "moisture or slight wetness; to make slightly wet",
+    "example": "The damp in the old house caused the wallpaper to peel off.",
+    "exampleCn": "老房子里的潮气导致墙纸剥落。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The damp in the old house caused the wallpaper to peel off.",
+      "translation": "老房子里的潮气导致墙纸剥落。",
+      "analysis": "根据主语damp与谓语caused的搭配，判断为名词“潮气”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dancer": {
+    "en": "a person who performs dance as a profession or art",
+    "example": "The dancer's graceful movements captivated the audience throughout the performance.",
+    "exampleCn": "这位舞蹈演员优雅的动作贯穿整场演出，令观众着迷。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dancer's graceful movements captivated the audience throughout the performance.",
+      "translation": "这位舞蹈演员优雅的动作贯穿整场演出，令观众着迷。",
+      "analysis": "先把 dancer 试译为“舞蹈演员”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "danger": {
+    "en": "a situation or thing that may cause harm or injury",
+    "example": "The dense fog posed a serious danger to drivers on the highway.",
+    "exampleCn": "浓雾对高速公路上的司机构成了严重危险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dense fog posed a serious danger to drivers on the highway.",
+      "translation": "浓雾对高速公路上的司机构成了严重危险。",
+      "analysis": "看动词 posed 和介词 to，danger 表示“危险”这一常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dangerous": {
+    "en": "likely to cause harm or injury",
+    "example": "The government warned that the chemical spill was dangerous to local wildlife.",
+    "exampleCn": "政府警告说，化学品泄漏对当地野生动物是危险的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government warned that the chemical spill was dangerous to local wildlife.",
+      "translation": "政府警告说，化学品泄漏对当地野生动物是危险的。",
+      "analysis": "由 dangerous to 搭配和主语 chemical spill 确定意为“危险的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dare": {
+    "en": "a challenge or provocation, especially one that tests courage",
+    "example": "Few scientists would dare to challenge the prevailing theory without solid evidence.",
+    "exampleCn": "很少有科学家敢在没有确凿证据的情况下挑战主流理论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Few scientists would dare to challenge the prevailing theory without solid evidence.",
+      "translation": "很少有科学家敢在没有确凿证据的情况下挑战主流理论。",
+      "analysis": "看 dare 后接不定式 to challenge，表示“敢于做某事”，此处 dare 为动词，意为“敢”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dark": {
+    "en": "the absence of light; a state of ignorance or secrecy",
+    "example": "The report sheds light on the dark of the company's financial dealings.",
+    "exampleCn": "这份报告揭示了公司财务交易的黑暗面。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report sheds light on the dark of the company's financial dealings.",
+      "translation": "这份报告揭示了公司财务交易的黑暗面。",
+      "analysis": "看搭配“sheds light on the dark”，这里dark是名词，表示“黑暗面”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "data": {
+    "en": "facts or information used for analysis",
+    "example": "The researchers collected extensive data from field surveys.",
+    "exampleCn": "研究人员从实地调查中收集了大量资料。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researchers collected extensive data from field surveys.",
+      "translation": "研究人员从实地调查中收集了大量资料。",
+      "analysis": "根据 collected extensive 这个动宾搭配，data 在此处意为“资料”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "date": {
+    "en": "a specific day, month, or year",
+    "example": "The exact date of the event remains unknown despite extensive research.",
+    "exampleCn": "尽管进行了广泛研究，该事件的确切日期仍然未知。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The exact date of the event remains unknown despite extensive research.",
+      "translation": "尽管进行了广泛研究，该事件的确切日期仍然未知。",
+      "analysis": "先把 date 试译为“日期”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "day": {
+    "en": "a period of 24 hours",
+    "example": "The study tracked participants' activity over a 30-day period.",
+    "exampleCn": "该研究追踪了参与者30天内的活动情况。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study tracked participants' activity over a 30-day period.",
+      "translation": "该研究追踪了参与者30天内的活动情况。",
+      "analysis": "根据“30-day”这个数字+连字符+day的结构，判断day在此表示“天”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dead": {
+    "en": "no longer alive",
+    "example": "The dead leaves rustled underfoot as we walked through the silent forest.",
+    "exampleCn": "当我们穿过寂静的森林时，枯叶在脚下沙沙作响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dead leaves rustled underfoot as we walked through the silent forest.",
+      "translation": "当我们穿过寂静的森林时，枯叶在脚下沙沙作响。",
+      "analysis": "根据 dead 修饰 leaves，表示叶子已失去生命，即“枯死的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deaf": {
+    "en": "unable to hear, or unwilling to listen or pay attention",
+    "example": "The government remained deaf to the repeated calls for reform.",
+    "exampleCn": "政府对反复的改革呼声充耳不闻。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government remained deaf to the repeated calls for reform.",
+      "translation": "政府对反复的改革呼声充耳不闻。",
+      "analysis": "根据搭配“deaf to”和主语“government”，判断为“充耳不闻”的比喻义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deal": {
+    "en": "an agreement or arrangement, especially in business or politics",
+    "example": "The two companies signed a deal to share technology and reduce costs.",
+    "exampleCn": "两家公司签署了一项协议，共享技术并降低成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two companies signed a deal to share technology and reduce costs.",
+      "translation": "两家公司签署了一项协议，共享技术并降低成本。",
+      "analysis": "看冠词 a 和动词 signed，可判断 deal 是名词，意为“协议、交易”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dealer": {
+    "en": "A person or company that buys and sells goods for profit.",
+    "example": "The car dealer offered a discount on last year's models.",
+    "exampleCn": "这家汽车经销商对去年的车型提供了折扣。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The car dealer offered a discount on last year's models.",
+      "translation": "这家汽车经销商对去年的车型提供了折扣。",
+      "analysis": "根据 car 和 offered a discount 判断 dealer 在此意为经销商。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "death": {
+    "en": "the end of life; the state of being dead",
+    "example": "The sudden death of the CEO left the company in a state of chaos.",
+    "exampleCn": "CEO的突然去世使公司陷入混乱状态。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden death of the CEO left the company in a state of chaos.",
+      "translation": "CEO的突然去世使公司陷入混乱状态。",
+      "analysis": "根据主语death和谓语left的搭配，death在此处表示“去世”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "debate": {
+    "en": "a discussion in which people express different opinions about something",
+    "example": "The ongoing debate over climate policy has divided the scientific community.",
+    "exampleCn": "关于气候政策的持续辩论使科学界产生了分歧。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ongoing debate over climate policy has divided the scientific community.",
+      "translation": "关于气候政策的持续辩论使科学界产生了分歧。",
+      "analysis": "根据后接介词over引出议题，判断debate为名词，意为“辩论”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "debt": {
+    "en": "an amount of money that you owe to someone",
+    "example": "The company's mounting debt forced it to sell off assets.",
+    "exampleCn": "公司不断增加的债务迫使其出售资产。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's mounting debt forced it to sell off assets.",
+      "translation": "公司不断增加的债务迫使其出售资产。",
+      "analysis": "看主语“debt”与谓语“forced”搭配，表示债务带来的压力，确定是“债务”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7183,6 +8879,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "decay": {
+    "en": "gradual decline or loss of strength, power, or quality",
+    "example": "The decay of the old building was evident in its crumbling walls and broken windows.",
+    "exampleCn": "这座旧建筑的衰败从其 crumbling 的墙壁和破碎的窗户中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The decay of the old building was evident in its crumbling walls and broken windows.",
+      "translation": "这座旧建筑的衰败从其 crumbling 的墙壁和破碎的窗户中显而易见。",
+      "analysis": "根据主语“decay”与“old building”的搭配，以及后文描述，判断为“衰败”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "december": {
+    "en": "the twelfth month of the year, often used in temporal contexts",
+    "example": "The report, released in late December, highlighted a sharp decline in consumer confidence.",
+    "exampleCn": "这份于十二月底发布的报告，突显了消费者信心的急剧下滑。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report, released in late December, highlighted a sharp decline in consumer confidence.",
+      "translation": "这份于十二月底发布的报告，突显了消费者信心的急剧下滑。",
+      "analysis": "根据时间状语“in late December”确定是月份含义，表示十二月。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "decide": {
+    "en": "to make a choice or judgment about something",
+    "example": "The jury will decide the outcome of the trial based on the evidence.",
+    "exampleCn": "陪审团将根据证据决定审判结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The jury will decide the outcome of the trial based on the evidence.",
+      "translation": "陪审团将根据证据决定审判结果。",
+      "analysis": "根据宾语 the outcome 和介词短语 based on，判断 decide 在此表示“决定”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "decision": {
     "en": "a choice or judgment made after consideration",
     "example": "The committee's decision to fund the project was met with widespread approval.",
@@ -7193,6 +8937,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The committee's decision to fund the project was met with widespread approval.",
       "translation": "委员会资助该项目的决定得到了广泛认可。",
       "analysis": "看 decision 后接不定式 to fund，表示具体决定内容，译为“决定”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deck": {
+    "en": "a flat surface on a ship or building, or a pack of cards",
+    "example": "The crew quickly cleared the deck before the storm hit the ship.",
+    "exampleCn": "船员们在暴风雨袭击船只前迅速清理了甲板。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The crew quickly cleared the deck before the storm hit the ship.",
+      "translation": "船员们在暴风雨袭击船只前迅速清理了甲板。",
+      "analysis": "根据“crew”和“ship”判断，deck在此处是“甲板”的常见义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7215,6 +8975,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "decorate": {
+    "en": "to add something to an object or place to make it more attractive",
+    "example": "They plan to decorate the hall with flowers and ribbons for the ceremony.",
+    "exampleCn": "他们计划用鲜花和彩带装饰大厅，为仪式做准备。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "They plan to decorate the hall with flowers and ribbons for the ceremony.",
+      "translation": "他们计划用鲜花和彩带装饰大厅，为仪式做准备。",
+      "analysis": "看介词短语 with flowers and ribbons 确定 decorate 意为“装饰”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "decoration": {
+    "en": "something added to make something else more attractive",
+    "example": "The building's decoration was simple yet elegant, reflecting the owner's taste.",
+    "exampleCn": "这座建筑的装饰简洁而优雅，反映了主人的品味。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The building's decoration was simple yet elegant, reflecting the owner's taste.",
+      "translation": "这座建筑的装饰简洁而优雅，反映了主人的品味。",
+      "analysis": "看主语decoration与系表结构simple yet elegant，判断为“装饰”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "decorative": {
+    "en": "serving to make something look more attractive by adding ornamentation",
+    "example": "The decorative elements in the building were not merely ornamental but also served a structural purpose.",
+    "exampleCn": "建筑中的装饰性元素不仅具有装饰作用，还起到了结构性的功能。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The decorative elements in the building were not merely ornamental but also served a structural purpose.",
+      "translation": "建筑中的装饰性元素不仅具有装饰作用，还起到了结构性的功能。",
+      "analysis": "先把 decorative 试译为“装饰性的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "decrease": {
+    "en": "a reduction in the amount, size, or number of something",
+    "example": "The decrease in funding has led to fewer research projects.",
+    "exampleCn": "资金的减少导致研究项目变少。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The decrease in funding has led to fewer research projects.",
+      "translation": "资金的减少导致研究项目变少。",
+      "analysis": "看主语decrease与in funding搭配，表示某方面的减少，作名词。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deer": {
+    "en": "a wild animal with antlers, often found in forests",
+    "example": "The deer population in this region has declined due to habitat loss.",
+    "exampleCn": "该地区的鹿群数量因栖息地丧失而减少。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The deer population in this region has declined due to habitat loss.",
+      "translation": "该地区的鹿群数量因栖息地丧失而减少。",
+      "analysis": "根据主语“deer population”和谓语“declined”判断，deer指动物“鹿”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "default": {
     "en": "a preset option or failure to act",
     "example": "The system will use the default settings unless you change them.",
@@ -7231,6 +9071,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "defeat": {
+    "en": "to cause someone or something to fail or be beaten",
+    "example": "The team's defeat in the final match surprised many fans.",
+    "exampleCn": "该队在决赛中的败北让许多球迷感到惊讶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team's defeat in the final match surprised many fans.",
+      "translation": "该队在决赛中的败北让许多球迷感到惊讶。",
+      "analysis": "先把 defeat 试译为“败北”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "defence": {
+    "en": "the act of protecting someone or something from attack",
+    "example": "The government increased its defence budget to counter potential threats.",
+    "exampleCn": "政府增加了国防预算以应对潜在威胁。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government increased its defence budget to counter potential threats.",
+      "translation": "政府增加了国防预算以应对潜在威胁。",
+      "analysis": "根据搭配“defence budget”和上下文“counter threats”判断为“国防”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "defend": {
+    "en": "protect against attack or criticism",
+    "example": "The immune system helps defend the body against harmful pathogens.",
+    "exampleCn": "免疫系统帮助身体防御有害病原体。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The immune system helps defend the body against harmful pathogens.",
+      "translation": "免疫系统帮助身体防御有害病原体。",
+      "analysis": "看搭配defend...against，确定意为“防护”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "defendant": {
+    "en": "a person accused in a court of law",
+    "example": "The defendant's testimony contradicted the earlier evidence presented by the prosecution.",
+    "exampleCn": "被告的证词与检方先前提供的证据相矛盾。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The defendant's testimony contradicted the earlier evidence presented by the prosecution.",
+      "translation": "被告的证词与检方先前提供的证据相矛盾。",
+      "analysis": "先把 defendant 试译为“被告”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "defensive": {
+    "en": "protective or intended to guard against attack",
+    "example": "The company adopted a defensive strategy to shield its market share from new competitors.",
+    "exampleCn": "该公司采取了一种防御性策略，以保护其市场份额免受新竞争对手的冲击。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company adopted a defensive strategy to shield its market share from new competitors.",
+      "translation": "该公司采取了一种防御性策略，以保护其市场份额免受新竞争对手的冲击。",
+      "analysis": "根据搭配“defensive strategy”和动词“adopted”，可判断此处为“防御性的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "define": {
+    "en": "to state the exact meaning of something",
+    "example": "Scholars often define culture as a set of shared values and practices.",
+    "exampleCn": "学者们常将文化定义为一套共享的价值观和实践。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Scholars often define culture as a set of shared values and practices.",
+      "translation": "学者们常将文化定义为一套共享的价值观和实践。",
+      "analysis": "看 define...as 结构，确定词义为“定义”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "definitely": {
+    "en": "without any doubt; certainly",
+    "example": "The data definitely supports the conclusion that the policy is effective.",
+    "exampleCn": "这些数据明确无疑地支持了该政策有效的结论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The data definitely supports the conclusion that the policy is effective.",
+      "translation": "这些数据明确无疑地支持了该政策有效的结论。",
+      "analysis": "看副词修饰动词 supports，表示强调，取“明确无疑地”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "definition": {
+    "en": "a statement of the exact meaning of a word or phrase",
+    "example": "The definition of a term often depends on its context within the argument.",
+    "exampleCn": "一个术语的定义通常取决于它在论证中的上下文。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The definition of a term often depends on its context within the argument.",
+      "translation": "一个术语的定义通常取决于它在论证中的上下文。",
+      "analysis": "看 \"definition of\" 和 \"depends on\" 搭配，确定是‘定义’义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "degree": {
     "en": "a level or amount of something",
     "example": "The degree of pollution in the river has raised serious concerns.",
@@ -7241,6 +9209,70 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The degree of pollution in the river has raised serious concerns.",
       "translation": "这条河的污染程度引起了严重担忧。",
       "analysis": "看 degree of 搭配，表示“程度”，注意区分常见义“度数”或“学位”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "delay": {
+    "en": "a period of time when something is later than planned or expected",
+    "example": "The project faced a significant delay due to unforeseen technical issues.",
+    "exampleCn": "由于未预料到的技术问题，该项目遭遇了重大延误。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project faced a significant delay due to unforeseen technical issues.",
+      "translation": "由于未预料到的技术问题，该项目遭遇了重大延误。",
+      "analysis": "先把 delay 试译为“耽搁”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deliberately": {
+    "en": "done in a way that is planned or intended",
+    "example": "The company deliberately misled investors about its financial health.",
+    "exampleCn": "该公司故意就其财务状况误导投资者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company deliberately misled investors about its financial health.",
+      "translation": "该公司故意就其财务状况误导投资者。",
+      "analysis": "看动词 misled 表示欺骗，deliberately 修饰它，强调有意为之，所以取“故意地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deliver": {
+    "en": "to bring and hand over something to the intended recipient",
+    "example": "The courier promised to deliver the package by noon.",
+    "exampleCn": "快递员承诺在中午前递送包裹。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The courier promised to deliver the package by noon.",
+      "translation": "快递员承诺在中午前递送包裹。",
+      "analysis": "看 deliver 后接 the package，表示具体的物品递送，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "delivery": {
+    "en": "the act of bringing goods, letters, etc. to a particular person or place",
+    "example": "The company's new delivery system reduced shipping time by half.",
+    "exampleCn": "该公司的新递送系统将运输时间缩短了一半。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's new delivery system reduced shipping time by half.",
+      "translation": "该公司的新递送系统将运输时间缩短了一半。",
+      "analysis": "根据搭配“delivery system”和动词“reduced”，判断为“递送”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7263,6 +9295,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "democracy": {
+    "en": "a system of government by the whole population",
+    "example": "The stability of a democracy depends on active citizen participation.",
+    "exampleCn": "民主制度的稳定依赖于公民的积极参与。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The stability of a democracy depends on active citizen participation.",
+      "translation": "民主制度的稳定依赖于公民的积极参与。",
+      "analysis": "看名词democracy作主语，与stability搭配，指民主制度。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "democratic": {
+    "en": "relating to or supporting democracy",
+    "example": "The democratic process ensures that every citizen has a voice in governance.",
+    "exampleCn": "民主进程确保每个公民在治理中都有发言权。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The democratic process ensures that every citizen has a voice in governance.",
+      "translation": "民主进程确保每个公民在治理中都有发言权。",
+      "analysis": "看名词process，表示民主的进程，确定词义为民主的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dentist": {
+    "en": "a person qualified to treat diseases and conditions of the teeth and gums",
+    "example": "The dentist recommended a special toothpaste for sensitive teeth.",
+    "exampleCn": "牙医推荐了一种专为敏感牙齿设计的特殊牙膏。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dentist recommended a special toothpaste for sensitive teeth.",
+      "translation": "牙医推荐了一种专为敏感牙齿设计的特殊牙膏。",
+      "analysis": "根据主语 dentist 和谓语 recommended 的搭配，判断为职业名词“牙科医生”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "department": {
     "en": "a specialized division of a large organization, such as a government, business, or university",
     "example": "The marketing department proposed a new strategy to boost sales.",
@@ -7273,6 +9353,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The marketing department proposed a new strategy to boost sales.",
       "translation": "市场部提出了一项新策略以促进销售。",
       "analysis": "根据 department 前有 marketing 修饰，可知此处意为“部门”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "departure": {
+    "en": "the act of leaving a place or starting a journey",
+    "example": "The sudden departure of the CEO raised questions about the company's future.",
+    "exampleCn": "CEO的突然离开引发了关于公司未来的疑问。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden departure of the CEO raised questions about the company's future.",
+      "translation": "CEO的突然离开引发了关于公司未来的疑问。",
+      "analysis": "看 departure 前有 sudden 修饰，后接 of the CEO，表示人的离开，取“离开”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "depend": {
+    "en": "to rely on someone or something for support or help",
+    "example": "The success of the project will depend on the team's ability to collaborate.",
+    "exampleCn": "项目的成功将取决于团队的合作能力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The success of the project will depend on the team's ability to collaborate.",
+      "translation": "项目的成功将取决于团队的合作能力。",
+      "analysis": "看 depend on 搭配，表示“取决于”，后面接名词短语。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dependent": {
+    "en": "a person who relies on another for financial support",
+    "example": "The tax form requires listing each dependent, including children and elderly parents.",
+    "exampleCn": "纳税申报表要求列出每一名被抚养人，包括子女和年迈的父母。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The tax form requires listing each dependent, including children and elderly parents.",
+      "translation": "纳税申报表要求列出每一名被抚养人，包括子女和年迈的父母。",
+      "analysis": "看 dependent 前有数量词 each，且后接列举，确定是名词“被抚养人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "depress": {
+    "en": "to make someone feel sad and without enthusiasm",
+    "example": "The economic downturn may depress consumer spending for years.",
+    "exampleCn": "经济低迷可能会使消费者支出多年不振。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The economic downturn may depress consumer spending for years.",
+      "translation": "经济低迷可能会使消费者支出多年不振。",
+      "analysis": "看宾语 consumer spending，depress 意为“压低、抑制”，而非“使沮丧”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "depth": {
+    "en": "the distance from the top or surface to the bottom of something",
+    "example": "The depth of the ocean remains largely unexplored by humans.",
+    "exampleCn": "海洋的深度在很大程度上仍未被人类探索。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The depth of the ocean remains largely unexplored by humans.",
+      "translation": "海洋的深度在很大程度上仍未被人类探索。",
+      "analysis": "根据“the depth of the ocean”搭配，depth指海洋从表面到海底的距离，即“深度”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7295,6 +9455,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "description": {
+    "en": "a statement that tells what something or someone is like",
+    "example": "The description of the experiment in the paper was too brief to follow.",
+    "exampleCn": "论文中对实验的描述过于简短，难以理解。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The description of the experiment in the paper was too brief to follow.",
+      "translation": "论文中对实验的描述过于简短，难以理解。",
+      "analysis": "根据搭配“the description of the experiment”判断为“描述”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "desert": {
+    "en": "a barren, dry area with little or no vegetation",
+    "example": "The Sahara is the world's largest hot desert, covering much of North Africa.",
+    "exampleCn": "撒哈拉是世界上最大的热带沙漠，覆盖了北非大部分地区。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The Sahara is the world's largest hot desert, covering much of North Africa.",
+      "translation": "撒哈拉是世界上最大的热带沙漠，覆盖了北非大部分地区。",
+      "analysis": "根据冠词“the”和形容词“hot”判断desert是名词，意为沙漠。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "deserve": {
+    "en": "to be worthy of something, especially reward or punishment",
+    "example": "The team's hard work and dedication deserve recognition from the management.",
+    "exampleCn": "团队的努力和奉献应该得到管理层的认可。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team's hard work and dedication deserve recognition from the management.",
+      "translation": "团队的努力和奉献应该得到管理层的认可。",
+      "analysis": "通过主语hard work和宾语recognition判断，deserve表示“应该得到”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "design": {
     "en": "a plan or drawing produced to show the look and function of something before it is made",
     "example": "The design of the new engine was praised for its efficiency.",
@@ -7305,6 +9513,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The design of the new engine was praised for its efficiency.",
       "translation": "新引擎的设计因其高效而受到赞扬。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“设计”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "designer": {
+    "en": "a person who plans the look or function of something before it is made",
+    "example": "The designer proposed a radical new layout for the office space.",
+    "exampleCn": "这位设计者为办公空间提出了一个全新的布局方案。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The designer proposed a radical new layout for the office space.",
+      "translation": "这位设计者为办公空间提出了一个全新的布局方案。",
+      "analysis": "根据主语“designer”和谓语“proposed”判断，此处指提出方案的人，即设计者。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7327,6 +9551,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "desk": {
+    "en": "a piece of furniture with a flat surface for writing or working",
+    "example": "The manager asked him to clear the desk before leaving the office.",
+    "exampleCn": "经理要求他在离开办公室前把办公桌清理干净。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manager asked him to clear the desk before leaving the office.",
+      "translation": "经理要求他在离开办公室前把办公桌清理干净。",
+      "analysis": "根据搭配“clear the desk”和动作“leaving the office”判断，desk指办公桌。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "desperate": {
+    "en": "feeling or showing a sense of hopelessness and urgency",
+    "example": "The company made a desperate attempt to avoid bankruptcy by selling its core assets.",
+    "exampleCn": "该公司不顾一切地试图通过出售核心资产来避免破产。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company made a desperate attempt to avoid bankruptcy by selling its core assets.",
+      "translation": "该公司不顾一切地试图通过出售核心资产来避免破产。",
+      "analysis": "看搭配 'desperate attempt'，表示不顾一切的尝试，结合语境判断为不顾一切的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "desperately": {
+    "en": "in a way that shows a strong need or desire, often because of a difficult situation",
+    "example": "The team desperately needed a win to avoid relegation.",
+    "exampleCn": "该队拼命需要一场胜利以避免降级。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team desperately needed a win to avoid relegation.",
+      "translation": "该队拼命需要一场胜利以避免降级。",
+      "analysis": "看搭配“needed a win”，副词修饰动词，表示极度迫切，译为“拼命地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "despite": {
     "en": "used to show that something happened or is true although something else might have prevented it",
     "example": "Despite the heavy rain, the construction work continued without interruption.",
@@ -7343,6 +9615,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "destruction": {
+    "en": "the act of damaging something so badly that it no longer exists",
+    "example": "The earthquake caused widespread destruction, leaving entire neighborhoods in ruins.",
+    "exampleCn": "地震造成了广泛的破坏，整个街区沦为废墟。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The earthquake caused widespread destruction, leaving entire neighborhoods in ruins.",
+      "translation": "地震造成了广泛的破坏，整个街区沦为废墟。",
+      "analysis": "先把 destruction 试译为“破坏”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "detail": {
     "en": "a specific piece of information or a small part of something",
     "example": "The report went into great detail about the project's financial risks.",
@@ -7353,6 +9641,310 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The report went into great detail about the project's financial risks.",
       "translation": "这份报告详细阐述了该项目的财务风险。",
       "analysis": "看搭配 'go into great detail' 表示详细说明，此处 detail 为名词，意为细节。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "detective": {
+    "en": "a person who investigates crimes",
+    "example": "The detective carefully examined the clues left at the scene.",
+    "exampleCn": "侦探仔细检查了现场留下的线索。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The detective carefully examined the clues left at the scene.",
+      "translation": "侦探仔细检查了现场留下的线索。",
+      "analysis": "看主语 detective 与谓语 examined 搭配，确定是名词‘侦探’义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "determination": {
+    "en": "the quality of being determined to do something",
+    "example": "Her determination to finish the project despite the obstacles impressed the entire team.",
+    "exampleCn": "她不顾障碍完成项目的决心给整个团队留下了深刻印象。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Her determination to finish the project despite the obstacles impressed the entire team.",
+      "translation": "她不顾障碍完成项目的决心给整个团队留下了深刻印象。",
+      "analysis": "先把 determination 试译为“决心”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "determine": {
+    "en": "to decide or settle something after careful thought",
+    "example": "The court will determine the legality of the new regulation next month.",
+    "exampleCn": "法院将于下个月裁定新法规的合法性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court will determine the legality of the new regulation next month.",
+      "translation": "法院将于下个月裁定新法规的合法性。",
+      "analysis": "根据主语 court 和宾语 legality，判断 determine 在此表示“裁定、裁决”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "develop": {
+    "en": "to grow or cause something to grow or become more advanced",
+    "example": "The company plans to develop a new software platform for remote work.",
+    "exampleCn": "该公司计划开发一个新的远程工作软件平台。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company plans to develop a new software platform for remote work.",
+      "translation": "该公司计划开发一个新的远程工作软件平台。",
+      "analysis": "看 develop 后接宾语 a new software platform，表示“开发”新产品。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "development": {
+    "en": "the process of growing or improving",
+    "example": "The development of renewable energy is crucial for reducing carbon emissions.",
+    "exampleCn": "可再生能源的发展对于减少碳排放至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The development of renewable energy is crucial for reducing carbon emissions.",
+      "translation": "可再生能源的发展对于减少碳排放至关重要。",
+      "analysis": "先把 development 试译为“发展”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dialogue": {
+    "en": "a conversation or exchange of ideas between two or more people",
+    "example": "The novel's dialogue reveals the characters' hidden motives and conflicts.",
+    "exampleCn": "这部小说中的对话揭示了人物隐藏的动机和冲突。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The novel's dialogue reveals the characters' hidden motives and conflicts.",
+      "translation": "这部小说中的对话揭示了人物隐藏的动机和冲突。",
+      "analysis": "根据名词前的所有格 novel's 和谓语 reveals，判断 dialogue 在此为名词，意为“对话”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "diamond": {
+    "en": "a precious stone or a shape with four equal sides",
+    "example": "The diamond on her ring sparkled under the bright light.",
+    "exampleCn": "她戒指上的钻石在明亮的光线下闪闪发光。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The diamond on her ring sparkled under the bright light.",
+      "translation": "她戒指上的钻石在明亮的光线下闪闪发光。",
+      "analysis": "根据主语diamond和谓语sparkled，结合介词短语on her ring，判断为宝石义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "diary": {
+    "en": "a daily record of personal experiences and thoughts",
+    "example": "The diary entries from that period reveal his inner struggles.",
+    "exampleCn": "那个时期的日记记录揭示了他内心的挣扎。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The diary entries from that period reveal his inner struggles.",
+      "translation": "那个时期的日记记录揭示了他内心的挣扎。",
+      "analysis": "看主语 diary entries 与谓语 reveal 搭配，确定 diary 是记录个人经历的日记。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "die": {
+    "en": "to stop living or functioning",
+    "example": "Many species will die if the climate continues to warm.",
+    "exampleCn": "如果气候持续变暖，许多物种将会死亡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many species will die if the climate continues to warm.",
+      "translation": "如果气候持续变暖，许多物种将会死亡。",
+      "analysis": "根据主语 species 和条件从句，die 取本义“死亡”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "diet": {
+    "en": "the food and drink regularly consumed by a person or group",
+    "example": "A balanced diet rich in fruits and vegetables reduces the risk of chronic diseases.",
+    "exampleCn": "富含水果和蔬菜的均衡饮食能降低慢性疾病的风险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A balanced diet rich in fruits and vegetables reduces the risk of chronic diseases.",
+      "translation": "富含水果和蔬菜的均衡饮食能降低慢性疾病的风险。",
+      "analysis": "先把 diet 试译为“日常饮食”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "differ": {
+    "en": "to be unlike or distinct in nature, form, or characteristics",
+    "example": "The two theories differ fundamentally in their assumptions about human nature.",
+    "exampleCn": "这两种理论在关于人性的假设上根本不同。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two theories differ fundamentally in their assumptions about human nature.",
+      "translation": "这两种理论在关于人性的假设上根本不同。",
+      "analysis": "根据后接介词in引出不同方面，判断differ意为“不同”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "difference": {
+    "en": "a point or way in which things are not the same",
+    "example": "The difference between the two approaches lies in their underlying assumptions.",
+    "exampleCn": "两种方法之间的差异在于它们的基本假设。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The difference between the two approaches lies in their underlying assumptions.",
+      "translation": "两种方法之间的差异在于它们的基本假设。",
+      "analysis": "看介词搭配 \"difference between\" 确定意为“差异”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "different": {
+    "en": "not the same as another or each other; unlike",
+    "example": "The two approaches yielded different results, surprising the researchers.",
+    "exampleCn": "这两种方法产生了不同的结果，令研究人员感到惊讶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two approaches yielded different results, surprising the researchers.",
+      "translation": "这两种方法产生了不同的结果，令研究人员感到惊讶。",
+      "analysis": "看 yielded 和 results 的搭配，different 修饰 results，表示结果不同。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "difficult": {
+    "en": "hard to do, understand, or deal with",
+    "example": "The difficult concept required careful study to be fully understood.",
+    "exampleCn": "这个困难的概念需要仔细研究才能完全理解。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The difficult concept required careful study to be fully understood.",
+      "translation": "这个困难的概念需要仔细研究才能完全理解。",
+      "analysis": "看形容词修饰名词\"concept\"，表示概念难以理解，取\"困难的\"义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "difficulty": {
+    "en": "the state or quality of being hard to do or understand",
+    "example": "The difficulty of the task became apparent when the team encountered unexpected obstacles.",
+    "exampleCn": "当团队遇到意外障碍时，任务的困难变得明显。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The difficulty of the task became apparent when the team encountered unexpected obstacles.",
+      "translation": "当团队遇到意外障碍时，任务的困难变得明显。",
+      "analysis": "看主语 difficulty 和 of 短语搭配，表示任务的困难程度。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dinner": {
+    "en": "the main meal of the day, usually eaten in the evening",
+    "example": "The conference dinner will be held at seven o'clock in the main hall.",
+    "exampleCn": "会议晚宴将于七点在大厅举行。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conference dinner will be held at seven o'clock in the main hall.",
+      "translation": "会议晚宴将于七点在大厅举行。",
+      "analysis": "先把 dinner 试译为“晚餐”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "direct": {
+    "en": "without intervening factors; straightforward",
+    "example": "The study found a direct link between sleep and memory consolidation.",
+    "exampleCn": "研究发现睡眠与记忆巩固之间存在直接联系。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found a direct link between sleep and memory consolidation.",
+      "translation": "研究发现睡眠与记忆巩固之间存在直接联系。",
+      "analysis": "看名词 link，direct 修饰 link，表示“直接的”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "direction": {
+    "en": "a line or course along which something moves or points",
+    "example": "The new policy provides clear direction for future economic growth.",
+    "exampleCn": "新政策为未来的经济增长提供了明确的方向。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy provides clear direction for future economic growth.",
+      "translation": "新政策为未来的经济增长提供了明确的方向。",
+      "analysis": "看动词provides和形容词clear，direction在此表示“方向”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "directly": {
+    "en": "in a direct line or manner; without interruption or deviation",
+    "example": "The path leads directly to the main entrance of the building.",
+    "exampleCn": "这条小路径直通向大楼的正门。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The path leads directly to the main entrance of the building.",
+      "translation": "这条小路径直通向大楼的正门。",
+      "analysis": "看动词 leads 和介词 to，directly 修饰 leads，表示“径直地”，强调路线不绕弯。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7375,6 +9967,198 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "dirt": {
+    "en": "unclean matter, especially on a surface",
+    "example": "The mechanic wiped the dirt from the engine parts before reassembly.",
+    "exampleCn": "机械师在重新组装前擦去了发动机部件上的污垢。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mechanic wiped the dirt from the engine parts before reassembly.",
+      "translation": "机械师在重新组装前擦去了发动机部件上的污垢。",
+      "analysis": "根据宾语“engine parts”和动作“wiped”，判断dirt指需要擦除的污垢。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disadvantage": {
+    "en": "a condition or situation that makes success more difficult",
+    "example": "The main disadvantage of this method is its high cost.",
+    "exampleCn": "这种方法的主要缺点是成本高。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The main disadvantage of this method is its high cost.",
+      "translation": "这种方法的主要缺点是成本高。",
+      "analysis": "看主系表结构，disadvantage 后接 of 短语说明所属，is 后表语说明具体内容，判断为“缺点”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disagree": {
+    "en": "to have a different opinion or be inconsistent",
+    "example": "The two studies disagree on the impact of climate change on crop yields.",
+    "exampleCn": "这两项研究在气候变化对作物产量的影响上意见不一致。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two studies disagree on the impact of climate change on crop yields.",
+      "translation": "这两项研究在气候变化对作物产量的影响上意见不一致。",
+      "analysis": "看介词搭配on，disagree on表示在某方面意见不一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disagreement": {
+    "en": "a situation where people have different opinions or fail to agree",
+    "example": "The disagreement among experts over the new policy has delayed its implementation.",
+    "exampleCn": "专家们对新政策的不合导致其实施被推迟。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The disagreement among experts over the new policy has delayed its implementation.",
+      "translation": "专家们对新政策的不合导致其实施被推迟。",
+      "analysis": "先把 disagreement 试译为“不合”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disappear": {
+    "en": "to cease to be visible or exist",
+    "example": "As the glacier melts, many rare species will disappear from the region.",
+    "exampleCn": "随着冰川融化，许多稀有物种将从该地区消失。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "As the glacier melts, many rare species will disappear from the region.",
+      "translation": "随着冰川融化，许多稀有物种将从该地区消失。",
+      "analysis": "看主语 species 与 disappear 搭配，表示物种不再存在。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disappoint": {
+    "en": "to fail to meet the expectations or hopes of someone",
+    "example": "The latest economic data may disappoint those who expected a swift recovery.",
+    "exampleCn": "最新的经济数据可能会让那些期待快速复苏的人失望。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The latest economic data may disappoint those who expected a swift recovery.",
+      "translation": "最新的经济数据可能会让那些期待快速复苏的人失望。",
+      "analysis": "看主语 economic data 和宾语 those who expected，表示数据未达到预期。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disappointment": {
+    "en": "a feeling of sadness because something did not happen as expected",
+    "example": "The outcome of the experiment was a great disappointment to the research team.",
+    "exampleCn": "实验的结果让研究团队大失所望。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The outcome of the experiment was a great disappointment to the research team.",
+      "translation": "实验的结果让研究团队大失所望。",
+      "analysis": "先把 disappointment 试译为“失望”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disapproval": {
+    "en": "a feeling or opinion that something is wrong or bad",
+    "example": "The board's disapproval of the merger was clear from their silence.",
+    "exampleCn": "董事会对于合并的不赞成从他们的沉默中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The board's disapproval of the merger was clear from their silence.",
+      "translation": "董事会对于合并的不赞成从他们的沉默中显而易见。",
+      "analysis": "看 disapproval 后接 of 短语，表示对某事的反对态度。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disapprove": {
+    "en": "to have or express an unfavorable opinion about something",
+    "example": "Many scientists disapprove of the plan to fund private space travel.",
+    "exampleCn": "许多科学家不赞成资助私人太空旅行的计划。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many scientists disapprove of the plan to fund private space travel.",
+      "translation": "许多科学家不赞成资助私人太空旅行的计划。",
+      "analysis": "通过 disapprove of 短语判断，后接对象表示不赞成某事。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disaster": {
+    "en": "an event causing great damage or suffering",
+    "example": "The economic disaster left thousands of families without homes or jobs.",
+    "exampleCn": "这场经济灾难使成千上万的家庭无家可归、失去工作。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The economic disaster left thousands of families without homes or jobs.",
+      "translation": "这场经济灾难使成千上万的家庭无家可归、失去工作。",
+      "analysis": "看主语economic和谓语left，disaster指造成重大损失的事件，即灾祸。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disc": {
+    "en": "a flat, circular object or a record for playing music",
+    "example": "The hard disc stores data in a sealed unit inside the computer.",
+    "exampleCn": "硬盘将数据存储在计算机内部的密封单元中。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hard disc stores data in a sealed unit inside the computer.",
+      "translation": "硬盘将数据存储在计算机内部的密封单元中。",
+      "analysis": "看搭配 \"hard disc\" 和 \"stores data\"，确定 disc 是计算机存储设备，即“硬盘”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "discipline": {
+    "en": "a branch of knowledge, such as a subject taught at a university",
+    "example": "Each academic discipline has its own methodology and standards of proof.",
+    "exampleCn": "每个学科都有其独特的方法论和证据标准。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Each academic discipline has its own methodology and standards of proof.",
+      "translation": "每个学科都有其独特的方法论和证据标准。",
+      "analysis": "先把 discipline 试译为“学科”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "discount": {
     "en": "a reduction in the usual price; to regard something as unimportant or unlikely",
     "example": "Many investors tend to discount the long-term risks when chasing short-term gains.",
@@ -7391,6 +10175,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "discover": {
+    "en": "to find something unexpectedly or for the first time",
+    "example": "Researchers discover a new mechanism that regulates cell growth.",
+    "exampleCn": "研究人员发现了一种调节细胞生长的新机制。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Researchers discover a new mechanism that regulates cell growth.",
+      "translation": "研究人员发现了一种调节细胞生长的新机制。",
+      "analysis": "根据宾语“mechanism”和主语“researchers”判断为“发现”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "discovery": {
+    "en": "the act of finding something that was hidden or unknown",
+    "example": "The discovery of a new species in the deep ocean has excited biologists worldwide.",
+    "exampleCn": "在深海中新物种的发现令全世界的生物学家兴奋不已。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The discovery of a new species in the deep ocean has excited biologists worldwide.",
+      "translation": "在深海中新物种的发现令全世界的生物学家兴奋不已。",
+      "analysis": "先把 discovery 试译为“发现”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "discussion": {
+    "en": "a conversation or debate about a specific topic",
+    "example": "The discussion among the experts focused on the potential risks of the new technology.",
+    "exampleCn": "专家之间的讨论聚焦于这项新技术的潜在风险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The discussion among the experts focused on the potential risks of the new technology.",
+      "translation": "专家之间的讨论聚焦于这项新技术的潜在风险。",
+      "analysis": "根据搭配“among the experts”和动词“focused on”，判断为“讨论”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disease": {
+    "en": "a disorder of structure or function in a living organism",
+    "example": "The disease spread rapidly through the population, causing widespread panic.",
+    "exampleCn": "这种疾病在人群中迅速传播，引起了广泛的恐慌。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The disease spread rapidly through the population, causing widespread panic.",
+      "translation": "这种疾病在人群中迅速传播，引起了广泛的恐慌。",
+      "analysis": "根据主语 disease 和谓语 spread 的搭配，判断为“疾病”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disgust": {
+    "en": "a strong feeling of dislike or disapproval",
+    "example": "The public expressed disgust at the company's unethical practices.",
+    "exampleCn": "公众对该公司不道德的做法表示厌恶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The public expressed disgust at the company's unethical practices.",
+      "translation": "公众对该公司不道德的做法表示厌恶。",
+      "analysis": "看介词搭配 at，表示对某事物感到厌恶，确定词义为“厌恶”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disk": {
+    "en": "a flat, circular object or a storage device for computers",
+    "example": "The hard disk stores data that the computer needs to run programs.",
+    "exampleCn": "硬盘存储了计算机运行程序所需的数据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hard disk stores data that the computer needs to run programs.",
+      "translation": "硬盘存储了计算机运行程序所需的数据。",
+      "analysis": "看 hard 这个修饰词，确定 disk 指计算机硬件中的磁盘。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dislike": {
+    "en": "a feeling of not liking someone or something",
+    "example": "His dislike for the new policy was evident in his critical remarks.",
+    "exampleCn": "他对新政策的嫌恶在他的批评言论中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His dislike for the new policy was evident in his critical remarks.",
+      "translation": "他对新政策的嫌恶在他的批评言论中显而易见。",
+      "analysis": "看介词 for 后的宾语，以及形容词 critical，确定 dislike 为名词“嫌恶”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dismiss": {
+    "en": "to officially remove someone from their job or to send someone away",
+    "example": "The manager decided to dismiss the entire team after the project failed.",
+    "exampleCn": "经理在项目失败后决定解散整个团队。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manager decided to dismiss the entire team after the project failed.",
+      "translation": "经理在项目失败后决定解散整个团队。",
+      "analysis": "根据宾语“the entire team”和语境“项目失败”，判断为“解散”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "distance": {
     "en": "a gap or difference between two things, often in opinion or relationship",
     "example": "The distance between their views on education reform is too wide to bridge.",
@@ -7401,6 +10313,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The distance between their views on education reform is too wide to bridge.",
       "translation": "他们在教育改革观点上的分歧太大，无法弥合。",
       "analysis": "看 distance between... 搭配，此处指观点差距，非物理距离。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "distant": {
+    "en": "far away in space or time",
+    "example": "The distant galaxy was barely visible through the telescope.",
+    "exampleCn": "那个遥远的星系通过望远镜几乎看不见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The distant galaxy was barely visible through the telescope.",
+      "translation": "那个遥远的星系通过望远镜几乎看不见。",
+      "analysis": "distant 修饰 galaxy，表示空间上的遥远，结合 telescope 确定词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "distinction": {
+    "en": "a difference or contrast between similar things or people",
+    "example": "The study draws a clear distinction between economic growth and sustainable development.",
+    "exampleCn": "该研究明确区分了经济增长和可持续发展。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study draws a clear distinction between economic growth and sustainable development.",
+      "translation": "该研究明确区分了经济增长和可持续发展。",
+      "analysis": "根据搭配“draws a clear distinction between”判断，意为“区分”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "distinguish": {
+    "en": "to recognize or point out the difference between two or more things",
+    "example": "To distinguish genuine progress from mere activity, one must examine long-term outcomes.",
+    "exampleCn": "要区分真正的进步和仅仅的活动，必须审视长期结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "To distinguish genuine progress from mere activity, one must examine long-term outcomes.",
+      "translation": "要区分真正的进步和仅仅的活动，必须审视长期结果。",
+      "analysis": "看搭配 distinguish A from B，意为“把A和B区分开”，from后接被区分对象。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "distribution": {
+    "en": "the way something is shared or spread among people or places",
+    "example": "The distribution of resources among the regions remains a contentious issue.",
+    "exampleCn": "资源在各地区之间的分配仍然是一个有争议的问题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The distribution of resources among the regions remains a contentious issue.",
+      "translation": "资源在各地区之间的分配仍然是一个有争议的问题。",
+      "analysis": "先把 distribution 试译为“分配”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "district": {
+    "en": "a part of a city or country with defined boundaries",
+    "example": "The new policy applies only to the commercial district of the city.",
+    "exampleCn": "新政策仅适用于该市的商业区域。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy applies only to the commercial district of the city.",
+      "translation": "新政策仅适用于该市的商业区域。",
+      "analysis": "看 commercial 和 of the city 这两个修饰，确定 district 指城市中的特定区域。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "disturb": {
+    "en": "to interrupt or upset the normal state or function of something",
+    "example": "The sudden noise from the construction site could disturb the delicate balance of the ecosystem.",
+    "exampleCn": "建筑工地突然的噪音可能会扰乱生态系统的微妙平衡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden noise from the construction site could disturb the delicate balance of the ecosystem.",
+      "translation": "建筑工地突然的噪音可能会扰乱生态系统的微妙平衡。",
+      "analysis": "看宾语“delicate balance”和“ecosystem”，判断disturb为“扰乱”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "diversity": {
+    "en": "the state of being varied or different",
+    "example": "The diversity of species in this region is crucial for ecological balance.",
+    "exampleCn": "该地区物种的多样性对生态平衡至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The diversity of species in this region is crucial for ecological balance.",
+      "translation": "该地区物种的多样性对生态平衡至关重要。",
+      "analysis": "看主语diversity of species，意为物种的多样性，由介词of引出范围。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "divide": {
+    "en": "to separate into parts or groups",
+    "example": "The issue of immigration continues to divide the nation's political parties.",
+    "exampleCn": "移民问题持续分裂该国的政党。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The issue of immigration continues to divide the nation's political parties.",
+      "translation": "移民问题持续分裂该国的政党。",
+      "analysis": "看后面接的宾语 the nation's political parties，表示使分裂，是动词用法。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7423,6 +10463,70 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "divorce": {
+    "en": "the legal ending of a marriage",
+    "example": "The couple's divorce was finalized after months of negotiation.",
+    "exampleCn": "这对夫妇的离婚在几个月的谈判后最终确定。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The couple's divorce was finalized after months of negotiation.",
+      "translation": "这对夫妇的离婚在几个月的谈判后最终确定。",
+      "analysis": "看主语divorce与谓语was finalized搭配，表示离婚手续完成。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "doctor": {
+    "en": "a person qualified to treat diseases or a person with a PhD",
+    "example": "The patient was referred to a specialist doctor for further evaluation.",
+    "exampleCn": "病人被转诊给一位专科医生做进一步评估。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The patient was referred to a specialist doctor for further evaluation.",
+      "translation": "病人被转诊给一位专科医生做进一步评估。",
+      "analysis": "看冠词 a 和名词 specialist 修饰，确定 doctor 是“医生”的常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dot": {
+    "en": "a small round mark or a point in writing or printing",
+    "example": "The dot at the end of the sentence indicates a full stop.",
+    "exampleCn": "句子末尾的点表示句号。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dot at the end of the sentence indicates a full stop.",
+      "translation": "句子末尾的点表示句号。",
+      "analysis": "看句意和搭配 'dot at the end of the sentence' 确定是标点符号中的点。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "double": {
+    "en": "twice as much or as many",
+    "example": "The new policy aims to double the company's market share within two years.",
+    "exampleCn": "新政策旨在两年内将公司的市场份额翻倍。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to double the company's market share within two years.",
+      "translation": "新政策旨在两年内将公司的市场份额翻倍。",
+      "analysis": "根据动词aims to和宾语market share，确定double为动词“使加倍”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "doubt": {
     "en": "a feeling of uncertainty or lack of conviction",
     "example": "The new evidence cast doubt on the earlier theory.",
@@ -7433,6 +10537,166 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new evidence cast doubt on the earlier theory.",
       "translation": "新证据使人们对先前的理论产生了怀疑。",
       "analysis": "看 cast doubt on 搭配，意为“对……产生怀疑”，此处 doubt 是名词“怀疑”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "down": {
+    "en": "moving or directed toward a lower position",
+    "example": "The stock market experienced a sharp down trend last quarter.",
+    "exampleCn": "上个季度股市经历了急剧的下跌趋势。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The stock market experienced a sharp down trend last quarter.",
+      "translation": "上个季度股市经历了急剧的下跌趋势。",
+      "analysis": "看 down 修饰 trend，表示“向下的”，与常见义“向下”一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "downstairs": {
+    "en": "the lower floor of a building, especially in a house",
+    "example": "The noise from downstairs kept me awake all night.",
+    "exampleCn": "楼下的噪音让我整晚睡不着。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The noise from downstairs kept me awake all night.",
+      "translation": "楼下的噪音让我整晚睡不着。",
+      "analysis": "根据介词短语 from downstairs 作定语，判断 downstairs 是名词，意为“楼下”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dozen": {
+    "en": "a group of twelve things or people",
+    "example": "The factory shipped a dozen crates of electronics yesterday.",
+    "exampleCn": "工厂昨天发运了一打电子设备板条箱。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The factory shipped a dozen crates of electronics yesterday.",
+      "translation": "工厂昨天发运了一打电子设备板条箱。",
+      "analysis": "看 dozen 前有 a，后接 crates，表示数量单位“一打”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "drag": {
+    "en": "something that makes progress slower or more difficult",
+    "example": "The lack of funding proved a major drag on the research project's progress.",
+    "exampleCn": "资金短缺被证明是研究项目进展的主要拖累。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lack of funding proved a major drag on the research project's progress.",
+      "translation": "资金短缺被证明是研究项目进展的主要拖累。",
+      "analysis": "根据后文 on the research project's progress 判断 drag 意为“拖累”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dramatically": {
+    "en": "in a sudden and striking way",
+    "example": "The cost of raw materials has risen dramatically over the past few months.",
+    "exampleCn": "过去几个月里，原材料成本急剧上升。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cost of raw materials has risen dramatically over the past few months.",
+      "translation": "过去几个月里，原材料成本急剧上升。",
+      "analysis": "看 risen 这个动词，dramatically 修饰它，表示程度剧烈，取“急剧地”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "draw": {
+    "en": "pull or drag something with effort",
+    "example": "The heavy cart was hard to draw up the steep hill.",
+    "exampleCn": "那辆沉重的马车很难拉上陡峭的山坡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heavy cart was hard to draw up the steep hill.",
+      "translation": "那辆沉重的马车很难拉上陡峭的山坡。",
+      "analysis": "看宾语 the heavy cart 和介词 up，表示费力地拉，所以取“拉”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "drawer": {
+    "en": "a sliding compartment in furniture for storage",
+    "example": "He pulled open the top drawer and found the missing documents.",
+    "exampleCn": "他拉开最上面的抽屉，找到了丢失的文件。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "He pulled open the top drawer and found the missing documents.",
+      "translation": "他拉开最上面的抽屉，找到了丢失的文件。",
+      "analysis": "根据动词短语 pulled open 和宾语 drawer，结合场景判断为家具中的抽屉。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dream": {
+    "en": "a series of thoughts, images, and feelings during sleep",
+    "example": "In the dream, he saw himself flying over the mountains.",
+    "exampleCn": "在梦中，他看见自己飞越群山。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "In the dream, he saw himself flying over the mountains.",
+      "translation": "在梦中，他看见自己飞越群山。",
+      "analysis": "根据介词短语 in the dream 和动词 saw，确定 dream 在此处意为“梦”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dress": {
+    "en": "clothing, especially a particular type of clothing",
+    "example": "The company's dress code requires formal attire for all employees.",
+    "exampleCn": "公司的着装要求所有员工穿正装。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's dress code requires formal attire for all employees.",
+      "translation": "公司的着装要求所有员工穿正装。",
+      "analysis": "看 dress 与 code 搭配，指着装规范，确定是“服装”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "driver": {
+    "en": "a person who drives a vehicle",
+    "example": "The driver of the truck was found to be at fault in the accident.",
+    "exampleCn": "卡车司机被认定在事故中负有责任。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The driver of the truck was found to be at fault in the accident.",
+      "translation": "卡车司机被认定在事故中负有责任。",
+      "analysis": "根据冠词 the 和 of 结构，driver 指具体的人，即驾驶员。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7471,6 +10735,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "drum": {
+    "en": "a musical instrument that you hit with sticks or your hands",
+    "example": "The steady drum of rain on the roof kept him awake all night.",
+    "exampleCn": "屋顶上持续的雨声让他整夜未眠。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The steady drum of rain on the roof kept him awake all night.",
+      "translation": "屋顶上持续的雨声让他整夜未眠。",
+      "analysis": "drum 在此为名词，与 of rain 搭配，指持续不断的敲击声，而非乐器。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "drunk": {
+    "en": "intoxicated with alcohol; not sober",
+    "example": "The driver, clearly drunk, was arrested after failing the field sobriety test.",
+    "exampleCn": "那名司机明显喝醉了，在未能通过现场清醒测试后被逮捕。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The driver, clearly drunk, was arrested after failing the field sobriety test.",
+      "translation": "那名司机明显喝醉了，在未能通过现场清醒测试后被逮捕。",
+      "analysis": "根据副词clearly和后续的sobriety test（清醒测试）判断drunk意为喝醉的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "due": {
     "en": "something that is owed or deserved",
     "example": "The employee finally received his due after years of hard work.",
@@ -7481,6 +10777,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The employee finally received his due after years of hard work.",
       "translation": "这位员工在多年辛勤工作后终于得到了他应得的东西。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“应得的东西”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dull": {
+    "en": "not sharp; blunt",
+    "example": "The old knife had a dull edge that could not cut through the thick rope.",
+    "exampleCn": "这把旧刀的刀刃很钝，无法切断粗绳子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old knife had a dull edge that could not cut through the thick rope.",
+      "translation": "这把旧刀的刀刃很钝，无法切断粗绳子。",
+      "analysis": "根据搭配“dull edge”和“could not cut”判断，dull 是“钝的”意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dump": {
+    "en": "a site for disposing of waste",
+    "example": "The city plans to close the old dump and build a recycling center.",
+    "exampleCn": "该市计划关闭旧垃圾场并建造一个回收中心。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The city plans to close the old dump and build a recycling center.",
+      "translation": "该市计划关闭旧垃圾场并建造一个回收中心。",
+      "analysis": "根据名词前冠词 the 和动词 close 的搭配，判断 dump 为名词“垃圾场”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "dust": {
+    "en": "fine particles of matter, especially from the ground or from a surface",
+    "example": "The old bookshelf was covered with a thick layer of dust.",
+    "exampleCn": "旧书架上覆盖着厚厚的一层灰尘。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old bookshelf was covered with a thick layer of dust.",
+      "translation": "旧书架上覆盖着厚厚的一层灰尘。",
+      "analysis": "先把 dust 试译为“灰尘”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7503,6 +10847,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "earn": {
+    "en": "to receive money or profit as payment for work",
+    "example": "Workers in this sector earn a modest salary but enjoy job security.",
+    "exampleCn": "这个行业的工人工资不高，但工作稳定。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Workers in this sector earn a modest salary but enjoy job security.",
+      "translation": "这个行业的工人工资不高，但工作稳定。",
+      "analysis": "根据宾语“a modest salary”判断，earn在此表示“赚得（工资）”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "earnings": {
+    "en": "money obtained in return for labor or investment",
+    "example": "The company's quarterly earnings exceeded market expectations, boosting investor confidence.",
+    "exampleCn": "该公司季度收益超出市场预期，提振了投资者信心。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's quarterly earnings exceeded market expectations, boosting investor confidence.",
+      "translation": "该公司季度收益超出市场预期，提振了投资者信心。",
+      "analysis": "看主语“company's”和谓语“exceeded”，确定earnings指公司赚的钱，即收益。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ease": {
+    "en": "freedom from difficulty, effort, or pain",
+    "example": "The new policy aims to ease the financial burden on low-income families.",
+    "exampleCn": "这项新政策旨在减轻低收入家庭的经济负担。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to ease the financial burden on low-income families.",
+      "translation": "这项新政策旨在减轻低收入家庭的经济负担。",
+      "analysis": "根据搭配“ease the burden”确定词义为“减轻”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "easily": {
+    "en": "without difficulty or effort",
+    "example": "The data can be easily manipulated to support a predetermined conclusion.",
+    "exampleCn": "这些数据可以被轻易地操纵，以支持一个预先确定的结论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The data can be easily manipulated to support a predetermined conclusion.",
+      "translation": "这些数据可以被轻易地操纵，以支持一个预先确定的结论。",
+      "analysis": "看情态动词 can 和过去分词 manipulated，easily 修饰动作，表示“轻易地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "eastern": {
+    "en": "a person from the eastern part of a region or the Eastern Orthodox Church",
+    "example": "The eastern in the village still observe ancient harvest rituals.",
+    "exampleCn": "村子里的东方人仍然遵守古老的丰收仪式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The eastern in the village still observe ancient harvest rituals.",
+      "translation": "村子里的东方人仍然遵守古老的丰收仪式。",
+      "analysis": "看冠词 the 和介词短语 in the village，确定 eastern 是名词，意为“东方人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "economic": {
     "en": "relating to the economy or economics",
     "example": "The government implemented new economic policies to stimulate growth.",
@@ -7513,6 +10937,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The government implemented new economic policies to stimulate growth.",
       "translation": "政府实施了新的经济政策以刺激增长。",
       "analysis": "看搭配“economic policies”确定意为“经济上的”，常见义与考研义一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "economics": {
+    "en": "the study of how people use money and resources",
+    "example": "The professor's lecture on behavioral economics challenged traditional assumptions about rational decision-making.",
+    "exampleCn": "教授关于行为经济学的讲座挑战了关于理性决策的传统假设。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor's lecture on behavioral economics challenged traditional assumptions about rational decision-making.",
+      "translation": "教授关于行为经济学的讲座挑战了关于理性决策的传统假设。",
+      "analysis": "看搭配“behavioral economics”和动词“challenged”，确定是学科含义“经济学”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7567,6 +11007,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "educate": {
+    "en": "to teach someone over a period of time, especially at school or college",
+    "example": "The program aims to educate young people about the dangers of drug abuse.",
+    "exampleCn": "该项目旨在教育年轻人认识吸毒的危害。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The program aims to educate young people about the dangers of drug abuse.",
+      "translation": "该项目旨在教育年轻人认识吸毒的危害。",
+      "analysis": "看 educate 后接 about 引出教育内容，确定意为“教育”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "education": {
     "en": "the process of teaching and learning, usually at school",
     "example": "A good education is essential for personal and professional growth.",
@@ -7580,6 +11036,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "educational": {
+    "en": "relating to the process of teaching and learning",
+    "example": "The documentary offers an educational perspective on climate change.",
+    "exampleCn": "这部纪录片提供了关于气候变化的教育性视角。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The documentary offers an educational perspective on climate change.",
+      "translation": "这部纪录片提供了关于气候变化的教育性视角。",
+      "analysis": "看 educational 修饰 perspective，表示“教育的”，指提供知识或学习价值。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -7609,6 +11081,278 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new policy proved effective in reducing carbon emissions.",
       "translation": "新政策在减少碳排放方面证明是有效的。",
       "analysis": "看搭配 prove effective in doing，表示‘在…方面有效’。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "effectively": {
+    "en": "in a way that achieves the intended result",
+    "example": "The new policy effectively reduced carbon emissions by 20% within two years.",
+    "exampleCn": "新政策在两年内有效地将碳排放量减少了20%。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy effectively reduced carbon emissions by 20% within two years.",
+      "translation": "新政策在两年内有效地将碳排放量减少了20%。",
+      "analysis": "看副词修饰动词 reduced，表示达到预期效果，取“有效地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "efficiency": {
+    "en": "the ability to do something without wasting time or energy",
+    "example": "The new system improved the efficiency of data processing by 30 percent.",
+    "exampleCn": "新系统将数据处理的效率提高了30%。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new system improved the efficiency of data processing by 30 percent.",
+      "translation": "新系统将数据处理的效率提高了30%。",
+      "analysis": "先把 efficiency 试译为“效率”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "efficient": {
+    "en": "achieving maximum output with minimum wasted effort",
+    "example": "An efficient system reduces waste and maximizes output with minimal input.",
+    "exampleCn": "一个高效的系统能以最少的投入减少浪费并最大化产出。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "An efficient system reduces waste and maximizes output with minimal input.",
+      "translation": "一个高效的系统能以最少的投入减少浪费并最大化产出。",
+      "analysis": "看 efficient 修饰 system，且与 reduces waste 搭配，确定意为“高效的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "effort": {
+    "en": "A determined attempt to achieve something.",
+    "example": "The team's effort to finish the project on time was commendable.",
+    "exampleCn": "团队按时完成项目的努力值得称赞。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team's effort to finish the project on time was commendable.",
+      "translation": "团队按时完成项目的努力值得称赞。",
+      "analysis": "看effort后接不定式to finish，表示做某事的努力，取“努力”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "eighteen": {
+    "en": "the number 18; a set of 18 items",
+    "example": "The study surveyed eighteen companies, each with over a thousand employees.",
+    "exampleCn": "该研究调查了十八家公司，每家都有超过一千名员工。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study surveyed eighteen companies, each with over a thousand employees.",
+      "translation": "该研究调查了十八家公司，每家都有超过一千名员工。",
+      "analysis": "看 eighteen 后接复数名词 companies，表示数量“十八”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "eighty": {
+    "en": "the number 80",
+    "example": "The survey showed that around eighty percent of the participants agreed.",
+    "exampleCn": "调查显示，大约百分之八十的参与者表示同意。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The survey showed that around eighty percent of the participants agreed.",
+      "translation": "调查显示，大约百分之八十的参与者表示同意。",
+      "analysis": "看“eighty percent”这个搭配，表示比例，确定是数字八十。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "elbow": {
+    "en": "the joint between the upper and lower arm",
+    "example": "He used his elbow to clear a path through the crowd.",
+    "exampleCn": "他用手肘在人群中开辟出一条路。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "He used his elbow to clear a path through the crowd.",
+      "translation": "他用手肘在人群中开辟出一条路。",
+      "analysis": "看动词used和宾语path，elbow是身体部位名词，表示用手肘动作。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "elect": {
+    "en": "people chosen or selected for a position",
+    "example": "The elect gathered to discuss the future of the organization.",
+    "exampleCn": "当选者们聚集在一起讨论该组织的未来。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The elect gathered to discuss the future of the organization.",
+      "translation": "当选者们聚集在一起讨论该组织的未来。",
+      "analysis": "根据定冠词 the 和谓语 gathered 判断 elect 是名词，意为“当选人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "election": {
+    "en": "the process of choosing a person or group by voting",
+    "example": "The outcome of the election will shape the country's economic policy for years.",
+    "exampleCn": "选举的结果将影响该国未来多年的经济政策。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The outcome of the election will shape the country's economic policy for years.",
+      "translation": "选举的结果将影响该国未来多年的经济政策。",
+      "analysis": "通过主语outcome和谓语shape，判断election指‘选举’这一事件。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "electric": {
+    "en": "relating to or operated by electricity",
+    "example": "The electric car market is expanding rapidly in urban areas.",
+    "exampleCn": "电动汽车市场在城市地区正在迅速扩张。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The electric car market is expanding rapidly in urban areas.",
+      "translation": "电动汽车市场在城市地区正在迅速扩张。",
+      "analysis": "看 electric 修饰 car，表示以电为动力的车辆，即电动的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "electrical": {
+    "en": "relating to or using electricity",
+    "example": "The electrical system of the building was upgraded to meet safety standards.",
+    "exampleCn": "该建筑的电气系统进行了升级，以满足安全标准。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The electrical system of the building was upgraded to meet safety standards.",
+      "translation": "该建筑的电气系统进行了升级，以满足安全标准。",
+      "analysis": "看搭配“electrical system”，意为电气系统，表示与电相关的系统。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "electricity": {
+    "en": "a form of energy used for lighting, heating, and power",
+    "example": "The new policy aims to reduce the cost of electricity for rural households.",
+    "exampleCn": "新政策旨在降低农村家庭的用电成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce the cost of electricity for rural households.",
+      "translation": "新政策旨在降低农村家庭的用电成本。",
+      "analysis": "先把 electricity 试译为“电”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "elegant": {
+    "en": "graceful and stylish in appearance or manner",
+    "example": "The elegant solution to the problem impressed the entire research team.",
+    "exampleCn": "这个优雅的问题解决方案给整个研究团队留下了深刻印象。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The elegant solution to the problem impressed the entire research team.",
+      "translation": "这个优雅的问题解决方案给整个研究团队留下了深刻印象。",
+      "analysis": "看elegant修饰solution，意为‘优雅的’，指方案巧妙简洁。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "element": {
+    "en": "a basic part or feature of something",
+    "example": "The element of surprise is crucial in military strategy.",
+    "exampleCn": "在军事战略中，出其不意这一要素至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The element of surprise is crucial in military strategy.",
+      "translation": "在军事战略中，出其不意这一要素至关重要。",
+      "analysis": "先把 element 试译为“要素”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "elevator": {
+    "en": "a machine that carries people or goods up and down in a building",
+    "example": "The elevator in the office building broke down, forcing employees to use the stairs.",
+    "exampleCn": "办公楼的电梯坏了，迫使员工使用楼梯。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The elevator in the office building broke down, forcing employees to use the stairs.",
+      "translation": "办公楼的电梯坏了，迫使员工使用楼梯。",
+      "analysis": "根据主语elevator和谓语broke down，判断为电梯。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "elsewhere": {
+    "en": "in or to another place",
+    "example": "The data from this region conflict with findings elsewhere.",
+    "exampleCn": "来自该地区的数据与别处的发现相矛盾。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The data from this region conflict with findings elsewhere.",
+      "translation": "来自该地区的数据与别处的发现相矛盾。",
+      "analysis": "根据与“findings”的搭配及与“this region”的对比，确定意为“在别处”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "embarrass": {
+    "en": "to cause someone to feel self-conscious or uncomfortable",
+    "example": "The sudden question from the audience seemed to embarrass the speaker, who paused awkwardly.",
+    "exampleCn": "观众突然提出的问题似乎让演讲者感到困窘，他尴尬地停顿了一下。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden question from the audience seemed to embarrass the speaker, who paused awkwardly.",
+      "translation": "观众突然提出的问题似乎让演讲者感到困窘，他尴尬地停顿了一下。",
+      "analysis": "从“paused awkwardly”这个结果看出，embarrass在此表示“使困窘”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7663,6 +11407,70 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "emotion": {
+    "en": "a strong feeling such as love, fear, or anger",
+    "example": "The speaker's voice trembled with raw emotion as he recalled the tragic event.",
+    "exampleCn": "演讲者回忆起那起悲剧事件时，声音因强烈的情感而颤抖。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The speaker's voice trembled with raw emotion as he recalled the tragic event.",
+      "translation": "演讲者回忆起那起悲剧事件时，声音因强烈的情感而颤抖。",
+      "analysis": "通过 raw emotion 这个搭配，可知 emotion 在此指强烈、未加掩饰的情感。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "emotional": {
+    "en": "relating to feelings or emotions",
+    "example": "The study found that emotional responses can influence decision-making processes.",
+    "exampleCn": "研究发现，情绪反应能够影响决策过程。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found that emotional responses can influence decision-making processes.",
+      "translation": "研究发现，情绪反应能够影响决策过程。",
+      "analysis": "看 emotional 修饰 responses，表示与情绪相关的反应，结合语境判断为“情绪的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "emphasis": {
+    "en": "special importance or attention given to something",
+    "example": "The report places particular emphasis on the need for sustainable development.",
+    "exampleCn": "该报告特别强调了可持续发展的必要性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report places particular emphasis on the need for sustainable development.",
+      "translation": "该报告特别强调了可持续发展的必要性。",
+      "analysis": "看搭配 places emphasis on 确定意为“强调”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "employ": {
+    "en": "to give work to someone for payment",
+    "example": "The company plans to employ more engineers for the new project.",
+    "exampleCn": "该公司计划为新项目雇用更多工程师。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company plans to employ more engineers for the new project.",
+      "translation": "该公司计划为新项目雇用更多工程师。",
+      "analysis": "根据宾语“engineers”和介词“for”表目的，判断为“雇用”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "employee": {
     "en": "a person who works for another person or a company in return for wages",
     "example": "The company's employee benefits include health insurance and retirement plans.",
@@ -7679,6 +11487,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "employer": {
+    "en": "a person or organization that employs people",
+    "example": "The employer must ensure a safe working environment for all employees.",
+    "exampleCn": "雇主必须确保所有员工的安全工作环境。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The employer must ensure a safe working environment for all employees.",
+      "translation": "雇主必须确保所有员工的安全工作环境。",
+      "analysis": "看主语 employer 与谓语 must ensure 搭配，表示责任主体，判断为雇主。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "empty": {
+    "en": "containing nothing; not filled or occupied",
+    "example": "The empty warehouse echoed with every footstep, a stark reminder of the failed business.",
+    "exampleCn": "空荡荡的仓库里回荡着每一步脚步声，惨淡地提醒着生意的失败。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The empty warehouse echoed with every footstep, a stark reminder of the failed business.",
+      "translation": "空荡荡的仓库里回荡着每一步脚步声，惨淡地提醒着生意的失败。",
+      "analysis": "看名词 warehouse 和谓语 echoed，empty 修饰 warehouse，表示‘空的’仓库。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "enable": {
+    "en": "make it possible for someone or something to do something",
+    "example": "The new policy will enable small businesses to access low-interest loans.",
+    "exampleCn": "新政策将使小企业能够获得低息贷款。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will enable small businesses to access low-interest loans.",
+      "translation": "新政策将使小企业能够获得低息贷款。",
+      "analysis": "看 enable 后接 sb to do 结构，表示“使某人能够做某事”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "encourage": {
     "en": "to give support, confidence, or hope to someone or something",
     "example": "The new policy aims to encourage innovation among small businesses.",
@@ -7689,6 +11545,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new policy aims to encourage innovation among small businesses.",
       "translation": "新政策旨在鼓励小企业进行创新。",
       "analysis": "根据搭配 encourage innovation 确定词义为“鼓励”，常见义与考研义一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "end": {
+    "en": "the final part of something, especially a period of time or event",
+    "example": "By the end of the decade, the policy had significantly reduced emissions.",
+    "exampleCn": "到那个十年结束时，该政策已显著减少了排放。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "By the end of the decade, the policy had significantly reduced emissions.",
+      "translation": "到那个十年结束时，该政策已显著减少了排放。",
+      "analysis": "看短语 by the end of 表示时间终点，确定 end 为“结束”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "enemy": {
+    "en": "a person or group that is opposed to or fights against another",
+    "example": "The army advanced toward the enemy, preparing for a decisive battle.",
+    "exampleCn": "军队向敌军推进，准备进行一场决定性的战斗。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The army advanced toward the enemy, preparing for a decisive battle.",
+      "translation": "军队向敌军推进，准备进行一场决定性的战斗。",
+      "analysis": "根据搭配“the enemy”和动词“advanced toward”判断，此处指“敌军”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7711,6 +11599,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "engage": {
+    "en": "to take part in or become involved in an activity",
+    "example": "Students who engage in extracurricular activities often develop better time management skills.",
+    "exampleCn": "参与课外活动的学生通常能培养更好的时间管理能力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Students who engage in extracurricular activities often develop better time management skills.",
+      "translation": "参与课外活动的学生通常能培养更好的时间管理能力。",
+      "analysis": "看 engage in 搭配，后接活动名词，表示“参与”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "engine": {
     "en": "a machine that produces power for a vehicle or machine",
     "example": "The car's engine failed on the highway, causing a traffic jam.",
@@ -7721,6 +11625,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The car's engine failed on the highway, causing a traffic jam.",
       "translation": "汽车引擎在高速公路上失灵，导致了交通堵塞。",
       "analysis": "看主语 car 和谓语 failed，确定 engine 是提供动力的机器，即引擎。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "engineer": {
+    "en": "a person who designs or builds machines, engines, or structures",
+    "example": "The project requires a skilled engineer to oversee the construction.",
+    "exampleCn": "这个项目需要一位熟练的工程师来监督施工。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project requires a skilled engineer to oversee the construction.",
+      "translation": "这个项目需要一位熟练的工程师来监督施工。",
+      "analysis": "根据不定冠词a和名词engineer，判断为名词“工程师”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ensure": {
+    "en": "make certain that something happens or is done",
+    "example": "The new policy aims to ensure equal access to education for all children.",
+    "exampleCn": "新政策旨在确保所有儿童平等接受教育。",
+    "examContext": {
+      "source": "DeepSeek 考研真题同域语境",
+      "year": "真题命中 4 套",
+      "sentence": "The new policy aims to ensure equal access to education for all children.",
+      "translation": "新政策旨在确保所有儿童平等接受教育。",
+      "analysis": "从搭配 ensure equal access 看出，ensure 表示确保某事发生。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "enter": {
+    "en": "to go or come into a place or situation",
+    "example": "Students must enter the lab only after receiving safety training.",
+    "exampleCn": "学生只有在接受安全培训后才能进入实验室。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Students must enter the lab only after receiving safety training.",
+      "translation": "学生只有在接受安全培训后才能进入实验室。",
+      "analysis": "根据后接地点名词“the lab”判断为“进入”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7743,6 +11695,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "entertainer": {
+    "en": "a person who performs for an audience, such as a singer or comedian",
+    "example": "The entertainer captivated the crowd with a series of witty jokes and songs.",
+    "exampleCn": "这位演艺人员用一连串诙谐的笑话和歌曲吸引了观众。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The entertainer captivated the crowd with a series of witty jokes and songs.",
+      "translation": "这位演艺人员用一连串诙谐的笑话和歌曲吸引了观众。",
+      "analysis": "根据后文“witty jokes and songs”判断，entertainer 指表演娱乐节目的人。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "entertainment": {
+    "en": "activities that amuse or interest people",
+    "example": "The entertainment industry has seen a shift toward streaming services.",
+    "exampleCn": "娱乐产业已经转向流媒体服务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The entertainment industry has seen a shift toward streaming services.",
+      "translation": "娱乐产业已经转向流媒体服务。",
+      "analysis": "先把 entertainment 试译为“娱乐”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "enthusiastic": {
+    "en": "feeling or showing strong excitement and interest",
+    "example": "The researchers were enthusiastic about the new method's potential.",
+    "exampleCn": "研究人员对新方法的潜力充满热情。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researchers were enthusiastic about the new method's potential.",
+      "translation": "研究人员对新方法的潜力充满热情。",
+      "analysis": "看搭配 about the new method's potential 判断是正面态度，译为“热情的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "entire": {
+    "en": "whole, complete, with no part left out",
+    "example": "The entire city was covered by a thick layer of snow after the storm.",
+    "exampleCn": "暴风雪过后，整座城市被厚厚的一层雪覆盖。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The entire city was covered by a thick layer of snow after the storm.",
+      "translation": "暴风雪过后，整座城市被厚厚的一层雪覆盖。",
+      "analysis": "看 entire 修饰 city，意为“整个”，表示全部范围。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "entrance": {
+    "en": "a way into a place or the act of entering",
+    "example": "The main entrance to the museum is closed for renovation.",
+    "exampleCn": "博物馆的主要入口因翻修而关闭。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The main entrance to the museum is closed for renovation.",
+      "translation": "博物馆的主要入口因翻修而关闭。",
+      "analysis": "根据搭配“main entrance to”和名词位置，确定是“入口”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "entry": {
     "en": "the act of logging in or gaining access to a system",
     "example": "After the system upgrade, user entry requires a two-factor authentication.",
@@ -7759,6 +11791,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "envelope": {
+    "en": "a flat paper container for a letter",
+    "example": "The envelope contained a letter that changed his perspective on the issue.",
+    "exampleCn": "信封里装着一封信，这封信改变了他对这个问题的看法。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The envelope contained a letter that changed his perspective on the issue.",
+      "translation": "信封里装着一封信，这封信改变了他对这个问题的看法。",
+      "analysis": "根据主语“信封”和动词“contained”判断为常见义“信封”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "environment": {
     "en": "the surroundings or conditions in which a person, animal, or plant lives or operates",
     "example": "The company aims to create a working environment that fosters creativity and collaboration.",
@@ -7769,6 +11817,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The company aims to create a working environment that fosters creativity and collaboration.",
       "translation": "该公司旨在创造一个促进创造力和协作的工作环境。",
       "analysis": "先把 environment 试译为“环境”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "environmental": {
+    "en": "relating to the natural world or surroundings",
+    "example": "The environmental impact of the project was assessed before construction began.",
+    "exampleCn": "该项目在开始施工前评估了其对环境的影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The environmental impact of the project was assessed before construction began.",
+      "translation": "该项目在开始施工前评估了其对环境的影响。",
+      "analysis": "看搭配“environmental impact”确定词义为“环境的”。"
     },
     "sourceRefs": {
       "dictionary": "OALD local MDX",
@@ -7807,6 +11871,166 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "era": {
+    "en": "a long period of time with particular characteristics or events",
+    "example": "The digital era has transformed how we communicate and access information.",
+    "exampleCn": "数字时代改变了我们沟通和获取信息的方式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The digital era has transformed how we communicate and access information.",
+      "translation": "数字时代改变了我们沟通和获取信息的方式。",
+      "analysis": "看主语digital era，意为数字时代，搭配transform表示时代带来的变化。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "error": {
+    "en": "a mistake, especially one that causes problems or affects a result",
+    "example": "The experiment failed due to a systematic error in the calibration process.",
+    "exampleCn": "由于校准过程中的系统性错误，实验失败了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment failed due to a systematic error in the calibration process.",
+      "translation": "由于校准过程中的系统性错误，实验失败了。",
+      "analysis": "看 error 前有 systematic 修饰，后接 in 说明范围，确定是“错误”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "escape": {
+    "en": "the act of getting away from a place or dangerous situation",
+    "example": "The prisoner's escape was thwarted by the sudden alarm.",
+    "exampleCn": "囚犯的逃跑被突如其来的警报挫败了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The prisoner's escape was thwarted by the sudden alarm.",
+      "translation": "囚犯的逃跑被突如其来的警报挫败了。",
+      "analysis": "看主语 escape 与谓语 was thwarted 搭配，表示“逃跑”这一行为。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "especially": {
+    "en": "used to single out one person or thing over others",
+    "example": "The new policy affects small businesses especially, as they lack the resources to comply quickly.",
+    "exampleCn": "新政策尤其影响小企业，因为它们缺乏快速遵守的资源。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy affects small businesses especially, as they lack the resources to comply quickly.",
+      "translation": "新政策尤其影响小企业，因为它们缺乏快速遵守的资源。",
+      "analysis": "先把 especially 试译为“尤其”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "essay": {
+    "en": "a short piece of writing on a particular subject",
+    "example": "His latest essay explores the impact of technology on modern education.",
+    "exampleCn": "他最新的随笔探讨了技术对现代教育的影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His latest essay explores the impact of technology on modern education.",
+      "translation": "他最新的随笔探讨了技术对现代教育的影响。",
+      "analysis": "看 essay 前有 latest 和动词 explores，判断为名词“随笔”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "essential": {
+    "en": "absolutely necessary or extremely important",
+    "example": "It is essential to distinguish between correlation and causation in scientific research.",
+    "exampleCn": "在科学研究中，区分相关性和因果关系是必要的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "It is essential to distinguish between correlation and causation in scientific research.",
+      "translation": "在科学研究中，区分相关性和因果关系是必要的。",
+      "analysis": "看句型 It is essential to do sth.，essential 表示“必要的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "essentially": {
+    "en": "in essence; fundamentally; basically",
+    "example": "The two theories are essentially the same, differing only in minor details.",
+    "exampleCn": "这两种理论本质上是一样的，只是在细节上有所不同。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two theories are essentially the same, differing only in minor details.",
+      "translation": "这两种理论本质上是一样的，只是在细节上有所不同。",
+      "analysis": "先把 essentially 试译为“本质上”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "establishment": {
+    "en": "the act of starting or creating something that is intended to last",
+    "example": "The establishment of a new regulatory framework requires broad consensus among stakeholders.",
+    "exampleCn": "新监管框架的建立需要利益相关者之间达成广泛共识。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The establishment of a new regulatory framework requires broad consensus among stakeholders.",
+      "translation": "新监管框架的建立需要利益相关者之间达成广泛共识。",
+      "analysis": "先把 establishment 试译为“确立”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ethical": {
+    "en": "relating to moral principles or the branch of knowledge dealing with these",
+    "example": "The ethical implications of the new technology were debated by the committee.",
+    "exampleCn": "新技术的伦理影响引起了委员会的讨论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ethical implications of the new technology were debated by the committee.",
+      "translation": "新技术的伦理影响引起了委员会的讨论。",
+      "analysis": "看 ethical 修饰 implications，表示“伦理的”，与道德原则相关。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "even": {
+    "en": "smooth and level, without bumps or uneven parts",
+    "example": "The ground must be even before we lay the foundation for the building.",
+    "exampleCn": "在打地基之前，地面必须平坦。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ground must be even before we lay the foundation for the building.",
+      "translation": "在打地基之前，地面必须平坦。",
+      "analysis": "从“ground”和“lay the foundation”看出，even 描述地面状态，意为“平坦的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "event": {
     "en": "a thing that happens, especially one of importance",
     "example": "The event led to a significant shift in public opinion.",
@@ -7817,6 +12041,166 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The event led to a significant shift in public opinion.",
       "translation": "这一事件导致了公众舆论的重大转变。",
       "analysis": "看主语event与谓语led to的搭配，确定是‘事件’义，注意不是‘结果’或‘竞赛项目’。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "eventually": {
+    "en": "finally, after a long time or a series of events",
+    "example": "The experiment eventually yielded results that confirmed the hypothesis.",
+    "exampleCn": "实验最终得出了证实假设的结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment eventually yielded results that confirmed the hypothesis.",
+      "translation": "实验最终得出了证实假设的结果。",
+      "analysis": "看 eventually 前后，它连接实验过程和结果，表示经过一段时间后最终发生。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "evidence": {
+    "en": "facts or signs that show something is true",
+    "example": "The new study provides compelling evidence that the drug is effective.",
+    "exampleCn": "这项新研究提供了令人信服的证据，表明该药物是有效的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new study provides compelling evidence that the drug is effective.",
+      "translation": "这项新研究提供了令人信服的证据，表明该药物是有效的。",
+      "analysis": "看动词 provides 和形容词 compelling，evidence 在此是“证据”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "evil": {
+    "en": "something that is morally bad or harmful",
+    "example": "The novel explores the struggle between good and evil in human nature.",
+    "exampleCn": "这部小说探讨了人性中善与恶的斗争。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The novel explores the struggle between good and evil in human nature.",
+      "translation": "这部小说探讨了人性中善与恶的斗争。",
+      "analysis": "通过“good and evil”这一常见对比结构，判断evil为名词“邪恶”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "evolution": {
+    "en": "the gradual development of something from a simple to a more complex form",
+    "example": "The evolution of social media has fundamentally altered how people communicate and share information.",
+    "exampleCn": "社交媒体的演变从根本上改变了人们沟通和分享信息的方式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The evolution of social media has fundamentally altered how people communicate and share information.",
+      "translation": "社交媒体的演变从根本上改变了人们沟通和分享信息的方式。",
+      "analysis": "先把 evolution 试译为“进化”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exact": {
+    "en": "to demand and obtain something, often by force or authority",
+    "example": "The new policy will exact a heavy toll on small businesses.",
+    "exampleCn": "新政策将对小企业造成沉重的代价。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will exact a heavy toll on small businesses.",
+      "translation": "新政策将对小企业造成沉重的代价。",
+      "analysis": "根据搭配 exact a toll 和宾语 heavy，判断 exact 是动词，意为“强求、索取”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exactly": {
+    "en": "used to emphasize that something is correct in every detail",
+    "example": "The experiment must be repeated exactly as described to verify the results.",
+    "exampleCn": "实验必须完全按照描述重复进行，以验证结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment must be repeated exactly as described to verify the results.",
+      "translation": "实验必须完全按照描述重复进行，以验证结果。",
+      "analysis": "看 exactly 修饰动词 repeated，表示“精确地、完全地”，强调方式的一致性。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exam": {
+    "en": "a test of knowledge or ability",
+    "example": "The final exam will cover all chapters from the textbook.",
+    "exampleCn": "期末考试将涵盖课本中的所有章节。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The final exam will cover all chapters from the textbook.",
+      "translation": "期末考试将涵盖课本中的所有章节。",
+      "analysis": "看 exam 前有 final 修饰，后接 will cover，确定是考试的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "examination": {
+    "en": "the act of looking at something carefully in order to learn about it",
+    "example": "A close examination of the data reveals several inconsistencies.",
+    "exampleCn": "对数据的仔细检查揭示了几处不一致之处。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A close examination of the data reveals several inconsistencies.",
+      "translation": "对数据的仔细检查揭示了几处不一致之处。",
+      "analysis": "看前面的形容词 close 和后面的介词 of，表示对数据的仔细检查，而不是考试。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "examine": {
+    "en": "to look at or study something carefully",
+    "example": "The committee will examine the proposal before making a final decision.",
+    "exampleCn": "委员会将在做出最终决定前仔细审查该提案。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The committee will examine the proposal before making a final decision.",
+      "translation": "委员会将在做出最终决定前仔细审查该提案。",
+      "analysis": "看宾语是 proposal，结合 will 和 before 表示时间顺序，确定 examine 为“审查”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "example": {
+    "en": "a specific instance or case used to illustrate a point",
+    "example": "The author uses this example to illustrate a broader trend in the industry.",
+    "exampleCn": "作者用这个例子来说明行业中的一个更广泛的趋势。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author uses this example to illustrate a broader trend in the industry.",
+      "translation": "作者用这个例子来说明行业中的一个更广泛的趋势。",
+      "analysis": "看动词 uses 和不定式 to illustrate，确定 example 是“例子”的意思。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7839,6 +12223,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "exchange": {
+    "en": "the act of giving something and receiving something else",
+    "example": "The exchange of ideas between the two groups led to a breakthrough.",
+    "exampleCn": "两组之间的思想交流带来了突破。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The exchange of ideas between the two groups led to a breakthrough.",
+      "translation": "两组之间的思想交流带来了突破。",
+      "analysis": "看“exchange of ideas”这个搭配，表示思想交流，是抽象名词用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "excite": {
+    "en": "to cause a reaction or feeling, especially in a scientific or technical context",
+    "example": "The new drug can excite specific neurons in the brain, improving memory.",
+    "exampleCn": "这种新药能刺激大脑中的特定神经元，改善记忆力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new drug can excite specific neurons in the brain, improving memory.",
+      "translation": "这种新药能刺激大脑中的特定神经元，改善记忆力。",
+      "analysis": "根据“specific neurons”这一搭配，excite在此意为“刺激”，而非日常的“使兴奋”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "excitement": {
+    "en": "a feeling of great enthusiasm and eagerness",
+    "example": "The excitement surrounding the new technology quickly faded as practical issues emerged.",
+    "exampleCn": "围绕这项新技术的兴奋感很快随着实际问题的出现而消退。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The excitement surrounding the new technology quickly faded as practical issues emerged.",
+      "translation": "围绕这项新技术的兴奋感很快随着实际问题的出现而消退。",
+      "analysis": "看主语excitement与谓语faded搭配，表示兴奋感消退，结合语境判断为“兴奋”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "excuse": {
+    "en": "to forgive or overlook a mistake or fault",
+    "example": "The manager cannot excuse such a blatant violation of company policy.",
+    "exampleCn": "经理不能原谅这种公然违反公司政策的行为。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manager cannot excuse such a blatant violation of company policy.",
+      "translation": "经理不能原谅这种公然违反公司政策的行为。",
+      "analysis": "根据宾语“violation”和情态动词“cannot”判断，excuse在此意为“原谅”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exercise": {
+    "en": "the use of a power, right, or capacity",
+    "example": "The exercise of authority must be balanced with accountability.",
+    "exampleCn": "权力的行使必须与问责制相平衡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The exercise of authority must be balanced with accountability.",
+      "translation": "权力的行使必须与问责制相平衡。",
+      "analysis": "先把 exercise 试译为“行使”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exhibition": {
+    "en": "a public display or a show of a particular quality",
+    "example": "The artist's latest exhibition of abstract paintings was a stunning exhibition of creativity.",
+    "exampleCn": "这位艺术家最新的抽象画展是创造力的一次惊人表现。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist's latest exhibition of abstract paintings was a stunning exhibition of creativity.",
+      "translation": "这位艺术家最新的抽象画展是创造力的一次惊人表现。",
+      "analysis": "通过后置定语“of creativity”和主语“exhibition”的并列结构，判断此处为“表现”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "exist": {
     "en": "to be present or to be real",
     "example": "The problem does not exist in isolation but is linked to broader issues.",
@@ -7849,6 +12329,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The problem does not exist in isolation but is linked to broader issues.",
       "translation": "这个问题并非孤立存在，而是与更广泛的问题相关联。",
       "analysis": "根据搭配 'exist in isolation' 判断，此处意为'存在'，是常见义，无需特殊提醒。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "existence": {
+    "en": "the state or fact of being real or living",
+    "example": "The very existence of such a law is questioned by many scholars.",
+    "exampleCn": "这样一条法律的存在本身就受到许多学者的质疑。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The very existence of such a law is questioned by many scholars.",
+      "translation": "这样一条法律的存在本身就受到许多学者的质疑。",
+      "analysis": "看主语 existence 和谓语 is questioned，判断为“存在”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "exit": {
+    "en": "a way out of a building, room, or place",
+    "example": "The emergency exit was clearly marked with a bright green sign.",
+    "exampleCn": "紧急出口用亮绿色的标志清楚地标出。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The emergency exit was clearly marked with a bright green sign.",
+      "translation": "紧急出口用亮绿色的标志清楚地标出。",
+      "analysis": "看冠词the和修饰语emergency，exit在此是名词，意为“出口”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expand": {
+    "en": "to become larger in size, number, or importance",
+    "example": "The company plans to expand its operations into new markets next year.",
+    "exampleCn": "该公司计划明年将其业务扩展到新市场。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company plans to expand its operations into new markets next year.",
+      "translation": "该公司计划明年将其业务扩展到新市场。",
+      "analysis": "看 expand 后接 operations into，表示范围扩大，取“扩展”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expansion": {
+    "en": "the act of increasing in size, volume, or scope",
+    "example": "The company's rapid expansion into Asian markets boosted its annual revenue.",
+    "exampleCn": "该公司迅速向亚洲市场扩张，提高了其年收入。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's rapid expansion into Asian markets boosted its annual revenue.",
+      "translation": "该公司迅速向亚洲市场扩张，提高了其年收入。",
+      "analysis": "看介词 into 表示扩张方向，确定 expansion 为“扩张”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expect": {
+    "en": "to think that something will happen or be the case",
+    "example": "The committee does not expect the report to be completed before next month.",
+    "exampleCn": "委员会预计报告在下个月之前无法完成。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The committee does not expect the report to be completed before next month.",
+      "translation": "委员会预计报告在下个月之前无法完成。",
+      "analysis": "看 expect 后接宾语从句或不定式，表示“预期”，结合否定词确定含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expectation": {
+    "en": "a strong belief that something will happen or be the case",
+    "example": "The company's performance fell short of market expectation, causing stock prices to drop.",
+    "exampleCn": "该公司的业绩未达到市场预期，导致股价下跌。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's performance fell short of market expectation, causing stock prices to drop.",
+      "translation": "该公司的业绩未达到市场预期，导致股价下跌。",
+      "analysis": "看搭配“fell short of expectation”确定意为“预期”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expensive": {
+    "en": "costing a lot of money",
+    "example": "The company's expensive new headquarters drew criticism for its lavish design.",
+    "exampleCn": "该公司昂贵的新总部因其奢华的设计而招致批评。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's expensive new headquarters drew criticism for its lavish design.",
+      "translation": "该公司昂贵的新总部因其奢华的设计而招致批评。",
+      "analysis": "expensive 直接修饰 headquarters，表示造价高，与 lavish design 呼应。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7871,6 +12463,182 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "experiment": {
+    "en": "a scientific test to discover or prove something",
+    "example": "The experiment yielded unexpected results that challenged the existing theory.",
+    "exampleCn": "这项实验产生了意想不到的结果，挑战了现有理论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment yielded unexpected results that challenged the existing theory.",
+      "translation": "这项实验产生了意想不到的结果，挑战了现有理论。",
+      "analysis": "看主语 experiment 与谓语 yielded 搭配，确定是“实验”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expert": {
+    "en": "a person with special knowledge or skill in a particular field",
+    "example": "The expert panel concluded that the new policy would reduce carbon emissions by 20%.",
+    "exampleCn": "专家小组得出结论，新政策将减少20%的碳排放。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The expert panel concluded that the new policy would reduce carbon emissions by 20%.",
+      "translation": "专家小组得出结论，新政策将减少20%的碳排放。",
+      "analysis": "看“expert”修饰“panel”，作定语表示“专家小组”，确定词义为“专家”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "explain": {
+    "en": "to make something clear or easy to understand",
+    "example": "The professor tried to explain the complex theory in simple terms.",
+    "exampleCn": "教授试图用简单的术语解释这个复杂的理论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor tried to explain the complex theory in simple terms.",
+      "translation": "教授试图用简单的术语解释这个复杂的理论。",
+      "analysis": "看搭配 explain...in simple terms，表示用简单方式解释复杂内容。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "explanation": {
+    "en": "a statement that makes something clear or understandable",
+    "example": "The explanation provided in the report helped clarify the complex process.",
+    "exampleCn": "报告中提供的解释帮助澄清了复杂的过程。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The explanation provided in the report helped clarify the complex process.",
+      "translation": "报告中提供的解释帮助澄清了复杂的过程。",
+      "analysis": "看主语 explanation 与谓语 helped clarify 的搭配，确定是‘解释’义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "explode": {
+    "en": "to burst or increase suddenly and violently",
+    "example": "The population in this region began to explode after the new policy was implemented.",
+    "exampleCn": "新政策实施后，这个地区的人口开始激增。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The population in this region began to explode after the new policy was implemented.",
+      "translation": "新政策实施后，这个地区的人口开始激增。",
+      "analysis": "根据主语population和搭配begin to explode，此处意为激增，而非字面爆炸。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "explore": {
+    "en": "to travel to or examine an unfamiliar area in order to learn about it",
+    "example": "The team will explore the remote island to study its unique ecosystem.",
+    "exampleCn": "该团队将探索这个偏远岛屿，以研究其独特的生态系统。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team will explore the remote island to study its unique ecosystem.",
+      "translation": "该团队将探索这个偏远岛屿，以研究其独特的生态系统。",
+      "analysis": "看宾语“the remote island”和目的“to study”，确定explore是“探索”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "explosion": {
+    "en": "a sudden and rapid increase in number or intensity",
+    "example": "The population explosion in urban areas has put immense pressure on public services.",
+    "exampleCn": "城市地区的人口激增给公共服务带来了巨大压力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The population explosion in urban areas has put immense pressure on public services.",
+      "translation": "城市地区的人口激增给公共服务带来了巨大压力。",
+      "analysis": "先把 explosion 试译为“爆发”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "export": {
+    "en": "a product sent to another country for sale",
+    "example": "The country's main export is crude oil, which fuels its economy.",
+    "exampleCn": "该国的主要输出品是原油，它为其经济提供动力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The country's main export is crude oil, which fuels its economy.",
+      "translation": "该国的主要输出品是原油，它为其经济提供动力。",
+      "analysis": "先把 export 试译为“输出品”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expose": {
+    "en": "to reveal something hidden or make it visible",
+    "example": "The investigation aims to expose the corruption within the company.",
+    "exampleCn": "调查旨在揭露公司内部的腐败行为。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The investigation aims to expose the corruption within the company.",
+      "translation": "调查旨在揭露公司内部的腐败行为。",
+      "analysis": "根据宾语“corruption”可知，此处意为“揭露”，搭配“expose + 负面事物”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "express": {
+    "en": "a train that travels fast and makes few stops",
+    "example": "The express from London to Edinburgh takes only four hours.",
+    "exampleCn": "从伦敦到爱丁堡的快车只需四小时。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The express from London to Edinburgh takes only four hours.",
+      "translation": "从伦敦到爱丁堡的快车只需四小时。",
+      "analysis": "看冠词 the 和介词 from，express 作名词，意为“快车”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "expression": {
+    "en": "a word or phrase used to convey an idea or feeling",
+    "example": "The author's choice of expression reveals a subtle shift in attitude.",
+    "exampleCn": "作者对措辞的选择揭示了态度的微妙转变。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author's choice of expression reveals a subtle shift in attitude.",
+      "translation": "作者对措辞的选择揭示了态度的微妙转变。",
+      "analysis": "先把 expression 试译为“表达”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "extend": {
     "en": "to increase the scope or range of something",
     "example": "The government plans to extend the program to cover more rural areas.",
@@ -7887,6 +12655,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "extent": {
+    "en": "the degree to which something happens or is true",
+    "example": "The extent of the damage was not fully realized until weeks later.",
+    "exampleCn": "直到几周后，人们才完全意识到损坏的程度。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The extent of the damage was not fully realized until weeks later.",
+      "translation": "直到几周后，人们才完全意识到损坏的程度。",
+      "analysis": "看 extent of 结构，后接名词表示“...的程度”，此处取“程度”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "extra": {
     "en": "something added beyond what is usual or expected",
     "example": "The hotel charges extra for using the swimming pool.",
@@ -7897,6 +12681,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The hotel charges extra for using the swimming pool.",
       "translation": "这家酒店对使用游泳池另外收费。",
       "analysis": "看 charges extra 搭配，extra 作名词表示“额外费用”，注意考研中常考名词义而非形容词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "extreme": {
+    "en": "a situation or condition that is far from the average or moderate",
+    "example": "The policy aims to avoid the extreme of either inflation or deflation.",
+    "exampleCn": "该政策旨在避免通货膨胀或通货紧缩的极端情况。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The policy aims to avoid the extreme of either inflation or deflation.",
+      "translation": "该政策旨在避免通货膨胀或通货紧缩的极端情况。",
+      "analysis": "看搭配“the extreme of”，名词用法，指两个对立事物中的极端一端。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "extremely": {
+    "en": "to a very high degree; exceedingly",
+    "example": "The weather in this region is extremely cold during winter months.",
+    "exampleCn": "这个地区冬季的天气极其寒冷。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The weather in this region is extremely cold during winter months.",
+      "translation": "这个地区冬季的天气极其寒冷。",
+      "analysis": "看 extremely 修饰形容词 cold，表示程度极高，对应“极端地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "eye": {
+    "en": "the organ of sight or a way of seeing",
+    "example": "The artist's trained eye caught the subtle imbalance in the composition.",
+    "exampleCn": "艺术家训练有素的眼睛捕捉到了构图中微妙的失衡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist's trained eye caught the subtle imbalance in the composition.",
+      "translation": "艺术家训练有素的眼睛捕捉到了构图中微妙的失衡。",
+      "analysis": "根据搭配“trained eye”和主语“artist”，确定eye指“眼睛”而非“看”的动作。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7919,6 +12751,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "face": {
+    "en": "the front part of the head or to confront something",
+    "example": "The company must face the challenge of declining sales.",
+    "exampleCn": "公司必须面对销售额下降的挑战。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company must face the challenge of declining sales.",
+      "translation": "公司必须面对销售额下降的挑战。",
+      "analysis": "根据动词搭配“face the challenge”确定意为“面对”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "fact": {
     "en": "a piece of information that is known to be true",
     "example": "The fact that the experiment failed does not disprove the theory.",
@@ -7929,6 +12777,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The fact that the experiment failed does not disprove the theory.",
       "translation": "实验失败这一事实并不能推翻该理论。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“事实”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "factor": {
+    "en": "a fact or situation that influences the result of something",
+    "example": "Economic growth is a key factor in determining a country's development level.",
+    "exampleCn": "经济增长是决定一个国家发展水平的关键因素。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Economic growth is a key factor in determining a country's development level.",
+      "translation": "经济增长是决定一个国家发展水平的关键因素。",
+      "analysis": "看前文“key”和后文“determining”判断为“因素”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "factory": {
+    "en": "a building or group of buildings where goods are produced",
+    "example": "The factory, located near the river, produces thousands of cars each year.",
+    "exampleCn": "这家位于河边的工厂每年生产数千辆汽车。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The factory, located near the river, produces thousands of cars each year.",
+      "translation": "这家位于河边的工厂每年生产数千辆汽车。",
+      "analysis": "根据主语“factory”和谓语“produces”的搭配，判断为“工厂”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7951,6 +12831,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "fade": {
+    "en": "to lose color or brightness gradually",
+    "example": "The vibrant colors of the painting began to fade after years of exposure to sunlight.",
+    "exampleCn": "这幅画鲜艳的色彩在多年暴露于阳光下后开始褪色。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The vibrant colors of the painting began to fade after years of exposure to sunlight.",
+      "translation": "这幅画鲜艳的色彩在多年暴露于阳光下后开始褪色。",
+      "analysis": "先把 fade 试译为“褪色”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "failure": {
+    "en": "lack of success in achieving a goal",
+    "example": "The project was a failure due to insufficient funding and poor planning.",
+    "exampleCn": "由于资金不足和规划不善，该项目失败了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project was a failure due to insufficient funding and poor planning.",
+      "translation": "由于资金不足和规划不善，该项目失败了。",
+      "analysis": "根据系表结构“was a failure”和原因状语，判断为“失败”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "faint": {
+    "en": "to lose consciousness temporarily",
+    "example": "The victim felt dizzy and then fell to the ground in a faint.",
+    "exampleCn": "受害者感到头晕，然后昏倒在地。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The victim felt dizzy and then fell to the ground in a faint.",
+      "translation": "受害者感到头晕，然后昏倒在地。",
+      "analysis": "根据“fell to the ground”和“in a faint”的搭配，判断faint是名词“昏厥”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "fair": {
     "en": "a gathering of buyers and sellers for trade or exhibition",
     "example": "The annual book fair attracts publishers from around the world.",
@@ -7961,6 +12889,390 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The annual book fair attracts publishers from around the world.",
       "translation": "年度书展吸引了来自世界各地的出版商。",
       "analysis": "看搭配 annual book fair，fair 在此指展览会，而非常见的公平义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fairly": {
+    "en": "in a way that is visually pleasing or attractive",
+    "example": "The old town was fairly preserved, with cobblestone streets and historic facades.",
+    "exampleCn": "这座古镇被美观地保存了下来，拥有鹅卵石街道和历史悠久的外墙。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old town was fairly preserved, with cobblestone streets and historic facades.",
+      "translation": "这座古镇被美观地保存了下来，拥有鹅卵石街道和历史悠久的外墙。",
+      "analysis": "fairly 后接过去分词 preserved，表示“美观地”，注意与常见义“相当地”区分。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "faith": {
+    "en": "strong belief or trust in someone or something",
+    "example": "The public's faith in the institution has been shaken by recent scandals.",
+    "exampleCn": "公众对该机构的信心因最近的丑闻而动摇。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The public's faith in the institution has been shaken by recent scandals.",
+      "translation": "公众对该机构的信心因最近的丑闻而动摇。",
+      "analysis": "根据“in the institution”这个搭配，判断faith在此表示“信心”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "faithful": {
+    "en": "loyal and true to someone or something",
+    "example": "The historian provided a faithful account of the events based on original documents.",
+    "exampleCn": "这位历史学家基于原始文件提供了对事件的忠实记述。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The historian provided a faithful account of the events based on original documents.",
+      "translation": "这位历史学家基于原始文件提供了对事件的忠实记述。",
+      "analysis": "根据后面 account 的搭配，以及修饰名词 account，判断为“忠实的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fall": {
+    "en": "to drop down from a higher to a lower level",
+    "example": "The stock market experienced a sharp fall after the unexpected policy change.",
+    "exampleCn": "股市在意外政策变化后经历了急剧下跌。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The stock market experienced a sharp fall after the unexpected policy change.",
+      "translation": "股市在意外政策变化后经历了急剧下跌。",
+      "analysis": "先把 fall 试译为“落下”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fame": {
+    "en": "the state of being known and admired by many people",
+    "example": "The artist's fame grew slowly, built on years of quiet work.",
+    "exampleCn": "这位艺术家的名望是慢慢积累起来的，建立在多年默默耕耘的基础上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist's fame grew slowly, built on years of quiet work.",
+      "translation": "这位艺术家的名望是慢慢积累起来的，建立在多年默默耕耘的基础上。",
+      "analysis": "看主语artist和谓语grew slowly，fame是主语，指“名望”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "familiar": {
+    "en": "well-known or easily recognized because of previous experience",
+    "example": "The familiar sight of the old library brought back memories of her college years.",
+    "exampleCn": "那座老图书馆熟悉的景象让她想起了大学时光。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The familiar sight of the old library brought back memories of her college years.",
+      "translation": "那座老图书馆熟悉的景象让她想起了大学时光。",
+      "analysis": "先把 familiar 试译为“熟悉的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "family": {
+    "en": "a group of related people or things",
+    "example": "The family of languages includes many branches spoken across Europe.",
+    "exampleCn": "这个语系包括许多在欧洲各地使用的分支。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The family of languages includes many branches spoken across Europe.",
+      "translation": "这个语系包括许多在欧洲各地使用的分支。",
+      "analysis": "根据“family of languages”搭配，判断family在此指“语系”，而非“家庭”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "famous": {
+    "en": "well-known by many people",
+    "example": "The famous professor gave a lecture on climate change.",
+    "exampleCn": "那位著名的教授就气候变化发表了一场讲座。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The famous professor gave a lecture on climate change.",
+      "translation": "那位著名的教授就气候变化发表了一场讲座。",
+      "analysis": "看 famous 修饰 professor，表示“著名的”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fan": {
+    "en": "a device that moves air to cool people or things",
+    "example": "The old fan in the corner barely stirred the hot, still air.",
+    "exampleCn": "角落里的旧风扇几乎搅不动那炎热而静止的空气。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old fan in the corner barely stirred the hot, still air.",
+      "translation": "角落里的旧风扇几乎搅不动那炎热而静止的空气。",
+      "analysis": "根据“in the corner”和“stirred the air”判断，fan是“风扇”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fancy": {
+    "en": "imagination or fantasy, often unrealistic",
+    "example": "The poet's fancy often led him to create worlds that defied logic.",
+    "exampleCn": "诗人的想象力常常引导他创造出违背逻辑的世界。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The poet's fancy often led him to create worlds that defied logic.",
+      "translation": "诗人的想象力常常引导他创造出违背逻辑的世界。",
+      "analysis": "根据主语poet's和谓语led to create，fancy在此为名词，意为想象力。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fantasy": {
+    "en": "a pleasant but unlikely situation that you imagine",
+    "example": "The author argues that indulging in fantasy can distract from real-world problems.",
+    "exampleCn": "作者认为，沉溺于幻想会让人忽视现实世界的问题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author argues that indulging in fantasy can distract from real-world problems.",
+      "translation": "作者认为，沉溺于幻想会让人忽视现实世界的问题。",
+      "analysis": "根据搭配“indulge in fantasy”和动词“distract from”判断为贬义，意为“幻想”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "farm": {
+    "en": "a place where crops are grown or animals kept",
+    "example": "The farm expanded its operations to include organic vegetable production.",
+    "exampleCn": "该农场扩大了业务范围，纳入了有机蔬菜生产。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farm expanded its operations to include organic vegetable production.",
+      "translation": "该农场扩大了业务范围，纳入了有机蔬菜生产。",
+      "analysis": "根据冠词 the 和谓语 expanded 判断 farm 是名词，意为“农场”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "farmer": {
+    "en": "a person who owns or manages a farm",
+    "example": "The local farmer decided to diversify his crops to reduce financial risk.",
+    "exampleCn": "当地农场主决定多样化种植作物以降低财务风险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The local farmer decided to diversify his crops to reduce financial risk.",
+      "translation": "当地农场主决定多样化种植作物以降低财务风险。",
+      "analysis": "看主语 farmer 与谓语 diversify crops 搭配，确定是主动经营农场的农场主。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "farther": {
+    "en": "more distant in space or time; additional",
+    "example": "The farther we go from the city, the cleaner the air becomes.",
+    "exampleCn": "我们离城市越远，空气就越干净。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farther we go from the city, the cleaner the air becomes.",
+      "translation": "我们离城市越远，空气就越干净。",
+      "analysis": "根据比较级结构“the farther...the cleaner”判断，farther表示空间上“更远的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fashion": {
+    "en": "a popular style or trend, especially in clothing or behavior",
+    "example": "The fashion for minimalist design has influenced many modern architects.",
+    "exampleCn": "极简主义设计的流行影响了许多现代建筑师。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fashion for minimalist design has influenced many modern architects.",
+      "translation": "极简主义设计的流行影响了许多现代建筑师。",
+      "analysis": "看主语fashion与介词for搭配，表示“...的流行”，取名词义“流行”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fashionable": {
+    "en": "popular or in style at a particular time",
+    "example": "The idea that cities should be sustainable is now fashionable among urban planners.",
+    "exampleCn": "城市应该可持续发展的观点现在在城市规划者中很流行。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The idea that cities should be sustainable is now fashionable among urban planners.",
+      "translation": "城市应该可持续发展的观点现在在城市规划者中很流行。",
+      "analysis": "根据系动词is和介词短语among，判断fashionable表示“流行的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fast": {
+    "en": "to abstain from food, especially as a religious practice",
+    "example": "Many religious believers fast during certain periods to focus on spiritual growth.",
+    "exampleCn": "许多宗教信徒在特定时期禁食，以专注于灵性成长。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many religious believers fast during certain periods to focus on spiritual growth.",
+      "translation": "许多宗教信徒在特定时期禁食，以专注于灵性成长。",
+      "analysis": "先把 fast 试译为“快速的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fasten": {
+    "en": "to attach or fix something firmly in place",
+    "example": "Before takeoff, passengers must fasten their seat belts securely.",
+    "exampleCn": "起飞前，乘客必须系紧安全带。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Before takeoff, passengers must fasten their seat belts securely.",
+      "translation": "起飞前，乘客必须系紧安全带。",
+      "analysis": "看宾语 seat belts 和副词 securely，确定 fasten 意为“系紧”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fat": {
+    "en": "a natural oily substance in animals and plants",
+    "example": "The study examined how dietary fat affects cardiovascular health in adults.",
+    "exampleCn": "该研究考察了膳食脂肪如何影响成年人的心血管健康。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study examined how dietary fat affects cardiovascular health in adults.",
+      "translation": "该研究考察了膳食脂肪如何影响成年人的心血管健康。",
+      "analysis": "先把 fat 试译为“脂肪”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fate": {
+    "en": "the development of events beyond a person's control",
+    "example": "The fate of the project hinges on the committee's final decision.",
+    "exampleCn": "这个项目的命运取决于委员会的最终决定。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fate of the project hinges on the committee's final decision.",
+      "translation": "这个项目的命运取决于委员会的最终决定。",
+      "analysis": "看主语 fate of the project，表示项目的最终结果或走向，译为“命运”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fault": {
+    "en": "a mistake or weakness in someone's character or in a system",
+    "example": "The engineer found a fault in the circuit that caused the system to crash.",
+    "exampleCn": "工程师在电路中找到了一个导致系统崩溃的故障。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The engineer found a fault in the circuit that caused the system to crash.",
+      "translation": "工程师在电路中找到了一个导致系统崩溃的故障。",
+      "analysis": "先把 fault 试译为“过错”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "favor": {
+    "en": "support or approval for someone or something",
+    "example": "The committee's favor for the new policy was evident in their quick approval.",
+    "exampleCn": "委员会对新政策的支持在他们迅速的批准中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The committee's favor for the new policy was evident in their quick approval.",
+      "translation": "委员会对新政策的支持在他们迅速的批准中显而易见。",
+      "analysis": "根据后接介词for和宾语the new policy，判断favor在此表示“支持”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "favorite": {
+    "en": "a thing or person that is liked more than others",
+    "example": "Among all the novels, this one remains my favorite for its intricate plot.",
+    "exampleCn": "在所有小说中，这一本因其复杂的情节仍是我的最爱。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Among all the novels, this one remains my favorite for its intricate plot.",
+      "translation": "在所有小说中，这一本因其复杂的情节仍是我的最爱。",
+      "analysis": "看 favorite 前有 my 限定，且指代前文 novels，判断为名词“喜欢的事物”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "favour": {
+    "en": "preferential treatment or support",
+    "example": "The judge's favour toward the defendant raised concerns about impartiality.",
+    "exampleCn": "法官对被告的偏袒引发了关于公正性的担忧。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The judge's favour toward the defendant raised concerns about impartiality.",
+      "translation": "法官对被告的偏袒引发了关于公正性的担忧。",
+      "analysis": "根据“toward”搭配和“raised concerns”判断，此处favour为名词，意为“偏袒”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -7983,6 +13295,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "feather": {
+    "en": "a light, flat growth covering a bird's body",
+    "example": "The bird's bright feather caught the sunlight as it flew.",
+    "exampleCn": "那只鸟飞行时，它鲜艳的羽毛捕捉到了阳光。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The bird's bright feather caught the sunlight as it flew.",
+      "translation": "那只鸟飞行时，它鲜艳的羽毛捕捉到了阳光。",
+      "analysis": "根据主语 bird 和动词 caught 的搭配，判断 feather 为名词“羽毛”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "feature": {
+    "en": "a distinctive attribute or aspect of something",
+    "example": "The most striking feature of the new policy is its emphasis on sustainability.",
+    "exampleCn": "新政策最显著的特征是它对可持续性的强调。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The most striking feature of the new policy is its emphasis on sustainability.",
+      "translation": "新政策最显著的特征是它对可持续性的强调。",
+      "analysis": "看形容词 striking 修饰 feature，表示‘显著的特征’，对应名词‘特征’义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fee": {
+    "en": "a payment for a service or privilege",
+    "example": "The university charges an annual fee for library access.",
+    "exampleCn": "这所大学每年收取图书馆使用费。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The university charges an annual fee for library access.",
+      "translation": "这所大学每年收取图书馆使用费。",
+      "analysis": "看 fee 前有 charges 和 annual，说明是费用，不是小费或封地。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "feel": {
+    "en": "to experience a particular emotion or physical sensation",
+    "example": "Many people feel a sense of relief when the task is finally completed.",
+    "exampleCn": "当任务最终完成时，许多人感到一种解脱感。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many people feel a sense of relief when the task is finally completed.",
+      "translation": "当任务最终完成时，许多人感到一种解脱感。",
+      "analysis": "根据后面搭配的 a sense of relief 确定 feel 表示“感到”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fellow": {
+    "en": "a man or boy; a comrade or associate",
+    "example": "The old fellow smiled and offered his seat to the young mother.",
+    "exampleCn": "那位老男人微笑着把座位让给了那位年轻母亲。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old fellow smiled and offered his seat to the young mother.",
+      "translation": "那位老男人微笑着把座位让给了那位年轻母亲。",
+      "analysis": "看冠词 the 和形容词 old 修饰，fellow 在此指“男人”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "female": {
     "en": "a person of the sex that can give birth to children or produce eggs",
     "example": "The study found that female participants reported higher stress levels than males.",
@@ -7993,6 +13385,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The study found that female participants reported higher stress levels than males.",
       "translation": "研究发现，女性参与者报告的压力水平高于男性。",
       "analysis": "看 female 修饰 participants，作形容词，意为‘女性的’，非‘雌性动物’。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fence": {
+    "en": "a barrier or boundary, often made of wood or metal",
+    "example": "The garden was surrounded by a wooden fence to keep out animals.",
+    "exampleCn": "花园被一道木栅栏围起来，防止动物进入。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The garden was surrounded by a wooden fence to keep out animals.",
+      "translation": "花园被一道木栅栏围起来，防止动物进入。",
+      "analysis": "根据“surrounded by”和“wooden”判断为具体物体，即栅栏。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "festival": {
+    "en": "of or relating to a festival; festive",
+    "example": "The festival atmosphere pervaded the entire city during the holiday.",
+    "exampleCn": "节日期间，节日的气氛弥漫了整个城市。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The festival atmosphere pervaded the entire city during the holiday.",
+      "translation": "节日期间，节日的气氛弥漫了整个城市。",
+      "analysis": "根据修饰名词atmosphere，festival作形容词，意为“节日的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fetch": {
+    "en": "to go after and bring back something",
+    "example": "The algorithm can fetch data from multiple databases simultaneously.",
+    "exampleCn": "该算法可以同时从多个数据库中获取数据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The algorithm can fetch data from multiple databases simultaneously.",
+      "translation": "该算法可以同时从多个数据库中获取数据。",
+      "analysis": "看 fetch 后接 data from，搭配表示从某处取回数据，因此译为“获取”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fever": {
+    "en": "an abnormally high body temperature, usually caused by illness",
+    "example": "The patient's persistent fever worried the doctors, who ordered further tests.",
+    "exampleCn": "病人持续发烧让医生们担忧，他们安排了进一步检查。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The patient's persistent fever worried the doctors, who ordered further tests.",
+      "translation": "病人持续发烧让医生们担忧，他们安排了进一步检查。",
+      "analysis": "根据“patient's”和“worried the doctors”判断为疾病症状，取“发烧”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "field": {
+    "en": "an area of study, activity, or interest",
+    "example": "Her research in the field of genetics has won international recognition.",
+    "exampleCn": "她在遗传学领域的研究赢得了国际认可。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Her research in the field of genetics has won international recognition.",
+      "translation": "她在遗传学领域的研究赢得了国际认可。",
+      "analysis": "看“field of genetics”这个搭配，表示学科领域，是考研常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fifth": {
+    "en": "the position after fourth; one of five equal parts",
+    "example": "The fifth chapter of the report discusses the economic impact.",
+    "exampleCn": "报告的第五章讨论了经济影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fifth chapter of the report discusses the economic impact.",
+      "translation": "报告的第五章讨论了经济影响。",
+      "analysis": "看序数词修饰名词 chapter，确定 fifth 表示“第五”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8031,6 +13519,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "film": {
+    "en": "a thin layer or sheet, as of plastic or metal",
+    "example": "The film on the water surface was too thin to be seen clearly.",
+    "exampleCn": "水面上的薄膜太薄了，看不清楚。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The film on the water surface was too thin to be seen clearly.",
+      "translation": "水面上的薄膜太薄了，看不清楚。",
+      "analysis": "看主语 film 和介词短语 on the water surface，表示水面上的一层东西，取“薄膜”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "final": {
     "en": "a test at the end of a course or term",
     "example": "Students often cram for the final, hoping to boost their overall grade.",
@@ -8041,6 +13545,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "Students often cram for the final, hoping to boost their overall grade.",
       "translation": "学生常常为期末考试临时抱佛脚，希望提高总成绩。",
       "analysis": "根据冠词 the 和语境 cram for，判断 final 是名词，指期末考试，而非形容词“最终的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "finally": {
+    "en": "at last; after a long time or series of events",
+    "example": "After months of negotiation, the two sides finally reached a consensus.",
+    "exampleCn": "经过数月的谈判，双方终于达成了共识。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "After months of negotiation, the two sides finally reached a consensus.",
+      "translation": "经过数月的谈判，双方终于达成了共识。",
+      "analysis": "看 finally 前有表示时间或过程的短语，确定是“终于”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "financial": {
+    "en": "relating to money or how it is managed",
+    "example": "The company's financial health depends on its ability to generate steady revenue.",
+    "exampleCn": "公司的财务健康状况取决于其创造稳定收入的能力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's financial health depends on its ability to generate steady revenue.",
+      "translation": "公司的财务健康状况取决于其创造稳定收入的能力。",
+      "analysis": "看 financial 修饰 health，表示与资金管理相关的状态，即财务健康。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fine": {
+    "en": "a sum of money paid as a penalty for breaking a rule",
+    "example": "The company was ordered to pay a heavy fine for violating environmental regulations.",
+    "exampleCn": "该公司因违反环境法规被责令支付巨额罚款。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company was ordered to pay a heavy fine for violating environmental regulations.",
+      "translation": "该公司因违反环境法规被责令支付巨额罚款。",
+      "analysis": "根据“pay a heavy fine”搭配，fine 在此为名词，意为“罚款”，注意与常见义“好的”区分。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "finely": {
+    "en": "in a delicate or precise manner",
+    "example": "The finely carved details on the ancient vase amazed the archaeologists.",
+    "exampleCn": "古代花瓶上雕刻精细的细节令考古学家们惊叹不已。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The finely carved details on the ancient vase amazed the archaeologists.",
+      "translation": "古代花瓶上雕刻精细的细节令考古学家们惊叹不已。",
+      "analysis": "看 finely 修饰 carved，表示雕刻得精细，取“雅致地”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "finger": {
+    "en": "a thin part of the hand used for touching or holding things",
+    "example": "The mechanic used his finger to check the engine oil level.",
+    "exampleCn": "机械师用手指检查发动机油位。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mechanic used his finger to check the engine oil level.",
+      "translation": "机械师用手指检查发动机油位。",
+      "analysis": "根据“used his finger to check”这个动作搭配，确定finger为“手指”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "finish": {
+    "en": "to complete something or reach the end of it",
+    "example": "The team must finish the project before the deadline next week.",
+    "exampleCn": "团队必须在下周的截止日期前完成这个项目。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team must finish the project before the deadline next week.",
+      "translation": "团队必须在下周的截止日期前完成这个项目。",
+      "analysis": "看后面接的宾语 the project，表示完成具体任务，取“完成”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fire": {
+    "en": "the state of burning that produces flames and heat",
+    "example": "The fire spread quickly through the dry forest, forcing residents to evacuate.",
+    "exampleCn": "大火迅速蔓延过干燥的森林，迫使居民撤离。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fire spread quickly through the dry forest, forcing residents to evacuate.",
+      "translation": "大火迅速蔓延过干燥的森林，迫使居民撤离。",
+      "analysis": "先把 fire 试译为“火”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8063,6 +13679,294 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "fish": {
+    "en": "a creature that lives in water and has fins, or its flesh as food",
+    "example": "The fish in this lake are abundant, providing a steady food source for local birds.",
+    "exampleCn": "这个湖里的鱼很丰富，为当地鸟类提供了稳定的食物来源。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fish in this lake are abundant, providing a steady food source for local birds.",
+      "translation": "这个湖里的鱼很丰富，为当地鸟类提供了稳定的食物来源。",
+      "analysis": "根据“in this lake”和“are abundant”判断 fish 是“鱼”的复数含义，作主语。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fit": {
+    "en": "suitable or appropriate for a particular purpose",
+    "example": "The new policy is not fit for the current economic climate.",
+    "exampleCn": "新政策不适合当前的经济环境。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy is not fit for the current economic climate.",
+      "translation": "新政策不适合当前的经济环境。",
+      "analysis": "通过be fit for结构判断fit意为“适合的”，注意fit作形容词的用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fix": {
+    "en": "to make something stable or unchanging",
+    "example": "The government tried to fix the exchange rate to prevent market volatility.",
+    "exampleCn": "政府试图固定汇率以防止市场波动。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government tried to fix the exchange rate to prevent market volatility.",
+      "translation": "政府试图固定汇率以防止市场波动。",
+      "analysis": "先把 fix 试译为“使固定”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flag": {
+    "en": "a piece of cloth with a pattern or symbol, used as a sign or signal",
+    "example": "The red flag on the map indicates a restricted area.",
+    "exampleCn": "地图上的红旗表示禁区。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The red flag on the map indicates a restricted area.",
+      "translation": "地图上的红旗表示禁区。",
+      "analysis": "根据“on the map”和“indicates”判断，flag在此指“旗子”而非“标志”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flame": {
+    "en": "a hot, bright stream of burning gas from a fire",
+    "example": "The flame of the candle flickered in the dark room.",
+    "exampleCn": "蜡烛的火焰在黑暗的房间里闪烁。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The flame of the candle flickered in the dark room.",
+      "translation": "蜡烛的火焰在黑暗的房间里闪烁。",
+      "analysis": "根据“of the candle”和“flickered”判断，flame指具体火焰。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flash": {
+    "en": "a sudden bright light or a brief moment",
+    "example": "A flash of lightning illuminated the dark sky for an instant.",
+    "exampleCn": "一道闪电瞬间照亮了黑暗的天空。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A flash of lightning illuminated the dark sky for an instant.",
+      "translation": "一道闪电瞬间照亮了黑暗的天空。",
+      "analysis": "根据 a flash of lightning 这个搭配，flash 是名词，意为“闪光”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flat": {
+    "en": "level and smooth, without raised or hollow areas",
+    "example": "The landscape was remarkably flat, stretching endlessly toward the horizon.",
+    "exampleCn": "这片地形异常平坦，一直延伸到地平线。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The landscape was remarkably flat, stretching endlessly toward the horizon.",
+      "translation": "这片地形异常平坦，一直延伸到地平线。",
+      "analysis": "根据 landscape 和 stretching 判断，flat 在此表示‘平坦的’常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flavour": {
+    "en": "a distinctive taste or quality",
+    "example": "The local cuisine has a unique flavour that attracts many tourists.",
+    "exampleCn": "当地菜肴有一种独特的风味，吸引了许多游客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The local cuisine has a unique flavour that attracts many tourists.",
+      "translation": "当地菜肴有一种独特的风味，吸引了许多游客。",
+      "analysis": "根据语境，flavour 前有形容词 unique 修饰，后接 that 从句说明其作用，判断为名词“风味”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flee": {
+    "en": "to escape from a dangerous or unpleasant situation",
+    "example": "Many residents had to flee the region as the conflict escalated.",
+    "exampleCn": "随着冲突升级，许多居民不得不逃离该地区。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many residents had to flee the region as the conflict escalated.",
+      "translation": "随着冲突升级，许多居民不得不逃离该地区。",
+      "analysis": "根据搭配“flee the region”和语境“conflict escalated”判断为“逃离”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flesh": {
+    "en": "the soft substance of a living body, especially muscle and fat",
+    "example": "The wound exposed the raw flesh beneath the skin, causing immediate concern.",
+    "exampleCn": "伤口暴露了皮肤下的生肉，立即引起了担忧。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The wound exposed the raw flesh beneath the skin, causing immediate concern.",
+      "translation": "伤口暴露了皮肤下的生肉，立即引起了担忧。",
+      "analysis": "看搭配“raw flesh”和动词“exposed”，确定是“肉”的本义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flight": {
+    "en": "the act or process of moving through the air",
+    "example": "The flight of the bird was observed by the researchers.",
+    "exampleCn": "研究人员观察了鸟类的飞行。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The flight of the bird was observed by the researchers.",
+      "translation": "研究人员观察了鸟类的飞行。",
+      "analysis": "先把 flight 试译为“飞行”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "float": {
+    "en": "an object that stays on the surface of a liquid",
+    "example": "The river was filled with logs and other float that had broken loose upstream.",
+    "exampleCn": "河里满是上游脱落的原木和其他漂流物。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The river was filled with logs and other float that had broken loose upstream.",
+      "translation": "河里满是上游脱落的原木和其他漂流物。",
+      "analysis": "根据“logs and other”这个并列结构，判断float是名词，指“漂流物”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flood": {
+    "en": "a large amount of water covering an area that is usually dry",
+    "example": "The flood destroyed crops and forced many families to leave their homes.",
+    "exampleCn": "洪水摧毁了庄稼，迫使许多家庭离开家园。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The flood destroyed crops and forced many families to leave their homes.",
+      "translation": "洪水摧毁了庄稼，迫使许多家庭离开家园。",
+      "analysis": "根据主语“the flood”和谓语“destroyed crops”判断，这里指自然灾害“洪水”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flour": {
+    "en": "powder made from grinding grain, used for baking",
+    "example": "The baker sifted the flour before adding it to the mixture.",
+    "exampleCn": "面包师在将面粉加入混合物之前先将其筛过。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The baker sifted the flour before adding it to the mixture.",
+      "translation": "面包师在将面粉加入混合物之前先将其筛过。",
+      "analysis": "根据主语baker和动作sifted，判断flour是烘焙用的面粉。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flow": {
+    "en": "the continuous movement or progress of something",
+    "example": "The new manager streamlined the work flow to improve efficiency.",
+    "exampleCn": "新经理简化了工作流程以提高效率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new manager streamlined the work flow to improve efficiency.",
+      "translation": "新经理简化了工作流程以提高效率。",
+      "analysis": "看 work flow 搭配，work flow 常指工作流程，故 flow 取“流程”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flower": {
+    "en": "the part of a plant that produces seeds, often colorful",
+    "example": "The flower of the plant attracts bees for pollination.",
+    "exampleCn": "这种植物的花吸引蜜蜂来授粉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The flower of the plant attracts bees for pollination.",
+      "translation": "这种植物的花吸引蜜蜂来授粉。",
+      "analysis": "先把 flower 试译为“花”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "flu": {
+    "en": "a common viral infection causing fever, aches, and fatigue",
+    "example": "The flu outbreak this winter has overwhelmed many local hospitals.",
+    "exampleCn": "今年冬天的流感爆发使许多当地医院不堪重负。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The flu outbreak this winter has overwhelmed many local hospitals.",
+      "translation": "今年冬天的流感爆发使许多当地医院不堪重负。",
+      "analysis": "根据主语outbreak和谓语overwhelmed，可知flu指一种疾病，即流感。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fly": {
+    "en": "a small insect with two wings, often found near food",
+    "example": "The fly buzzed around the kitchen, landing on the counter.",
+    "exampleCn": "苍蝇在厨房里嗡嗡作响，落在了台面上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fly buzzed around the kitchen, landing on the counter.",
+      "translation": "苍蝇在厨房里嗡嗡作响，落在了台面上。",
+      "analysis": "fly 前有 the 且作主语，后接动词 buzzed，判断为名词“苍蝇”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "focus": {
     "en": "the center of attention or activity",
     "example": "The focus of the report is on economic inequality.",
@@ -8079,6 +13983,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "fold": {
+    "en": "a part of something that is folded or bent",
+    "example": "The map was carefully placed in the fold of the backpack.",
+    "exampleCn": "地图被小心地放在背包的折层里。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The map was carefully placed in the fold of the backpack.",
+      "translation": "地图被小心地放在背包的折层里。",
+      "analysis": "看介词短语 in the fold of，表示位置，fold 是名词，意为“折层”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "folk": {
+    "en": "people in general, especially those of a particular group or type",
+    "example": "The old folk in the village still follow traditional farming methods.",
+    "exampleCn": "村里的老人们仍然遵循传统的耕作方法。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old folk in the village still follow traditional farming methods.",
+      "translation": "村里的老人们仍然遵循传统的耕作方法。",
+      "analysis": "根据主语位置和修饰语“old”判断，folk在此指“人们”，尤其指特定群体。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "follow": {
     "en": "to come after or go along with something",
     "example": "Researchers must follow strict protocols to ensure data accuracy.",
@@ -8089,6 +14025,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "Researchers must follow strict protocols to ensure data accuracy.",
       "translation": "研究人员必须遵循严格的规程以确保数据准确性。",
       "analysis": "看 follow 后接名词 protocols，表示“遵循”，而非常见义“跟随”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "food": {
+    "en": "substance consumed to provide nutritional support",
+    "example": "The study examined how food choices affect long-term health outcomes.",
+    "exampleCn": "该研究考察了食物选择如何影响长期健康结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study examined how food choices affect long-term health outcomes.",
+      "translation": "该研究考察了食物选择如何影响长期健康结果。",
+      "analysis": "根据food与choices的搭配，确定意为“食物”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "foot": {
+    "en": "the lower part of the leg used for standing or walking",
+    "example": "The hiker felt a sharp pain in his foot after walking for hours.",
+    "exampleCn": "徒步旅行者走了几个小时后，感到脚部一阵剧痛。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hiker felt a sharp pain in his foot after walking for hours.",
+      "translation": "徒步旅行者走了几个小时后，感到脚部一阵剧痛。",
+      "analysis": "根据 \"pain in his foot\" 搭配，foot 指身体部位“脚”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8111,6 +14079,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "foreign": {
+    "en": "relating to or dealing with other countries",
+    "example": "The company's expansion into foreign markets boosted its annual revenue.",
+    "exampleCn": "该公司向外国市场的扩张提升了其年收入。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's expansion into foreign markets boosted its annual revenue.",
+      "translation": "该公司向外国市场的扩张提升了其年收入。",
+      "analysis": "看搭配“foreign markets”，意为“外国市场”，确定“外国的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "forest": {
+    "en": "a large area covered with trees",
+    "example": "The forest was so dense that sunlight barely reached the ground.",
+    "exampleCn": "这片森林如此茂密，阳光几乎照不到地面。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The forest was so dense that sunlight barely reached the ground.",
+      "translation": "这片森林如此茂密，阳光几乎照不到地面。",
+      "analysis": "先把 forest 试译为“森林”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "forever": {
+    "en": "for all time; without end",
+    "example": "The memory of that summer will stay with me forever.",
+    "exampleCn": "那个夏天的记忆将永远留在我心中。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The memory of that summer will stay with me forever.",
+      "translation": "那个夏天的记忆将永远留在我心中。",
+      "analysis": "看 stay with me 这个搭配，forever 作副词修饰动词，表示时间上的永久。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "forgive": {
+    "en": "to stop blaming or feeling angry with someone",
+    "example": "The court may forgive the debt if the debtor proves extreme hardship.",
+    "exampleCn": "如果债务人证明极度困难，法院可能会免除债务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court may forgive the debt if the debtor proves extreme hardship.",
+      "translation": "如果债务人证明极度困难，法院可能会免除债务。",
+      "analysis": "根据宾语“the debt”判断，此处“forgive”意为“免除”，而非常见义“原谅”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fork": {
+    "en": "a utensil with prongs; a point where something divides",
+    "example": "The path takes a fork near the old oak tree.",
+    "exampleCn": "小路在老橡树附近分岔。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The path takes a fork near the old oak tree.",
+      "translation": "小路在老橡树附近分岔。",
+      "analysis": "根据“path takes a fork”中“path”与“fork”的搭配，判断为“分岔”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "form": {
+    "en": "the shape or structure of something",
+    "example": "The artist studied the form of the human body in great detail.",
+    "exampleCn": "这位艺术家非常详细地研究了人体的形状。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist studied the form of the human body in great detail.",
+      "translation": "这位艺术家非常详细地研究了人体的形状。",
+      "analysis": "根据“the form of the human body”这一搭配，form 在此指“形状”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "formal": {
+    "en": "official or following accepted rules, not casual",
+    "example": "The company requires all employees to wear formal attire during business meetings.",
+    "exampleCn": "公司要求所有员工在商务会议期间穿着正式服装。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company requires all employees to wear formal attire during business meetings.",
+      "translation": "公司要求所有员工在商务会议期间穿着正式服装。",
+      "analysis": "看后面attire（服装）这个名词，formal修饰它，表示服装是正式的，而非休闲的。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "formation": {
+    "en": "the process of developing or organizing something",
+    "example": "The formation of new habits requires consistent effort over time.",
+    "exampleCn": "新习惯的形成需要持续的努力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The formation of new habits requires consistent effort over time.",
+      "translation": "新习惯的形成需要持续的努力。",
+      "analysis": "看主语formation of new habits，of后接形成对象，确定词义为“形成”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "former": {
     "en": "having previously been a particular thing",
     "example": "The former president returned to his hometown after leaving office.",
@@ -8121,6 +14217,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The former president returned to his hometown after leaving office.",
       "translation": "前总统卸任后回到了家乡。",
       "analysis": "看 former 修饰 president，表示“从前的”，常见义与考研义相同。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "formerly": {
+    "en": "in the past; previously",
+    "example": "The company formerly operated as a small family business.",
+    "exampleCn": "这家公司以前是一家小型家族企业。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company formerly operated as a small family business.",
+      "translation": "这家公司以前是一家小型家族企业。",
+      "analysis": "看 formerly 修饰动词 operated，表示过去的状态，对应“从前”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "forth": {
+    "en": "forward in time, place, or order",
+    "example": "The new policy set forth guidelines for sustainable development.",
+    "exampleCn": "新政策提出了可持续发展的指导方针。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy set forth guidelines for sustainable development.",
+      "translation": "新政策提出了可持续发展的指导方针。",
+      "analysis": "看 set forth 搭配，意为“提出”，forth 表示“向前”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fortune": {
+    "en": "a large amount of money or assets",
+    "example": "The family made a fortune in the textile industry during the 19th century.",
+    "exampleCn": "这个家族在19世纪通过纺织业发了一笔大财。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The family made a fortune in the textile industry during the 19th century.",
+      "translation": "这个家族在19世纪通过纺织业发了一笔大财。",
+      "analysis": "看搭配“made a fortune”，意为“发财”，所以fortune取“财富”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "forward": {
+    "en": "to send or pass something to a new destination",
+    "example": "The committee decided to forward the proposal to the board for final approval.",
+    "exampleCn": "委员会决定将提案转交给董事会进行最终批准。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The committee decided to forward the proposal to the board for final approval.",
+      "translation": "委员会决定将提案转交给董事会进行最终批准。",
+      "analysis": "forward 后接 to，表示“转交、发送”，是动词用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "found": {
+    "en": "to establish or set up an institution or organization",
+    "example": "The university was found in 1890 by a group of philanthropists.",
+    "exampleCn": "这所大学由一群慈善家于1890年创立。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The university was found in 1890 by a group of philanthropists.",
+      "translation": "这所大学由一群慈善家于1890年创立。",
+      "analysis": "根据“was found in + 时间”的被动结构，判断found为“建立”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "frame": {
+    "en": "a structure that surrounds or supports something, or a way of thinking",
+    "example": "The frame of the building was made of steel, providing a strong support.",
+    "exampleCn": "建筑的框架由钢制成，提供了坚固的支撑。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The frame of the building was made of steel, providing a strong support.",
+      "translation": "建筑的框架由钢制成，提供了坚固的支撑。",
+      "analysis": "根据“frame of the building”这个搭配，frame 指物理上的框架结构。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "framework": {
+    "en": "a basic structure underlying a system or concept",
+    "example": "The legal framework of the country ensures fair competition among businesses.",
+    "exampleCn": "该国的法律框架确保了企业间的公平竞争。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The legal framework of the country ensures fair competition among businesses.",
+      "translation": "该国的法律框架确保了企业间的公平竞争。",
+      "analysis": "根据“legal”这个修饰词判断framework意为“框架”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "frank": {
+    "en": "open, honest, and direct in speech or writing",
+    "example": "To be frank, the committee's decision surprised many observers.",
+    "exampleCn": "坦率地说，委员会的决定让许多观察者感到惊讶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "To be frank, the committee's decision surprised many observers.",
+      "translation": "坦率地说，委员会的决定让许多观察者感到惊讶。",
+      "analysis": "根据固定搭配“to be frank”判断为“坦白的”含义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8143,6 +14367,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "freely": {
+    "en": "without restriction or hesitation",
+    "example": "In the discussion, participants were encouraged to express their opinions freely.",
+    "exampleCn": "在讨论中，参与者被鼓励自由地表达他们的观点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "In the discussion, participants were encouraged to express their opinions freely.",
+      "translation": "在讨论中，参与者被鼓励自由地表达他们的观点。",
+      "analysis": "看搭配 express opinions freely，表示无拘束地表达，取“自由地”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "freeze": {
+    "en": "to stop moving or become fixed, often due to cold or shock",
+    "example": "The central bank decided to freeze interest rates to stabilize the economy.",
+    "exampleCn": "央行决定冻结利率以稳定经济。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The central bank decided to freeze interest rates to stabilize the economy.",
+      "translation": "央行决定冻结利率以稳定经济。",
+      "analysis": "看宾语interest rates，freeze在此意为“冻结”，而非“结冰”或“楞住”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "frequent": {
     "en": "happening often",
     "example": "The frequent storms in this region cause severe damage to crops each year.",
@@ -8153,6 +14409,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The frequent storms in this region cause severe damage to crops each year.",
       "translation": "该地区频繁的暴风雨每年都对农作物造成严重破坏。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“时常发生的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "frequently": {
+    "en": "happening or doing something often",
+    "example": "The system is frequently updated to fix security vulnerabilities.",
+    "exampleCn": "该系统频繁更新以修复安全漏洞。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The system is frequently updated to fix security vulnerabilities.",
+      "translation": "该系统频繁更新以修复安全漏洞。",
+      "analysis": "看副词修饰动词“updated”，表示动作发生的频率高，即“频繁地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fresh": {
+    "en": "newly made or obtained; not stale or spoiled",
+    "example": "The fresh evidence contradicted the earlier findings in the case.",
+    "exampleCn": "新的证据与案件早期的发现相矛盾。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fresh evidence contradicted the earlier findings in the case.",
+      "translation": "新的证据与案件早期的发现相矛盾。",
+      "analysis": "看 fresh 修饰 evidence，表示“新出现的”，对应“新鲜的”引申义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "freshly": {
+    "en": "recently, just now",
+    "example": "The freshly painted walls gave the old room a new look.",
+    "exampleCn": "新粉刷的墙壁给旧房间带来了新面貌。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The freshly painted walls gave the old room a new look.",
+      "translation": "新粉刷的墙壁给旧房间带来了新面貌。",
+      "analysis": "看副词修饰动词 painted，表示动作刚完成，意为“新近”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "friday": {
+    "en": "the day of the week between Thursday and Saturday",
+    "example": "The deadline for the report is next Friday, so we must finish it by then.",
+    "exampleCn": "报告的截止日期是下周五，所以我们必须在那个时间之前完成。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The deadline for the report is next Friday, so we must finish it by then.",
+      "translation": "报告的截止日期是下周五，所以我们必须在那个时间之前完成。",
+      "analysis": "根据上下文中的“deadline”和“by then”，判断friday指具体日期“星期五”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fridge": {
+    "en": "a household appliance for keeping food cold",
+    "example": "The fridge hummed softly in the corner, preserving the freshness of the vegetables.",
+    "exampleCn": "冰箱在角落里轻声嗡嗡作响，保持着蔬菜的新鲜。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fridge hummed softly in the corner, preserving the freshness of the vegetables.",
+      "translation": "冰箱在角落里轻声嗡嗡作响，保持着蔬菜的新鲜。",
+      "analysis": "通过动词 hummed 和 preserving 判断 fridge 是电器，结合语境确定词义为电冰箱。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "frighten": {
+    "en": "to cause sudden fear or alarm",
+    "example": "The sudden noise might frighten the timid deer into the woods.",
+    "exampleCn": "突然的噪音可能会惊吓到胆小的鹿，使其逃入树林。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden noise might frighten the timid deer into the woods.",
+      "translation": "突然的噪音可能会惊吓到胆小的鹿，使其逃入树林。",
+      "analysis": "通过主语“noise”和宾语“deer”判断是“使惊吓”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8175,6 +14527,646 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "fruit": {
+    "en": "the edible product of a plant or tree, often sweet",
+    "example": "The fruit of their labor was a successful harvest.",
+    "exampleCn": "他们劳动的成果是一次成功的丰收。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fruit of their labor was a successful harvest.",
+      "translation": "他们劳动的成果是一次成功的丰收。",
+      "analysis": "看“fruit of their labor”这个搭配，fruit 表示“结果、成果”，而非“水果”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fry": {
+    "en": "young fish, especially those recently hatched",
+    "example": "The fry were released into the river to restore the declining fish population.",
+    "exampleCn": "这些鱼苗被放归河流，以恢复日益减少的鱼类数量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The fry were released into the river to restore the declining fish population.",
+      "translation": "这些鱼苗被放归河流，以恢复日益减少的鱼类数量。",
+      "analysis": "先把 fry 试译为“油炸食物”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fuel": {
+    "en": "something that provides energy or power, especially for vehicles or machines",
+    "example": "The rising cost of fuel has forced many airlines to raise ticket prices.",
+    "exampleCn": "燃料成本的上涨迫使许多航空公司提高了机票价格。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rising cost of fuel has forced many airlines to raise ticket prices.",
+      "translation": "燃料成本的上涨迫使许多航空公司提高了机票价格。",
+      "analysis": "先把 fuel 试译为“燃料”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fulfil": {
+    "en": "to do or achieve what is required or expected",
+    "example": "To fulfil the contract, the firm must deliver the goods by Friday.",
+    "exampleCn": "为了履行合同，该公司必须在周五前交货。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "To fulfil the contract, the firm must deliver the goods by Friday.",
+      "translation": "为了履行合同，该公司必须在周五前交货。",
+      "analysis": "先把 fulfil 试译为“实践”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "function": {
+    "en": "the special purpose or activity of a thing",
+    "example": "The primary function of the device is to monitor air quality in real time.",
+    "exampleCn": "该设备的主要功能是实时监测空气质量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The primary function of the device is to monitor air quality in real time.",
+      "translation": "该设备的主要功能是实时监测空气质量。",
+      "analysis": "看主语device和表语to monitor，function在此意为“功能”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fund": {
+    "en": "money set aside for a specific purpose",
+    "example": "The government allocated a special fund for environmental protection projects.",
+    "exampleCn": "政府为环境保护项目拨出了一笔专项资金。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government allocated a special fund for environmental protection projects.",
+      "translation": "政府为环境保护项目拨出了一笔专项资金。",
+      "analysis": "看前面动词 allocated 和后面介词 for，确定 fund 是“专项资金”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "funeral": {
+    "en": "a ceremony for burying or cremating a dead person",
+    "example": "The funeral procession moved slowly through the streets, with mourners dressed in black.",
+    "exampleCn": "送葬队伍缓慢地穿过街道，哀悼者身着黑衣。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The funeral procession moved slowly through the streets, with mourners dressed in black.",
+      "translation": "送葬队伍缓慢地穿过街道，哀悼者身着黑衣。",
+      "analysis": "看搭配“funeral procession”和“mourners”确定是葬礼相关活动。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "funny": {
+    "en": "amusing or causing laughter",
+    "example": "The comedian's funny story made the audience laugh uncontrollably.",
+    "exampleCn": "这位喜剧演员的好笑故事让观众笑得无法控制。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The comedian's funny story made the audience laugh uncontrollably.",
+      "translation": "这位喜剧演员的好笑故事让观众笑得无法控制。",
+      "analysis": "根据后面 made the audience laugh 这个结果，判断 funny 是“好笑的”意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "fur": {
+    "en": "thick soft hair covering the body of some animals",
+    "example": "The coat was made of genuine fur, which sparked a debate on ethical fashion.",
+    "exampleCn": "这件外套由真毛皮制成，引发了关于道德时尚的辩论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The coat was made of genuine fur, which sparked a debate on ethical fashion.",
+      "translation": "这件外套由真毛皮制成，引发了关于道德时尚的辩论。",
+      "analysis": "根据“made of genuine fur”搭配，判断fur为名词“毛皮”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "furniture": {
+    "en": "moveable objects such as tables, chairs, or beds used in a room",
+    "example": "The old furniture in the study was made of dark oak and had intricate carvings.",
+    "exampleCn": "书房里的旧家具由深色橡木制成，带有复杂的雕刻。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old furniture in the study was made of dark oak and had intricate carvings.",
+      "translation": "书房里的旧家具由深色橡木制成，带有复杂的雕刻。",
+      "analysis": "根据主语furniture与后文made of dark oak搭配，判断为家具义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "further": {
+    "en": "to help something develop or be successful",
+    "example": "The government aims to further economic growth through new policies.",
+    "exampleCn": "政府旨在通过新政策促进经济增长。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government aims to further economic growth through new policies.",
+      "translation": "政府旨在通过新政策促进经济增长。",
+      "analysis": "看搭配“further economic growth”，further 是动词，意为“促进”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "furthermore": {
+    "en": "in addition; used to introduce a new point that supports or adds to the previous one",
+    "example": "The new policy aims to reduce carbon emissions; furthermore, it promotes renewable energy investment.",
+    "exampleCn": "这项新政策旨在减少碳排放；此外，它还促进可再生能源投资。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce carbon emissions; furthermore, it promotes renewable energy investment.",
+      "translation": "这项新政策旨在减少碳排放；此外，它还促进可再生能源投资。",
+      "analysis": "看 furthermore 连接两个并列分句，表示递进关系，译为“此外”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "future": {
+    "en": "the time that will come after the present",
+    "example": "The future of the industry depends on sustainable practices.",
+    "exampleCn": "该行业的未来取决于可持续的做法。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The future of the industry depends on sustainable practices.",
+      "translation": "该行业的未来取决于可持续的做法。",
+      "analysis": "先把 future 试译为“未来”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gain": {
+    "en": "an increase in amount, level, or value, often in a technical context",
+    "example": "The amplifier's gain must be adjusted to avoid signal distortion.",
+    "exampleCn": "放大器的增益必须调整以避免信号失真。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The amplifier's gain must be adjusted to avoid signal distortion.",
+      "translation": "放大器的增益必须调整以避免信号失真。",
+      "analysis": "看主语 amplifier 和宾语 distortion，确定 gain 是电子学中的“增益”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gallery": {
+    "en": "a long narrow room or passage, often in a large building",
+    "example": "The gallery connecting the two lecture halls was lined with student artwork.",
+    "exampleCn": "连接两个演讲厅的走廊两旁陈列着学生的艺术作品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The gallery connecting the two lecture halls was lined with student artwork.",
+      "translation": "连接两个演讲厅的走廊两旁陈列着学生的艺术作品。",
+      "analysis": "先把 gallery 试译为“走廊”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gamble": {
+    "en": "an action that involves risk or uncertainty",
+    "example": "Investing in emerging markets is often a gamble that requires careful analysis.",
+    "exampleCn": "投资新兴市场往往是一场需要仔细分析的赌博。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Investing in emerging markets is often a gamble that requires careful analysis.",
+      "translation": "投资新兴市场往往是一场需要仔细分析的赌博。",
+      "analysis": "根据系表结构“is a gamble”判断，gamble在此处是名词，意为“冒险、赌博”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gang": {
+    "en": "a group of people working together, often in an organized way",
+    "example": "A gang of workers was assigned to repair the damaged railway tracks.",
+    "exampleCn": "一队工人被派去修理受损的铁轨。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A gang of workers was assigned to repair the damaged railway tracks.",
+      "translation": "一队工人被派去修理受损的铁轨。",
+      "analysis": "先把 gang 试译为“队”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gap": {
+    "en": "a space or opening between two things",
+    "example": "The gap between rich and poor continues to widen in many countries.",
+    "exampleCn": "许多国家贫富之间的差距持续扩大。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The gap between rich and poor continues to widen in many countries.",
+      "translation": "许多国家贫富之间的差距持续扩大。",
+      "analysis": "根据 between...and... 结构判断，gap 在此表示两者间的差距。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "garage": {
+    "en": "a building for keeping or repairing cars",
+    "example": "The mechanic towed the broken car to the garage for repair.",
+    "exampleCn": "修理工把坏掉的车拖到修理厂去修。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mechanic towed the broken car to the garage for repair.",
+      "translation": "修理工把坏掉的车拖到修理厂去修。",
+      "analysis": "根据介词短语 for repair 和动词 towed，判断 garage 是修理汽车的场所。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "garbage": {
+    "en": "something worthless or of poor quality",
+    "example": "The critic dismissed the novel as literary garbage.",
+    "exampleCn": "评论家认为这部小说是文学垃圾。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The critic dismissed the novel as literary garbage.",
+      "translation": "评论家认为这部小说是文学垃圾。",
+      "analysis": "根据搭配“dismiss...as garbage”判断，garbage 指无价值的东西。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "garden": {
+    "en": "a piece of land used for growing flowers, vegetables, or plants",
+    "example": "The garden, once neglected, now thrives with careful planning.",
+    "exampleCn": "这个花园，曾经被忽视，现在通过精心规划而生机勃勃。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The garden, once neglected, now thrives with careful planning.",
+      "translation": "这个花园，曾经被忽视，现在通过精心规划而生机勃勃。",
+      "analysis": "根据主语 garden 和谓语 thrives 的搭配，判断为“花园”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "garlic": {
+    "en": "a strong-smelling bulb used in cooking",
+    "example": "The chef added minced garlic to the sizzling pan, releasing a pungent aroma.",
+    "exampleCn": "厨师将切碎的大蒜加入咝咝作响的锅中，释放出刺鼻的香气。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The chef added minced garlic to the sizzling pan, releasing a pungent aroma.",
+      "translation": "厨师将切碎的大蒜加入咝咝作响的锅中，释放出刺鼻的香气。",
+      "analysis": "根据名词garlic作宾语，与minced搭配，判断为烹饪用的大蒜。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gas": {
+    "en": "a substance like air that is not solid or liquid",
+    "example": "The gas emitted from the factory was found to be toxic.",
+    "exampleCn": "工厂排放的气体被发现是有毒的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The gas emitted from the factory was found to be toxic.",
+      "translation": "工厂排放的气体被发现是有毒的。",
+      "analysis": "先把 gas 试译为“气体”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gasoline": {
+    "en": "a volatile flammable liquid used as fuel in internal combustion engines",
+    "example": "The rising cost of gasoline has forced many drivers to switch to public transportation.",
+    "exampleCn": "汽油价格的上涨迫使许多司机转而使用公共交通。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rising cost of gasoline has forced many drivers to switch to public transportation.",
+      "translation": "汽油价格的上涨迫使许多司机转而使用公共交通。",
+      "analysis": "根据主语“cost”和宾语“drivers”的语境，确定gasoline为“汽油”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gather": {
+    "en": "to come together or collect from different places",
+    "example": "The researchers gather data from multiple sources to ensure accuracy.",
+    "exampleCn": "研究人员从多个来源收集数据以确保准确性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researchers gather data from multiple sources to ensure accuracy.",
+      "translation": "研究人员从多个来源收集数据以确保准确性。",
+      "analysis": "看宾语data和from multiple sources，gather意为“收集”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gay": {
+    "en": "feeling or showing happiness and excitement",
+    "example": "The gay music and laughter filled the hall with a festive atmosphere.",
+    "exampleCn": "欢快的音乐和笑声让大厅充满了节日气氛。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The gay music and laughter filled the hall with a festive atmosphere.",
+      "translation": "欢快的音乐和笑声让大厅充满了节日气氛。",
+      "analysis": "根据后接名词music和laughter，判断gay在此为形容词，意为“欢快的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gear": {
+    "en": "a wheel with teeth that fits with another to change speed or direction",
+    "example": "The machine's gear system must be checked regularly to avoid breakdown.",
+    "exampleCn": "机器的齿轮系统必须定期检查以避免故障。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The machine's gear system must be checked regularly to avoid breakdown.",
+      "translation": "机器的齿轮系统必须定期检查以避免故障。",
+      "analysis": "看主语 gear system 和谓语 checked，结合机械领域，确定 gear 为名词“齿轮”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "general": {
+    "en": "not detailed or specific; affecting or concerning most people or things",
+    "example": "The general trend in the data suggests a gradual decline in public trust.",
+    "exampleCn": "数据中的总体趋势表明公众信任度在逐渐下降。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The general trend in the data suggests a gradual decline in public trust.",
+      "translation": "数据中的总体趋势表明公众信任度在逐渐下降。",
+      "analysis": "看 general 修饰 trend，表示“总体的”，与“具体的”相对，通过修饰关系确定词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "generally": {
+    "en": "in most cases; usually",
+    "example": "The results are generally consistent with the theoretical predictions.",
+    "exampleCn": "这些结果通常与理论预测一致。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The results are generally consistent with the theoretical predictions.",
+      "translation": "这些结果通常与理论预测一致。",
+      "analysis": "看 generally 修饰 are consistent，表示“通常”，说明是普遍情况而非绝对。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "generation": {
+    "en": "a group of people born around the same time",
+    "example": "The older generation often holds different values from the younger one.",
+    "exampleCn": "老一辈通常持有与年轻一代不同的价值观。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The older generation often holds different values from the younger one.",
+      "translation": "老一辈通常持有与年轻一代不同的价值观。",
+      "analysis": "根据“older”和“younger”的对比，判断“generation”指“一代人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "generous": {
+    "en": "showing willingness to give more than necessary; ample",
+    "example": "The company offered a generous severance package to all laid-off employees.",
+    "exampleCn": "公司向所有被解雇的员工提供了丰厚的遣散费。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company offered a generous severance package to all laid-off employees.",
+      "translation": "公司向所有被解雇的员工提供了丰厚的遣散费。",
+      "analysis": "根据修饰“severance package”判断，generous 意为“丰厚的、大量的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gentle": {
+    "en": "mild and soft in manner or effect",
+    "example": "The gentle slope of the hill made the climb easy for the hikers.",
+    "exampleCn": "这座山丘的缓坡让徒步者攀登起来很轻松。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The gentle slope of the hill made the climb easy for the hikers.",
+      "translation": "这座山丘的缓坡让徒步者攀登起来很轻松。",
+      "analysis": "看 gentle 修饰 slope，表示坡度平缓，对应“温和的”引申义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gentleman": {
+    "en": "a man who is polite, well-mannered, and honorable",
+    "example": "The old gentleman insisted on holding the door for everyone entering the building.",
+    "exampleCn": "那位老绅士坚持为每个进入大楼的人扶着门。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old gentleman insisted on holding the door for everyone entering the building.",
+      "translation": "那位老绅士坚持为每个进入大楼的人扶着门。",
+      "analysis": "由“old”和“holding the door”看出，此处指有礼貌、有风度的男士，即“绅士”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gently": {
+    "en": "in a mild, soft, or careful manner",
+    "example": "The instructor gently corrected the student's misunderstanding without causing embarrassment.",
+    "exampleCn": "老师温和地纠正了学生的误解，没有让对方感到难堪。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The instructor gently corrected the student's misunderstanding without causing embarrassment.",
+      "translation": "老师温和地纠正了学生的误解，没有让对方感到难堪。",
+      "analysis": "看副词修饰动词“corrected”，表示动作的方式是温和的，没有严厉批评。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "get": {
+    "en": "obtain or receive something",
+    "example": "To get a better understanding, you must read the full report.",
+    "exampleCn": "为了获得更好的理解，你必须阅读完整的报告。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "To get a better understanding, you must read the full report.",
+      "translation": "为了获得更好的理解，你必须阅读完整的报告。",
+      "analysis": "看后面接的名词短语“a better understanding”，搭配“get”表示“获得”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "giant": {
+    "en": "a very large and powerful company or organization",
+    "example": "The tech giant announced a new product line that could reshape the industry.",
+    "exampleCn": "这家科技巨头宣布了一条可能重塑行业的新产品线。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The tech giant announced a new product line that could reshape the industry.",
+      "translation": "这家科技巨头宣布了一条可能重塑行业的新产品线。",
+      "analysis": "看主语“tech”和谓语“announced”，giant 在这里指大型公司，即“巨头”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "girlfriend": {
+    "en": "a female partner in a romantic relationship",
+    "example": "He introduced his girlfriend to the group during the discussion.",
+    "exampleCn": "他在讨论期间把他的女朋友介绍给了小组。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "He introduced his girlfriend to the group during the discussion.",
+      "translation": "他在讨论期间把他的女朋友介绍给了小组。",
+      "analysis": "看主语he和宾语group，结合introduce to结构，确定girlfriend为女朋友。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "give": {
+    "en": "ability to bend or adapt without breaking",
+    "example": "The material's give allows it to withstand repeated stress without cracking.",
+    "exampleCn": "这种材料的弹性使其能够承受反复的压力而不开裂。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The material's give allows it to withstand repeated stress without cracking.",
+      "translation": "这种材料的弹性使其能够承受反复的压力而不开裂。",
+      "analysis": "看主语material和谓语allow，give作名词表示弹性，区别于常见动词含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "glance": {
+    "en": "a quick look at something",
+    "example": "At first glance, the solution seemed simple, but further analysis revealed hidden complexities.",
+    "exampleCn": "乍一看，这个解决方案似乎很简单，但进一步分析揭示了隐藏的复杂性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "At first glance, the solution seemed simple, but further analysis revealed hidden complexities.",
+      "translation": "乍一看，这个解决方案似乎很简单，但进一步分析揭示了隐藏的复杂性。",
+      "analysis": "看短语 \"at first glance\" 表示“乍一看”，glance 在此为名词，意为“一瞥”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "glass": {
+    "en": "a hard, transparent material used for windows, bottles, etc.",
+    "example": "The glass in the window was replaced after the storm.",
+    "exampleCn": "风暴过后，窗户上的玻璃被更换了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The glass in the window was replaced after the storm.",
+      "translation": "风暴过后，窗户上的玻璃被更换了。",
+      "analysis": "根据主语位置和定冠词the，glass指具体材料“玻璃”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "global": {
     "en": "relating to the whole world; worldwide",
     "example": "The pandemic has had a global impact on economies and societies.",
@@ -8188,6 +15180,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "glove": {
+    "en": "a covering for the hand, typically with separate parts for each finger",
+    "example": "The scientist wore a thick glove to handle the hazardous material.",
+    "exampleCn": "科学家戴着一只厚手套来处理危险材料。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The scientist wore a thick glove to handle the hazardous material.",
+      "translation": "科学家戴着一只厚手套来处理危险材料。",
+      "analysis": "根据名词前形容词thick和动词wore，判断glove是“手套”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "glue": {
+    "en": "a sticky substance used for joining things together",
+    "example": "Social media acts as a glue that holds communities together across distances.",
+    "exampleCn": "社交媒体像胶水一样，将相隔遥远的社区粘合在一起。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Social media acts as a glue that holds communities together across distances.",
+      "translation": "社交媒体像胶水一样，将相隔遥远的社区粘合在一起。",
+      "analysis": "看 acts as a glue 这个比喻结构，glue 是名词，意为“粘合剂”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -8207,6 +15231,326 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "god": {
+    "en": "a being worshipped as the creator and ruler of the universe",
+    "example": "The ancient Greeks believed that each city had its own protective god.",
+    "exampleCn": "古希腊人相信每座城市都有自己的守护神。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ancient Greeks believed that each city had its own protective god.",
+      "translation": "古希腊人相信每座城市都有自己的守护神。",
+      "analysis": "根据“protective”这个修饰词，判断此处god指“神”，而非“上帝”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gold": {
+    "en": "a precious yellow metal used for coins and jewelry",
+    "example": "The discovery of gold in the region sparked a massive rush of miners.",
+    "exampleCn": "该地区黄金的发现引发了矿工的大规模涌入。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The discovery of gold in the region sparked a massive rush of miners.",
+      "translation": "该地区黄金的发现引发了矿工的大规模涌入。",
+      "analysis": "根据主语 gold 和谓语 sparked a rush 判断，这里 gold 是“黄金”本义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "golden": {
+    "en": "made of or containing gold; golden",
+    "example": "The golden rule in investing is to diversify your portfolio.",
+    "exampleCn": "投资中的黄金法则是分散你的投资组合。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The golden rule in investing is to diversify your portfolio.",
+      "translation": "投资中的黄金法则是分散你的投资组合。",
+      "analysis": "根据“golden rule”这个固定搭配，判断为“金的、黄金般的”，表示极其重要或珍贵的规则。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "golf": {
+    "en": "a sport played with clubs and a ball on a large outdoor course",
+    "example": "The resort's new golf course attracted many wealthy tourists.",
+    "exampleCn": "该度假村的新高尔夫球场吸引了许多富裕的游客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The resort's new golf course attracted many wealthy tourists.",
+      "translation": "该度假村的新高尔夫球场吸引了许多富裕的游客。",
+      "analysis": "根据后接名词course判断golf为名词，意为“高尔夫球”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "good": {
+    "en": "benefit or advantage; something that is morally right",
+    "example": "The debate centered on whether the policy would do more good than harm.",
+    "exampleCn": "这场辩论围绕该政策是否利大于弊展开。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The debate centered on whether the policy would do more good than harm.",
+      "translation": "这场辩论围绕该政策是否利大于弊展开。",
+      "analysis": "看短语“do more good than harm”，good 作名词，意为“好处”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "goods": {
+    "en": "items that are produced to be sold",
+    "example": "The company shipped its goods to overseas markets last month.",
+    "exampleCn": "该公司上个月将其货物运往海外市场。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company shipped its goods to overseas markets last month.",
+      "translation": "该公司上个月将其货物运往海外市场。",
+      "analysis": "看动词 shipped 和介词 to overseas markets，goods 在此指运输的货物。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "government": {
+    "en": "the group of people who rule a country or state",
+    "example": "The government has implemented new policies to boost the economy.",
+    "exampleCn": "政府已实施新政策以促进经济。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government has implemented new policies to boost the economy.",
+      "translation": "政府已实施新政策以促进经济。",
+      "analysis": "根据主语government与谓语implemented的搭配，确定意为“政府”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "governor": {
+    "en": "the elected head of a state in the US",
+    "example": "The governor signed the bill into law, citing economic benefits for the state.",
+    "exampleCn": "州长签署了该法案，使其成为法律，并提到了对州的经济利益。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The governor signed the bill into law, citing economic benefits for the state.",
+      "translation": "州长签署了该法案，使其成为法律，并提到了对州的经济利益。",
+      "analysis": "根据主语“the governor”和谓语“signed the bill”判断，此处为“州长”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grab": {
+    "en": "to take or seize something quickly or eagerly",
+    "example": "The sudden opportunity to grab a market share was too tempting for the startup.",
+    "exampleCn": "突然出现的抢占市场份额的机会对这家初创公司来说太诱人了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden opportunity to grab a market share was too tempting for the startup.",
+      "translation": "突然出现的抢占市场份额的机会对这家初创公司来说太诱人了。",
+      "analysis": "根据动词搭配“grab a market share”确定意为“抢占”，强调快速获取。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grade": {
+    "en": "a level or rank in a system of classification",
+    "example": "The quality of the product determines its grade in the market.",
+    "exampleCn": "产品的质量决定了它在市场上的等级。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The quality of the product determines its grade in the market.",
+      "translation": "产品的质量决定了它在市场上的等级。",
+      "analysis": "看主语 quality 和介词短语 in the market，确定 grade 为“等级”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gradual": {
+    "en": "happening slowly over time",
+    "example": "The shift in public opinion was gradual, not sudden.",
+    "exampleCn": "公众舆论的转变是逐渐的，而非突然的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The shift in public opinion was gradual, not sudden.",
+      "translation": "公众舆论的转变是逐渐的，而非突然的。",
+      "analysis": "由“was gradual”主系表结构判断，gradual 意为“逐渐的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gradually": {
+    "en": "in a gradual manner; step by step",
+    "example": "The company's profits gradually increased over the past three years.",
+    "exampleCn": "这家公司的利润在过去三年里逐渐增长。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's profits gradually increased over the past three years.",
+      "translation": "这家公司的利润在过去三年里逐渐增长。",
+      "analysis": "通过谓语动词 increased 的搭配，判断 gradually 修饰动作，表示“逐渐地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "graduate": {
+    "en": "a person who has completed a course of study",
+    "example": "The university offers career services to help every graduate find a job.",
+    "exampleCn": "这所大学提供就业服务，帮助每位毕业生找到工作。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The university offers career services to help every graduate find a job.",
+      "translation": "这所大学提供就业服务，帮助每位毕业生找到工作。",
+      "analysis": "句中“every graduate”作宾语，结合“help”和“find a job”可判断为“毕业生”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grain": {
+    "en": "a small, hard seed of a cereal plant",
+    "example": "The machine separates each grain of rice from the husk.",
+    "exampleCn": "这台机器将每一粒稻谷从稻壳中分离出来。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The machine separates each grain of rice from the husk.",
+      "translation": "这台机器将每一粒稻谷从稻壳中分离出来。",
+      "analysis": "看“each grain of rice”这个搭配，grain 指“谷粒”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grammar": {
+    "en": "the set of rules for using words in a language",
+    "example": "A solid grasp of grammar is essential for interpreting complex academic texts.",
+    "exampleCn": "扎实掌握语法对于理解复杂的学术文本至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A solid grasp of grammar is essential for interpreting complex academic texts.",
+      "translation": "扎实掌握语法对于理解复杂的学术文本至关重要。",
+      "analysis": "根据主语grasp of grammar和系表结构is essential，判断grammar指语法规则体系。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grand": {
+    "en": "impressive in size, appearance, or scope; majestic",
+    "example": "The grand cathedral stood as a testament to centuries of faith and artistry.",
+    "exampleCn": "这座宏伟的大教堂见证了数个世纪的信仰与艺术。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The grand cathedral stood as a testament to centuries of faith and artistry.",
+      "translation": "这座宏伟的大教堂见证了数个世纪的信仰与艺术。",
+      "analysis": "根据修饰名词cathedral，判断grand意为“宏伟的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "granddaughter": {
+    "en": "the daughter of one's son or daughter",
+    "example": "The old woman smiled as her granddaughter ran across the garden.",
+    "exampleCn": "老妇人微笑着，看着她的孙女跑过花园。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old woman smiled as her granddaughter ran across the garden.",
+      "translation": "老妇人微笑着，看着她的孙女跑过花园。",
+      "analysis": "根据主语“老妇人”和动作“跑过花园”，可判断 granddaughter 指孙女。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grandfather": {
+    "en": "a male ancestor; the founder or originator of something",
+    "example": "The grandfather of modern computing envisioned machines that could think.",
+    "exampleCn": "现代计算机之父设想了能够思考的机器。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The grandfather of modern computing envisioned machines that could think.",
+      "translation": "现代计算机之父设想了能够思考的机器。",
+      "analysis": "先把 grandfather 试译为“祖父”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grandmother": {
+    "en": "the mother of one's parent",
+    "example": "My grandmother often tells stories about her childhood in the countryside.",
+    "exampleCn": "我的祖母经常讲述她在乡下度过的童年故事。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "My grandmother often tells stories about her childhood in the countryside.",
+      "translation": "我的祖母经常讲述她在乡下度过的童年故事。",
+      "analysis": "根据主语位置和谓语 tells stories 判断 grandmother 是人物，即祖母。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grandson": {
+    "en": "the son of one's child",
+    "example": "The old man taught his grandson how to fish in the river.",
+    "exampleCn": "老人教他的孙子如何在河里钓鱼。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old man taught his grandson how to fish in the river.",
+      "translation": "老人教他的孙子如何在河里钓鱼。",
+      "analysis": "根据主语“老人”和动作“教”，判断grandson是“孙子”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "grant": {
     "en": "to give or allow something, often formally",
     "example": "The committee will grant funding to the research project.",
@@ -8220,6 +15564,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grass": {
+    "en": "grass: low green plants covering ground, often in fields or lawns",
+    "example": "The grass in the meadow was tall enough to hide a grazing deer.",
+    "exampleCn": "草地上的草高得足以藏起一只正在吃草的鹿。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The grass in the meadow was tall enough to hide a grazing deer.",
+      "translation": "草地上的草高得足以藏起一只正在吃草的鹿。",
+      "analysis": "根据主语 grass 和谓语 was tall 判断，此处 grass 指植物“草”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grateful": {
+    "en": "feeling or showing thanks for something good received",
+    "example": "The community was deeply grateful for the volunteers' efforts during the crisis.",
+    "exampleCn": "社区对志愿者在危机期间的努力深表感激。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The community was deeply grateful for the volunteers' efforts during the crisis.",
+      "translation": "社区对志愿者在危机期间的努力深表感激。",
+      "analysis": "先把 grateful 试译为“感谢的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grave": {
+    "en": "a hole dug in the ground for a dead body",
+    "example": "The archaeologist carefully excavated the ancient grave, revealing pottery and bones.",
+    "exampleCn": "考古学家小心地挖掘了这座古墓，露出了陶器和骨骼。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The archaeologist carefully excavated the ancient grave, revealing pottery and bones.",
+      "translation": "考古学家小心地挖掘了这座古墓，露出了陶器和骨骼。",
+      "analysis": "根据 excavated 和 revealing 等动作，判断 grave 是具体地点“墓穴”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -8239,6 +15631,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "gray": {
+    "en": "a color between black and white, like ash or lead",
+    "example": "The sky turned a deep gray as the storm approached.",
+    "exampleCn": "随着暴风雨临近，天空变成了深灰色。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sky turned a deep gray as the storm approached.",
+      "translation": "随着暴风雨临近，天空变成了深灰色。",
+      "analysis": "看“turned a deep gray”这个系表结构，gray是名词，表示颜色“灰色”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "greatly": {
+    "en": "by a large amount, especially when intensifying a verb",
+    "example": "The new policy will greatly influence the company's future development.",
+    "exampleCn": "新政策将极大地影响公司的未来发展。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will greatly influence the company's future development.",
+      "translation": "新政策将极大地影响公司的未来发展。",
+      "analysis": "看 greatly 修饰动词 influence，表示程度，意为“极大地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "green": {
+    "en": "the color of grass or leaves",
+    "example": "The company invested heavily in green technologies to reduce emissions.",
+    "exampleCn": "该公司大力投资绿色技术以减少排放。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company invested heavily in green technologies to reduce emissions.",
+      "translation": "该公司大力投资绿色技术以减少排放。",
+      "analysis": "看 green 修饰 technologies，表示环保的、绿色的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grey": {
+    "en": "a neutral color between black and white",
+    "example": "The sky turned a dull grey as the storm approached.",
+    "exampleCn": "暴风雨来临时，天空变成了暗灰色。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sky turned a dull grey as the storm approached.",
+      "translation": "暴风雨来临时，天空变成了暗灰色。",
+      "analysis": "根据搭配“turned a dull grey”判断，grey是名词，表示颜色“灰色”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "grocery": {
+    "en": "a store that sells food and household items",
+    "example": "The new grocery chain offers organic produce at competitive prices.",
+    "exampleCn": "这家新开的食品杂货连锁店以有竞争力的价格提供有机农产品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new grocery chain offers organic produce at competitive prices.",
+      "translation": "这家新开的食品杂货连锁店以有竞争力的价格提供有机农产品。",
+      "analysis": "根据 chain 和 offers 判断 grocery 是名词，指食品杂货店。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ground": {
+    "en": "the solid surface of the earth",
+    "example": "The ground beneath our feet felt solid and dry after the long drought.",
+    "exampleCn": "长期干旱后，我们脚下的土地感觉坚实而干燥。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ground beneath our feet felt solid and dry after the long drought.",
+      "translation": "长期干旱后，我们脚下的土地感觉坚实而干燥。",
+      "analysis": "根据“beneath our feet”和“solid”判断，ground在此指“土地、地面”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "group": {
+    "en": "a set of people or things considered together",
+    "example": "The research group analyzed the data from multiple perspectives.",
+    "exampleCn": "该研究小组从多个角度分析了数据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The research group analyzed the data from multiple perspectives.",
+      "translation": "该研究小组从多个角度分析了数据。",
+      "analysis": "看主语位置，group 前有 research 修饰，表示“研究小组”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "growth": {
     "en": "the process of increasing in size or developing",
     "example": "Rapid economic growth often leads to environmental concerns.",
@@ -8255,6 +15759,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "guard": {
+    "en": "a person who protects or watches over something",
+    "example": "The museum hired a guard to watch over the priceless paintings.",
+    "exampleCn": "博物馆雇佣了一名守卫来看管那些无价画作。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The museum hired a guard to watch over the priceless paintings.",
+      "translation": "博物馆雇佣了一名守卫来看管那些无价画作。",
+      "analysis": "看冠词 a 和名词 guard，搭配 watch over，确定是名词“守卫者”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "guest": {
+    "en": "a person who is invited to visit someone's home or attend an event",
+    "example": "The hotel guest complained about the noisy air conditioner in the room.",
+    "exampleCn": "那位酒店客人抱怨房间里的空调噪音太大。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hotel guest complained about the noisy air conditioner in the room.",
+      "translation": "那位酒店客人抱怨房间里的空调噪音太大。",
+      "analysis": "根据“hotel”和“complained”判断，guest在此指“旅客”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "guide": {
     "en": "a person or thing that shows the way or directs behavior",
     "example": "Economic indicators often guide investors in making decisions.",
@@ -8265,6 +15801,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "Economic indicators often guide investors in making decisions.",
       "translation": "经济指标常常引导投资者做出决策。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“引导者”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "guilty": {
+    "en": "feeling or showing that one has committed a crime or done wrong",
+    "example": "The jury found the defendant guilty of fraud after reviewing the evidence.",
+    "exampleCn": "陪审团在审查证据后认定被告犯有欺诈罪。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The jury found the defendant guilty of fraud after reviewing the evidence.",
+      "translation": "陪审团在审查证据后认定被告犯有欺诈罪。",
+      "analysis": "根据搭配“found...guilty of”和宾语“fraud”，判断此处为法律语境，取“犯罪的”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "guitar": {
+    "en": "a stringed musical instrument played by plucking or strumming",
+    "example": "The musician's guitar was carefully tuned before the performance.",
+    "exampleCn": "这位音乐家在演出前仔细调好了吉他。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The musician's guitar was carefully tuned before the performance.",
+      "translation": "这位音乐家在演出前仔细调好了吉他。",
+      "analysis": "根据主语 musician 和谓语 tuned，可判断 guitar 是乐器，取“吉他”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "gun": {
+    "en": "a weapon that shoots bullets",
+    "example": "The debate over gun control remains a divisive issue in many countries.",
+    "exampleCn": "关于枪支管控的辩论在许多国家仍是一个分裂性议题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The debate over gun control remains a divisive issue in many countries.",
+      "translation": "关于枪支管控的辩论在许多国家仍是一个分裂性议题。",
+      "analysis": "看搭配“gun control”和“divisive issue”，确定gun为“枪支”的常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "guy": {
+    "en": "a man; a rope used to steady something; to make fun of",
+    "example": "The old guy with a beard is a professor, not a tourist.",
+    "exampleCn": "那个留胡子的老家伙是教授，不是游客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old guy with a beard is a professor, not a tourist.",
+      "translation": "那个留胡子的老家伙是教授，不是游客。",
+      "analysis": "根据冠词the和形容词old判断guy是名词，意为“家伙”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "habit": {
+    "en": "a settled or regular tendency or practice",
+    "example": "The habit of checking emails first thing in the morning can reduce productivity.",
+    "exampleCn": "早上第一件事就是查看电子邮件的习惯会降低工作效率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The habit of checking emails first thing in the morning can reduce productivity.",
+      "translation": "早上第一件事就是查看电子邮件的习惯会降低工作效率。",
+      "analysis": "根据“the habit of doing sth”搭配，可知habit意为“习惯”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hall": {
+    "en": "a passage or room at the entrance to a building",
+    "example": "Visitors must wait in the hall until the meeting room is ready.",
+    "exampleCn": "来访者必须在门厅等候，直到会议室准备好。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Visitors must wait in the hall until the meeting room is ready.",
+      "translation": "来访者必须在门厅等候，直到会议室准备好。",
+      "analysis": "根据介词短语 in the hall 和等待的动作，判断 hall 指门厅。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hammer": {
+    "en": "to hit or beat repeatedly with a tool or as if with a tool",
+    "example": "The professor continued to hammer his point about the importance of data verification.",
+    "exampleCn": "教授继续反复强调数据验证的重要性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor continued to hammer his point about the importance of data verification.",
+      "translation": "教授继续反复强调数据验证的重要性。",
+      "analysis": "看 hammer 后接 his point，表示“反复强调”，是比喻义，非本义“锤子”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hand": {
+    "en": "to give or pass something to someone",
+    "example": "The manager asked him to hand the documents to the client.",
+    "exampleCn": "经理让他把文件交给客户。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manager asked him to hand the documents to the client.",
+      "translation": "经理让他把文件交给客户。",
+      "analysis": "看动词搭配“hand sth to sb”，意为“交给”，是考研常见动词用法。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8319,6 +15983,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "happiness": {
+    "en": "a state of well-being and contentment",
+    "example": "The pursuit of happiness is a fundamental human goal.",
+    "exampleCn": "追求快乐是人类的基本目标。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The pursuit of happiness is a fundamental human goal.",
+      "translation": "追求快乐是人类的基本目标。",
+      "analysis": "看短语 the pursuit of happiness，其中 happiness 意为“快乐”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "harbor": {
     "en": "to hold or keep (a thought, feeling, or belief) in one's mind",
     "example": "Many readers still harbor the belief that innovation is driven by lone genius.",
@@ -8335,6 +16015,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "hard": {
+    "en": "difficult to break or bend; solid and firm",
+    "example": "The hard surface of the table resisted the knife's blade.",
+    "exampleCn": "桌子的坚硬表面抵抗住了刀片的切割。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hard surface of the table resisted the knife's blade.",
+      "translation": "桌子的坚硬表面抵抗住了刀片的切割。",
+      "analysis": "根据“surface”和“resisted”判断“hard”为“坚硬的”，而非“困难的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "hardly": {
     "en": "barely; only just",
     "example": "The new policy had hardly been announced when protests erupted.",
@@ -8348,6 +16044,454 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "harm": {
+    "en": "injury or damage caused to someone or something",
+    "example": "The new policy aims to reduce harm to the environment from industrial waste.",
+    "exampleCn": "这项新政策旨在减少工业废物对环境的危害。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce harm to the environment from industrial waste.",
+      "translation": "这项新政策旨在减少工业废物对环境的危害。",
+      "analysis": "根据 reduce harm to 这个动介搭配，确定 harm 是名词，意为“危害”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "harmful": {
+    "en": "causing or likely to cause harm",
+    "example": "The new policy aims to reduce harmful emissions from factories.",
+    "exampleCn": "这项新政策旨在减少工厂的有害排放物。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce harmful emissions from factories.",
+      "translation": "这项新政策旨在减少工厂的有害排放物。",
+      "analysis": "看 harmful 修饰 emissions，意为“有害的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "harmless": {
+    "en": "causing no harm or injury",
+    "example": "The new chemical was tested thoroughly and proved harmless to aquatic life.",
+    "exampleCn": "这种新化学物质经过彻底测试，证明对水生生物无害。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new chemical was tested thoroughly and proved harmless to aquatic life.",
+      "translation": "这种新化学物质经过彻底测试，证明对水生生物无害。",
+      "analysis": "根据后接介词短语 to aquatic life 判断，harmless 在此表示“对……无害”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hat": {
+    "en": "a covering for the head, often with a brim",
+    "example": "The old man tipped his hat to the passing stranger.",
+    "exampleCn": "那位老人向路过的陌生人举帽致意。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old man tipped his hat to the passing stranger.",
+      "translation": "那位老人向路过的陌生人举帽致意。",
+      "analysis": "通过动词 tipped 和介词 to 的搭配，判断 hat 是帽子，表示脱帽或举帽致意的动作。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hate": {
+    "en": "intense or passionate dislike",
+    "example": "The senator's hate for the new policy was evident in his speech.",
+    "exampleCn": "参议员对新政策的憎恨在他的演讲中显而易见。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The senator's hate for the new policy was evident in his speech.",
+      "translation": "参议员对新政策的憎恨在他的演讲中显而易见。",
+      "analysis": "先把 hate 试译为“憎恨”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "head": {
+    "en": "the top or front part of something; to move in a particular direction",
+    "example": "The head of the research team will head the new project.",
+    "exampleCn": "研究团队的负责人将领导这个新项目。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The head of the research team will head the new project.",
+      "translation": "研究团队的负责人将领导这个新项目。",
+      "analysis": "先把 head 试译为“头”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "headache": {
+    "en": "a problem that causes worry or difficulty",
+    "example": "The new regulation has become a major headache for small businesses.",
+    "exampleCn": "这项新规已成为小企业的一大头痛问题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new regulation has become a major headache for small businesses.",
+      "translation": "这项新规已成为小企业的一大头痛问题。",
+      "analysis": "先把 headache 试译为“头痛”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "headquarters": {
+    "en": "the main office or center of control of an organization",
+    "example": "The company's headquarters in New York oversees all global operations.",
+    "exampleCn": "该公司位于纽约的总部负责监督所有全球业务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's headquarters in New York oversees all global operations.",
+      "translation": "该公司位于纽约的总部负责监督所有全球业务。",
+      "analysis": "先把 headquarters 试译为“总部”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heal": {
+    "en": "to become healthy again; to make something healthy again",
+    "example": "The wound will heal quickly if you keep it clean and dry.",
+    "exampleCn": "如果你保持伤口清洁干燥，它会很快痊愈。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The wound will heal quickly if you keep it clean and dry.",
+      "translation": "如果你保持伤口清洁干燥，它会很快痊愈。",
+      "analysis": "看主语wound和副词quickly，判断heal表示伤口愈合、痊愈。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "health": {
+    "en": "the condition of being well or free from disease",
+    "example": "The report highlights the link between diet and mental health.",
+    "exampleCn": "这份报告强调了饮食与心理健康之间的联系。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report highlights the link between diet and mental health.",
+      "translation": "这份报告强调了饮食与心理健康之间的联系。",
+      "analysis": "看“mental”这个形容词，与“health”搭配指心理方面的健康状态。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heart": {
+    "en": "the central issue or essential point, not the organ",
+    "example": "The heart of the debate lies in differing views on economic policy.",
+    "exampleCn": "辩论的核心在于对经济政策的不同看法。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heart of the debate lies in differing views on economic policy.",
+      "translation": "辩论的核心在于对经济政策的不同看法。",
+      "analysis": "看冠词the和介词of，heart表示“核心”，是熟词生义，常见义为“心脏”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heat": {
+    "en": "high temperature; intensity of emotion or activity",
+    "example": "The heat of the debate made it hard to reach a consensus.",
+    "exampleCn": "辩论的激烈程度使得达成共识变得困难。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heat of the debate made it hard to reach a consensus.",
+      "translation": "辩论的激烈程度使得达成共识变得困难。",
+      "analysis": "根据“heat of the debate”这个搭配，确定heat在此表示“激烈程度”，而非温度。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heaven": {
+    "en": "a place of great happiness or the sky",
+    "example": "The ancient Greeks believed that the gods lived in heaven above the clouds.",
+    "exampleCn": "古希腊人相信众神居住在云层之上的天堂。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ancient Greeks believed that the gods lived in heaven above the clouds.",
+      "translation": "古希腊人相信众神居住在云层之上的天堂。",
+      "analysis": "根据介词短语“above the clouds”和动词“lived in”确定“heaven”指“天堂”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heavily": {
+    "en": "to a great degree; with great weight or force",
+    "example": "The company relied heavily on borrowed funds to expand its operations.",
+    "exampleCn": "该公司严重依赖借入资金来扩大业务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company relied heavily on borrowed funds to expand its operations.",
+      "translation": "该公司严重依赖借入资金来扩大业务。",
+      "analysis": "看搭配 relied heavily on，表示程度大，译为“严重地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heavy": {
+    "en": "of great weight; difficult to lift or move",
+    "example": "The heavy box required two people to carry it upstairs.",
+    "exampleCn": "这个沉重的箱子需要两个人才能抬上楼。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heavy box required two people to carry it upstairs.",
+      "translation": "这个沉重的箱子需要两个人才能抬上楼。",
+      "analysis": "看主语 box 和谓语 carry，heavy 修饰 box，表示物理重量大，取“重的”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "heel": {
+    "en": "the back part of the foot below the ankle",
+    "example": "The runner felt a sharp pain in his heel after the long race.",
+    "exampleCn": "长跑后，跑步者感到脚后跟一阵剧痛。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The runner felt a sharp pain in his heel after the long race.",
+      "translation": "长跑后，跑步者感到脚后跟一阵剧痛。",
+      "analysis": "根据介词短语 \"in his heel\" 和上下文 \"pain\" 确定 heel 指脚后跟。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "height": {
+    "en": "the measurement of how tall something is",
+    "example": "The height of the mountain was measured at over 8,000 meters.",
+    "exampleCn": "这座山的高度被测量为超过8000米。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The height of the mountain was measured at over 8,000 meters.",
+      "translation": "这座山的高度被测量为超过8000米。",
+      "analysis": "看主语height和谓语measured，height指具体高度数值。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hell": {
+    "en": "a place of suffering or evil forces",
+    "example": "The war turned the peaceful village into a living hell for its residents.",
+    "exampleCn": "战争把这个宁静的村庄变成了居民的人间地狱。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The war turned the peaceful village into a living hell for its residents.",
+      "translation": "战争把这个宁静的村庄变成了居民的人间地狱。",
+      "analysis": "看 living hell 这个固定搭配，hell 意为“地狱”，形容极其痛苦的处境。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "helpful": {
+    "en": "providing assistance or being useful in a specific context",
+    "example": "The professor's helpful feedback on the draft improved the student's argument significantly.",
+    "exampleCn": "教授对草稿的有益反馈显著改进了学生的论点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor's helpful feedback on the draft improved the student's argument significantly.",
+      "translation": "教授对草稿的有益反馈显著改进了学生的论点。",
+      "analysis": "看 helpful 修饰 feedback，表示反馈有帮助，即“有益的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hero": {
+    "en": "a person admired for courage or noble qualities",
+    "example": "The novel's hero struggles against social injustice to protect the weak.",
+    "exampleCn": "这部小说的主人公与社会不公作斗争，保护弱者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The novel's hero struggles against social injustice to protect the weak.",
+      "translation": "这部小说的主人公与社会不公作斗争，保护弱者。",
+      "analysis": "根据hero前有novel's，后接struggles against，判断为“主人公”而非“英雄”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hesitate": {
+    "en": "pause before deciding or acting due to uncertainty",
+    "example": "When asked to support the proposal, she did not hesitate to express her approval.",
+    "exampleCn": "当被要求支持该提案时，她毫不犹豫地表示赞同。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "When asked to support the proposal, she did not hesitate to express her approval.",
+      "translation": "当被要求支持该提案时，她毫不犹豫地表示赞同。",
+      "analysis": "看“did not hesitate to”这个搭配，表示“毫不犹豫地做某事”，由此确定词义为“犹豫”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hide": {
+    "en": "animal skin, especially used for leather",
+    "example": "The hunter traded the hide of a deer for supplies.",
+    "exampleCn": "猎人用一张鹿皮换取了补给品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hunter traded the hide of a deer for supplies.",
+      "translation": "猎人用一张鹿皮换取了补给品。",
+      "analysis": "根据“traded the hide of a deer”中hide与deer搭配，可判断为“兽皮”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "highly": {
+    "en": "to a very high degree; extremely",
+    "example": "The new policy was highly praised for its innovative approach to urban planning.",
+    "exampleCn": "这项新政策因其创新的城市规划方法而受到高度赞扬。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy was highly praised for its innovative approach to urban planning.",
+      "translation": "这项新政策因其创新的城市规划方法而受到高度赞扬。",
+      "analysis": "看 highly 修饰 praised，表示程度，意为“非常赞许地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "highway": {
+    "en": "a main public road, especially one connecting towns or cities",
+    "example": "The new highway will cut travel time between the two cities by half.",
+    "exampleCn": "这条新公路将把两座城市之间的旅行时间缩短一半。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new highway will cut travel time between the two cities by half.",
+      "translation": "这条新公路将把两座城市之间的旅行时间缩短一半。",
+      "analysis": "根据主语“highway”和谓语“cut travel time”判断，此处为“公路”的常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hip": {
+    "en": "the area on either side of the body below the waist",
+    "example": "The doctor advised him to strengthen his hip muscles through regular exercise.",
+    "exampleCn": "医生建议他通过定期锻炼来加强臀部肌肉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The doctor advised him to strengthen his hip muscles through regular exercise.",
+      "translation": "医生建议他通过定期锻炼来加强臀部肌肉。",
+      "analysis": "看名词前形容词hip，与muscles搭配，指身体部位，确定意为“臀部”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hire": {
+    "en": "the amount paid to use something temporarily",
+    "example": "The hire of the conference room includes basic equipment and cleaning service.",
+    "exampleCn": "会议室的租金包括基本设备和清洁服务。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hire of the conference room includes basic equipment and cleaning service.",
+      "translation": "会议室的租金包括基本设备和清洁服务。",
+      "analysis": "根据hire后接of结构及语境“会议室”，判断为名词“租金”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "historian": {
+    "en": "a person who studies or writes about history",
+    "example": "The historian argued that the event reshaped modern political thought.",
+    "exampleCn": "这位历史学家认为该事件重塑了现代政治思想。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The historian argued that the event reshaped modern political thought.",
+      "translation": "这位历史学家认为该事件重塑了现代政治思想。",
+      "analysis": "看主语“historian”与谓语“argued”搭配，判断其为主张观点的历史学家。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "historical": {
+    "en": "relating to the past or to history",
+    "example": "The historical records show a clear pattern of economic growth.",
+    "exampleCn": "历史记录显示出一个清晰的经济增长模式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The historical records show a clear pattern of economic growth.",
+      "translation": "历史记录显示出一个清晰的经济增长模式。",
+      "analysis": "看修饰的名词 records，historical 表示“历史的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -8383,6 +16527,294 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "hobby": {
+    "en": "a regular activity done for pleasure in one's spare time",
+    "example": "His hobby of collecting rare stamps became a profitable investment over time.",
+    "exampleCn": "他收集稀有邮票的嗜好随着时间的推移变成了一项有利可图的投资。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His hobby of collecting rare stamps became a profitable investment over time.",
+      "translation": "他收集稀有邮票的嗜好随着时间的推移变成了一项有利可图的投资。",
+      "analysis": "先把 hobby 试译为“嗜好”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hold": {
+    "en": "to have or keep something in your hand, or to support something",
+    "example": "The company's strong market position allows it to hold a significant share of the industry.",
+    "exampleCn": "该公司强大的市场地位使其能够占据行业的重要份额。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's strong market position allows it to hold a significant share of the industry.",
+      "translation": "该公司强大的市场地位使其能够占据行业的重要份额。",
+      "analysis": "根据“hold a significant share”搭配，此处“hold”意为“占据、拥有”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "holder": {
+    "en": "a person who owns or possesses something, or an object that supports something",
+    "example": "The patent holder can license the invention to other companies for a fee.",
+    "exampleCn": "专利持有人可以将这项发明授权给其他公司并收取费用。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The patent holder can license the invention to other companies for a fee.",
+      "translation": "专利持有人可以将这项发明授权给其他公司并收取费用。",
+      "analysis": "看 patent holder 搭配，holder 指“持有人”，由 patent 确定含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hole": {
+    "en": "an opening or hollow place in a solid object or surface",
+    "example": "The engineer detected a tiny hole in the pipeline that caused the leak.",
+    "exampleCn": "工程师在管道中检测到一个导致泄漏的小孔。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The engineer detected a tiny hole in the pipeline that caused the leak.",
+      "translation": "工程师在管道中检测到一个导致泄漏的小孔。",
+      "analysis": "看冠词 a 和介词 in 的搭配，说明 hole 是具体位置，结合 pipeline 判断为“孔”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "holiday": {
+    "en": "a day or period of time when people do not work",
+    "example": "The company announced an extra holiday for all employees to celebrate the festival.",
+    "exampleCn": "公司宣布为所有员工增加一天假期来庆祝这个节日。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company announced an extra holiday for all employees to celebrate the festival.",
+      "translation": "公司宣布为所有员工增加一天假期来庆祝这个节日。",
+      "analysis": "根据冠词 an 和介词 for 的搭配，判断 holiday 在此处是可数名词，意为“假期”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hollow": {
+    "en": "a hole or empty space inside something",
+    "example": "The rabbit disappeared into a hollow beneath the old tree roots.",
+    "exampleCn": "兔子消失在老树根下的一个洞里。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rabbit disappeared into a hollow beneath the old tree roots.",
+      "translation": "兔子消失在老树根下的一个洞里。",
+      "analysis": "看不定冠词a和介词into，hollow作名词，意为“洞”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "holy": {
+    "en": "regarded as sacred or having a special religious importance",
+    "example": "The ancient temple was considered a holy place by the local community.",
+    "exampleCn": "这座古庙被当地社区视为神圣之地。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ancient temple was considered a holy place by the local community.",
+      "translation": "这座古庙被当地社区视为神圣之地。",
+      "analysis": "看 holy 修饰 place，表示与宗教相关的神圣意义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "homework": {
+    "en": "work assigned to be done at home, especially for school",
+    "example": "The teacher assigned a lot of homework over the weekend.",
+    "exampleCn": "老师周末布置了很多家庭作业。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The teacher assigned a lot of homework over the weekend.",
+      "translation": "老师周末布置了很多家庭作业。",
+      "analysis": "根据动词assigned和介词over the weekend，判断homework是学校布置的家庭作业。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "honest": {
+    "en": "truthful and not hiding facts",
+    "example": "An honest assessment of the risks is essential for sound decision-making.",
+    "exampleCn": "对风险进行诚实的评估对于做出明智的决策至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "An honest assessment of the risks is essential for sound decision-making.",
+      "translation": "对风险进行诚实的评估对于做出明智的决策至关重要。",
+      "analysis": "看 honest 修饰 assessment，表示不隐瞒事实的评估，取本义“诚实的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "honey": {
+    "en": "a sweet sticky substance made by bees",
+    "example": "The honey produced by local bees is prized for its rich flavor and purity.",
+    "exampleCn": "当地蜜蜂生产的蜂蜜因其浓郁的风味和纯净度而备受珍视。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The honey produced by local bees is prized for its rich flavor and purity.",
+      "translation": "当地蜜蜂生产的蜂蜜因其浓郁的风味和纯净度而备受珍视。",
+      "analysis": "看主语honey和谓语is prized，确定是名词“蜂蜜”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "honor": {
+    "en": "high respect or esteem; privilege",
+    "example": "It is a great honor to be invited to speak at this conference.",
+    "exampleCn": "能被邀请在这次会议上发言是极大的荣誉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "It is a great honor to be invited to speak at this conference.",
+      "translation": "能被邀请在这次会议上发言是极大的荣誉。",
+      "analysis": "根据“a great honor”这个搭配，判断为名词“荣誉”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "honour": {
+    "en": "a mark of respect or distinction",
+    "example": "The scientist received the highest honour for her groundbreaking research.",
+    "exampleCn": "这位科学家因其开创性研究获得了最高荣誉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The scientist received the highest honour for her groundbreaking research.",
+      "translation": "这位科学家因其开创性研究获得了最高荣誉。",
+      "analysis": "看动词received和形容词highest，判断honour是名词，意为荣誉。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hook": {
+    "en": "a curved device for catching or holding things",
+    "example": "The marketing campaign used a free trial as a hook to attract new customers.",
+    "exampleCn": "营销活动利用免费试用作为诱饵来吸引新客户。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The marketing campaign used a free trial as a hook to attract new customers.",
+      "translation": "营销活动利用免费试用作为诱饵来吸引新客户。",
+      "analysis": "根据“as a hook”这个搭配，hook在此处意为“诱饵、吸引物”，是比喻用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "horizontal": {
+    "en": "a line or plane that is level with the ground",
+    "example": "The horizontal of the building aligns with the street's gradient.",
+    "exampleCn": "建筑物的水平线与街道的坡度对齐。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The horizontal of the building aligns with the street's gradient.",
+      "translation": "建筑物的水平线与街道的坡度对齐。",
+      "analysis": "看冠词 the 和介词 of，判断 horizontal 是名词，意为水平线。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "horn": {
+    "en": "a hard pointed part that grows on the heads of some animals",
+    "example": "The bull lowered its horn and charged at the matador.",
+    "exampleCn": "公牛低下它的角，向斗牛士冲去。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The bull lowered its horn and charged at the matador.",
+      "translation": "公牛低下它的角，向斗牛士冲去。",
+      "analysis": "看主语bull和动作charged，horn在此指动物头上的角。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "horror": {
+    "en": "a feeling of great shock or fear",
+    "example": "The horror of the accident left the witnesses speechless for hours.",
+    "exampleCn": "事故的惨状让目击者数小时说不出话。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The horror of the accident left the witnesses speechless for hours.",
+      "translation": "事故的惨状让目击者数小时说不出话。",
+      "analysis": "先把 horror 试译为“惊骇”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "horse": {
+    "en": "a large animal used for riding or carrying things",
+    "example": "The farmer used a horse to plow the field before planting crops.",
+    "exampleCn": "农民在种植作物前用一匹马犁地。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farmer used a horse to plow the field before planting crops.",
+      "translation": "农民在种植作物前用一匹马犁地。",
+      "analysis": "根据动词短语 \"used a horse to plow\" 确定 horse 是用于劳作的动物，即马。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hospital": {
+    "en": "a place where sick or injured people receive medical treatment",
+    "example": "The new policy aims to reduce the number of patients in the hospital.",
+    "exampleCn": "新政策旨在减少医院里的病人数量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce the number of patients in the hospital.",
+      "translation": "新政策旨在减少医院里的病人数量。",
+      "analysis": "根据“in the hospital”这个介词短语，确定hospital是地点名词“医院”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "host": {
     "en": "a person who receives or entertains others",
     "example": "The host greeted each guest with a warm smile at the door.",
@@ -8393,6 +16825,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The host greeted each guest with a warm smile at the door.",
       "translation": "主人在门口微笑着迎接每一位客人。",
       "analysis": "根据 greeted each guest 的搭配，host 在此指主人，而非节目主持人或旅馆老板。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hostage": {
+    "en": "a person held as security for the fulfillment of certain conditions or terms",
+    "example": "The rebels took several soldiers hostage during the attack.",
+    "exampleCn": "叛乱分子在袭击中俘虏了几名士兵作为人质。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rebels took several soldiers hostage during the attack.",
+      "translation": "叛乱分子在袭击中俘虏了几名士兵作为人质。",
+      "analysis": "看动词短语 took...hostage 表示‘扣押为人质’，hostage 是宾语补足语。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hotel": {
+    "en": "a building where people pay to stay overnight",
+    "example": "The hotel near the station offers budget rooms for travelers.",
+    "exampleCn": "车站附近的这家旅馆为旅客提供廉价房间。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hotel near the station offers budget rooms for travelers.",
+      "translation": "车站附近的这家旅馆为旅客提供廉价房间。",
+      "analysis": "看名词hotel作主语，与offers搭配，指提供住宿的场所，即旅馆。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "house": {
+    "en": "a building for living in; a company or institution",
+    "example": "The publishing house released a new edition of the classic novel.",
+    "exampleCn": "这家出版社发布了这部经典小说的新版本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The publishing house released a new edition of the classic novel.",
+      "translation": "这家出版社发布了这部经典小说的新版本。",
+      "analysis": "看 publishing house 搭配，意为出版社，是机构义，非居住房子。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8415,6 +16895,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "huge": {
+    "en": "extremely large in size, amount, or degree",
+    "example": "The project required a huge investment of time and resources.",
+    "exampleCn": "该项目需要投入大量的时间和资源。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project required a huge investment of time and resources.",
+      "translation": "该项目需要投入大量的时间和资源。",
+      "analysis": "看修饰的名词 investment，表示投资规模巨大。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "human": {
     "en": "a member of the species Homo sapiens; a person",
     "example": "The study reveals how human adapt to changing environments over generations.",
@@ -8431,6 +16927,214 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "humorous": {
+    "en": "causing laughter or amusement; funny",
+    "example": "His humorous remarks lightened the tense atmosphere during the negotiation.",
+    "exampleCn": "他幽默的言论缓和了谈判期间的紧张气氛。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His humorous remarks lightened the tense atmosphere during the negotiation.",
+      "translation": "他幽默的言论缓和了谈判期间的紧张气氛。",
+      "analysis": "看 humorous 修饰 remarks，表示‘诙谐的’，与 lightened 搭配表缓和气氛。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "humour": {
+    "en": "the quality of being amusing or the ability to find things funny",
+    "example": "The author uses humour to lighten the tone of an otherwise serious discussion.",
+    "exampleCn": "作者运用幽默来缓和原本严肃的讨论语气。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author uses humour to lighten the tone of an otherwise serious discussion.",
+      "translation": "作者运用幽默来缓和原本严肃的讨论语气。",
+      "analysis": "根据动词“uses”和宾语“humour”的搭配，判断为“幽默”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hunt": {
+    "en": "to search for something or someone, often with determination",
+    "example": "The police launched a massive hunt for the missing child in the forest.",
+    "exampleCn": "警方在森林里展开了大规模的搜寻，寻找失踪的孩子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The police launched a massive hunt for the missing child in the forest.",
+      "translation": "警方在森林里展开了大规模的搜寻，寻找失踪的孩子。",
+      "analysis": "先把 hunt 试译为“狩猎”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "hurt": {
+    "en": "damage or injury to someone's body or feelings",
+    "example": "The hurt from the accident took months to heal.",
+    "exampleCn": "事故造成的伤害花了几个月才愈合。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The hurt from the accident took months to heal.",
+      "translation": "事故造成的伤害花了几个月才愈合。",
+      "analysis": "看冠词the和介词from，判断hurt是名词，意为“伤害”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "husband": {
+    "en": "a man in a marriage; to manage carefully and economically",
+    "example": "The farmer learned to husband his resources during the drought.",
+    "exampleCn": "这位农民学会了在干旱期间节约使用资源。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farmer learned to husband his resources during the drought.",
+      "translation": "这位农民学会了在干旱期间节约使用资源。",
+      "analysis": "看动词用法，husband 作动词表示“节约使用”，与常见名词义“丈夫”不同。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ice": {
+    "en": "frozen water; to become covered with ice",
+    "example": "The ice on the lake was thick enough to support the weight of a car.",
+    "exampleCn": "湖上的冰厚得足以支撑一辆车的重量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ice on the lake was thick enough to support the weight of a car.",
+      "translation": "湖上的冰厚得足以支撑一辆车的重量。",
+      "analysis": "看主语ice和谓语was thick，结合地点on the lake，判断为自然界的冰。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "idea": {
+    "en": "a thought, plan, or suggestion about what to do",
+    "example": "The central idea of the proposal is to reduce carbon emissions by 50%.",
+    "exampleCn": "该提案的核心想法是将碳排放量减少50%。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The central idea of the proposal is to reduce carbon emissions by 50%.",
+      "translation": "该提案的核心想法是将碳排放量减少50%。",
+      "analysis": "看 central idea 搭配，意为“核心想法”，对应考研常见义“主意”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ideal": {
+    "en": "a perfect example or standard of something",
+    "example": "The company's founder was seen as the ideal of entrepreneurial success.",
+    "exampleCn": "该公司的创始人被视为创业成功的典范。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's founder was seen as the ideal of entrepreneurial success.",
+      "translation": "该公司的创始人被视为创业成功的典范。",
+      "analysis": "根据“the ideal of”结构，判断ideal在此表示“典范”，而非“理想”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "identify": {
+    "en": "to recognize someone or something and be able to say who or what they are",
+    "example": "Researchers identify the gene responsible for the disease through careful analysis.",
+    "exampleCn": "研究人员通过仔细分析识别出导致该疾病的基因。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Researchers identify the gene responsible for the disease through careful analysis.",
+      "translation": "研究人员通过仔细分析识别出导致该疾病的基因。",
+      "analysis": "先把 identify 试译为“识别”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "identity": {
+    "en": "the fact of being who or what a person or thing is",
+    "example": "The author argues that cultural identity is shaped by both tradition and modern influences.",
+    "exampleCn": "作者认为，文化身份是由传统和现代影响共同塑造的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author argues that cultural identity is shaped by both tradition and modern influences.",
+      "translation": "作者认为，文化身份是由传统和现代影响共同塑造的。",
+      "analysis": "看主语cultural identity与谓语shaped by的搭配，确定identity意为“身份”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "illegal": {
+    "en": "forbidden by law or official rules",
+    "example": "The company faced severe penalties for engaging in illegal trade practices.",
+    "exampleCn": "该公司因从事非法贸易行为而面临严厉处罚。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company faced severe penalties for engaging in illegal trade practices.",
+      "translation": "该公司因从事非法贸易行为而面临严厉处罚。",
+      "analysis": "根据后接名词“trade practices”判断，“illegal”意为“违法的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "illness": {
+    "en": "a disease or period of sickness",
+    "example": "The illness spread rapidly through the crowded refugee camp.",
+    "exampleCn": "这种疾病在拥挤的难民营中迅速传播。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The illness spread rapidly through the crowded refugee camp.",
+      "translation": "这种疾病在拥挤的难民营中迅速传播。",
+      "analysis": "根据主语 illness 与谓语 spread 搭配，确定指疾病。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "illustrate": {
+    "en": "to make something clear or easier to understand by giving examples or pictures",
+    "example": "The professor used a simple diagram to illustrate the complex theory.",
+    "exampleCn": "教授用一张简单的图表来说明这个复杂的理论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor used a simple diagram to illustrate the complex theory.",
+      "translation": "教授用一张简单的图表来说明这个复杂的理论。",
+      "analysis": "看搭配“used...to illustrate”，表示用某物来说明，确定是“说明”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "image": {
     "en": "a visual representation or mental picture of something",
     "example": "The satellite transmitted a clear image of the storm's center.",
@@ -8441,6 +17145,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The satellite transmitted a clear image of the storm's center.",
       "translation": "卫星传送了风暴中心的清晰影像。",
       "analysis": "看搭配transmitted a clear image，image在此指卫星拍摄的影像，非常见义形象或图像。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "imaginary": {
+    "en": "existing only in the mind; not real",
+    "example": "The boundary between real and imaginary worlds often blurs in science fiction.",
+    "exampleCn": "科幻作品中，真实世界与想象世界之间的界限常常变得模糊。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The boundary between real and imaginary worlds often blurs in science fiction.",
+      "translation": "科幻作品中，真实世界与想象世界之间的界限常常变得模糊。",
+      "analysis": "看名词worlds，imaginary修饰worlds，结合语境确定意为“想象的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "imagination": {
+    "en": "the ability to form mental images or concepts not present to the senses",
+    "example": "The artist's imagination transformed a blank canvas into a vibrant world.",
+    "exampleCn": "艺术家的想象力将空白画布变成了一个充满活力的世界。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist's imagination transformed a blank canvas into a vibrant world.",
+      "translation": "艺术家的想象力将空白画布变成了一个充满活力的世界。",
+      "analysis": "根据主语artist's和谓语transformed，imagination在此表示创造力或想象力。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8463,6 +17199,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "immediate": {
+    "en": "happening or done without delay",
+    "example": "The immediate cause of the conflict was a dispute over resources.",
+    "exampleCn": "冲突的直接原因是对资源的争端。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The immediate cause of the conflict was a dispute over resources.",
+      "translation": "冲突的直接原因是对资源的争端。",
+      "analysis": "看搭配 immediate cause，表示“直接原因”，强调因果关系中的直接性。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "immediately": {
+    "en": "directly; without anything in between",
+    "example": "The court ruled that the law immediately affected interstate commerce.",
+    "exampleCn": "法院裁定该法律直接影响了州际贸易。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court ruled that the law immediately affected interstate commerce.",
+      "translation": "法院裁定该法律直接影响了州际贸易。",
+      "analysis": "看动词affected，immediately修饰它，表示没有中间环节的直接影响，取“直接地”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "immigration": {
+    "en": "the process of entering a country to live there permanently",
+    "example": "The government's new policy aims to reduce illegal immigration by tightening border controls.",
+    "exampleCn": "政府的新政策旨在通过加强边境管制来减少非法移民。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government's new policy aims to reduce illegal immigration by tightening border controls.",
+      "translation": "政府的新政策旨在通过加强边境管制来减少非法移民。",
+      "analysis": "看 illegal 这个形容词搭配，确定 immigration 指“移民行为”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "impact": {
     "en": "a powerful effect that something has on someone or something",
     "example": "The new policy had a significant impact on the local economy.",
@@ -8479,6 +17263,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "impatient": {
+    "en": "unable to wait calmly; showing irritation",
+    "example": "The impatient audience began to whisper as the speaker paused for a long time.",
+    "exampleCn": "不耐烦的观众开始窃窃私语，因为演讲者停顿了很长时间。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The impatient audience began to whisper as the speaker paused for a long time.",
+      "translation": "不耐烦的观众开始窃窃私语，因为演讲者停顿了很长时间。",
+      "analysis": "先把 impatient 试译为“不耐烦的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "implication": {
+    "en": "a possible future effect or result of something",
+    "example": "The economic implication of the new policy remains a subject of debate among experts.",
+    "exampleCn": "新政策的经济影响仍然是专家们争论的话题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The economic implication of the new policy remains a subject of debate among experts.",
+      "translation": "新政策的经济影响仍然是专家们争论的话题。",
+      "analysis": "先把 implication 试译为“含义”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "import": {
+    "en": "goods brought into a country from abroad",
+    "example": "The country's main import is crude oil from neighboring nations.",
+    "exampleCn": "这个国家的主要进口商品是来自邻国的原油。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The country's main import is crude oil from neighboring nations.",
+      "translation": "这个国家的主要进口商品是来自邻国的原油。",
+      "analysis": "看主语和系动词，import 作单数名词，意为“进口商品”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "importance": {
+    "en": "the quality of being significant or having great value",
+    "example": "The importance of this discovery cannot be overstated for future research.",
+    "exampleCn": "这一发现对未来研究的重要性怎么强调都不为过。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The importance of this discovery cannot be overstated for future research.",
+      "translation": "这一发现对未来研究的重要性怎么强调都不为过。",
+      "analysis": "看“importance of”搭配，后面接名词短语，表示“...的重要性”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "important": {
+    "en": "having great meaning, influence, or value",
+    "example": "It is important to note that the data reveal a significant trend.",
+    "exampleCn": "值得注意的是，数据揭示了一个显著的趋势。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "It is important to note that the data reveal a significant trend.",
+      "translation": "值得注意的是，数据揭示了一个显著的趋势。",
+      "analysis": "看 important 后接不定式 to note，表示“做某事是重要的”，取“重要的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "impossible": {
     "en": "not able to occur, exist, or be done",
     "example": "It is impossible to predict the exact outcome of this experiment.",
@@ -8489,6 +17353,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "It is impossible to predict the exact outcome of this experiment.",
       "translation": "预测这个实验的确切结果是不可能的。",
       "analysis": "看 it is impossible to do 结构，表示做某事是不可能的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "impress": {
+    "en": "a strong effect or mark left on the mind",
+    "example": "The new policy left a lasting impress on the company's culture.",
+    "exampleCn": "新政策在公司文化上留下了持久的印记。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy left a lasting impress on the company's culture.",
+      "translation": "新政策在公司文化上留下了持久的印记。",
+      "analysis": "看 left 和 on 的搭配，impress 作名词意为“印记”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "impression": {
+    "en": "A belief or feeling about someone or something, often based on limited information.",
+    "example": "The initial impression of the candidate was favorable among the interviewers.",
+    "exampleCn": "面试官们对这位候选人的第一印象很好。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The initial impression of the candidate was favorable among the interviewers.",
+      "translation": "面试官们对这位候选人的第一印象很好。",
+      "analysis": "看搭配“initial impression”和系动词“was”，说明是描述对候选人的看法，取“印象”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "impressive": {
+    "en": "causing admiration or respect because of size, skill, quality, etc.",
+    "example": "The team's impressive performance in the final match earned them widespread acclaim.",
+    "exampleCn": "该队在决赛中令人印象深刻的表现赢得了广泛赞誉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team's impressive performance in the final match earned them widespread acclaim.",
+      "translation": "该队在决赛中令人印象深刻的表现赢得了广泛赞誉。",
+      "analysis": "看修饰的名词performance，表示表现很出色，给人留下深刻印象。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "improve": {
+    "en": "to make something better or of higher quality",
+    "example": "The new policy aims to improve the efficiency of public transportation.",
+    "exampleCn": "新政策旨在提高公共交通的效率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to improve the efficiency of public transportation.",
+      "translation": "新政策旨在提高公共交通的效率。",
+      "analysis": "根据宾语“efficiency”和搭配“improve the efficiency”可确定意为“提高”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "improvement": {
+    "en": "a change that makes something better or more valuable",
+    "example": "The new policy led to a significant improvement in public health outcomes.",
+    "exampleCn": "新政策显著改善了公共卫生结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy led to a significant improvement in public health outcomes.",
+      "translation": "新政策显著改善了公共卫生结果。",
+      "analysis": "看搭配“significant improvement”和介词“in”，确定是“进步、改善”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inability": {
+    "en": "lack of power, skill, or means to do something",
+    "example": "His inability to adapt to new technologies cost him the promotion.",
+    "exampleCn": "他无法适应新技术，这让他失去了晋升机会。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His inability to adapt to new technologies cost him the promotion.",
+      "translation": "他无法适应新技术，这让他失去了晋升机会。",
+      "analysis": "看 inability 后接 to do 不定式，表示“无法做某事”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inch": {
+    "en": "a unit of length equal to 1/12 of a foot; move slowly or gradually",
+    "example": "The car inched forward in the heavy traffic, moving less than an inch per minute.",
+    "exampleCn": "汽车在拥堵的交通中缓慢前行，每分钟移动不到一英寸。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The car inched forward in the heavy traffic, moving less than an inch per minute.",
+      "translation": "汽车在拥堵的交通中缓慢前行，每分钟移动不到一英寸。",
+      "analysis": "先把 inch 试译为“英寸”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8543,6 +17519,150 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "increasingly": {
+    "en": "more and more over time",
+    "example": "The company is increasingly relying on automation to cut costs.",
+    "exampleCn": "这家公司正逐渐依赖自动化来削减成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company is increasingly relying on automation to cut costs.",
+      "translation": "这家公司正逐渐依赖自动化来削减成本。",
+      "analysis": "看 increasingly 修饰 relying，表示程度渐增，译为“逐渐地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "independence": {
+    "en": "the state of being free from outside control or support",
+    "example": "The region declared independence after decades of political struggle.",
+    "exampleCn": "该地区在几十年的政治斗争后宣布独立。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The region declared independence after decades of political struggle.",
+      "translation": "该地区在几十年的政治斗争后宣布独立。",
+      "analysis": "看动词declared和介词after，表明independence是宣布的结果，意为独立。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "independent": {
+    "en": "not controlled or influenced by others; free",
+    "example": "The independent committee will review the case without any external pressure.",
+    "exampleCn": "这个独立委员会将在没有任何外部压力的情况下审查此案。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The independent committee will review the case without any external pressure.",
+      "translation": "这个独立委员会将在没有任何外部压力的情况下审查此案。",
+      "analysis": "看 independent 修饰 committee，表示不受外界控制的，取“独立的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "indicate": {
+    "en": "to show or suggest something without stating it directly",
+    "example": "The rising number of patents filed each year may indicate a growing emphasis on innovation.",
+    "exampleCn": "每年提交的专利数量不断增加，可能表明人们对创新的重视程度日益提高。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rising number of patents filed each year may indicate a growing emphasis on innovation.",
+      "translation": "每年提交的专利数量不断增加，可能表明人们对创新的重视程度日益提高。",
+      "analysis": "先把 indicate 试译为“表明”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "indication": {
+    "en": "a sign or piece of information that suggests something",
+    "example": "The sudden drop in temperature was an indication of an approaching storm.",
+    "exampleCn": "气温的突然下降是暴风雨即将来临的迹象。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden drop in temperature was an indication of an approaching storm.",
+      "translation": "气温的突然下降是暴风雨即将来临的迹象。",
+      "analysis": "看搭配“an indication of”，表示“...的迹象”，通过上下文判断具体含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "indirect": {
+    "en": "not direct; not resulting from a direct cause or action",
+    "example": "The study used indirect measures to assess participants' attitudes.",
+    "exampleCn": "该研究使用间接测量来评估参与者的态度。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study used indirect measures to assess participants' attitudes.",
+      "translation": "该研究使用间接测量来评估参与者的态度。",
+      "analysis": "看修饰名词measures，indirect表示“间接的”，与直接测量相对。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "individual": {
+    "en": "a single person or thing, separate from others",
+    "example": "The policy aims to protect the rights of each individual in the community.",
+    "exampleCn": "该政策旨在保护社区中每个人的权利。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The policy aims to protect the rights of each individual in the community.",
+      "translation": "该政策旨在保护社区中每个人的权利。",
+      "analysis": "通过“each individual”中的“each”和“rights of”搭配，判断为名词“个人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "indoor": {
+    "en": "located, done, or used inside a building",
+    "example": "Indoor air quality has become a major concern for urban residents.",
+    "exampleCn": "室内空气质量已成为城市居民的一个主要担忧。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Indoor air quality has become a major concern for urban residents.",
+      "translation": "室内空气质量已成为城市居民的一个主要担忧。",
+      "analysis": "indoor 作定语修饰 air quality，表示“室内的”，与 outdoor 相对。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "indoors": {
+    "en": "inside a building; not outside",
+    "example": "Many plants thrive better indoors than in the harsh outdoor climate.",
+    "exampleCn": "许多植物在户内比在恶劣的户外气候中生长得更好。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many plants thrive better indoors than in the harsh outdoor climate.",
+      "translation": "许多植物在户内比在恶劣的户外气候中生长得更好。",
+      "analysis": "根据比较结构“better...than”和“outdoor”的对比，确定indoors意为“在户内”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "industrial": {
     "en": "relating to or used in industry",
     "example": "The industrial sector has seen a steady decline in employment over the past decade.",
@@ -8591,6 +17711,406 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "infection": {
+    "en": "the process or result of being infected by a pathogen",
+    "example": "The infection spread rapidly through the crowded refugee camp.",
+    "exampleCn": "感染在拥挤的难民营中迅速蔓延。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The infection spread rapidly through the crowded refugee camp.",
+      "translation": "感染在拥挤的难民营中迅速蔓延。",
+      "analysis": "看主语 infection 与动词 spread 搭配，确定意为“传染”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "influence": {
+    "en": "the power to affect someone or something",
+    "example": "The cultural influence of the region extends far beyond its borders.",
+    "exampleCn": "该地区的文化影响力远远超出了其边界。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cultural influence of the region extends far beyond its borders.",
+      "translation": "该地区的文化影响力远远超出了其边界。",
+      "analysis": "根据主语 cultural 和谓语 extends 判断 influence 为名词，表示影响力。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "information": {
+    "en": "news or knowledge about something",
+    "example": "The leaked information about the merger caused a stir in the market.",
+    "exampleCn": "关于合并的泄露消息在市场上引起了骚动。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The leaked information about the merger caused a stir in the market.",
+      "translation": "关于合并的泄露消息在市场上引起了骚动。",
+      "analysis": "看 leaked 和 caused a stir，信息被泄露并引起骚动，所以是消息。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "initially": {
+    "en": "at first; in the beginning",
+    "example": "The project was initially approved, but later funding was withdrawn.",
+    "exampleCn": "该项目最初获得批准，但后来资金被撤回。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project was initially approved, but later funding was withdrawn.",
+      "translation": "该项目最初获得批准，但后来资金被撤回。",
+      "analysis": "看副词位置和与later的对比，判断为时间顺序上的“最初”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "injure": {
+    "en": "to cause physical or emotional harm to someone or something",
+    "example": "The company's careless handling of toxic waste could injure the surrounding ecosystem for decades.",
+    "exampleCn": "该公司对有毒废物的粗心处理可能会在未来几十年内损害周围的生态系统。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's careless handling of toxic waste could injure the surrounding ecosystem for decades.",
+      "translation": "该公司对有毒废物的粗心处理可能会在未来几十年内损害周围的生态系统。",
+      "analysis": "看宾语“ecosystem”可知是抽象损害，而非身体伤害。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "injury": {
+    "en": "harm or damage to a person's body or to a thing's condition",
+    "example": "The new policy aims to reduce the risk of injury in the workplace.",
+    "exampleCn": "这项新政策旨在减少工作场所受伤的风险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to reduce the risk of injury in the workplace.",
+      "translation": "这项新政策旨在减少工作场所受伤的风险。",
+      "analysis": "看搭配 reduce the risk of injury，injury 表示身体伤害。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "ink": {
+    "en": "a colored liquid used for writing, printing, or drawing",
+    "example": "The old manuscript was written in black ink that had faded over time.",
+    "exampleCn": "这份旧手稿是用黑色墨水写的，但墨水已随时间褪色。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old manuscript was written in black ink that had faded over time.",
+      "translation": "这份旧手稿是用黑色墨水写的，但墨水已随时间褪色。",
+      "analysis": "根据搭配“written in black ink”确定ink是“墨水”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inner": {
+    "en": "located inside or close to the center of something",
+    "example": "The inner layers of the Earth are extremely hot and under immense pressure.",
+    "exampleCn": "地球的内部层极其炎热，并承受着巨大的压力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The inner layers of the Earth are extremely hot and under immense pressure.",
+      "translation": "地球的内部层极其炎热，并承受着巨大的压力。",
+      "analysis": "看 inner 修饰 layers，表示“内部的”，与外部相对。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "innocent": {
+    "en": "not guilty of a crime or offense",
+    "example": "The jury found the defendant innocent of all charges after a brief deliberation.",
+    "exampleCn": "陪审团经过简短商议后裁定被告所有罪名不成立。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The jury found the defendant innocent of all charges after a brief deliberation.",
+      "translation": "陪审团经过简短商议后裁定被告所有罪名不成立。",
+      "analysis": "看 found...innocent of 结构，innocent 表示“无罪的”，与法律语境搭配。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "innovation": {
+    "en": "a new idea, method, or device that improves something",
+    "example": "The company's latest innovation in battery technology has significantly extended device life.",
+    "exampleCn": "该公司在电池技术上的最新创新显著延长了设备寿命。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's latest innovation in battery technology has significantly extended device life.",
+      "translation": "该公司在电池技术上的最新创新显著延长了设备寿命。",
+      "analysis": "根据搭配“latest innovation in”和主语“company”判断为“创新”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "insect": {
+    "en": "a small creature with six legs and often wings",
+    "example": "The insect population has declined sharply due to pesticide use.",
+    "exampleCn": "由于杀虫剂的使用，昆虫数量急剧下降。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The insect population has declined sharply due to pesticide use.",
+      "translation": "由于杀虫剂的使用，昆虫数量急剧下降。",
+      "analysis": "根据主语“population”和原因“pesticide use”判断为“昆虫”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "insert": {
+    "en": "something placed inside something else",
+    "example": "The newspaper insert contained a special coupon for the new product.",
+    "exampleCn": "报纸的插页里包含了一张新产品的特别优惠券。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The newspaper insert contained a special coupon for the new product.",
+      "translation": "报纸的插页里包含了一张新产品的特别优惠券。",
+      "analysis": "先把 insert 试译为“插入物”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inside": {
+    "en": "the inner side or part of something; not outside",
+    "example": "The inside of the box was lined with soft velvet.",
+    "exampleCn": "盒子的内部衬着柔软的天鹅绒。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The inside of the box was lined with soft velvet.",
+      "translation": "盒子的内部衬着柔软的天鹅绒。",
+      "analysis": "看冠词 the 和介词 of，说明 inside 是名词，意为“内部”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "insist": {
+    "en": "to demand something firmly and refuse to give up",
+    "example": "Some critics insist that the policy will harm economic growth.",
+    "exampleCn": "一些批评者坚持认为该政策将损害经济增长。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Some critics insist that the policy will harm economic growth.",
+      "translation": "一些批评者坚持认为该政策将损害经济增长。",
+      "analysis": "看后面接that从句，表示“坚持认为”，是常见义，无需区分熟词生义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inspector": {
+    "en": "a person whose job is to check that things are done correctly",
+    "example": "The factory inspector found several safety violations during the routine visit.",
+    "exampleCn": "工厂检查员在例行巡视中发现了多处安全隐患。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The factory inspector found several safety violations during the routine visit.",
+      "translation": "工厂检查员在例行巡视中发现了多处安全隐患。",
+      "analysis": "先把 inspector 试译为“检查员”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "inspire": {
+    "en": "to cause someone to feel a strong emotion or desire",
+    "example": "The documentary aims to inspire viewers to take action on climate change.",
+    "exampleCn": "这部纪录片旨在激发观众对气候变化采取行动。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The documentary aims to inspire viewers to take action on climate change.",
+      "translation": "这部纪录片旨在激发观众对气候变化采取行动。",
+      "analysis": "根据“inspire viewers to take action”搭配，确定意为“激发”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "install": {
+    "en": "to set up equipment or software for use",
+    "example": "The technician will install the new system before the end of the week.",
+    "exampleCn": "技术人员将在本周末前安装新系统。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The technician will install the new system before the end of the week.",
+      "translation": "技术人员将在本周末前安装新系统。",
+      "analysis": "看宾语 the new system 和主语 technician，确定是“安装”设备。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "instance": {
+    "en": "a particular example or case of something",
+    "example": "In this instance, the data support the hypothesis rather than refute it.",
+    "exampleCn": "在这个例子中，数据支持了假设，而非反驳它。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "In this instance, the data support the hypothesis rather than refute it.",
+      "translation": "在这个例子中，数据支持了假设，而非反驳它。",
+      "analysis": "看介词短语 in this instance 确定是“在这个例子/情况中”，instance 表“例子”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "institution": {
+    "en": "an organization or establishment founded for a specific purpose",
+    "example": "The financial institution has tightened its lending criteria amid economic uncertainty.",
+    "exampleCn": "这家金融机构在经济不确定的情况下收紧了贷款标准。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The financial institution has tightened its lending criteria amid economic uncertainty.",
+      "translation": "这家金融机构在经济不确定的情况下收紧了贷款标准。",
+      "analysis": "看 financial 这个定语，说明 institution 是“金融机构”，不是“制度”或“习俗”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "intellectual": {
+    "en": "relating to the ability to think and understand ideas",
+    "example": "The intellectual development of a child is influenced by both genetics and environment.",
+    "exampleCn": "孩子的智力发展受遗传和环境两方面的影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The intellectual development of a child is influenced by both genetics and environment.",
+      "translation": "孩子的智力发展受遗传和环境两方面的影响。",
+      "analysis": "由修饰“development”的形容词用法，判断为“智力的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "intelligence": {
+    "en": "the ability to learn, understand, and think",
+    "example": "The study measured children's intelligence through a series of problem-solving tasks.",
+    "exampleCn": "这项研究通过一系列解决问题的任务来测量儿童的智力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study measured children's intelligence through a series of problem-solving tasks.",
+      "translation": "这项研究通过一系列解决问题的任务来测量儿童的智力。",
+      "analysis": "先把 intelligence 试译为“智力”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "intelligent": {
+    "en": "having or showing the ability to understand and learn things quickly",
+    "example": "The intelligent design of the experiment allowed researchers to isolate key variables.",
+    "exampleCn": "实验的巧妙设计使研究人员能够分离出关键变量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The intelligent design of the experiment allowed researchers to isolate key variables.",
+      "translation": "实验的巧妙设计使研究人员能够分离出关键变量。",
+      "analysis": "看 intelligent 修饰 design，表示设计是聪明的、巧妙的，而非指人。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "intend": {
+    "en": "to have a plan or purpose in mind",
+    "example": "The researchers intend to publish their findings next month.",
+    "exampleCn": "研究人员计划下个月发表他们的发现。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researchers intend to publish their findings next month.",
+      "translation": "研究人员计划下个月发表他们的发现。",
+      "analysis": "根据 intend to do 搭配，确定意为“计划”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "intention": {
+    "en": "a person's aim or plan, often with a specific purpose",
+    "example": "The author's intention behind the metaphor is to provoke critical thinking.",
+    "exampleCn": "作者使用这个隐喻的意图是激发批判性思考。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author's intention behind the metaphor is to provoke critical thinking.",
+      "translation": "作者使用这个隐喻的意图是激发批判性思考。",
+      "analysis": "看名词所有格 author's 和介词 behind，确定 intention 意为“意图”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "interaction": {
+    "en": "mutual or reciprocal action or influence",
+    "example": "The interaction between genes and environment shapes individual development.",
+    "exampleCn": "基因与环境的相互作用塑造了个体发展。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The interaction between genes and environment shapes individual development.",
+      "translation": "基因与环境的相互作用塑造了个体发展。",
+      "analysis": "看介词between，表示两者之间，确定是“相互作用”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "interest": {
     "en": "a feeling of wanting to learn more about something or to be involved in something",
     "example": "The decline in public interest in the arts is a cause for concern.",
@@ -8601,6 +18121,70 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The decline in public interest in the arts is a cause for concern.",
       "translation": "公众对艺术的兴趣下降是一个令人担忧的问题。",
       "analysis": "看 interest in 搭配，表示对某事的兴趣，此处为名词常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "international": {
+    "en": "relating to or involving two or more countries",
+    "example": "The international conference attracted delegates from over thirty nations.",
+    "exampleCn": "这次国际会议吸引了来自三十多个国家的代表。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The international conference attracted delegates from over thirty nations.",
+      "translation": "这次国际会议吸引了来自三十多个国家的代表。",
+      "analysis": "看 international 修饰 conference，表示会议范围涉及多国，取“国际的”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "interpretation": {
+    "en": "the act of explaining or understanding something in a particular way",
+    "example": "The interpretation of the data varied among the researchers.",
+    "exampleCn": "研究人员对数据的解释各不相同。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The interpretation of the data varied among the researchers.",
+      "translation": "研究人员对数据的解释各不相同。",
+      "analysis": "看名词 interpretation 后接 of 短语，表示对某事物的解释。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "interrupt": {
+    "en": "to stop something from continuing for a short time",
+    "example": "The construction noise may interrupt the professor's lecture on ancient history.",
+    "exampleCn": "施工噪音可能会打断教授关于古代史的讲座。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The construction noise may interrupt the professor's lecture on ancient history.",
+      "translation": "施工噪音可能会打断教授关于古代史的讲座。",
+      "analysis": "看宾语“lecture”和主语“noise”，确定是“中断”义，而非“插嘴”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "interruption": {
+    "en": "something that stops an activity or process for a short time",
+    "example": "The sudden interruption of the power supply caused data loss in the experiment.",
+    "exampleCn": "电源的突然中断导致了实验中的数据丢失。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden interruption of the power supply caused data loss in the experiment.",
+      "translation": "电源的突然中断导致了实验中的数据丢失。",
+      "analysis": "看介词短语 of the power supply 确定 interruption 意为“中断”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8639,6 +18223,182 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "introduce": {
+    "en": "to bring something new into a system or situation",
+    "example": "The new policy aims to introduce stricter standards for data privacy.",
+    "exampleCn": "新政策旨在引入更严格的数据隐私标准。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to introduce stricter standards for data privacy.",
+      "translation": "新政策旨在引入更严格的数据隐私标准。",
+      "analysis": "先把 introduce 试译为“介绍”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "introduction": {
+    "en": "the act of bringing something into use or notice for the first time",
+    "example": "The introduction of the new policy sparked a heated debate among the staff.",
+    "exampleCn": "新政策的引入在员工中引发了激烈的辩论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The introduction of the new policy sparked a heated debate among the staff.",
+      "translation": "新政策的引入在员工中引发了激烈的辩论。",
+      "analysis": "先把 introduction 试译为“介绍”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "invent": {
+    "en": "to create something new that has never existed before",
+    "example": "The company aims to invent a device that can purify air without using electricity.",
+    "exampleCn": "这家公司旨在发明一种无需用电就能净化空气的设备。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company aims to invent a device that can purify air without using electricity.",
+      "translation": "这家公司旨在发明一种无需用电就能净化空气的设备。",
+      "analysis": "根据宾语“device”和目的“purify air”可确定是“发明”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "invention": {
+    "en": "a new device or process created by human ingenuity",
+    "example": "The invention of the printing press revolutionized the spread of knowledge.",
+    "exampleCn": "印刷机的发明彻底改变了知识的传播方式。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The invention of the printing press revolutionized the spread of knowledge.",
+      "translation": "印刷机的发明彻底改变了知识的传播方式。",
+      "analysis": "看主语 invention 与 of 搭配，指具体发明物，用常见义“发明”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "investigation": {
+    "en": "a systematic examination or inquiry",
+    "example": "The investigation into the data breach revealed several security flaws.",
+    "exampleCn": "对数据泄露事件的调查揭示了几处安全漏洞。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The investigation into the data breach revealed several security flaws.",
+      "translation": "对数据泄露事件的调查揭示了几处安全漏洞。",
+      "analysis": "根据搭配 into the data breach 可判断 investigation 在此意为“调查”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "investment": {
+    "en": "money or time put into something to gain profit or benefit",
+    "example": "The company's investment in renewable energy has yielded substantial returns.",
+    "exampleCn": "该公司在可再生能源上的投资已经产生了可观的回报。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's investment in renewable energy has yielded substantial returns.",
+      "translation": "该公司在可再生能源上的投资已经产生了可观的回报。",
+      "analysis": "先把 investment 试译为“投资”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "invitation": {
+    "en": "an offer or request to participate in something",
+    "example": "The open door was an invitation for anyone to enter the restricted area.",
+    "exampleCn": "那扇敞开的门是对任何人进入禁区的引诱。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The open door was an invitation for anyone to enter the restricted area.",
+      "translation": "那扇敞开的门是对任何人进入禁区的引诱。",
+      "analysis": "根据搭配“an invitation for”和语境“open door”判断为“引诱”，非常见义“邀请”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "invite": {
+    "en": "to ask someone to do something or to go somewhere",
+    "example": "The new policy may invite criticism from environmental groups.",
+    "exampleCn": "新政策可能会招致环保团体的批评。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy may invite criticism from environmental groups.",
+      "translation": "新政策可能会招致环保团体的批评。",
+      "analysis": "看宾语criticism，结合语境，invite在此表示“招致”，而非常见义“邀请”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "involve": {
+    "en": "to include or affect as a necessary part",
+    "example": "The new policy will involve significant changes in the company's management structure.",
+    "exampleCn": "新政策将涉及公司管理结构的重大变化。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will involve significant changes in the company's management structure.",
+      "translation": "新政策将涉及公司管理结构的重大变化。",
+      "analysis": "看宾语“significant changes”，搭配“involve”表示“涉及”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "iron": {
+    "en": "a strong, hard metal used in construction and tools",
+    "example": "The bridge was built with iron, which made it extremely durable.",
+    "exampleCn": "这座桥是用铁建造的，这使得它非常耐用。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The bridge was built with iron, which made it extremely durable.",
+      "translation": "这座桥是用铁建造的，这使得它非常耐用。",
+      "analysis": "根据 built with iron 搭配，iron 在此处意为“铁”，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "irritate": {
+    "en": "to make someone annoyed or angry",
+    "example": "The constant noise from the construction site began to irritate the residents.",
+    "exampleCn": "建筑工地持续的噪音开始激怒居民。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The constant noise from the construction site began to irritate the residents.",
+      "translation": "建筑工地持续的噪音开始激怒居民。",
+      "analysis": "根据主语“噪音”和宾语“居民”的搭配，判断为“激怒”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "island": {
     "en": "a piece of land surrounded by water, or something isolated",
     "example": "The research team found an island of stability in the chaotic data.",
@@ -8671,6 +18431,470 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "item": {
+    "en": "a single thing in a list or group",
+    "example": "The first item on the agenda was discussed thoroughly.",
+    "exampleCn": "议程上的第一个项目被彻底讨论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The first item on the agenda was discussed thoroughly.",
+      "translation": "议程上的第一个项目被彻底讨论。",
+      "analysis": "看介词短语 on the agenda 和序数词 first，确定 item 意为“项目”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jacket": {
+    "en": "a short coat or a protective covering",
+    "example": "The cable's outer jacket was damaged during installation.",
+    "exampleCn": "电缆的外护套在安装过程中损坏了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cable's outer jacket was damaged during installation.",
+      "translation": "电缆的外护套在安装过程中损坏了。",
+      "analysis": "看jacket前有outer，后接of cable，指电缆的保护层，不是衣服。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jail": {
+    "en": "a place where people are kept as punishment for a crime",
+    "example": "The judge sentenced the criminal to five years in jail for fraud.",
+    "exampleCn": "法官因诈骗罪判处该罪犯五年监禁。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The judge sentenced the criminal to five years in jail for fraud.",
+      "translation": "法官因诈骗罪判处该罪犯五年监禁。",
+      "analysis": "先把 jail 试译为“监牢”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jam": {
+    "en": "a sweet spread made from fruit and sugar",
+    "example": "She spread strawberry jam on her toast for breakfast.",
+    "exampleCn": "她早餐时把草莓果酱涂在吐司上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "She spread strawberry jam on her toast for breakfast.",
+      "translation": "她早餐时把草莓果酱涂在吐司上。",
+      "analysis": "根据“spread...on toast”搭配，确定jam为“果酱”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "january": {
+    "en": "the first month of the year",
+    "example": "The report released in january showed a sharp decline in sales.",
+    "exampleCn": "一月份发布的报告显示销售额急剧下降。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report released in january showed a sharp decline in sales.",
+      "translation": "一月份发布的报告显示销售额急剧下降。",
+      "analysis": "根据介词短语“in january”表示时间，判断为“一月”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jealous": {
+    "en": "feeling or showing envy of someone's achievements or advantages",
+    "example": "The team was jealous of their rival's sudden success in the market.",
+    "exampleCn": "这个团队嫉妒对手在市场上的突然成功。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team was jealous of their rival's sudden success in the market.",
+      "translation": "这个团队嫉妒对手在市场上的突然成功。",
+      "analysis": "看介词 of 后的对象 rival's success，表示因他人成功而心生嫉妒。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jeans": {
+    "en": "sturdy cotton trousers, often blue, worn for work or casual use",
+    "example": "The factory workers wore durable jeans to protect their legs from sharp metal edges.",
+    "exampleCn": "工厂工人穿着耐穿的工装裤，以保护腿部免受锋利金属边缘的伤害。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The factory workers wore durable jeans to protect their legs from sharp metal edges.",
+      "translation": "工厂工人穿着耐穿的工装裤，以保护腿部免受锋利金属边缘的伤害。",
+      "analysis": "先把 jeans 试译为“工装裤”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jelly": {
+    "en": "a soft, sweet, semi-solid food made from fruit juice and sugar",
+    "example": "The dessert was a delicate jelly flavored with fresh strawberries.",
+    "exampleCn": "这道甜点是精致的草莓味果冻。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The dessert was a delicate jelly flavored with fresh strawberries.",
+      "translation": "这道甜点是精致的草莓味果冻。",
+      "analysis": "根据“dessert”和“flavored”判断为食物，取“果冻”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jewellery": {
+    "en": "objects such as rings, necklaces, etc., made from valuable materials",
+    "example": "The museum displayed ancient jewellery from the royal tombs.",
+    "exampleCn": "博物馆展出了来自皇家陵墓的古代珠宝。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The museum displayed ancient jewellery from the royal tombs.",
+      "translation": "博物馆展出了来自皇家陵墓的古代珠宝。",
+      "analysis": "根据主语museum和宾语royal tombs，判断jewellery指古代珠宝饰品。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "job": {
+    "en": "a paid position of regular employment",
+    "example": "The new policy aims to create more job opportunities for young graduates.",
+    "exampleCn": "新政策旨在为年轻毕业生创造更多就业机会。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy aims to create more job opportunities for young graduates.",
+      "translation": "新政策旨在为年轻毕业生创造更多就业机会。",
+      "analysis": "看“create more job opportunities”这个搭配，job 表示“工作、就业”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "join": {
+    "en": "to become a member of an organization or group",
+    "example": "Many graduates choose to join the corporate sector for career growth.",
+    "exampleCn": "许多毕业生选择加入企业部门以寻求职业发展。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many graduates choose to join the corporate sector for career growth.",
+      "translation": "许多毕业生选择加入企业部门以寻求职业发展。",
+      "analysis": "根据后面接的宾语“the corporate sector”判断为“加入”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "joint": {
+    "en": "a place where two parts are connected",
+    "example": "The joint between the two pipes was sealed with a special adhesive.",
+    "exampleCn": "两根管道之间的连接处用特殊粘合剂密封。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The joint between the two pipes was sealed with a special adhesive.",
+      "translation": "两根管道之间的连接处用特殊粘合剂密封。",
+      "analysis": "看“between the two pipes”这个介词短语，确定joint指物理连接处。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "joke": {
+    "en": "something said or done to cause laughter",
+    "example": "His proposal was dismissed as a joke by the committee.",
+    "exampleCn": "他的提议被委员会当作笑话而不予考虑。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His proposal was dismissed as a joke by the committee.",
+      "translation": "他的提议被委员会当作笑话而不予考虑。",
+      "analysis": "根据被动结构“was dismissed as a joke”判断，joke在此表示“笑话”，指被轻视的对象。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "journalist": {
+    "en": "a person who writes news stories for newspapers, magazines, or television",
+    "example": "The journalist interviewed several witnesses to gather firsthand information for the article.",
+    "exampleCn": "这名记者采访了几位目击者，为文章收集第一手信息。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The journalist interviewed several witnesses to gather firsthand information for the article.",
+      "translation": "这名记者采访了几位目击者，为文章收集第一手信息。",
+      "analysis": "根据主语身份和动作“采访”判断词义为新闻记者。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "journey": {
+    "en": "a trip from one place to another, especially a long one",
+    "example": "The journey from the coast to the inland took them three days.",
+    "exampleCn": "从海岸到内陆的旅程花了他们三天时间。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The journey from the coast to the inland took them three days.",
+      "translation": "从海岸到内陆的旅程花了他们三天时间。",
+      "analysis": "看冠词the和介词from...to...，确定journey是名词，意为旅程。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "joy": {
+    "en": "a feeling of great pleasure and happiness",
+    "example": "The discovery brought him great joy, but also a sense of responsibility.",
+    "exampleCn": "这一发现给他带来了巨大的喜悦，但也带来了一种责任感。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The discovery brought him great joy, but also a sense of responsibility.",
+      "translation": "这一发现给他带来了巨大的喜悦，但也带来了一种责任感。",
+      "analysis": "根据主语discovery和谓语brought的搭配，joy作名词，意为“喜悦”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "judge": {
+    "en": "a person who decides cases in a court; to form an opinion or conclusion about",
+    "example": "The judge must evaluate evidence impartially before reaching a verdict.",
+    "exampleCn": "法官在做出裁决前必须公正地评估证据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The judge must evaluate evidence impartially before reaching a verdict.",
+      "translation": "法官在做出裁决前必须公正地评估证据。",
+      "analysis": "先把 judge 试译为“法官”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "judgement": {
+    "en": "a formal decision or opinion given after consideration",
+    "example": "The court's final judgement on the case was delivered after a lengthy deliberation.",
+    "exampleCn": "法院对该案的最终判决是在长时间的审议后作出的。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court's final judgement on the case was delivered after a lengthy deliberation.",
+      "translation": "法院对该案的最终判决是在长时间的审议后作出的。",
+      "analysis": "根据搭配“court's final judgement”和介词“on”可知，此处意为“判决”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "juice": {
+    "en": "the liquid from fruits, vegetables, or meat; also means energy or power",
+    "example": "The chef squeezed the juice from the lemon to add flavor to the dish.",
+    "exampleCn": "厨师挤出了柠檬汁，为菜肴增添风味。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The chef squeezed the juice from the lemon to add flavor to the dish.",
+      "translation": "厨师挤出了柠檬汁，为菜肴增添风味。",
+      "analysis": "先把 juice 试译为“汁”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "july": {
+    "en": "the seventh month of the year",
+    "example": "The conference was scheduled for late july, but many participants had conflicts.",
+    "exampleCn": "会议原定于七月下旬举行，但许多参与者时间冲突。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conference was scheduled for late july, but many participants had conflicts.",
+      "translation": "会议原定于七月下旬举行，但许多参与者时间冲突。",
+      "analysis": "根据时间状语 late july 和上下文会议安排，判断 july 为七月。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "june": {
+    "en": "the sixth month of the year, between May and July",
+    "example": "The conference is scheduled for late june, after the final exams.",
+    "exampleCn": "会议定在六月底，期末考试之后。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conference is scheduled for late june, after the final exams.",
+      "translation": "会议定在六月底，期末考试之后。",
+      "analysis": "根据时间状语“after the final exams”和月份名称，确定june为六月。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "junior": {
+    "en": "a person who is younger or has a lower rank",
+    "example": "The junior staff often seek advice from senior colleagues on complex projects.",
+    "exampleCn": "初级员工经常就复杂项目向资深同事寻求建议。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The junior staff often seek advice from senior colleagues on complex projects.",
+      "translation": "初级员工经常就复杂项目向资深同事寻求建议。",
+      "analysis": "根据 junior 修饰 staff 表示职位较低，与 senior 形成对比。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "jury": {
+    "en": "a group of people who decide guilt in a court",
+    "example": "The jury deliberated for hours before reaching a verdict.",
+    "exampleCn": "陪审团商议了几个小时才达成裁决。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The jury deliberated for hours before reaching a verdict.",
+      "translation": "陪审团商议了几个小时才达成裁决。",
+      "analysis": "看主语jury与谓语deliberated和宾语verdict搭配，确定是法律语境中的“陪审团”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "justice": {
+    "en": "the quality of being fair and reasonable",
+    "example": "The pursuit of social justice remains a central goal for many communities.",
+    "exampleCn": "追求社会公平仍然是许多社区的核心目标。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The pursuit of social justice remains a central goal for many communities.",
+      "translation": "追求社会公平仍然是许多社区的核心目标。",
+      "analysis": "看“social justice”搭配，意为社会公平，与司法无关。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "keep": {
+    "en": "to maintain or support oneself, especially financially",
+    "example": "The artist earned barely enough for his keep from selling paintings.",
+    "exampleCn": "这位艺术家卖画赚的钱勉强够维持生计。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The artist earned barely enough for his keep from selling paintings.",
+      "translation": "这位艺术家卖画赚的钱勉强够维持生计。",
+      "analysis": "看“earned...for his keep”搭配，此处keep作名词，意为“生计”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "key": {
+    "en": "a small metal device for opening locks, or a crucial element",
+    "example": "The key to solving the puzzle was hidden under the mat.",
+    "exampleCn": "解开这个谜题的关键藏在垫子下面。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The key to solving the puzzle was hidden under the mat.",
+      "translation": "解开这个谜题的关键藏在垫子下面。",
+      "analysis": "看冠词 the 和介词 to，key 在此表示“关键”，是常见考研义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "keyboard": {
+    "en": "the set of keys on a computer or typewriter",
+    "example": "The keyboard of the new laptop feels responsive and comfortable to type on.",
+    "exampleCn": "新笔记本电脑的键盘手感灵敏，打字舒适。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The keyboard of the new laptop feels responsive and comfortable to type on.",
+      "translation": "新笔记本电脑的键盘手感灵敏，打字舒适。",
+      "analysis": "根据主语“键盘”和谓语“感觉灵敏舒适”确定词义为键盘。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kick": {
+    "en": "to hit something with your foot",
+    "example": "The horse gave a sudden kick, startling the nearby rider.",
+    "exampleCn": "那匹马突然踢了一下，吓到了旁边的骑手。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The horse gave a sudden kick, startling the nearby rider.",
+      "translation": "那匹马突然踢了一下，吓到了旁边的骑手。",
+      "analysis": "看主语horse和宾语rider，结合动作结果startling，判断kick是“踢”的动作。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kid": {
+    "en": "young goat",
+    "example": "The farmer raised a kid for its soft wool and tender meat.",
+    "exampleCn": "这位农民养了一只小山羊，为了获取它柔软的毛和鲜嫩的肉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The farmer raised a kid for its soft wool and tender meat.",
+      "translation": "这位农民养了一只小山羊，为了获取它柔软的毛和鲜嫩的肉。",
+      "analysis": "根据“raised”和“soft wool”判断，kid在此指小山羊，而非小孩。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "kill": {
     "en": "to cause death or end something",
     "example": "The new policy could kill the incentive for innovation.",
@@ -8681,6 +18905,166 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new policy could kill the incentive for innovation.",
       "translation": "新政策可能会扼杀创新的动力。",
       "analysis": "看 kill 后接抽象名词 incentive，判断为“扼杀、消灭”义，非字面“杀死”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "killer": {
+    "en": "a person, thing, or situation that causes death or destruction",
+    "example": "The new policy proved a killer for small businesses, forcing many to close.",
+    "exampleCn": "这项新政策对小企业来说是致命打击，迫使许多企业倒闭。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy proved a killer for small businesses, forcing many to close.",
+      "translation": "这项新政策对小企业来说是致命打击，迫使许多企业倒闭。",
+      "analysis": "先把 killer 试译为“杀人者”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kilometre": {
+    "en": "a unit of length equal to 1,000 meters",
+    "example": "The pipeline extends over 1,200 kilometre through remote areas.",
+    "exampleCn": "这条管道延伸超过1200公里，穿越偏远地区。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The pipeline extends over 1,200 kilometre through remote areas.",
+      "translation": "这条管道延伸超过1200公里，穿越偏远地区。",
+      "analysis": "通过数字和介词over搭配，确定kilometre是长度单位“公里”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kindness": {
+    "en": "the quality of being gentle, caring, and helpful",
+    "example": "The judge's unexpected kindness toward the defendant surprised the courtroom.",
+    "exampleCn": "法官对被告出乎意料的仁慈让法庭上的人感到惊讶。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The judge's unexpected kindness toward the defendant surprised the courtroom.",
+      "translation": "法官对被告出乎意料的仁慈让法庭上的人感到惊讶。",
+      "analysis": "根据主语judge和宾语defendant，结合unexpected，判断kindness在此为“仁慈”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kingdom": {
+    "en": "a realm or domain, often political or conceptual",
+    "example": "The animal kingdom is vast, but the plant kingdom covers even more ground.",
+    "exampleCn": "动物王国很庞大，但植物王国覆盖的地盘更大。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The animal kingdom is vast, but the plant kingdom covers even more ground.",
+      "translation": "动物王国很庞大，但植物王国覆盖的地盘更大。",
+      "analysis": "看“animal”和“plant”这两个修饰词，确定“kingdom”指生物学分类中的“界”或“王国”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kiss": {
+    "en": "a gentle touch or press with the lips, often as a sign of affection",
+    "example": "The breeze seemed to kiss her cheek as she stood by the window.",
+    "exampleCn": "微风似乎轻吻着她的脸颊，她站在窗边。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The breeze seemed to kiss her cheek as she stood by the window.",
+      "translation": "微风似乎轻吻着她的脸颊，她站在窗边。",
+      "analysis": "看主语breeze和宾语cheek，kiss在此是拟人用法，意为“轻拂、轻触”，不是字面接吻。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "kitchen": {
+    "en": "a room where food is prepared and cooked",
+    "example": "The kitchen was filled with the aroma of freshly baked bread.",
+    "exampleCn": "厨房里弥漫着新鲜出炉的面包的香气。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The kitchen was filled with the aroma of freshly baked bread.",
+      "translation": "厨房里弥漫着新鲜出炉的面包的香气。",
+      "analysis": "先把 kitchen 试译为“厨房”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "knee": {
+    "en": "the joint between the thigh and the lower leg",
+    "example": "The injury to his knee forced him to withdraw from the competition.",
+    "exampleCn": "他膝盖的受伤迫使他退出了比赛。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The injury to his knee forced him to withdraw from the competition.",
+      "translation": "他膝盖的受伤迫使他退出了比赛。",
+      "analysis": "根据“injury to his knee”这个搭配，判断knee是身体部位“膝盖”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "knife": {
+    "en": "a tool with a sharp blade for cutting",
+    "example": "The surgeon used a sharp knife to make a precise incision.",
+    "exampleCn": "外科医生用一把锋利的小刀做了一个精确的切口。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The surgeon used a sharp knife to make a precise incision.",
+      "translation": "外科医生用一把锋利的小刀做了一个精确的切口。",
+      "analysis": "根据名词前冠词和形容词sharp，以及动词used，判断knife是工具名词，意为小刀。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "knit": {
+    "en": "to join or combine closely, as in knitting threads",
+    "example": "The community's shared values knit its members into a cohesive group.",
+    "exampleCn": "这个社区的共同价值观将其成员紧密地结合成一个有凝聚力的群体。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The community's shared values knit its members into a cohesive group.",
+      "translation": "这个社区的共同价值观将其成员紧密地结合成一个有凝聚力的群体。",
+      "analysis": "看knit与into搭配，表示‘结合成’，此处为比喻用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "knot": {
+    "en": "a tight mass or lump, as in wood or string",
+    "example": "The wood grain revealed a small knot that weakened the plank.",
+    "exampleCn": "木材纹理上露出一个小节疤，削弱了这块木板。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The wood grain revealed a small knot that weakened the plank.",
+      "translation": "木材纹理上露出一个小节疤，削弱了这块木板。",
+      "analysis": "看搭配“a small knot”和“weakened the plank”，结合木材语境，确定是“节疤”义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8703,6 +19087,182 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "lab": {
+    "en": "a place for scientific experiments or research",
+    "example": "The lab results confirmed the hypothesis about cell mutation.",
+    "exampleCn": "实验室的结果证实了关于细胞突变的假说。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lab results confirmed the hypothesis about cell mutation.",
+      "translation": "实验室的结果证实了关于细胞突变的假说。",
+      "analysis": "根据 lab results 这一搭配，lab 指进行实验的场所，即实验室。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "labor": {
+    "en": "work, especially physical work; workers; to work hard",
+    "example": "The division of labor in modern factories increases efficiency.",
+    "exampleCn": "现代工厂中的劳动分工提高了效率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The division of labor in modern factories increases efficiency.",
+      "translation": "现代工厂中的劳动分工提高了效率。",
+      "analysis": "看“division of labor”这个固定搭配，意为劳动分工，labor在此是名词“劳动”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "laboratory": {
+    "en": "a room or building for scientific experiments, research, or teaching",
+    "example": "The laboratory results confirmed the hypothesis that the new drug was effective.",
+    "exampleCn": "实验室结果证实了新药有效的假设。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The laboratory results confirmed the hypothesis that the new drug was effective.",
+      "translation": "实验室结果证实了新药有效的假设。",
+      "analysis": "看主语“laboratory results”搭配，意为“实验室结果”，确定词义为实验室。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "labour": {
+    "en": "productive work, especially physical work done for wages",
+    "example": "The factory's labour force has been reduced by automation.",
+    "exampleCn": "该工厂的劳动力因自动化而减少。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The factory's labour force has been reduced by automation.",
+      "translation": "该工厂的劳动力因自动化而减少。",
+      "analysis": "通过“labour force”这个搭配，判断labour在此处是名词，意为“劳动力”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lack": {
+    "en": "not having enough of something",
+    "example": "The project failed due to a lack of funding and support.",
+    "exampleCn": "该项目因缺乏资金和支持而失败。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project failed due to a lack of funding and support.",
+      "translation": "该项目因缺乏资金和支持而失败。",
+      "analysis": "看 lack 后接 of 短语，表示缺少某物，译为“缺乏”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lad": {
+    "en": "a young man or boy, often used informally",
+    "example": "The old man taught the young lad how to fish in the river.",
+    "exampleCn": "老人教那个年轻小伙子如何在河里钓鱼。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old man taught the young lad how to fish in the river.",
+      "translation": "老人教那个年轻小伙子如何在河里钓鱼。",
+      "analysis": "通过冠词 the 和形容词 young 修饰，判断 lad 指年轻男性。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lady": {
+    "en": "a woman who behaves in a polite, refined way",
+    "example": "The old lady insisted on being addressed as a lady, not a woman.",
+    "exampleCn": "那位老妇人坚持要被称为淑女，而不是女人。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old lady insisted on being addressed as a lady, not a woman.",
+      "translation": "那位老妇人坚持要被称为淑女，而不是女人。",
+      "analysis": "先把 lady 试译为“淑女”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lake": {
+    "en": "a large area of water surrounded by land",
+    "example": "The lake's surface reflected the surrounding mountains perfectly.",
+    "exampleCn": "湖面完美地映出了周围的群山。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lake's surface reflected the surrounding mountains perfectly.",
+      "translation": "湖面完美地映出了周围的群山。",
+      "analysis": "根据句子主语“lake's surface”和谓语“reflected”，判断lake是“湖”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lamp": {
+    "en": "a device that produces light",
+    "example": "The old lamp cast a warm glow across the dusty room.",
+    "exampleCn": "那盏旧灯在布满灰尘的房间里投下温暖的光辉。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old lamp cast a warm glow across the dusty room.",
+      "translation": "那盏旧灯在布满灰尘的房间里投下温暖的光辉。",
+      "analysis": "根据主语 lamp 和谓语 cast a warm glow，判断 lamp 是名词，意为“灯”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "land": {
+    "en": "the solid part of the earth's surface, not water",
+    "example": "The explorers finally reached dry land after weeks at sea.",
+    "exampleCn": "探险者们在海上数周后终于抵达了干燥的陆地。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The explorers finally reached dry land after weeks at sea.",
+      "translation": "探险者们在海上数周后终于抵达了干燥的陆地。",
+      "analysis": "根据搭配“reach dry land”和语境“after weeks at sea”确定词义为“陆地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "landlord": {
+    "en": "a person who owns a building or land and rents it to others",
+    "example": "The landlord refused to fix the broken heater, leaving tenants in the cold.",
+    "exampleCn": "房东拒绝修理坏掉的暖气，让租户们挨冻。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The landlord refused to fix the broken heater, leaving tenants in the cold.",
+      "translation": "房东拒绝修理坏掉的暖气，让租户们挨冻。",
+      "analysis": "根据主语 landlord 与谓语 refused to fix 及宾语 heater 的搭配，判断其为房东。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "landscape": {
     "en": "the visible features of an area, or the overall situation",
     "example": "The political landscape shifted dramatically after the election results were announced.",
@@ -8719,6 +19279,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "lane": {
+    "en": "a narrow road, often between fields or houses",
+    "example": "The car turned into a narrow lane lined with old trees.",
+    "exampleCn": "汽车拐进了一条两旁种着老树的狭窄小巷。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The car turned into a narrow lane lined with old trees.",
+      "translation": "汽车拐进了一条两旁种着老树的狭窄小巷。",
+      "analysis": "根据 narrow 和 lined with old trees 可知 lane 指狭窄的小路或巷子。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "language": {
+    "en": "the system of communication in speech and writing used by people of a particular country",
+    "example": "The context of language tells readers which Chinese meaning fits the sentence.",
+    "exampleCn": "语言的语境告诉读者哪个中文含义适合这个句子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The context of language tells readers which Chinese meaning fits the sentence.",
+      "translation": "语言的语境告诉读者哪个中文含义适合这个句子。",
+      "analysis": "看主语context of language，表示语言的语境，language取常见义“语言”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "largely": {
     "en": "to a great extent; mainly",
     "example": "The success of the project depends largely on the cooperation of all team members.",
@@ -8729,6 +19321,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The success of the project depends largely on the cooperation of all team members.",
       "translation": "该项目的成功在很大程度上取决于所有团队成员的配合。",
       "analysis": "根据搭配“depends largely on”确定意为“很大程度上”，区别于常见义“大量地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "later": {
+    "en": "at a subsequent or future time",
+    "example": "The full impact of the policy would become clear later.",
+    "exampleCn": "该政策的全部影响将在以后变得清晰。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The full impact of the policy would become clear later.",
+      "translation": "该政策的全部影响将在以后变得清晰。",
+      "analysis": "根据时间状语位置和句意，later 表示“以后”，与常见义一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "latest": {
+    "en": "most recent or up-to-date",
+    "example": "The latest report on climate change highlights urgent actions needed.",
+    "exampleCn": "关于气候变化的最新报告强调了需要采取的紧急行动。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The latest report on climate change highlights urgent actions needed.",
+      "translation": "关于气候变化的最新报告强调了需要采取的紧急行动。",
+      "analysis": "latest 修饰 report，表示时间上最近发布的，结合 highlight 判断为“最近的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "latin": {
+    "en": "a person from Latin America or a language derived from Latin",
+    "example": "Many latin immigrants brought rich cultural traditions to the city.",
+    "exampleCn": "许多拉丁移民给这座城市带来了丰富的文化传统。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many latin immigrants brought rich cultural traditions to the city.",
+      "translation": "许多拉丁移民给这座城市带来了丰富的文化传统。",
+      "analysis": "根据“immigrants”可知latin指人，即拉丁人。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8751,6 +19391,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "latter": {
+    "en": "the second of two things or people mentioned",
+    "example": "The former option is cheaper, but the latter offers better quality.",
+    "exampleCn": "前一个选项更便宜，但后者质量更好。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The former option is cheaper, but the latter offers better quality.",
+      "translation": "前一个选项更便宜，但后者质量更好。",
+      "analysis": "通过前文对比关系，latter 指代前句中提到的第二个选项。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "law": {
     "en": "a rule established by authority or custom",
     "example": "The new law aims to reduce carbon emissions by 2030.",
@@ -8761,6 +19417,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new law aims to reduce carbon emissions by 2030.",
       "translation": "这项新法律旨在到2030年减少碳排放。",
       "analysis": "看主语new和谓语aims to reduce，确定law在此为“法律”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lawn": {
+    "en": "an area of short, mown grass in a garden or park",
+    "example": "The lawn in front of the library is carefully maintained by the staff.",
+    "exampleCn": "图书馆前面的草坪由工作人员精心维护。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lawn in front of the library is carefully maintained by the staff.",
+      "translation": "图书馆前面的草坪由工作人员精心维护。",
+      "analysis": "根据“in front of the library”和“maintained”可判断lawn在此指“草地”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lawyer": {
+    "en": "A person whose profession is to represent clients in legal matters.",
+    "example": "The lawyer presented a compelling argument that swayed the jury.",
+    "exampleCn": "这位律师提出了一个令人信服的论点，打动了陪审团。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lawyer presented a compelling argument that swayed the jury.",
+      "translation": "这位律师提出了一个令人信服的论点，打动了陪审团。",
+      "analysis": "看主语 lawyer 和谓语 presented argument，结合宾语 jury，可确定是律师职业义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8783,6 +19471,134 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "lazy": {
+    "en": "not willing to work or use energy; showing a lack of effort",
+    "example": "The lazy student often skipped classes and failed to submit assignments on time.",
+    "exampleCn": "这个懒惰的学生经常逃课，未能按时提交作业。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lazy student often skipped classes and failed to submit assignments on time.",
+      "translation": "这个懒惰的学生经常逃课，未能按时提交作业。",
+      "analysis": "根据主语student和谓语skipped classes，判断lazy是形容词，意为懒惰的。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lead": {
+    "en": "a heavy metal element, symbol Pb, used in batteries and radiation shielding",
+    "example": "The old pipes were made of lead, which can pose health risks.",
+    "exampleCn": "旧管道由铅制成，这可能带来健康风险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old pipes were made of lead, which can pose health risks.",
+      "translation": "旧管道由铅制成，这可能带来健康风险。",
+      "analysis": "根据“made of”和“pipes”判断，lead 是金属材料，取“铅”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leader": {
+    "en": "a person who leads a group, organization, or country",
+    "example": "The party leader called for unity among all members during the crisis.",
+    "exampleCn": "该党领袖在危机期间呼吁所有成员团结一致。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The party leader called for unity among all members during the crisis.",
+      "translation": "该党领袖在危机期间呼吁所有成员团结一致。",
+      "analysis": "看 party 和 called for 的搭配，确定 leader 指政党领袖。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leadership": {
+    "en": "the ability to guide or direct a group or organization",
+    "example": "Effective leadership requires not only vision but also the ability to inspire trust.",
+    "exampleCn": "有效的领导能力不仅需要远见，还需要激发信任的能力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Effective leadership requires not only vision but also the ability to inspire trust.",
+      "translation": "有效的领导能力不仅需要远见，还需要激发信任的能力。",
+      "analysis": "先把 leadership 试译为“领导能力”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leaf": {
+    "en": "a flat green part of a plant, or a page of a book",
+    "example": "The leaf of the tree turned golden in autumn, covering the ground.",
+    "exampleCn": "秋天，树叶变成金色，覆盖了地面。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The leaf of the tree turned golden in autumn, covering the ground.",
+      "translation": "秋天，树叶变成金色，覆盖了地面。",
+      "analysis": "根据“of the tree”和“turned golden”判断，leaf 指树叶。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "league": {
+    "en": "a group of people, countries, or organizations that have joined together for a common purpose",
+    "example": "The two companies formed a league to develop new energy technologies.",
+    "exampleCn": "这两家公司组成了一个联盟来开发新能源技术。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The two companies formed a league to develop new energy technologies.",
+      "translation": "这两家公司组成了一个联盟来开发新能源技术。",
+      "analysis": "看 formed a league 这个动宾搭配，league 是“联盟”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lean": {
+    "en": "meat with little or no fat",
+    "example": "The recipe calls for lean ground beef, not the fatty kind.",
+    "exampleCn": "食谱要求用瘦肉馅，而不是肥肉馅。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The recipe calls for lean ground beef, not the fatty kind.",
+      "translation": "食谱要求用瘦肉馅，而不是肥肉馅。",
+      "analysis": "根据搭配“lean ground beef”和与“fatty”的对比，确定lean意为“瘦的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "learn": {
+    "en": "gain knowledge or skill by study, experience, or being taught",
+    "example": "Students must learn to analyze complex data sets critically.",
+    "exampleCn": "学生必须学会批判性地分析复杂数据集。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Students must learn to analyze complex data sets critically.",
+      "translation": "学生必须学会批判性地分析复杂数据集。",
+      "analysis": "搭配 learn to do 表示“学会做某事”，此处取“学习”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "least": {
     "en": "the smallest amount or degree",
     "example": "At least, the new policy aims to reduce carbon emissions by 20%.",
@@ -8793,6 +19609,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "At least, the new policy aims to reduce carbon emissions by 20%.",
       "translation": "至少，新政策旨在将碳排放减少20%。",
       "analysis": "看短语 at least 表示‘至少’，是固定搭配，常见义与考研义一致。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leather": {
+    "en": "animal skin prepared for use, or a piece of this",
+    "example": "The craftsman used high-quality leather to make the wallet.",
+    "exampleCn": "工匠用高质量的皮革制作钱包。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The craftsman used high-quality leather to make the wallet.",
+      "translation": "工匠用高质量的皮革制作钱包。",
+      "analysis": "根据“high-quality”这个形容词修饰“leather”，判断为“皮革”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leave": {
+    "en": "permission, especially to be absent from work or duty",
+    "example": "The employee requested leave to attend a family emergency.",
+    "exampleCn": "这名员工请假去处理家庭紧急情况。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The employee requested leave to attend a family emergency.",
+      "translation": "这名员工请假去处理家庭紧急情况。",
+      "analysis": "根据“requested leave”搭配，leave作名词表示“请假”，而非动词“离开”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lecture": {
+    "en": "A formal talk given to an audience, often in a university.",
+    "example": "The professor's lecture on climate change drew a large crowd of students.",
+    "exampleCn": "教授关于气候变化的演讲吸引了一大群学生。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor's lecture on climate change drew a large crowd of students.",
+      "translation": "教授关于气候变化的演讲吸引了一大群学生。",
+      "analysis": "根据搭配“on climate change”和主语“professor”，确定lecture为“演讲”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "legal": {
+    "en": "relating to the law or allowed by law",
+    "example": "The legal system must ensure fairness for all citizens.",
+    "exampleCn": "法律体系必须确保对所有公民的公平。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The legal system must ensure fairness for all citizens.",
+      "translation": "法律体系必须确保对所有公民的公平。",
+      "analysis": "看 legal 修饰 system，表示“法律的”，而非“合法的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "leisure": {
+    "en": "free time when one is not working or busy",
+    "example": "Many people spend their leisure hours engaging in outdoor activities.",
+    "exampleCn": "许多人把空闲时间花在户外活动上。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many people spend their leisure hours engaging in outdoor activities.",
+      "translation": "许多人把空闲时间花在户外活动上。",
+      "analysis": "看leisure修饰hours，表示“空闲的”，作定语。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lemon": {
+    "en": "a yellow citrus fruit with sour taste",
+    "example": "The car he bought turned out to be a lemon, breaking down constantly.",
+    "exampleCn": "他买的那辆车结果是个次品，老是出故障。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The car he bought turned out to be a lemon, breaking down constantly.",
+      "translation": "他买的那辆车结果是个次品，老是出故障。",
+      "analysis": "看搭配“a lemon”指有缺陷的产品，常见义为柠檬，考研义为次品。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8831,6 +19743,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "let": {
+    "en": "allow or permit; used in phrases like 'let alone' or 'let out'",
+    "example": "The government decided to let the contract to a foreign firm.",
+    "exampleCn": "政府决定将合同承包给一家外国公司。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government decided to let the contract to a foreign firm.",
+      "translation": "政府决定将合同承包给一家外国公司。",
+      "analysis": "先把 let 试译为“让”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "letter": {
+    "en": "a written message sent to someone",
+    "example": "The letter from the editor clarified the magazine's new policy on submissions.",
+    "exampleCn": "编辑的来信澄清了杂志关于投稿的新政策。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The letter from the editor clarified the magazine's new policy on submissions.",
+      "translation": "编辑的来信澄清了杂志关于投稿的新政策。",
+      "analysis": "根据“from the editor”和“clarified”判断，letter在此意为“信”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "level": {
     "en": "a position or standard that is neither high nor low",
     "example": "The level of pollution in the river has reached a critical point.",
@@ -8863,6 +19807,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "library": {
+    "en": "a collection of books or data for reference or borrowing",
+    "example": "The university library houses a vast collection of rare manuscripts.",
+    "exampleCn": "这所大学的图书馆收藏了大量珍贵的手稿。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The university library houses a vast collection of rare manuscripts.",
+      "translation": "这所大学的图书馆收藏了大量珍贵的手稿。",
+      "analysis": "看主语 university 和谓语 houses，说明 library 是收藏场所，即图书馆。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "licence": {
+    "en": "official permission to do, use, or own something",
+    "example": "The company applied for a licence to operate a new factory in the industrial zone.",
+    "exampleCn": "该公司申请了在工业区经营新工厂的许可证。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company applied for a licence to operate a new factory in the industrial zone.",
+      "translation": "该公司申请了在工业区经营新工厂的许可证。",
+      "analysis": "licence 前有冠词 a，后接不定式 to operate，表示具体许可证，是常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lid": {
+    "en": "a cover that can be lifted or removed",
+    "example": "The government tried to keep a tight lid on the news.",
+    "exampleCn": "政府试图严格控制新闻的发布。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government tried to keep a tight lid on the news.",
+      "translation": "政府试图严格控制新闻的发布。",
+      "analysis": "根据 keep a tight lid on 这个固定搭配，判断 lid 意为“限制、控制”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lift": {
+    "en": "to raise something to a higher position or level",
+    "example": "The government's new policy aims to lift the economy out of recession.",
+    "exampleCn": "政府的新政策旨在使经济摆脱衰退。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government's new policy aims to lift the economy out of recession.",
+      "translation": "政府的新政策旨在使经济摆脱衰退。",
+      "analysis": "根据搭配 lift the economy out of，结合宾语 economy，判断为“使摆脱、提升”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "light": {
+    "en": "illumination or the natural agent that stimulates sight",
+    "example": "The light from the window illuminated the dusty room.",
+    "exampleCn": "窗外的光照亮了布满灰尘的房间。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The light from the window illuminated the dusty room.",
+      "translation": "窗外的光照亮了布满灰尘的房间。",
+      "analysis": "根据搭配“from the window”和动词“illuminated”确定“light”为“光”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lightly": {
+    "en": "gently, without much force or weight",
+    "example": "The judge touched lightly on the issue, avoiding a deep discussion.",
+    "exampleCn": "法官轻轻触及这个问题，避免深入讨论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The judge touched lightly on the issue, avoiding a deep discussion.",
+      "translation": "法官轻轻触及这个问题，避免深入讨论。",
+      "analysis": "看副词lightly修饰动词touched，表示动作力度小，结合语境译为'轻轻地'。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "likely": {
     "en": "probable or expected to happen",
     "example": "The most likely outcome is a gradual recovery of the economy.",
@@ -8879,6 +19919,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "limit": {
+    "en": "a point or level beyond which something cannot go",
+    "example": "The new policy sets a strict limit on carbon emissions.",
+    "exampleCn": "新政策对碳排放设定了严格的限制。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy sets a strict limit on carbon emissions.",
+      "translation": "新政策对碳排放设定了严格的限制。",
+      "analysis": "看动词 sets 和介词 on，limit 作名词，表示“限制”的界限。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "line": {
     "en": "a row of people or things",
     "example": "The first line of the paragraph presents a clear argument.",
@@ -8889,6 +19945,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The first line of the paragraph presents a clear argument.",
       "translation": "段落的第一行提出了一个清晰的论点。",
       "analysis": "看 line 前有 first 和 of the paragraph，表示段落中的行，取“列”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "link": {
+    "en": "a connection between two or more things or people",
+    "example": "The study found a strong link between exercise and mental health.",
+    "exampleCn": "该研究发现锻炼与心理健康之间存在密切联系。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found a strong link between exercise and mental health.",
+      "translation": "该研究发现锻炼与心理健康之间存在密切联系。",
+      "analysis": "看冠词a和介词between，link作名词表示“联系”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lip": {
+    "en": "the edge of a container or opening",
+    "example": "The technician carefully examined the lip of the metal pipe for any cracks.",
+    "exampleCn": "技术员仔细检查了金属管的边缘是否有裂缝。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The technician carefully examined the lip of the metal pipe for any cracks.",
+      "translation": "技术员仔细检查了金属管的边缘是否有裂缝。",
+      "analysis": "根据“of the metal pipe”这一所属关系，确定lip在此指物体的边缘或口缘。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "liquid": {
+    "en": "a substance that flows freely and is not a solid or gas",
+    "example": "The liquid in the beaker evaporated quickly under the heat.",
+    "exampleCn": "烧杯中的液体在加热下迅速蒸发。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The liquid in the beaker evaporated quickly under the heat.",
+      "translation": "烧杯中的液体在加热下迅速蒸发。",
+      "analysis": "先把 liquid 试译为“液体”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8927,6 +20031,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "literally": {
+    "en": "in a literal manner; exactly as stated",
+    "example": "The term is used literally to describe the physical process.",
+    "exampleCn": "该术语被逐字地用来描述物理过程。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The term is used literally to describe the physical process.",
+      "translation": "该术语被逐字地用来描述物理过程。",
+      "analysis": "看 used literally 搭配，意为“逐字地”，表示严格按字面意思使用。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "literature": {
+    "en": "written works, especially those valued for artistic merit",
+    "example": "The professor assigned a vast body of literature for the seminar on modern poetry.",
+    "exampleCn": "教授为现代诗歌研讨会布置了大量的文学作品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor assigned a vast body of literature for the seminar on modern poetry.",
+      "translation": "教授为现代诗歌研讨会布置了大量的文学作品。",
+      "analysis": "看“a vast body of literature”搭配，指大量文学作品，确定是“文学”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "live": {
+    "en": "not dead; alive",
+    "example": "The experiment requires live specimens for accurate observation.",
+    "exampleCn": "该实验需要活的标本才能进行准确观察。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment requires live specimens for accurate observation.",
+      "translation": "该实验需要活的标本才能进行准确观察。",
+      "analysis": "看 live 修饰 specimens，表示“活的”，区别于“死的”或“非活体”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lively": {
+    "en": "full of energy and enthusiasm; active and outgoing",
+    "example": "The lively debate among scholars highlighted the complexity of the issue.",
+    "exampleCn": "学者们之间热烈的辩论凸显了该问题的复杂性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lively debate among scholars highlighted the complexity of the issue.",
+      "translation": "学者们之间热烈的辩论凸显了该问题的复杂性。",
+      "analysis": "看 lively 修饰 debate，表示辩论气氛活跃，取“热烈的”之意。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "load": {
+    "en": "a burden or large amount of something",
+    "example": "The extra load of assignments left students with little time for rest.",
+    "exampleCn": "额外的作业负担让学生几乎没有时间休息。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The extra load of assignments left students with little time for rest.",
+      "translation": "额外的作业负担让学生几乎没有时间休息。",
+      "analysis": "根据“extra load of assignments”搭配，确定load为“负担”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "loan": {
     "en": "a sum of money borrowed from a bank or other financial institution",
     "example": "The bank approved his loan for the new business venture.",
@@ -8953,6 +20137,182 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The local government implemented new policies to boost the regional economy.",
       "translation": "地方政府实施了新政策以促进区域经济。",
       "analysis": "看搭配“local government”确定是“地方性的”，区别于“当地的”常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "locally": {
+    "en": "in a way that relates to a particular place or area",
+    "example": "The company sources its raw materials locally to reduce transportation costs.",
+    "exampleCn": "该公司在当地采购原材料以降低运输成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company sources its raw materials locally to reduce transportation costs.",
+      "translation": "该公司在当地采购原材料以降低运输成本。",
+      "analysis": "根据搭配“sources...locally”，locally修饰动词，表示“在当地”，强调地域范围。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "location": {
+    "en": "a particular place or position",
+    "example": "The exact location of the ancient ruins remains unknown to archaeologists.",
+    "exampleCn": "古代遗址的确切位置对考古学家来说仍然未知。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The exact location of the ancient ruins remains unknown to archaeologists.",
+      "translation": "古代遗址的确切位置对考古学家来说仍然未知。",
+      "analysis": "看形容词 exact 和介词 of 的搭配，确定 location 是具体位置的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lock": {
+    "en": "a device that keeps something shut or fastened",
+    "example": "The mechanic found that the brake lock had failed, causing the wheel to spin freely.",
+    "exampleCn": "机械师发现刹车锁失效了，导致车轮自由转动。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mechanic found that the brake lock had failed, causing the wheel to spin freely.",
+      "translation": "机械师发现刹车锁失效了，导致车轮自由转动。",
+      "analysis": "根据 brake lock 搭配和机械语境，确定 lock 为名词“锁”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "logic": {
+    "en": "a way of thinking or explaining something that seems correct",
+    "example": "The logic behind the argument is flawed, as it ignores key evidence.",
+    "exampleCn": "这个论证背后的逻辑是有缺陷的，因为它忽略了关键证据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The logic behind the argument is flawed, as it ignores key evidence.",
+      "translation": "这个论证背后的逻辑是有缺陷的，因为它忽略了关键证据。",
+      "analysis": "看“behind the argument”搭配，表示论证背后的逻辑，取“逻辑”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "logical": {
+    "en": "following or capable of following a line of reasoning",
+    "example": "A logical conclusion must follow from the given premises.",
+    "exampleCn": "一个合乎逻辑的结论必须从给定的前提中得出。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A logical conclusion must follow from the given premises.",
+      "translation": "一个合乎逻辑的结论必须从给定的前提中得出。",
+      "analysis": "看主语 conclusion 和动词 follow，判断 logical 是“合乎逻辑的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lonely": {
+    "en": "feeling sad because one has no friends or company",
+    "example": "Living in a big city can be lonely even when surrounded by crowds.",
+    "exampleCn": "住在大城市里，即使周围人山人海，也可能感到孤单。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Living in a big city can be lonely even when surrounded by crowds.",
+      "translation": "住在大城市里，即使周围人山人海，也可能感到孤单。",
+      "analysis": "根据系动词 be 和形容词 lonely 作表语，表示主语的状态，结合语境判断为“孤单的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "long": {
+    "en": "to desire or wish for something strongly",
+    "example": "Many young people long for a stable job in the current economy.",
+    "exampleCn": "许多年轻人在当前经济形势下渴望一份稳定的工作。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Many young people long for a stable job in the current economy.",
+      "translation": "许多年轻人在当前经济形势下渴望一份稳定的工作。",
+      "analysis": "根据后接介词 for 判断为动词，意为“渴望”，区别于常见形容词义“长的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "loose": {
+    "en": "to release or fire something, like a weapon or an emotion",
+    "example": "The commander ordered his troops to loose a volley of arrows at the advancing enemy.",
+    "exampleCn": "指挥官命令他的部队向逼近的敌人射出一排箭矢。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The commander ordered his troops to loose a volley of arrows at the advancing enemy.",
+      "translation": "指挥官命令他的部队向逼近的敌人射出一排箭矢。",
+      "analysis": "看动词搭配“loose a volley of arrows”，表示“发射”，而非常见义“松的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "loosely": {
+    "en": "in a way that is not tight or strict",
+    "example": "The term is used loosely in this context, referring to a general idea rather than a precise definition.",
+    "exampleCn": "在这个语境中，这个术语被宽松地使用，指的是一个大致的概念而非精确的定义。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The term is used loosely in this context, referring to a general idea rather than a precise definition.",
+      "translation": "在这个语境中，这个术语被宽松地使用，指的是一个大致的概念而非精确的定义。",
+      "analysis": "看副词 loosely 修饰动词 used，表示‘不严格地’，与后面的 rather than 对比确定含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lord": {
+    "en": "a person who has authority, control, or power over others",
+    "example": "The feudal lord demanded absolute obedience from his serfs.",
+    "exampleCn": "封建领主要求农奴绝对服从。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The feudal lord demanded absolute obedience from his serfs.",
+      "translation": "封建领主要求农奴绝对服从。",
+      "analysis": "根据 feudal 和 demanded obedience 判断，lord 在此指封建社会的统治者。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lorry": {
+    "en": "a large vehicle for carrying goods by road",
+    "example": "The lorry was loaded with supplies for the remote village.",
+    "exampleCn": "那辆卡车装满了给偏远村庄的补给品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lorry was loaded with supplies for the remote village.",
+      "translation": "那辆卡车装满了给偏远村庄的补给品。",
+      "analysis": "从搭配“loaded with supplies”和主语位置可判断为“卡车”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -8991,6 +20351,230 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "lot": {
+    "en": "one's luck or fate in life",
+    "example": "It was his lot to endure hardship and struggle for years.",
+    "exampleCn": "忍受多年的艰辛和奋斗是他的命运。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "It was his lot to endure hardship and struggle for years.",
+      "translation": "忍受多年的艰辛和奋斗是他的命运。",
+      "analysis": "先把 lot 试译为“运气”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "loud": {
+    "en": "very noticeable or forceful in sound or expression",
+    "example": "The loud protests against the new policy echoed through the streets.",
+    "exampleCn": "反对新政策的强烈抗议声响彻街道。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The loud protests against the new policy echoed through the streets.",
+      "translation": "反对新政策的强烈抗议声响彻街道。",
+      "analysis": "根据修饰protests的形容词位置，判断loud在此表示“强烈的、大声的”，而非常见义“喧闹的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lover": {
+    "en": "a person in a romantic relationship",
+    "example": "The young lover wrote a poem for her beloved every day.",
+    "exampleCn": "这位年轻的爱人每天都为她心爱的人写一首诗。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The young lover wrote a poem for her beloved every day.",
+      "translation": "这位年轻的爱人每天都为她心爱的人写一首诗。",
+      "analysis": "先把 lover 试译为“爱人”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "low": {
+    "en": "a point or level that is less than average or expected",
+    "example": "The stock market hit a new low amid growing economic uncertainty.",
+    "exampleCn": "在不断加剧的经济不确定性中，股市触及新低。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The stock market hit a new low amid growing economic uncertainty.",
+      "translation": "在不断加剧的经济不确定性中，股市触及新低。",
+      "analysis": "根据 hit a new low 这个动宾搭配，low 作名词，意为“低点”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lower": {
+    "en": "make or become less in amount, degree, or value",
+    "example": "The company had to lower its prices to stay competitive in the market.",
+    "exampleCn": "该公司不得不降低价格以保持市场竞争力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company had to lower its prices to stay competitive in the market.",
+      "translation": "该公司不得不降低价格以保持市场竞争力。",
+      "analysis": "看搭配 lower prices，动词用法，意为“降低”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "loyal": {
+    "en": "faithful and devoted to a person, country, or cause",
+    "example": "The company's most loyal customers often receive exclusive benefits.",
+    "exampleCn": "公司最忠诚的客户经常获得专属福利。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's most loyal customers often receive exclusive benefits.",
+      "translation": "公司最忠诚的客户经常获得专属福利。",
+      "analysis": "先把 loyal 试译为“忠诚的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "luck": {
+    "en": "success or failure apparently brought by chance rather than through one's own actions",
+    "example": "His success was not a matter of luck but of careful planning and hard work.",
+    "exampleCn": "他的成功并非运气使然，而是精心规划和努力工作的结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His success was not a matter of luck but of careful planning and hard work.",
+      "translation": "他的成功并非运气使然，而是精心规划和努力工作的结果。",
+      "analysis": "先把 luck 试译为“运气”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lucky": {
+    "en": "having, bringing, or resulting from good luck",
+    "example": "The lucky investor sold shares just before the market crashed.",
+    "exampleCn": "那位幸运的投资者在市场崩盘前卖掉了股票。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The lucky investor sold shares just before the market crashed.",
+      "translation": "那位幸运的投资者在市场崩盘前卖掉了股票。",
+      "analysis": "根据形容词lucky修饰investor，结合语境判断为“幸运的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "luggage": {
+    "en": "bags, suitcases, and other containers for personal belongings during travel",
+    "example": "Passengers are advised to keep their luggage with them at all times.",
+    "exampleCn": "建议乘客随时随身携带自己的行李。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Passengers are advised to keep their luggage with them at all times.",
+      "translation": "建议乘客随时随身携带自己的行李。",
+      "analysis": "根据搭配“keep...with them”和上下文“Passengers”，确定luggage指“行李”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lump": {
+    "en": "a compact mass of a substance, especially one without a definite or regular shape",
+    "example": "The geologist examined a lump of ore to determine its mineral content.",
+    "exampleCn": "地质学家检查了一块矿石以确定其矿物含量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The geologist examined a lump of ore to determine its mineral content.",
+      "translation": "地质学家检查了一块矿石以确定其矿物含量。",
+      "analysis": "根据“a lump of ore”中“of”后接物质名词，判断lump为“块”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lunch": {
+    "en": "a meal eaten in the middle of the day",
+    "example": "The conference schedule includes a one-hour lunch break.",
+    "exampleCn": "会议日程包括一小时的午休时间。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The conference schedule includes a one-hour lunch break.",
+      "translation": "会议日程包括一小时的午休时间。",
+      "analysis": "根据搭配“lunch break”确定词义为“午餐”，注意此处是名词。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "lung": {
+    "en": "an organ in the chest used for breathing",
+    "example": "The study found that lung capacity declines with age, affecting overall health.",
+    "exampleCn": "研究发现肺活量随年龄增长而下降，影响整体健康。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found that lung capacity declines with age, affecting overall health.",
+      "translation": "研究发现肺活量随年龄增长而下降，影响整体健康。",
+      "analysis": "看搭配“lung capacity”确定是“肺”的意思，名词作定语。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "machine": {
+    "en": "a device with moving parts that uses power to do work",
+    "example": "The machine processes data faster than any human could.",
+    "exampleCn": "这台机器处理数据的速度比任何人都快。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The machine processes data faster than any human could.",
+      "translation": "这台机器处理数据的速度比任何人都快。",
+      "analysis": "看主语 machine 与谓语 processes data 搭配，确定是“机器”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mad": {
+    "en": "extremely angry or foolish",
+    "example": "The public was mad about the government's decision to cut funding for education.",
+    "exampleCn": "公众对政府削减教育经费的决定感到非常愤怒。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The public was mad about the government's decision to cut funding for education.",
+      "translation": "公众对政府削减教育经费的决定感到非常愤怒。",
+      "analysis": "先把 mad 试译为“疯狂的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "magazine": {
     "en": "a periodical publication or a storage place for ammunition or film",
     "example": "The magazine of the rifle held ten rounds of ammunition.",
@@ -9007,6 +20591,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "magic": {
+    "en": "the art of performing tricks that seem impossible",
+    "example": "The ancient ritual was believed to possess a magic that could heal the sick.",
+    "exampleCn": "这种古老的仪式被认为拥有一种能治愈病人的魔力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ancient ritual was believed to possess a magic that could heal the sick.",
+      "translation": "这种古老的仪式被认为拥有一种能治愈病人的魔力。",
+      "analysis": "先把 magic 试译为“魔术”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "magistrate": {
+    "en": "a local official who judges minor cases or enforces the law",
+    "example": "The magistrate ruled that the protest was illegal and ordered its dispersal.",
+    "exampleCn": "这位地方法官裁定抗议活动非法，并下令驱散人群。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The magistrate ruled that the protest was illegal and ordered its dispersal.",
+      "translation": "这位地方法官裁定抗议活动非法，并下令驱散人群。",
+      "analysis": "根据 magistrate 后接 ruled 和 ordered 的动词搭配，判断其为“地方法官”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mail": {
+    "en": "postal system or messages sent by post",
+    "example": "The company uses a private mail service for urgent documents.",
+    "exampleCn": "该公司使用私人邮件服务寄送紧急文件。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company uses a private mail service for urgent documents.",
+      "translation": "该公司使用私人邮件服务寄送紧急文件。",
+      "analysis": "看 mail 前有 private 修饰，后接 service，判断为“邮件”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "main": {
     "en": "the main part or most important element of something",
     "example": "The main of the argument lies in its logical consistency.",
@@ -9017,6 +20649,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The main of the argument lies in its logical consistency.",
       "translation": "该论证的主要部分在于其逻辑一致性。",
       "analysis": "看主语位置和介词短语，main 作名词表示“主要部分”，区别于常见形容词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mainly": {
+    "en": "chiefly; for the most part",
+    "example": "The debate mainly centers on economic factors rather than social ones.",
+    "exampleCn": "这场辩论主要围绕经济因素而非社会因素展开。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The debate mainly centers on economic factors rather than social ones.",
+      "translation": "这场辩论主要围绕经济因素而非社会因素展开。",
+      "analysis": "看 mainly 与 centers on 搭配，表示“主要集中于”，确定词义为“主要地”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9055,6 +20703,86 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "majority": {
+    "en": "the greater number or part; more than half of a group",
+    "example": "The majority of voters supported the new policy in the recent election.",
+    "exampleCn": "大多数选民在最近的选举中支持这项新政策。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The majority of voters supported the new policy in the recent election.",
+      "translation": "大多数选民在最近的选举中支持这项新政策。",
+      "analysis": "看“majority of”搭配，表示“大多数”，后接可数名词复数。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "make": {
+    "en": "to create or produce something",
+    "example": "The new policy will make significant changes to the education system.",
+    "exampleCn": "新政策将对教育体系做出重大改变。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will make significant changes to the education system.",
+      "translation": "新政策将对教育体系做出重大改变。",
+      "analysis": "看 make 后接名词短语 significant changes，表示“做出改变”，取“制造”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "male": {
+    "en": "a person or animal of the sex that can fertilize eggs",
+    "example": "The study found that male participants were more likely to take risks.",
+    "exampleCn": "研究发现，男性参与者更倾向于冒险。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found that male participants were more likely to take risks.",
+      "translation": "研究发现，男性参与者更倾向于冒险。",
+      "analysis": "看 male 修饰 participants，表示性别，译为“男性”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mall": {
+    "en": "a shaded public walkway or promenade",
+    "example": "The old mall, lined with ancient trees, offered a cool retreat from the summer heat.",
+    "exampleCn": "这条古老的林荫路两旁古树成行，是夏日避暑的好去处。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old mall, lined with ancient trees, offered a cool retreat from the summer heat.",
+      "translation": "这条古老的林荫路两旁古树成行，是夏日避暑的好去处。",
+      "analysis": "根据“lined with ancient trees”这一修饰，判断mall在此指林荫路，而非购物中心。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "manage": {
+    "en": "to handle or control a situation, task, or resource",
+    "example": "Companies must manage the delicate balance between profit and sustainability.",
+    "exampleCn": "公司必须处理利润与可持续性之间的微妙平衡。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Companies must manage the delicate balance between profit and sustainability.",
+      "translation": "公司必须处理利润与可持续性之间的微妙平衡。",
+      "analysis": "看 manage 后接抽象名词 balance，结合宾语搭配确定意为“处理”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "management": {
     "en": "the act or skill of controlling and making decisions about a business or organization",
     "example": "Effective management of resources is crucial for the company's growth.",
@@ -9065,6 +20793,102 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "Effective management of resources is crucial for the company's growth.",
       "translation": "有效的资源管理对公司的成长至关重要。",
       "analysis": "看 management 后接 of resources，表示对资源的经营或支配，此处为常见义，非熟词生义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "manager": {
+    "en": "a person who controls or directs an organization or part of it",
+    "example": "The manager decided to restructure the team to improve efficiency.",
+    "exampleCn": "经理决定重组团队以提高效率。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manager decided to restructure the team to improve efficiency.",
+      "translation": "经理决定重组团队以提高效率。",
+      "analysis": "根据主语“manager”与谓语“decided”的搭配，判断为“经理”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "manner": {
+    "en": "way of doing something or behaving",
+    "example": "His manner of speaking suggested he was not entirely convinced.",
+    "exampleCn": "他说话的样子表明他并不完全信服。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His manner of speaking suggested he was not entirely convinced.",
+      "translation": "他说话的样子表明他并不完全信服。",
+      "analysis": "看 manner 后接 of speaking，表示“说话的样子”，取“样子”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "manufacturer": {
+    "en": "a company that makes goods in large quantities",
+    "example": "The manufacturer recalled thousands of vehicles due to a safety defect.",
+    "exampleCn": "该制造商因安全缺陷召回了数千辆汽车。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The manufacturer recalled thousands of vehicles due to a safety defect.",
+      "translation": "该制造商因安全缺陷召回了数千辆汽车。",
+      "analysis": "根据主语 manufacturer 与谓语 recalled 的搭配，判断其为“制造商”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "map": {
+    "en": "a visual representation of an area or a plan of something",
+    "example": "The map of the region shows the distribution of natural resources.",
+    "exampleCn": "该地区的地图显示了自然资源的分布情况。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The map of the region shows the distribution of natural resources.",
+      "translation": "该地区的地图显示了自然资源的分布情况。",
+      "analysis": "根据名词搭配“map of the region”确定map为“地图”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "march": {
+    "en": "the third month of the year",
+    "example": "The company's sales figures for March showed a significant increase.",
+    "exampleCn": "公司三月份的销售数据显示出显著增长。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company's sales figures for March showed a significant increase.",
+      "translation": "公司三月份的销售数据显示出显著增长。",
+      "analysis": "首字母大写且前无冠词，表示月份，即三月。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mark": {
+    "en": "a visible sign or indication of something",
+    "example": "The sudden drop in sales mark a turning point for the company.",
+    "exampleCn": "销售额的突然下降标志着公司的转折点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden drop in sales mark a turning point for the company.",
+      "translation": "销售额的突然下降标志着公司的转折点。",
+      "analysis": "根据主语“drop”和宾语“turning point”判断，mark在此意为“标志”，是动词用法。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9087,6 +20911,70 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "marriage": {
+    "en": "the state of being united as a couple",
+    "example": "The merger represents a marriage of two distinct corporate cultures.",
+    "exampleCn": "这次合并代表了两种不同企业文化的结合。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The merger represents a marriage of two distinct corporate cultures.",
+      "translation": "这次合并代表了两种不同企业文化的结合。",
+      "analysis": "先把 marriage 试译为“婚姻”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "marry": {
+    "en": "to join two people in marriage",
+    "example": "The study aims to marry traditional methods with modern technology.",
+    "exampleCn": "这项研究旨在将传统方法与现代技术结合起来。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study aims to marry traditional methods with modern technology.",
+      "translation": "这项研究旨在将传统方法与现代技术结合起来。",
+      "analysis": "先把 marry 试译为“与...结婚”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mask": {
+    "en": "something that hides or disguises a true nature",
+    "example": "His cheerful manner was a mask for deep sadness.",
+    "exampleCn": "他欢快的态度是深深悲伤的掩饰。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "His cheerful manner was a mask for deep sadness.",
+      "translation": "他欢快的态度是深深悲伤的掩饰。",
+      "analysis": "看系表结构 a mask for，mask 是名词，意为“掩饰”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mass": {
+    "en": "a large number or amount of something",
+    "example": "A mass of data supports the conclusion that the policy is effective.",
+    "exampleCn": "大量数据支持该政策有效的结论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A mass of data supports the conclusion that the policy is effective.",
+      "translation": "大量数据支持该政策有效的结论。",
+      "analysis": "根据 a mass of 这个搭配，判断 mass 意为“大量”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "master": {
     "en": "a person who has control or authority over others",
     "example": "The dog recognized its master's voice and immediately wagged its tail.",
@@ -9097,6 +20985,38 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The dog recognized its master's voice and immediately wagged its tail.",
       "translation": "狗认出了主人的声音，立刻摇起了尾巴。",
       "analysis": "根据 master 后接 's voice 的所属关系，判断为'主人'，区别于常见义'硕士'或'大师'。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "match": {
+    "en": "a contest or game between two opponents",
+    "example": "The final match between the two teams was intense and closely watched.",
+    "exampleCn": "两队之间的决赛非常激烈，备受关注。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The final match between the two teams was intense and closely watched.",
+      "translation": "两队之间的决赛非常激烈，备受关注。",
+      "analysis": "根据“between the two teams”和“final”判断，match在此意为比赛。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mate": {
+    "en": "a partner in marriage or close relationship",
+    "example": "The researcher observed how each mate contributed to the nest-building process.",
+    "exampleCn": "研究人员观察了每只配偶如何为筑巢过程做出贡献。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The researcher observed how each mate contributed to the nest-building process.",
+      "translation": "研究人员观察了每只配偶如何为筑巢过程做出贡献。",
+      "analysis": "根据主语 each mate 和 nest-building process，mate 在此指动物配偶。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9119,6 +21039,118 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "maximum": {
+    "en": "the greatest amount or level possible",
+    "example": "The system can handle a maximum of 500 users at once.",
+    "exampleCn": "该系统一次最多可处理500个用户。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The system can handle a maximum of 500 users at once.",
+      "translation": "该系统一次最多可处理500个用户。",
+      "analysis": "看“a maximum of”这个搭配，表示“最多”，确定是名词“最大量”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "may": {
+    "en": "the fifth month of the year",
+    "example": "The words before and after may show whether the sentence is describing, comparing, or judging.",
+    "exampleCn": "前后的词语可以表明句子是在描述、比较还是评判。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The words before and after may show whether the sentence is describing, comparing, or judging.",
+      "translation": "前后的词语可以表明句子是在描述、比较还是评判。",
+      "analysis": "根据“may”后接动词原形“show”，判断为情态动词“可以”，非五月义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mayor": {
+    "en": "the elected head of a city or town government",
+    "example": "The mayor announced a new policy to reduce traffic congestion in the downtown area.",
+    "exampleCn": "市长宣布了一项新政策，旨在减少市中心的交通拥堵。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mayor announced a new policy to reduce traffic congestion in the downtown area.",
+      "translation": "市长宣布了一项新政策，旨在减少市中心的交通拥堵。",
+      "analysis": "根据主语身份和动作“announced a policy”判断，mayor指城市行政长官。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "meal": {
+    "en": "the food eaten during a regular occasion",
+    "example": "The cafeteria offers a balanced meal for students on a budget.",
+    "exampleCn": "食堂为预算有限的学生提供均衡的一餐。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The cafeteria offers a balanced meal for students on a budget.",
+      "translation": "食堂为预算有限的学生提供均衡的一餐。",
+      "analysis": "看主语cafeteria和宾语balanced，结合语境确定meal指‘一餐’而非‘粗粉’。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mean": {
+    "en": "inferior in quality or character",
+    "example": "The mean conditions of the slum shocked the visitors from the suburbs.",
+    "exampleCn": "贫民窟低劣的条件震惊了来自郊区的访客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mean conditions of the slum shocked the visitors from the suburbs.",
+      "translation": "贫民窟低劣的条件震惊了来自郊区的访客。",
+      "analysis": "根据 mean 修饰 conditions，且与 shocked 搭配，判断为“低劣的”含义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "means": {
+    "en": "a method or way of doing something",
+    "example": "Education is the most effective means to reduce poverty.",
+    "exampleCn": "教育是减少贫困的最有效手段。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Education is the most effective means to reduce poverty.",
+      "translation": "教育是减少贫困的最有效手段。",
+      "analysis": "看 means 后接不定式 to reduce，表示“做某事的方法或手段”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "meanwhile": {
+    "en": "the time between two events",
+    "example": "The company will expand its market; meanwhile, it must control costs.",
+    "exampleCn": "公司将扩大市场；与此同时，它必须控制成本。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company will expand its market; meanwhile, it must control costs.",
+      "translation": "公司将扩大市场；与此同时，它必须控制成本。",
+      "analysis": "看 meanwhile 连接两个并列动作，表示“同时”，取副词义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "measure": {
     "en": "a dimension or quantity determined by measuring",
     "example": "The precise measure of the room's length was recorded in the blueprint.",
@@ -9129,6 +21161,150 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The precise measure of the room's length was recorded in the blueprint.",
       "translation": "房间长度的精确尺寸被记录在蓝图中。",
       "analysis": "看 measure 前有 precise 修饰，后接 of 结构，表示具体尺寸，而非措施或程度。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "measurement": {
+    "en": "the act or process of measuring something",
+    "example": "Accurate measurement of the sample's dimensions is crucial for the experiment.",
+    "exampleCn": "准确测量样本的尺寸对实验至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Accurate measurement of the sample's dimensions is crucial for the experiment.",
+      "translation": "准确测量样本的尺寸对实验至关重要。",
+      "analysis": "先把 measurement 试译为“尺寸”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "meat": {
+    "en": "the flesh of an animal used as food",
+    "example": "The report lacks meat, offering only vague suggestions without concrete data.",
+    "exampleCn": "这份报告缺乏实质内容，只提供了模糊的建议，没有具体数据。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report lacks meat, offering only vague suggestions without concrete data.",
+      "translation": "这份报告缺乏实质内容，只提供了模糊的建议，没有具体数据。",
+      "analysis": "根据 lack meat 搭配，meat 在此比喻实质内容或核心部分，非字面肉。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mechanism": {
+    "en": "a system of parts working together in a machine or a process",
+    "example": "The proposed mechanism for data transfer relies on a secure protocol.",
+    "exampleCn": "所提出的数据传输机制依赖于一个安全的协议。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The proposed mechanism for data transfer relies on a secure protocol.",
+      "translation": "所提出的数据传输机制依赖于一个安全的协议。",
+      "analysis": "看“for data transfer”这个搭配，确定mechanism在此意为“机制”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "media": {
+    "en": "the main means of mass communication, e.g., TV, newspapers, internet",
+    "example": "The media often shape public opinion by highlighting certain events.",
+    "exampleCn": "媒体常常通过突出某些事件来塑造公众舆论。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The media often shape public opinion by highlighting certain events.",
+      "translation": "媒体常常通过突出某些事件来塑造公众舆论。",
+      "analysis": "看主语 media 和谓语 shape，结合宾语 public opinion，判断为“媒体”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "medical": {
+    "en": "relating to medicine or the treatment of illness",
+    "example": "The medical team quickly responded to the emergency call.",
+    "exampleCn": "医疗队迅速响应了紧急呼叫。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The medical team quickly responded to the emergency call.",
+      "translation": "医疗队迅速响应了紧急呼叫。",
+      "analysis": "根据后接名词team，判断medical意为“医疗的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "medicine": {
+    "en": "a treatment or drug prescribed for illness",
+    "example": "The doctor prescribed a new medicine for her chronic cough.",
+    "exampleCn": "医生为她的慢性咳嗽开了一种新药。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The doctor prescribed a new medicine for her chronic cough.",
+      "translation": "医生为她的慢性咳嗽开了一种新药。",
+      "analysis": "看动词prescribed和介词for，medicine在此指治疗疾病的药物。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "medium": {
+    "en": "a means or channel for communication or expression",
+    "example": "Social media has become a powerful medium for spreading information quickly.",
+    "exampleCn": "社交媒体已成为快速传播信息的强大媒介。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Social media has become a powerful medium for spreading information quickly.",
+      "translation": "社交媒体已成为快速传播信息的强大媒介。",
+      "analysis": "先把 medium 试译为“媒体”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "meet": {
+    "en": "a gathering or assembly, especially for a specific purpose",
+    "example": "The annual meet of the society was held to discuss new policies.",
+    "exampleCn": "该协会的年度会议召开，讨论新政策。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The annual meet of the society was held to discuss new policies.",
+      "translation": "该协会的年度会议召开，讨论新政策。",
+      "analysis": "看冠词 the 和介词 of，meet 作名词，意为“集会”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "melt": {
+    "en": "to change from solid to liquid through heat",
+    "example": "The ice caps continue to melt at an alarming rate each summer.",
+    "exampleCn": "每年夏天，冰盖以惊人的速度持续融化。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ice caps continue to melt at an alarming rate each summer.",
+      "translation": "每年夏天，冰盖以惊人的速度持续融化。",
+      "analysis": "看主语ice caps和搭配at an alarming rate，确定melt为物理融化义。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9151,6 +21327,758 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "mental": {
+    "en": "relating to the mind or thinking processes",
+    "example": "The study found that mental fatigue can impair decision-making abilities.",
+    "exampleCn": "研究发现，心理疲劳会削弱决策能力。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study found that mental fatigue can impair decision-making abilities.",
+      "translation": "研究发现，心理疲劳会削弱决策能力。",
+      "analysis": "根据 mental 修饰 fatigue（疲劳），结合常见搭配“心理疲劳”确定词义为“心理的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mention": {
+    "en": "to refer to something briefly or casually",
+    "example": "The report did not mention any specific names, only general trends.",
+    "exampleCn": "该报告没有提到任何具体名字，只涉及总体趋势。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report did not mention any specific names, only general trends.",
+      "translation": "该报告没有提到任何具体名字，只涉及总体趋势。",
+      "analysis": "根据宾语“any specific names”判断mention意为“提到”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "menu": {
+    "en": "a list of options or choices available to a user or customer",
+    "example": "The software's main menu allows users to access various functions easily.",
+    "exampleCn": "该软件的主菜单让用户能够轻松访问各种功能。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The software's main menu allows users to access various functions easily.",
+      "translation": "该软件的主菜单让用户能够轻松访问各种功能。",
+      "analysis": "看主语 software's main menu，menu 指计算机程序中的功能选择列表。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "merchant": {
+    "en": "a person who buys and sells goods for profit",
+    "example": "The merchant shipped the goods overseas to expand his market.",
+    "exampleCn": "这位商人将货物运往海外以扩大市场。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The merchant shipped the goods overseas to expand his market.",
+      "translation": "这位商人将货物运往海外以扩大市场。",
+      "analysis": "根据主语 merchant 和谓语 shipped the goods，判断为商人。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mere": {
+    "en": "a small lake or pond",
+    "example": "The mere, surrounded by reeds, reflected the pale autumn sky.",
+    "exampleCn": "这个被芦苇环绕的小湖映照着苍白的秋日天空。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mere, surrounded by reeds, reflected the pale autumn sky.",
+      "translation": "这个被芦苇环绕的小湖映照着苍白的秋日天空。",
+      "analysis": "先把 mere 试译为“小湖”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "merely": {
+    "en": "only; simply; no more than",
+    "example": "The change was merely a shift in emphasis, not a fundamental revision.",
+    "exampleCn": "这一变化仅仅是侧重点的转移，并非根本性的修订。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The change was merely a shift in emphasis, not a fundamental revision.",
+      "translation": "这一变化仅仅是侧重点的转移，并非根本性的修订。",
+      "analysis": "先把 merely 试译为“只”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mess": {
+    "en": "a place where soldiers or workers eat together",
+    "example": "The officer ordered everyone to gather at the mess for the briefing.",
+    "exampleCn": "军官命令所有人到食堂集合听取简报。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The officer ordered everyone to gather at the mess for the briefing.",
+      "translation": "军官命令所有人到食堂集合听取简报。",
+      "analysis": "先把 mess 试译为“食堂”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "message": {
+    "en": "a piece of information sent or given to someone",
+    "example": "The advertisement's message was clear: buy our product now.",
+    "exampleCn": "这则广告的信息很明确：立即购买我们的产品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The advertisement's message was clear: buy our product now.",
+      "translation": "这则广告的信息很明确：立即购买我们的产品。",
+      "analysis": "看 message 前的 advertisement's 和系动词 was，确定意为“信息”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "metal": {
+    "en": "a hard, shiny material such as iron, gold, or steel",
+    "example": "The bridge was reinforced with strong metal beams to withstand heavy traffic.",
+    "exampleCn": "这座桥用坚固的金属梁加固，以承受繁忙的交通。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The bridge was reinforced with strong metal beams to withstand heavy traffic.",
+      "translation": "这座桥用坚固的金属梁加固，以承受繁忙的交通。",
+      "analysis": "根据形容词 strong 和名词 beams 判断，metal 在此意为“金属”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "method": {
+    "en": "a way of doing something, especially a systematic or established one",
+    "example": "The new method for data analysis significantly improved accuracy.",
+    "exampleCn": "这种新的数据分析方法显著提高了准确性。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new method for data analysis significantly improved accuracy.",
+      "translation": "这种新的数据分析方法显著提高了准确性。",
+      "analysis": "看介词for后的搭配“data analysis”确定method意为“方法”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "midday": {
+    "en": "the middle of the day; noon",
+    "example": "The midday sun was so intense that the workers took a two-hour break.",
+    "exampleCn": "正午的阳光非常强烈，工人们休息了两个小时。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The midday sun was so intense that the workers took a two-hour break.",
+      "translation": "正午的阳光非常强烈，工人们休息了两个小时。",
+      "analysis": "根据“midday sun”搭配，确定 midday 意为“正午”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "midnight": {
+    "en": "12 o'clock at night; the middle of the night.",
+    "example": "The study group often worked until midnight to meet the deadline.",
+    "exampleCn": "研究小组经常工作到午夜以赶上截止日期。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study group often worked until midnight to meet the deadline.",
+      "translation": "研究小组经常工作到午夜以赶上截止日期。",
+      "analysis": "根据“worked until”这个搭配，确定midnight是时间点“午夜”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "might": {
+    "en": "great power or strength",
+    "example": "The might of the empire was felt across the continent.",
+    "exampleCn": "帝国的力量遍布整个大陆。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The might of the empire was felt across the continent.",
+      "translation": "帝国的力量遍布整个大陆。",
+      "analysis": "根据主语“the might of the empire”和谓语“was felt”，判断此处为名词“力量”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mild": {
+    "en": "not strong or extreme; gentle or moderate",
+    "example": "The mild criticism from the professor surprised the student, who expected a harsher response.",
+    "exampleCn": "教授温和的批评让学生感到惊讶，他原本以为会得到更严厉的回应。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mild criticism from the professor surprised the student, who expected a harsher response.",
+      "translation": "教授温和的批评让学生感到惊讶，他原本以为会得到更严厉的回应。",
+      "analysis": "从修饰 criticism 判断，mild 在此表示程度不强烈，即“温和的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mile": {
+    "en": "a unit of distance equal to 1,609 meters",
+    "example": "The marathon runner covered the last mile in under five minutes.",
+    "exampleCn": "这位马拉松运动员在不到五分钟内跑完了最后一英里。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The marathon runner covered the last mile in under five minutes.",
+      "translation": "这位马拉松运动员在不到五分钟内跑完了最后一英里。",
+      "analysis": "先把 mile 试译为“英里”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "milk": {
+    "en": "a white liquid produced by female mammals as food for their young",
+    "example": "Farmers milk cows twice daily to ensure a steady supply of fresh milk.",
+    "exampleCn": "农民每天挤两次牛奶，以确保新鲜牛奶的稳定供应。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Farmers milk cows twice daily to ensure a steady supply of fresh milk.",
+      "translation": "农民每天挤两次牛奶，以确保新鲜牛奶的稳定供应。",
+      "analysis": "看动词milk与cows搭配，意为挤奶；名词milk指牛奶。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mill": {
+    "en": "a machine that crushes or grinds something, or a factory where such machines are used",
+    "example": "The old mill, once used to grind wheat, now stands abandoned near the river.",
+    "exampleCn": "那座曾经用来磨小麦的老磨坊，如今废弃在河边。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old mill, once used to grind wheat, now stands abandoned near the river.",
+      "translation": "那座曾经用来磨小麦的老磨坊，如今废弃在河边。",
+      "analysis": "根据 grind wheat 和 stands abandoned 判断 mill 是磨坊，而非工厂或压榨机。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "million": {
+    "en": "a large number, often used to emphasize quantity",
+    "example": "The project cost over a million dollars, straining the budget.",
+    "exampleCn": "这个项目花费了超过一百万美元，使预算紧张。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project cost over a million dollars, straining the budget.",
+      "translation": "这个项目花费了超过一百万美元，使预算紧张。",
+      "analysis": "看“over a million dollars”这个数量短语，确定是“百万”的意思。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mind": {
+    "en": "the faculty of thinking, reasoning, and applying knowledge",
+    "example": "The scientist's sharp mind allowed her to solve the complex equation quickly.",
+    "exampleCn": "这位科学家敏锐的头脑使她迅速解出了复杂的方程。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The scientist's sharp mind allowed her to solve the complex equation quickly.",
+      "translation": "这位科学家敏锐的头脑使她迅速解出了复杂的方程。",
+      "analysis": "根据形容词 sharp 修饰 mind，表示“敏锐的头脑”，对应“思想”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mine": {
+    "en": "a place where minerals are dug from the ground",
+    "example": "The company plans to open a new mine in the northern region.",
+    "exampleCn": "该公司计划在北部地区开一个新矿。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company plans to open a new mine in the northern region.",
+      "translation": "该公司计划在北部地区开一个新矿。",
+      "analysis": "根据“open a new mine”的搭配，确定mine为名词“矿”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "minimum": {
+    "en": "the smallest possible or allowed amount, degree, or value",
+    "example": "The contract requires a minimum payment of $500 each month.",
+    "exampleCn": "合同要求每月最低支付500美元。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The contract requires a minimum payment of $500 each month.",
+      "translation": "合同要求每月最低支付500美元。",
+      "analysis": "从修饰payment看出minimum表示“最低的”，是形容词用法。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "minute": {
+    "en": "a unit of time equal to 60 seconds",
+    "example": "The meeting lasted for about a minute before the chairman called for order.",
+    "exampleCn": "会议持续了大约一分钟，然后主席要求大家保持秩序。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The meeting lasted for about a minute before the chairman called for order.",
+      "translation": "会议持续了大约一分钟，然后主席要求大家保持秩序。",
+      "analysis": "根据前文“lasted for about a”和数字单位，判断minute是时间单位“分钟”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mirror": {
+    "en": "something that reflects or represents something else",
+    "example": "The novel is a mirror of the society in which it was written.",
+    "exampleCn": "这部小说是其创作时代社会的一面镜子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The novel is a mirror of the society in which it was written.",
+      "translation": "这部小说是其创作时代社会的一面镜子。",
+      "analysis": "根据“a mirror of”搭配，判断mirror为名词，意为“写照、反映”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "missile": {
+    "en": "an object that is thrown or fired through the air",
+    "example": "The treaty banned the use of any missile that could carry a nuclear warhead.",
+    "exampleCn": "该条约禁止使用任何能够携带核弹头的发射物。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The treaty banned the use of any missile that could carry a nuclear warhead.",
+      "translation": "该条约禁止使用任何能够携带核弹头的发射物。",
+      "analysis": "先把 missile 试译为“发射物”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mission": {
+    "en": "a specific task or duty that someone is sent to do",
+    "example": "The team's mission was to assess the environmental impact of the new project.",
+    "exampleCn": "该团队的任务是评估新项目的环境影响。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The team's mission was to assess the environmental impact of the new project.",
+      "translation": "该团队的任务是评估新项目的环境影响。",
+      "analysis": "根据mission后的不定式to assess，可判断此处意为“任务”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mix": {
+    "en": "a combination of different things, often in a specific context",
+    "example": "The city's unique mix of old and new architecture attracts many tourists.",
+    "exampleCn": "这座城市新旧建筑的独特混合吸引了许多游客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The city's unique mix of old and new architecture attracts many tourists.",
+      "translation": "这座城市新旧建筑的独特混合吸引了许多游客。",
+      "analysis": "看 mix 后接 of 结构，表示不同事物的组合，此处取“混合物”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mixture": {
+    "en": "a combination of different substances or elements",
+    "example": "The mixture of gases in the atmosphere is crucial for life.",
+    "exampleCn": "大气中气体的混合物对生命至关重要。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mixture of gases in the atmosphere is crucial for life.",
+      "translation": "大气中气体的混合物对生命至关重要。",
+      "analysis": "看 of 结构，mixture of gases 指不同气体的混合，取“混合”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mobile": {
+    "en": "able to move or be moved easily",
+    "example": "The mobile workforce requires flexible policies to adapt to changing locations.",
+    "exampleCn": "移动劳动力需要灵活的政策来适应不断变化的地点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mobile workforce requires flexible policies to adapt to changing locations.",
+      "translation": "移动劳动力需要灵活的政策来适应不断变化的地点。",
+      "analysis": "看 workforce 和 requires 判断 mobile 修饰 workforce，意为“移动的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "model": {
+    "en": "a representation or example used for imitation or analysis",
+    "example": "The economic model predicted a sharp downturn in the next quarter.",
+    "exampleCn": "该经济模型预测下一季度将出现急剧下滑。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The economic model predicted a sharp downturn in the next quarter.",
+      "translation": "该经济模型预测下一季度将出现急剧下滑。",
+      "analysis": "看 economic 这个定语，说明 model 是理论上的“模型”，不是实物或模范。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "modern": {
+    "en": "a person living in or characteristic of recent times",
+    "example": "The modern often values efficiency over tradition in urban planning.",
+    "exampleCn": "现代人在城市规划中往往更看重效率而非传统。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The modern often values efficiency over tradition in urban planning.",
+      "translation": "现代人在城市规划中往往更看重效率而非传统。",
+      "analysis": "通过冠词 the 和谓语 values 判断 modern 是名词，意为“现代人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "moment": {
+    "en": "a very short period of time",
+    "example": "At that moment, the researcher noticed a significant change in the data.",
+    "exampleCn": "在那一刻，研究者注意到了数据中的一个显著变化。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "At that moment, the researcher noticed a significant change in the data.",
+      "translation": "在那一刻，研究者注意到了数据中的一个显著变化。",
+      "analysis": "根据短语 at that moment 判断，moment 表示“时刻”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "monday": {
+    "en": "the day of the week between Sunday and Tuesday",
+    "example": "The report is due next Monday, so we must finish it by then.",
+    "exampleCn": "报告下周一截止，所以我们必须在那个时间之前完成。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The report is due next Monday, so we must finish it by then.",
+      "translation": "报告下周一截止，所以我们必须在那个时间之前完成。",
+      "analysis": "根据时间状语 next Monday 和 deadline 语境，确定 Monday 指具体日期。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "money": {
+    "en": "a medium of exchange in the form of coins and banknotes",
+    "example": "The government printed more money to stimulate the economy during the recession.",
+    "exampleCn": "政府在经济衰退期间印刷了更多货币以刺激经济。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government printed more money to stimulate the economy during the recession.",
+      "translation": "政府在经济衰退期间印刷了更多货币以刺激经济。",
+      "analysis": "根据“printed more money”搭配，money在此指“货币”，而非日常的“金钱”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "month": {
+    "en": "a period of about 30 days",
+    "example": "The project is expected to be completed within a month.",
+    "exampleCn": "该项目预计在一个月内完成。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project is expected to be completed within a month.",
+      "translation": "该项目预计在一个月内完成。",
+      "analysis": "看介词 within 和冠词 a，确定 month 是时间单位“月”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mood": {
+    "en": "a temporary state of mind or feeling",
+    "example": "The mood of the meeting shifted from optimism to tension after the report.",
+    "exampleCn": "会议的气氛在报告后从乐观转向了紧张。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mood of the meeting shifted from optimism to tension after the report.",
+      "translation": "会议的气氛在报告后从乐观转向了紧张。",
+      "analysis": "看后面介词短语 of the meeting 和动词 shifted，确定 mood 在此指“气氛”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "moral": {
+    "en": "relating to principles of right and wrong behavior",
+    "example": "The moral of the story is that honesty always pays off in the long run.",
+    "exampleCn": "这个故事的寓意是，诚实最终总会得到回报。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The moral of the story is that honesty always pays off in the long run.",
+      "translation": "这个故事的寓意是，诚实最终总会得到回报。",
+      "analysis": "看冠词 the 和介词 of，moral 作名词，意为“寓意”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "moreover": {
+    "en": "in addition; used to introduce extra information",
+    "example": "The plan is cost-effective; moreover, it requires minimal training.",
+    "exampleCn": "这个计划成本效益高；而且，它只需要很少的培训。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The plan is cost-effective; moreover, it requires minimal training.",
+      "translation": "这个计划成本效益高；而且，它只需要很少的培训。",
+      "analysis": "看逗号后 moreover 引出补充信息，表递进，译为“而且”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "most": {
+    "en": "the greatest amount or degree",
+    "example": "Most of the students agreed that the lecture was the most informative one they had attended.",
+    "exampleCn": "大多数学生都同意这场讲座是他们参加过的信息量最大的一场。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Most of the students agreed that the lecture was the most informative one they had attended.",
+      "translation": "大多数学生都同意这场讲座是他们参加过的信息量最大的一场。",
+      "analysis": "看第一个most后接of短语，表示“大多数”；第二个most前有the，后接形容词，表示最高级“最”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mostly": {
+    "en": "mainly; for the most part",
+    "example": "The data mostly supports the hypothesis, though some anomalies exist.",
+    "exampleCn": "这些数据大致支持该假设，尽管存在一些异常。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The data mostly supports the hypothesis, though some anomalies exist.",
+      "translation": "这些数据大致支持该假设，尽管存在一些异常。",
+      "analysis": "根据副词修饰动词 supports，且与 though 让步从句对照，确定 mostly 表“大致”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mother": {
+    "en": "a female parent; to care for or protect like a mother",
+    "example": "The mother company decided to invest in the new project.",
+    "exampleCn": "母公司决定投资这个新项目。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The mother company decided to invest in the new project.",
+      "translation": "母公司决定投资这个新项目。",
+      "analysis": "看修饰语“company”和语境“invest”，判断“mother”意为“母公司的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "motion": {
+    "en": "the act or process of moving or changing position",
+    "example": "The motion of the planets was once thought to be perfectly circular.",
+    "exampleCn": "行星的运动曾被认为是完美的圆形。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The motion of the planets was once thought to be perfectly circular.",
+      "translation": "行星的运动曾被认为是完美的圆形。",
+      "analysis": "先把 motion 试译为“移动”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "motor": {
+    "en": "a machine that produces motion or power for a vehicle",
+    "example": "The electric motor in the new vehicle operates more quietly than traditional engines.",
+    "exampleCn": "新车辆中的电动马达比传统发动机运行更安静。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The electric motor in the new vehicle operates more quietly than traditional engines.",
+      "translation": "新车辆中的电动马达比传统发动机运行更安静。",
+      "analysis": "根据后文“operates”和“engine”的对比，判断motor在此为名词，意为“马达”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "motorcycle": {
+    "en": "a two-wheeled motor vehicle",
+    "example": "The rider skillfully maneuvered the motorcycle through the narrow alley.",
+    "exampleCn": "骑手熟练地驾驶摩托车穿过了狭窄的小巷。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The rider skillfully maneuvered the motorcycle through the narrow alley.",
+      "translation": "骑手熟练地驾驶摩托车穿过了狭窄的小巷。",
+      "analysis": "先把 motorcycle 试译为“摩托车”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mount": {
+    "en": "a horse used for riding",
+    "example": "The knight's mount was a sturdy black stallion.",
+    "exampleCn": "骑士的坐骑是一匹健壮的黑公马。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The knight's mount was a sturdy black stallion.",
+      "translation": "骑士的坐骑是一匹健壮的黑公马。",
+      "analysis": "根据“knight's”和“stallion”判断，mount在此指“坐骑”，是名词常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mountain": {
+    "en": "a very large pile or amount of something",
+    "example": "The company faces a mountain of debt that threatens its survival.",
+    "exampleCn": "这家公司面临堆积如山的债务，威胁到其生存。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The company faces a mountain of debt that threatens its survival.",
+      "translation": "这家公司面临堆积如山的债务，威胁到其生存。",
+      "analysis": "根据“a mountain of + 名词”搭配，表示“大量的”，此处指债务巨大。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mouse": {
+    "en": "a small rodent or a timid person",
+    "example": "The laboratory mouse is a common model for studying human diseases.",
+    "exampleCn": "实验室老鼠是研究人类疾病的常见模型。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The laboratory mouse is a common model for studying human diseases.",
+      "translation": "实验室老鼠是研究人类疾病的常见模型。",
+      "analysis": "根据名词前修饰语“laboratory”和系表结构，确定mouse指“老鼠”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mouth": {
+    "en": "the opening in the face used for eating and speaking",
+    "example": "The river's mouth was clogged with debris after the storm.",
+    "exampleCn": "暴风雨后，河口被杂物堵塞了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The river's mouth was clogged with debris after the storm.",
+      "translation": "暴风雨后，河口被杂物堵塞了。",
+      "analysis": "根据搭配“river's mouth”判断为“口状物”，指河流入海口。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "movement": {
     "en": "a group of people working together to advance a shared cause",
     "example": "The environmental movement has gained significant momentum in recent decades.",
@@ -9161,6 +22089,246 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The environmental movement has gained significant momentum in recent decades.",
       "translation": "环保运动在近几十年获得了显著的发展势头。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“运动”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "movie": {
+    "en": "a story shown in a cinema or on television",
+    "example": "The movie explores the complex relationship between humans and nature.",
+    "exampleCn": "这部电影探讨了人与自然之间的复杂关系。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The movie explores the complex relationship between humans and nature.",
+      "translation": "这部电影探讨了人与自然之间的复杂关系。",
+      "analysis": "根据主语movie和谓语explores判断，movie在此处意为“电影”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mud": {
+    "en": "wet, soft earth; to cover or stain with mud",
+    "example": "The heavy rain turned the dirt road into deep mud, slowing the convoy's progress.",
+    "exampleCn": "大雨把土路变成了深深的泥浆，减缓了车队的行进速度。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The heavy rain turned the dirt road into deep mud, slowing the convoy's progress.",
+      "translation": "大雨把土路变成了深深的泥浆，减缓了车队的行进速度。",
+      "analysis": "根据名词用法和修饰词 deep 确定 mud 为“泥浆”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "multiple": {
+    "en": "having or involving many parts, elements, or individuals",
+    "example": "The study examined multiple factors that influence consumer behavior.",
+    "exampleCn": "该研究考察了影响消费者行为的多个因素。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The study examined multiple factors that influence consumer behavior.",
+      "translation": "该研究考察了影响消费者行为的多个因素。",
+      "analysis": "看后面名词factors，表示多个因素，是常见义“多个的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "multiply": {
+    "en": "to increase in number by reproduction or procreation",
+    "example": "Rabbits multiply rapidly in favorable conditions, often overwhelming local ecosystems.",
+    "exampleCn": "兔子在有利条件下迅速繁殖，常常使当地生态系统不堪重负。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Rabbits multiply rapidly in favorable conditions, often overwhelming local ecosystems.",
+      "translation": "兔子在有利条件下迅速繁殖，常常使当地生态系统不堪重负。",
+      "analysis": "根据主语“Rabbits”和搭配“in favorable conditions”，判断此处为“繁殖”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "murder": {
+    "en": "to kill someone intentionally and illegally",
+    "example": "The court found him guilty of murder after reviewing the evidence.",
+    "exampleCn": "法庭在审查证据后认定他犯有谋杀罪。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The court found him guilty of murder after reviewing the evidence.",
+      "translation": "法庭在审查证据后认定他犯有谋杀罪。",
+      "analysis": "通过“guilty of murder”这个搭配，判断murder是名词，意为“谋杀罪”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "muscle": {
+    "en": "a body tissue that contracts to produce movement",
+    "example": "The athlete's leg muscle tore during the intense training session.",
+    "exampleCn": "这位运动员的腿部肌肉在强度训练中撕裂了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The athlete's leg muscle tore during the intense training session.",
+      "translation": "这位运动员的腿部肌肉在强度训练中撕裂了。",
+      "analysis": "根据主语“运动员的腿”和谓语“撕裂”，判断muscle是“肌肉”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "museum": {
+    "en": "a building where objects of historical, scientific, or artistic interest are kept and shown to the public",
+    "example": "The museum's new exhibit on ancient civilizations attracted a large number of visitors.",
+    "exampleCn": "博物馆关于古代文明的新展览吸引了大量游客。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The museum's new exhibit on ancient civilizations attracted a large number of visitors.",
+      "translation": "博物馆关于古代文明的新展览吸引了大量游客。",
+      "analysis": "根据“new exhibit”和“attracted visitors”判断museum是展览场所，即博物馆。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "music": {
+    "en": "the art or science of combining vocal or instrumental sounds",
+    "example": "The music of the Baroque period often features complex counterpoint.",
+    "exampleCn": "巴洛克时期的音乐常常以复杂的对位为特点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The music of the Baroque period often features complex counterpoint.",
+      "translation": "巴洛克时期的音乐常常以复杂的对位为特点。",
+      "analysis": "看主语 music 和定语 of the Baroque period 确定指音乐风格。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "musical": {
+    "en": "a film or play that includes singing and dancing",
+    "example": "The director's latest musical has received critical acclaim for its innovative choreography.",
+    "exampleCn": "这位导演的最新音乐剧因其创新的编舞而受到评论界的好评。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The director's latest musical has received critical acclaim for its innovative choreography.",
+      "translation": "这位导演的最新音乐剧因其创新的编舞而受到评论界的好评。",
+      "analysis": "根据搭配“latest musical”和“choreography”可判断为名词“音乐剧”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "musician": {
+    "en": "a person who plays a musical instrument or writes music",
+    "example": "The young musician practiced for hours to perfect her performance.",
+    "exampleCn": "这位年轻的音乐家练习了数小时以完善她的表演。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The young musician practiced for hours to perfect her performance.",
+      "translation": "这位年轻的音乐家练习了数小时以完善她的表演。",
+      "analysis": "根据主语 musician 与谓语 practiced 的搭配，判断其指代从事音乐表演的人。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mysterious": {
+    "en": "difficult to understand or explain; strange",
+    "example": "The sudden disappearance of the ancient civilization remains a mysterious phenomenon.",
+    "exampleCn": "这个古代文明的突然消失仍然是一个神秘的现象。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The sudden disappearance of the ancient civilization remains a mysterious phenomenon.",
+      "translation": "这个古代文明的突然消失仍然是一个神秘的现象。",
+      "analysis": "看主语“消失”和表语“现象”，结合副词“突然”，确定词义为“神秘的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "mystery": {
+    "en": "something that is not known or understood",
+    "example": "The origin of the ancient artifact remains a mystery to researchers.",
+    "exampleCn": "这件古代文物的起源对研究人员来说仍然是一个谜。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The origin of the ancient artifact remains a mystery to researchers.",
+      "translation": "这件古代文物的起源对研究人员来说仍然是一个谜。",
+      "analysis": "根据系动词 remains 和不定冠词 a 判断 mystery 是名词，意为“谜”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nail": {
+    "en": "a small metal spike used to fasten things",
+    "example": "The carpenter drove a nail into the wooden beam to secure the frame.",
+    "exampleCn": "木匠将钉子钉入木梁以固定框架。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The carpenter drove a nail into the wooden beam to secure the frame.",
+      "translation": "木匠将钉子钉入木梁以固定框架。",
+      "analysis": "根据“drove a nail into”这一动作搭配，可知nail在此处是“钉子”的常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "narrow": {
+    "en": "a narrow passage or strait between two areas of water",
+    "example": "The ship navigated the narrow between the two islands with caution.",
+    "exampleCn": "这艘船谨慎地穿过了两岛之间的狭窄水道。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The ship navigated the narrow between the two islands with caution.",
+      "translation": "这艘船谨慎地穿过了两岛之间的狭窄水道。",
+      "analysis": "看冠词the和介词between，narrow作名词，指狭窄水道或隘路。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nation": {
+    "en": "a large group of people living in a particular country or territory",
+    "example": "The nation faces a severe economic crisis that threatens its stability.",
+    "exampleCn": "这个国家面临一场严重的经济危机，威胁到它的稳定。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The nation faces a severe economic crisis that threatens its stability.",
+      "translation": "这个国家面临一场严重的经济危机，威胁到它的稳定。",
+      "analysis": "先把 nation 试译为“国家”，再看前后搭配是否贴合本句。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9183,6 +22351,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "native": {
+    "en": "a person born in a particular place",
+    "example": "The native of the island spoke a dialect unfamiliar to the tourists.",
+    "exampleCn": "该岛上的本地人讲一种游客不熟悉的声音。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The native of the island spoke a dialect unfamiliar to the tourists.",
+      "translation": "该岛上的本地人讲一种游客不熟悉的声音。",
+      "analysis": "看冠词 the 和 of 结构，native 作名词，意为“本地人”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "natural": {
     "en": "a person born with a severe learning disability",
     "example": "The term 'natural' in historical texts often referred to a person with intellectual disabilities.",
@@ -9193,6 +22377,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The term 'natural' in historical texts often referred to a person with intellectual disabilities.",
       "translation": "历史文献中的“natural”一词常指智力障碍者。",
       "analysis": "别按常见义“原义”，这里先看搭配判断“白痴”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "naturally": {
+    "en": "in a way that is normal or expected",
+    "example": "These skills develop naturally as children interact with their environment.",
+    "exampleCn": "这些技能随着儿童与环境的互动而自然地发展。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "These skills develop naturally as children interact with their environment.",
+      "translation": "这些技能随着儿童与环境的互动而自然地发展。",
+      "analysis": "看副词修饰动词develop，表示技能是自然而然形成的，无需刻意训练。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9215,6 +22415,310 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "navy": {
+    "en": "the branch of a country's armed forces that fights at sea",
+    "example": "The navy deployed several warships to patrol the strategic waters.",
+    "exampleCn": "海军部署了多艘军舰在战略水域巡逻。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The navy deployed several warships to patrol the strategic waters.",
+      "translation": "海军部署了多艘军舰在战略水域巡逻。",
+      "analysis": "根据主语 navy 与谓语 deployed warships 的搭配，判断为“海军”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nearby": {
+    "en": "located close by; not far away",
+    "example": "The nearby forest provides a natural habitat for many rare species.",
+    "exampleCn": "附近的森林为许多稀有物种提供了自然栖息地。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The nearby forest provides a natural habitat for many rare species.",
+      "translation": "附近的森林为许多稀有物种提供了自然栖息地。",
+      "analysis": "看 nearby 修饰名词 forest，作形容词，意为“附近的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nearly": {
+    "en": "almost but not quite; close to",
+    "example": "The project cost nearly twice the original estimate.",
+    "exampleCn": "这个项目的花费几乎是原始估算的两倍。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The project cost nearly twice the original estimate.",
+      "translation": "这个项目的花费几乎是原始估算的两倍。",
+      "analysis": "看 nearly 后面跟的数字或数量词，表示“几乎”，强调接近但未达到。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neat": {
+    "en": "arranged in a tidy way; skillful or clever",
+    "example": "The experiment required a neat arrangement of data to avoid confusion.",
+    "exampleCn": "这个实验需要整洁的数据排列以避免混淆。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment required a neat arrangement of data to avoid confusion.",
+      "translation": "这个实验需要整洁的数据排列以避免混淆。",
+      "analysis": "看 arrangement of data 这个搭配，neat 修饰 arrangement，表示“整洁的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "necessarily": {
+    "en": "in a way that cannot be avoided or that is required by the situation",
+    "example": "A higher price does not necessarily indicate better quality.",
+    "exampleCn": "更高的价格并不必然意味着更好的质量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "A higher price does not necessarily indicate better quality.",
+      "translation": "更高的价格并不必然意味着更好的质量。",
+      "analysis": "通过否定结构“not necessarily”判断，意为“不一定、并非必然”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "necessity": {
+    "en": "something that is necessary or required",
+    "example": "In many fields, innovation is not a luxury but a necessity for survival.",
+    "exampleCn": "在许多领域，创新不是奢侈品，而是生存的必需品。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "In many fields, innovation is not a luxury but a necessity for survival.",
+      "translation": "在许多领域，创新不是奢侈品，而是生存的必需品。",
+      "analysis": "根据“not...but...”结构判断，necessity与luxury对比，意为“必需品”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neck": {
+    "en": "the part of the body between the head and shoulders",
+    "example": "The giraffe's long neck allows it to reach leaves high in the trees.",
+    "exampleCn": "长颈鹿的长脖子使它能够到树高处的叶子。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The giraffe's long neck allows it to reach leaves high in the trees.",
+      "translation": "长颈鹿的长脖子使它能够到树高处的叶子。",
+      "analysis": "根据主语giraffe和谓语reach leaves，判断neck是身体部位“脖子”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "needle": {
+    "en": "a thin pointed piece of metal used for sewing or medical injections",
+    "example": "The nurse inserted the needle into the patient's arm with steady hands.",
+    "exampleCn": "护士用稳定的手将针头插入病人的手臂。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The nurse inserted the needle into the patient's arm with steady hands.",
+      "translation": "护士用稳定的手将针头插入病人的手臂。",
+      "analysis": "根据动词inserted和介词into，可知needle在此为名词，意为“针头”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "negative": {
+    "en": "unfavorable or expressing denial",
+    "example": "The negative impact of pollution on health is widely recognized.",
+    "exampleCn": "污染对健康的负面影响已被广泛认识。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The negative impact of pollution on health is widely recognized.",
+      "translation": "污染对健康的负面影响已被广泛认识。",
+      "analysis": "看名词 impact，搭配 negative 表示“负面的”，取“消极的”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "negotiation": {
+    "en": "the process of discussing something to reach an agreement",
+    "example": "The negotiation over trade tariffs lasted for several months without a final agreement.",
+    "exampleCn": "关于贸易关税的谈判持续了数月，仍未达成最终协议。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The negotiation over trade tariffs lasted for several months without a final agreement.",
+      "translation": "关于贸易关税的谈判持续了数月，仍未达成最终协议。",
+      "analysis": "看主语 negotiation 与介词 over 搭配，后接具体议题，判断为“谈判”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neighbor": {
+    "en": "a person or thing that is near another",
+    "example": "The new factory became an unwelcome neighbor for the nearby residents.",
+    "exampleCn": "新工厂成了附近居民不受欢迎的邻居。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new factory became an unwelcome neighbor for the nearby residents.",
+      "translation": "新工厂成了附近居民不受欢迎的邻居。",
+      "analysis": "根据“unwelcome”和“residents”判断是“邻居”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neighborhood": {
+    "en": "the area around a particular place or the state of being near",
+    "example": "The new factory will bring jobs to the entire neighborhood.",
+    "exampleCn": "新工厂将为整个附近地区带来就业机会。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new factory will bring jobs to the entire neighborhood.",
+      "translation": "新工厂将为整个附近地区带来就业机会。",
+      "analysis": "根据“the entire”修饰和介词“to”的搭配，判断neighborhood在此指地理上的“附近地区”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neighbour": {
+    "en": "a person, country, or thing that is next to or near another",
+    "example": "The new policy will affect every neighbour country in the region.",
+    "exampleCn": "这项新政策将影响该地区的每个邻国。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new policy will affect every neighbour country in the region.",
+      "translation": "这项新政策将影响该地区的每个邻国。",
+      "analysis": "看 neighbour 修饰 country，作定语，意为“邻接的”，即邻国。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "neighbourhood": {
+    "en": "the area around a particular place or the people living there",
+    "example": "The new factory will affect the entire neighbourhood with its noise and traffic.",
+    "exampleCn": "新工厂的噪音和交通将影响整个邻近地区。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The new factory will affect the entire neighbourhood with its noise and traffic.",
+      "translation": "新工厂的噪音和交通将影响整个邻近地区。",
+      "analysis": "先把 neighbourhood 试译为“邻接”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nephew": {
+    "en": "son of one's brother or sister",
+    "example": "The old man left his estate to his nephew, who had cared for him in his final years.",
+    "exampleCn": "老人把遗产留给了他的侄子，这个侄子在他晚年照顾了他。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The old man left his estate to his nephew, who had cared for him in his final years.",
+      "translation": "老人把遗产留给了他的侄子，这个侄子在他晚年照顾了他。",
+      "analysis": "根据“left his estate to”这个动作，判断nephew是遗产的接受者，结合语境确定是侄子。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nerve": {
+    "en": "boldness or audacity; mental or emotional strength",
+    "example": "The journalist had the nerve to question the official's integrity in public.",
+    "exampleCn": "这位记者竟有勇气当众质疑那位官员的诚信。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The journalist had the nerve to question the official's integrity in public.",
+      "translation": "这位记者竟有勇气当众质疑那位官员的诚信。",
+      "analysis": "看搭配“have the nerve to do”，表示“有勇气做某事”，此处取“精神、勇气”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nervous": {
+    "en": "feeling worried or anxious about something",
+    "example": "The nervous investor sold all shares after the market fluctuated wildly.",
+    "exampleCn": "那位神经紧张的投资者在市场剧烈波动后抛售了所有股票。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The nervous investor sold all shares after the market fluctuated wildly.",
+      "translation": "那位神经紧张的投资者在市场剧烈波动后抛售了所有股票。",
+      "analysis": "看 nervous 修饰 investor，表示人的情绪状态，结合市场波动语境，取“神经紧张的”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nest": {
+    "en": "a structure or place where birds or animals live and raise young",
+    "example": "The bird built its nest high in the tree to avoid predators.",
+    "exampleCn": "这只鸟把巢筑在高高的树上以躲避捕食者。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The bird built its nest high in the tree to avoid predators.",
+      "translation": "这只鸟把巢筑在高高的树上以躲避捕食者。",
+      "analysis": "根据动词 built 和地点 high in the tree，判断 nest 是鸟类的巢穴。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "net": {
+    "en": "a mesh or network; also means final or clear after deductions",
+    "example": "The net profit after taxes was reported as $2 million.",
+    "exampleCn": "税后净利润报告为200万美元。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The net profit after taxes was reported as $2 million.",
+      "translation": "税后净利润报告为200万美元。",
+      "analysis": "看net修饰profit，表示扣除后的最终利润，是熟词生义，常见义为网，考研常考净利。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "network": {
     "en": "a system of interconnected people or things; to connect or operate within such a system",
     "example": "The network of relationships among these firms influences their market strategies.",
@@ -9228,6 +22732,166 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "newly": {
+    "en": "recently or in a new way",
+    "example": "The newly discovered species challenges existing biological classifications.",
+    "exampleCn": "新近发现的物种对现有的生物分类提出了挑战。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The newly discovered species challenges existing biological classifications.",
+      "translation": "新近发现的物种对现有的生物分类提出了挑战。",
+      "analysis": "看 newly 与过去分词 discovered 搭配，表示动作刚发生，译为“新近”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "newspaper": {
+    "en": "a daily or weekly publication of news and opinions",
+    "example": "The newspaper reported on the government's new policy for renewable energy.",
+    "exampleCn": "这家报纸报道了政府关于可再生能源的新政策。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The newspaper reported on the government's new policy for renewable energy.",
+      "translation": "这家报纸报道了政府关于可再生能源的新政策。",
+      "analysis": "看主语 newspaper 与动词 reported 搭配，判断为“报纸”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nice": {
+    "en": "precise or subtle, requiring careful attention",
+    "example": "The experiment required a nice adjustment of the temperature to achieve accurate results.",
+    "exampleCn": "这个实验需要对温度进行精密的调节才能获得准确的结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment required a nice adjustment of the temperature to achieve accurate results.",
+      "translation": "这个实验需要对温度进行精密的调节才能获得准确的结果。",
+      "analysis": "先把 nice 试译为“美好的”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "niece": {
+    "en": "the daughter of one's brother or sister",
+    "example": "Her niece often visits during the summer break.",
+    "exampleCn": "她的侄女经常在暑假期间来访。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "Her niece often visits during the summer break.",
+      "translation": "她的侄女经常在暑假期间来访。",
+      "analysis": "根据主语“her”和谓语“visits”判断，niece指亲属关系，即侄女或甥女。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "night": {
+    "en": "the period of darkness between sunset and sunrise",
+    "example": "The night air was cool and filled with the scent of pine.",
+    "exampleCn": "夜晚的空气凉爽，弥漫着松树的气味。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The night air was cool and filled with the scent of pine.",
+      "translation": "夜晚的空气凉爽，弥漫着松树的气味。",
+      "analysis": "根据冠词 the 和名词 air 的搭配，night 在这里是名词，指夜晚时段。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nineteen": {
+    "en": "the number 19; a group of 19 people or things",
+    "example": "The survey covered nineteen cities across the country.",
+    "exampleCn": "这项调查覆盖了全国十九个城市。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The survey covered nineteen cities across the country.",
+      "translation": "这项调查覆盖了全国十九个城市。",
+      "analysis": "看 nineteen 后接复数名词 cities，确定是数量词“十九”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nod": {
+    "en": "to move your head up and down as a sign of agreement or greeting",
+    "example": "The professor gave a slight nod to indicate his approval of the proposal.",
+    "exampleCn": "教授微微点头，表示他同意这个提议。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor gave a slight nod to indicate his approval of the proposal.",
+      "translation": "教授微微点头，表示他同意这个提议。",
+      "analysis": "根据搭配“gave a slight nod”和动词“indicate”判断，此处nod意为“点头”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "noise": {
+    "en": "unwanted or irrelevant information that interferes with a signal or understanding",
+    "example": "The statistical noise in the data obscured the underlying trend.",
+    "exampleCn": "数据中的统计噪音掩盖了潜在的趋势。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The statistical noise in the data obscured the underlying trend.",
+      "translation": "数据中的统计噪音掩盖了潜在的趋势。",
+      "analysis": "根据“statistical noise”搭配，此处noise指干扰分析的无关数据，而非日常噪音。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "noisy": {
+    "en": "full of loud or unpleasant sound",
+    "example": "The noisy environment in the lab made it hard to concentrate on the experiment.",
+    "exampleCn": "实验室里嘈杂的环境让人很难集中注意力做实验。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The noisy environment in the lab made it hard to concentrate on the experiment.",
+      "translation": "实验室里嘈杂的环境让人很难集中注意力做实验。",
+      "analysis": "根据“environment”这个名词搭配，判断noisy意为“嘈杂的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "nonsense": {
+    "en": "words or ideas that are foolish or have no meaning",
+    "example": "The theory was dismissed as complete nonsense by leading scientists.",
+    "exampleCn": "该理论被顶尖科学家斥为完全荒谬的胡言乱语。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The theory was dismissed as complete nonsense by leading scientists.",
+      "translation": "该理论被顶尖科学家斥为完全荒谬的胡言乱语。",
+      "analysis": "根据搭配“dismissed as nonsense”判断，意为“荒谬的言论”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -9247,6 +22911,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "normally": {
+    "en": "in a way that is usual or expected",
+    "example": "The experiment normally requires strict adherence to the protocol.",
+    "exampleCn": "该实验通常要求严格遵守规程。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment normally requires strict adherence to the protocol.",
+      "translation": "该实验通常要求严格遵守规程。",
+      "analysis": "看副词修饰动词requires，表示通常情况下的要求。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "northern": {
+    "en": "a person from the north, especially in a specific context",
+    "example": "The northern in the report refers to residents of the northern region.",
+    "exampleCn": "报告中的“北方人”指的是北方地区的居民。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The northern in the report refers to residents of the northern region.",
+      "translation": "报告中的“北方人”指的是北方地区的居民。",
+      "analysis": "先把 northern 试译为“北方人”，再看前后搭配是否贴合本句。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "note": {
+    "en": "a brief written record or observation",
+    "example": "The professor asked us to take note of the key arguments in the text.",
+    "exampleCn": "教授要求我们记录下文本中的关键论点。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The professor asked us to take note of the key arguments in the text.",
+      "translation": "教授要求我们记录下文本中的关键论点。",
+      "analysis": "看动词短语 take note of，意为“注意并记录”，此处 note 是名词“笔记、记录”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "notice": {
     "en": "pay attention to or become aware of",
     "example": "Notice how the author uses contrast to highlight the main argument.",
@@ -9257,6 +22969,54 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "Notice how the author uses contrast to highlight the main argument.",
       "translation": "注意作者如何运用对比来突出主要论点。",
       "analysis": "看 notice 后接 how 从句，表示‘注意’，而非‘通知’等常见义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "noticeable": {
+    "en": "easily seen or noticed; significant",
+    "example": "The shift in consumer behavior was noticeable across all age groups.",
+    "exampleCn": "消费者行为的转变在所有年龄段都很明显。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The shift in consumer behavior was noticeable across all age groups.",
+      "translation": "消费者行为的转变在所有年龄段都很明显。",
+      "analysis": "根据系动词was和介词短语across all age groups，判断noticeable意为“明显的”。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "notion": {
+    "en": "a general idea or belief, especially one that is not very clear or accurate",
+    "example": "The notion that technology alone can solve complex social problems is overly simplistic.",
+    "exampleCn": "仅靠技术就能解决复杂社会问题的观念过于简单化了。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The notion that technology alone can solve complex social problems is overly simplistic.",
+      "translation": "仅靠技术就能解决复杂社会问题的观念过于简单化了。",
+      "analysis": "看同位语从句“that...”说明notion的具体内容，判断为“观念”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "novel": {
+    "en": "a long written story about imaginary people and events",
+    "example": "The author's latest novel explores themes of identity and belonging.",
+    "exampleCn": "这位作者的最新小说探讨了身份认同与归属感的主题。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The author's latest novel explores themes of identity and belonging.",
+      "translation": "这位作者的最新小说探讨了身份认同与归属感的主题。",
+      "analysis": "根据名词前有形容词latest修饰，判断novel为名词，意为“小说”。"
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
@@ -9920,7 +23680,7 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     }
   },
   "prison": {
-    "en": "a place where people are kept as punishment for a crime",
+    "en": "an institution or system for confining convicted people",
     "example": "The reform of the prison system has been a contentious issue in recent debates.",
     "exampleCn": "监狱系统的改革一直是近期辩论中一个有争议的问题。",
     "examContext": {
@@ -10089,6 +23849,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "sentence": "The new policy aims to promote economic growth in rural areas.",
       "translation": "这项新政策旨在促进农村地区的经济增长。",
       "analysis": "看宾语“economic growth”，搭配“promote...growth”确定是“促进”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "prompt": {
+    "en": "cause or give rise to (a feeling or action)",
+    "example": "The economic downturn may prompt companies to reconsider their investment strategies.",
+    "exampleCn": "经济衰退可能促使公司重新考虑其投资策略。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The economic downturn may prompt companies to reconsider their investment strategies.",
+      "translation": "经济衰退可能促使公司重新考虑其投资策略。",
+      "analysis": "看 prompt 后接不定式 to reconsider，表示“促使”义，区别于常见义“迅速的”。"
     },
     "sourceRefs": {
       "dictionary": "OALD local MDX",
@@ -10591,6 +24367,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
       "examCorpus": "DeepSeek context curation"
     }
   },
+  "repeat": {
+    "en": "to say or do something again",
+    "example": "The experiment was designed to repeat the previous results under controlled conditions.",
+    "exampleCn": "该实验旨在受控条件下重复先前的结果。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The experiment was designed to repeat the previous results under controlled conditions.",
+      "translation": "该实验旨在受控条件下重复先前的结果。",
+      "analysis": "看 repeat 后接 the previous results，表示再次获得相同结果，取“重复”义。"
+    },
+    "sourceRefs": {
+      "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
   "replace": {
     "en": "to take the place of something or someone",
     "example": "New technologies often replace old methods in modern industries.",
@@ -10636,6 +24428,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "require": {
+    "en": "to need something or make it necessary",
+    "example": "The new policy will require significant adjustments from all departments.",
+    "exampleCn": "新政策将需要所有部门做出重大调整。",
+    "examContext": {
+      "source": "DeepSeek 考研真题同域语境",
+      "year": "真题命中 5 套",
+      "sentence": "The new policy will require significant adjustments from all departments.",
+      "translation": "新政策将需要所有部门做出重大调整。",
+      "analysis": "根据主语policy和宾语adjustments的搭配，require在此意为“需要”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
@@ -10956,6 +24764,22 @@ window.KAOYAN_DEEPSEEK_CONTEXTS = {
     },
     "sourceRefs": {
       "dictionary": "ECDICT MIT + OALD local reference pending",
+      "examCorpus": "DeepSeek context curation"
+    }
+  },
+  "sanction": {
+    "en": "official permission or approval for an action; a penalty for disobeying a rule",
+    "example": "The government refused to sanction the use of military force without UN approval.",
+    "exampleCn": "政府拒绝在未经联合国批准的情况下批准使用军事力量。",
+    "examContext": {
+      "source": "DeepSeek 考研同域语境",
+      "year": "AI 校准语境",
+      "sentence": "The government refused to sanction the use of military force without UN approval.",
+      "translation": "政府拒绝在未经联合国批准的情况下批准使用军事力量。",
+      "analysis": "别按常见义“原义”，这里先看搭配判断“制裁”。"
+    },
+    "sourceRefs": {
+      "dictionary": "OALD local MDX",
       "examCorpus": "DeepSeek context curation"
     }
   },
