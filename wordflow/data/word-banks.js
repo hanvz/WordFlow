@@ -1571,14 +1571,24 @@ function isGenericExample(value, word) {
   const escaped = String(word.word || word.id || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return !value ||
     new RegExp(`^In exam reading, ${escaped} often appears`, "i").test(value) ||
-    new RegExp(`^In exam reading, ${escaped} should be recognized`, "i").test(value);
+    new RegExp(`^In exam reading, ${escaped} should be recognized`, "i").test(value) ||
+    new RegExp(`^The sentence uses ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^The phrase around ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^Check the verb or adjective near ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^Readers should link ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^A question may test ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^A precise translation of ${escaped}\\b`, "i").test(value) ||
+    /specific object, standard, or attitude/i.test(value);
 }
 
 function isGenericExampleCn(value, word) {
   const token = String(word.word || word.id || "");
   return !value ||
     value.includes(`${token} 常出现在考研阅读`) ||
-    value.includes(`${token} 属于考研速认词`);
+    value.includes(`${token} 属于考研速认词`) ||
+    value.includes("先看") && value.includes("周围的短语") ||
+    value.includes("在这里帮助说明一个对象、标准或态度") ||
+    value.includes("题目可能会通过");
 }
 
 function buildExamEnglish(word) {
@@ -1601,34 +1611,33 @@ function buildExamEnglish(word) {
 
 function buildExamExample(word) {
   const sense = getPrimaryExamSense(word);
+  const domain = getDomainCue(word);
+  const subject = domain.en.split(" and ")[0] || "the debate";
   const templates = [
-    () => `The phrase around ${word.word} helps decide whether "${sense}" is the right meaning.`,
-    () => `Check the verb or adjective near ${word.word} before choosing the meaning "${sense}".`,
-    () => `In a reading passage, ${word.word} may point to "${sense}" rather than a loose Chinese label.`,
-    () => `The sentence uses ${word.word} to describe a specific object, standard, or attitude.`,
-    () => `Readers should link ${word.word} with nearby modifiers before choosing the sense "${sense}".`,
-    () => `A dense sentence may test ${word.word} through its object, condition, or field.`,
-    () => `The context of ${word.word} tells readers which Chinese meaning fits the sentence.`,
-    () => `The words before and after ${word.word} show whether the sentence is describing, comparing, or judging.`,
-    () => `A question may test ${word.word} by asking what role it plays in the sentence.`,
-    () => `A precise translation of ${word.word} starts from "${sense}" and then checks the surrounding phrase.`
+    () => `The report treats ${word.word} as a key factor in the wider debate over ${subject}.`,
+    () => `Researchers often discuss ${word.word} when explaining changes in ${domain.en}.`,
+    () => `The author's argument depends on how ${word.word} affects public judgment and policy choices.`,
+    () => `Recent evidence suggests that ${word.word} can reshape the way institutions respond to pressure.`,
+    () => `The passage connects ${word.word} with a broader concern about ${domain.en}.`,
+    () => `Many readers overlook ${word.word} because it appears inside a long clause about ${subject}.`,
+    () => `The study links ${word.word} to measurable differences in behavior, costs, or social outcomes.`,
+    () => `A careful reading shows that ${word.word} is central to the author's explanation of the problem.`
   ];
   return templates[wordHash(word.word) % templates.length]();
 }
 
 function buildExamExampleCn(word) {
-  const sense = getPrimaryExamSense(word);
+  const domain = getDomainCue(word);
+  const subject = domain.cn.split("和")[0] || "相关讨论";
   const templates = [
-    () => `先看 ${word.word} 周围的短语，再判断这里是否取“${sense}”。`,
-    () => `句子提到 ${word.word} 时，附近的动词或形容词通常会提示“${sense}”。`,
-    () => `阅读中不要只背 ${word.word} 的一个中文，要回到句子里判断。`,
-    () => `${word.word} 在这里帮助说明一个对象、标准或态度。`,
-    () => `先看 ${word.word} 附近的修饰语，再决定是否取“${sense}”。`,
-    () => `长难句可能通过 ${word.word} 的对象、条件或领域来考你。`,
-    () => `${word.word} 的上下文会告诉你哪个中文最贴合本句。`,
-    () => `${word.word} 前后的词能提示句子是在描述、比较还是评价。`,
-    () => `题目可能考 ${word.word} 在句子中承担什么作用。`,
-    () => `翻译 ${word.word} 时，先试“${sense}”，再用周围短语校正。`
+    () => `这份报告把 ${word.word} 视为围绕${subject}展开的更大讨论中的关键因素。`,
+    () => `研究人员在解释${domain.cn}变化时，经常讨论 ${word.word}。`,
+    () => `作者的论证取决于 ${word.word} 如何影响公众判断和政策选择。`,
+    () => `最新证据表明，${word.word} 会改变机构回应压力的方式。`,
+    () => `这篇文章把 ${word.word} 与关于${domain.cn}的更广泛担忧联系起来。`,
+    () => `许多读者会忽略 ${word.word}，因为它出现在关于${subject}的长从句中。`,
+    () => `这项研究把 ${word.word} 与行为、成本或社会结果的可测差异联系起来。`,
+    () => `仔细阅读可见，${word.word} 是作者解释该问题的核心。`
   ];
   return templates[wordHash(word.word) % templates.length]();
 }

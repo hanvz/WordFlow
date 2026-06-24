@@ -44,8 +44,8 @@ const stats = {
   paperHotWords: bank.words.filter((word) => word.paperHits > 0).length,
   recognitionOnly: bank.words.filter((word) => word.recognitionOnly).length,
   genericEnglish: bank.words.filter((word) => !word.en || /^Kaoyan .+ vocabulary item/i.test(word.en) || /fast English-to-Chinese recall/i.test(word.en)).length,
-  genericExamples: bank.words.filter((word) => !word.example || /^In exam reading, .+ often appears/i.test(word.example) || /^In exam reading, .+ should be recognized/i.test(word.example)).length,
-  genericExampleCn: bank.words.filter((word) => !word.exampleCn || word.exampleCn.includes("常出现在考研阅读") || word.exampleCn.includes("属于考研速认词")).length,
+  genericExamples: bank.words.filter((word) => isBadExample(word.example, word)).length,
+  genericExampleCn: bank.words.filter((word) => isBadExampleCn(word.exampleCn)).length,
   abstractExamples: bank.words.filter((word) => /Recognizing .+ helps separate factual description from the writer's evaluation/i.test(word.example || "") || (word.exampleCn || "").includes("有助于区分事实描述和作者评价")).length,
   abstractAnalysis: bank.words.filter((word) => (word.examContext?.analysis || "").includes("社会证据和作者论证脉络") || (word.examContext?.analysis || "").includes("真题反复命中的考点")).length,
   missingContext: bank.words.filter((word) => !word.examContext?.sentence || !word.examContext?.analysis).length,
@@ -106,6 +106,29 @@ function countDuplicateValues(words, field) {
     seen.add(value);
   });
   return duplicates.size;
+}
+
+function isBadExample(value, word) {
+  if (!value) return true;
+  const escaped = String(word.word || word.id || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return /^In exam reading, .+ often appears/i.test(value) ||
+    /^In exam reading, .+ should be recognized/i.test(value) ||
+    new RegExp(`^The sentence uses ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^The phrase around ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^Check the verb or adjective near ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^Readers should link ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^A question may test ${escaped}\\b`, "i").test(value) ||
+    new RegExp(`^A precise translation of ${escaped}\\b`, "i").test(value) ||
+    /specific object, standard, or attitude/i.test(value);
+}
+
+function isBadExampleCn(value) {
+  if (!value) return true;
+  return value.includes("常出现在考研阅读") ||
+    value.includes("属于考研速认词") ||
+    (value.includes("先看") && value.includes("周围的短语")) ||
+    value.includes("在这里帮助说明一个对象、标准或态度") ||
+    value.includes("题目可能会通过");
 }
 
 if (stats.indexedPapers < 6) {

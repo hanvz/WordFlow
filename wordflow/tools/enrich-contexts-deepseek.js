@@ -377,7 +377,8 @@ async function generateContext(word, attempt = 0) {
         content: [
           "你是考研英语阅读词汇教练，只生成简洁、自然、可直接放进背词卡片的内容。",
           "不要写真实年份或声称来自某套真题。不要编造真题出处。",
-          "句子要像考研阅读同域句，但不要过长。中文解释要像老师口头讲解。",
+          "sentence 要像一篇阅读文章里的原句，不要写成老师讲解、题目说明或元分析。",
+          "中文解释要像老师口头讲解，但 sentence 和 translation 必须保持真实语境感。",
           "必须返回 JSON，字段为 en, sentence, translation, analysis。"
         ].join("\n")
       },
@@ -389,6 +390,7 @@ async function generateContext(word, attempt = 0) {
             "sentence 必须自然包含目标英文词，长度 12-24 个英文词。",
             `sentence 里必须原样出现英文单词 “${word.word}”，不要只写变形、派生词或同义词。`,
             "不要使用模板句，如 A careful analysis of the data reveals a clear trend.",
+            "sentence 禁止写 The sentence uses..., The phrase around..., Readers should..., A question may test... 这类讲解式句子。",
             "sentence 和 translation 必须和其他单词卡片明显不同。",
             "translation 必须是 sentence 的自然中文翻译。",
             "analysis 必须 1 句中文，说明看哪个搭配、词性或句子关系来定中文，少于 45 个汉字。",
@@ -462,6 +464,9 @@ function validateGenerated(word, context) {
   const combined = `${context.sentence} ${context.translation} ${context.analysis}`;
   const badPhrase = badPhrases.find((phrase) => combined.includes(phrase));
   if (badPhrase) throw new Error(`${word.word}: generated content contains abstract phrase ${badPhrase}`);
+  if (isMetaSentence(word, context.sentence)) {
+    throw new Error(`${word.word}: sentence is meta-analysis, not natural context`);
+  }
   if (context.analysis.length > 55) throw new Error(`${word.word}: analysis is too long`);
 }
 
@@ -484,6 +489,17 @@ function normalizeContext(word, context) {
   }
 
   return normalized;
+}
+
+function isMetaSentence(word, sentence) {
+  const escaped = String(word.word || word.id || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`^The sentence uses ${escaped}\\b`, "i").test(sentence) ||
+    new RegExp(`^The phrase around ${escaped}\\b`, "i").test(sentence) ||
+    new RegExp(`^Check the verb or adjective near ${escaped}\\b`, "i").test(sentence) ||
+    new RegExp(`^Readers should link ${escaped}\\b`, "i").test(sentence) ||
+    new RegExp(`^A question may test ${escaped}\\b`, "i").test(sentence) ||
+    new RegExp(`^A precise translation of ${escaped}\\b`, "i").test(sentence) ||
+    /specific object, standard, or attitude/i.test(sentence);
 }
 
 function fallbackAnalysis(word) {

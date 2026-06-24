@@ -137,7 +137,8 @@ assert(bank.words.filter((word) => word.recognitionOnly).length >= 1500, "Recogn
 assert(major?.polysemy && major.example.includes("major in humanities") && major.examContext?.analysis.includes("主修"), "major is not enriched to the assume-level standard");
 assert(conditionWord?.polysemy && conditionWord.example.includes("instant gratification") && conditionWord.examContext?.analysis.includes("conditioned"), "condition is not enriched to the assume-level standard");
 assert(!bank.words.some((word) => /^Kaoyan .+ vocabulary item/i.test(word.en || "")), "Generic English explanation remains");
-assert(!bank.words.some((word) => /^In exam reading, .+ often appears/i.test(word.example || "") || /^In exam reading, .+ should be recognized/i.test(word.example || "")), "Generic example remains");
+assert(!bank.words.some((word) => /^In exam reading, .+ often appears/i.test(word.example || "") || /^In exam reading, .+ should be recognized/i.test(word.example || "") || /^The sentence uses /i.test(word.example || "") || /specific object, standard, or attitude/i.test(word.example || "")), "Generic or meta example remains");
+assert(!sandbox.buildExamExample({ word: "crisis", id: "crisis", cn: "危机", examSense: "危机", tags: ["阅读"], level: "阅读高频" }).includes("The sentence uses"), "Fallback example generator still returns meta-analysis wording");
 const reviewCandidate = sandbox.getModeWords(bank, "core-intensive").find((word) => word.paperHits > 0 && word.record && !word.record.seen);
 const futureCandidate = sandbox.getModeWords(bank, "core-intensive").find((word) => word.id !== reviewCandidate.id && word.record && !word.record.seen);
 const currentTime = Date.now();
