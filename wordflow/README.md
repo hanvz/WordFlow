@@ -30,6 +30,7 @@
 - DeepSeek：通过 OpenClaw 调用 `deepseek/deepseek-v4-pro` 做垂直方向校准和熟词生义种子校对，不把大批量词义完全交给模型生成。
 - DeepSeek API 覆盖层：`tools/enrich-contexts-deepseek.js` 可批量生成更自然的考研同域语境，输出到 `data/deepseek-context-overrides.js`，不直接改原始词库。
 - DeepSeek 词汇增强层：`tools/enrich-lexical-deepseek.js` 批量补熟词生义常见义、词根拆解和词族，输出到 `data/deepseek-lexical-overrides.js`。
+- DeepSeek 审稿层：`tools/review-contexts-deepseek.js` 批量生成长难句主干解析和语境质量二次审稿，输出到 `data/deepseek-syntax-overrides.js` 与 `data/deepseek-quality-reviews.js`。
 - OALD 本地层：`tools/extract-oald-local.py` 可从用户本机 OALD MDX/MDD 抽取精简释义、音标和本地音频覆盖，输出文件默认被 Git 忽略，避免把牛津版权内容发布到公开仓库。
 
 重新生成速认包前，先下载 ECDICT CSV 到临时目录：
@@ -103,6 +104,25 @@ node tools/validate-wordbank.js
 
 - 熟词生义 familiarMeaning：必须覆盖全部熟词生义词。
 - morphology/family：必须至少覆盖 2000 个词。
+
+### DeepSeek 长难句解析与语境审稿
+
+先 dry-run 看高价值词选择：
+
+```bash
+node tools/review-contexts-deepseek.js --scope high-value --limit 20
+```
+
+生成离线覆盖层：
+
+```bash
+node tools/review-contexts-deepseek.js --scope high-value --limit 200 --apply
+node tools/review-contexts-deepseek.js --scope high-value --limit 1800 --apply --concurrency 4 --batchSize 8
+node tools/validate-wordbank.js
+node tools/audit-app.js
+```
+
+当前本机实测：高价值词 2042 个，DeepSeek 长难句解析和语境审稿各覆盖 2036 个，覆盖率 99.71%。前端答案页优先显示 `deepseekSyntax`，没有覆盖的词继续使用规则解析器；语境质检页同时展示本地规则分和 DeepSeek 审稿分。
 
 ### OALD 本地抽取
 

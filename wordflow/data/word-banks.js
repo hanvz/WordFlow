@@ -1709,6 +1709,8 @@ if (kaoyanBank) {
       ...word,
       ...(window.KAOYAN_DEEPSEEK_CONTEXTS?.[word.id] || {}),
       ...(window.KAOYAN_DEEPSEEK_LEXICAL?.[word.id] || {}),
+      deepseekSyntax: window.KAOYAN_DEEPSEEK_SYNTAX?.[word.id] || null,
+      deepseekQuality: window.KAOYAN_DEEPSEEK_QUALITY?.[word.id] || null,
       ...(window.KAOYAN_OALD_LOCAL?.[word.id] || {}),
       ...(KAOYAN_WORD_ENRICHMENTS[word.id] || {}),
       ...(paperStats || {})

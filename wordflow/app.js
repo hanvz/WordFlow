@@ -1010,7 +1010,7 @@ function renderExamContext(word) {
 }
 
 function renderSentenceStructure(word, sentence) {
-  const structure = analyzeSentenceStructure(sentence, word.word);
+  const structure = normalizeSyntaxReview(word.deepseekSyntax) || analyzeSentenceStructure(sentence, word.word);
   return `
     <div class="syntax-card">
       <div class="syntax-strip">
@@ -1031,9 +1031,28 @@ function renderSentenceStructure(word, sentence) {
           <strong>${escapeHtml(structure.targetRole)}</strong>
         </div>
       </div>
+      ${structure.modifierHint ? `<p class="syntax-note">${escapeHtml(structure.modifierHint)}</p>` : ""}
       <p class="syntax-note">${escapeHtml(structure.relationHint)}</p>
     </div>
   `;
+}
+
+function normalizeSyntaxReview(review) {
+  if (!review || !review.subject || !review.predicate || !review.targetRole) return null;
+  const modifiers = Array.isArray(review.modifiers) ? review.modifiers.filter(Boolean) : [];
+  const clauses = Array.isArray(review.clauses) ? review.clauses.filter(Boolean) : [];
+  const modifierHint = [
+    modifiers.length ? `修饰提示：${modifiers.join(" / ")}` : "",
+    clauses.length ? `从句/非谓语：${clauses.join(" / ")}` : ""
+  ].filter(Boolean).join("；");
+  return {
+    subject: review.subject,
+    predicate: review.predicate,
+    complement: review.objectOrComplement || "看后续成分",
+    targetRole: review.targetRole,
+    modifierHint,
+    relationHint: review.readingHint || "根据主干和修饰关系判断目标词义。"
+  };
 }
 
 function analyzeSentenceStructure(sentence, targetWord) {
@@ -1396,10 +1415,17 @@ function chooseQuiz(id) {
 function renderQualityAudit(bank) {
   const words = getEnrichedWords(bank);
   const rows = words
-    .map((word) => ({ word, audit: assessContextQuality(word) }))
-    .sort((a, b) => a.audit.score - b.audit.score || b.audit.flags.length - a.audit.flags.length);
-  const weakRows = rows.filter((row) => row.audit.flags.length);
+    .map((word) => ({ word, audit: assessContextQuality(word), ai: normalizeQualityReview(word.deepseekQuality) }))
+    .sort(compareQualityRows);
+  const weakRows = rows.filter((row) => row.audit.flags.length || row.ai?.verdict === "rewrite" || row.ai?.verdict === "review" || !row.ai);
   const strongCount = rows.length - weakRows.length;
+  const reviewedRows = rows.filter((row) => row.ai);
+  const rewriteRows = rows.filter((row) => row.ai?.verdict === "rewrite" || row.ai?.rewritePriority === "high");
+  const reviewRows = rows.filter((row) => row.ai?.verdict === "review" || row.ai?.rewritePriority === "medium");
+  const aiPassRows = rows.filter((row) => row.ai?.verdict === "pass");
+  const averageAiScore = reviewedRows.length
+    ? Math.round(reviewedRows.reduce((sum, row) => sum + row.ai.score, 0) / reviewedRows.length)
+    : 0;
   const sourceStats = rows.reduce((acc, row) => {
     const source = row.word.examContext?.source || "无来源";
     acc[source] = (acc[source] || 0) + 1;
@@ -1417,10 +1443,10 @@ function renderQualityAudit(bank) {
         <span class="level-badge">${strongCount}/${rows.length} 通过规则</span>
       </div>
       <div class="metrics-grid compact-metrics">
-        ${metric("待人工复核", `${weakRows.length}`, "按风险分从高到低排列")}
-        ${metric("平均分", `${Math.round(rows.reduce((sum, row) => sum + row.audit.score, 0) / rows.length)}`, "满分 100")}
-        ${metric("熟词生义", `${words.filter((word) => word.polysemy).length}`, "重点看常见义对照")}
-        ${metric("本地兜底", `${sourceStats["本地兜底校准语境"] || 0}`, "AI 多次失败后的兜底项")}
+        ${metric("规则待复核", `${weakRows.length}`, "本地规则 + AI 审稿综合排序")}
+        ${metric("DeepSeek 均分", reviewedRows.length ? `${averageAiScore}` : "待生成", `${reviewedRows.length}/${rows.length} 已审稿`)}
+        ${metric("需要重写", `${rewriteRows.length}`, "AI 判定 high/rewrite")}
+        ${metric("通过审稿", `${aiPassRows.length}`, reviewRows.length ? `${reviewRows.length} 条需人工复核` : "暂无 AI 中风险")}
       </div>
     </section>
 
@@ -1482,6 +1508,39 @@ function assessContextQuality(word) {
   return { score: clamp(score, 0, 100), flags };
 }
 
+function normalizeQualityReview(review) {
+  if (!review || typeof review !== "object") return null;
+  return {
+    score: clamp(Number(review.score) || 0, 0, 100),
+    verdict: ["pass", "review", "rewrite"].includes(review.verdict) ? review.verdict : "review",
+    flags: Array.isArray(review.flags) ? review.flags.filter(Boolean) : [],
+    rewritePriority: ["low", "medium", "high"].includes(review.rewritePriority) ? review.rewritePriority : "medium",
+    naturalness: clamp(Number(review.naturalness) || 0, 0, 5),
+    examRelevance: clamp(Number(review.examRelevance) || 0, 0, 5),
+    targetWordFit: clamp(Number(review.targetWordFit) || 0, 0, 5),
+    translationFit: clamp(Number(review.translationFit) || 0, 0, 5),
+    analysisFit: clamp(Number(review.analysisFit) || 0, 0, 5),
+    review: String(review.review || ""),
+    suggestedFix: String(review.suggestedFix || "")
+  };
+}
+
+function qualityPriority(row) {
+  if (!row.ai) return 40;
+  if (row.ai.rewritePriority === "high" || row.ai.verdict === "rewrite") return 0;
+  if (row.ai.rewritePriority === "medium" || row.ai.verdict === "review") return 10;
+  if (row.audit.flags.length) return 20;
+  return 30;
+}
+
+function compareQualityRows(a, b) {
+  const priority = qualityPriority(a) - qualityPriority(b);
+  if (priority) return priority;
+  const aiScore = (a.ai?.score ?? 101) - (b.ai?.score ?? 101);
+  if (aiScore) return aiScore;
+  return a.audit.score - b.audit.score || b.audit.flags.length - a.audit.flags.length;
+}
+
 function renderQualityRow(row) {
   const { word, audit } = row;
   const context = getStudyContext(word);
@@ -1494,12 +1553,23 @@ function renderQualityRow(row) {
       <p>${renderChallengeSentence(context.sentence, word.word)}</p>
       <span class="example-cn">${escapeHtml(context.translation)}</span>
       <div class="chip-row">
-        <span class="level-badge">${audit.score}/100</span>
+        <span class="level-badge">规则 ${audit.score}/100</span>
+        ${word.deepseekQuality ? `<span class="level-badge">DeepSeek ${escapeHtml(String(word.deepseekQuality.score))}/100</span>` : `<span class="tag">规则审计待 AI 复核</span>`}
+        ${word.deepseekQuality ? `<span class="tag">${escapeHtml(aiVerdictLabel(word.deepseekQuality))}</span>` : ""}
         ${audit.flags.map((flag) => `<span class="tag hot-tag">${escapeHtml(flag)}</span>`).join("")}
+        ${(word.deepseekQuality?.flags || []).map((flag) => `<span class="tag hot-tag">${escapeHtml(flag)}</span>`).join("")}
       </div>
-      <p class="quality-hint">DeepSeek 修订方向：${escapeHtml(buildQualityFixHint(word, audit.flags))}</p>
+      ${word.deepseekQuality ? `
+        <p class="quality-hint">DeepSeek 审稿：${escapeHtml(word.deepseekQuality.review || "已完成语义审稿。")}</p>
+        <p class="quality-hint">建议：${escapeHtml(word.deepseekQuality.suggestedFix || buildQualityFixHint(word, audit.flags))}</p>
+      ` : `<p class="quality-hint">DeepSeek 修订方向：${escapeHtml(buildQualityFixHint(word, audit.flags))}</p>`}
     </article>
   `;
+}
+
+function aiVerdictLabel(review) {
+  const labels = { pass: "AI 通过", review: "AI 复核", rewrite: "AI 建议重写" };
+  return `${labels[review.verdict] || "AI 复核"} · ${review.rewritePriority || "medium"}`;
 }
 
 function buildQualityFixHint(word, flags) {

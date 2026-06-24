@@ -92,6 +92,8 @@ function loadApp() {
     "data/pastpapers-vocab-stats.js",
     "data/deepseek-context-overrides.js",
     "data/deepseek-lexical-overrides.js",
+    "data/deepseek-syntax-overrides.js",
+    "data/deepseek-quality-reviews.js",
     "data/word-banks.js",
     "app.js"
   ].forEach((file) => {
@@ -116,6 +118,9 @@ const ids = bank.words.map((word) => word.id);
 const dashboard = getElement("appView").innerHTML;
 const major = bank.words.find((word) => word.word === "major");
 const conditionWord = bank.words.find((word) => word.word === "condition");
+const highValueWords = bank.words.filter((word) => !word.recognitionOnly || word.polysemy || word.paperHits > 0 || word.tags?.includes("熟词生义"));
+const syntaxReviewed = highValueWords.filter((word) => word.deepseekSyntax?.subject && word.deepseekSyntax?.predicate && word.deepseekSyntax?.targetRole).length;
+const qualityReviewed = highValueWords.filter((word) => Number.isFinite(Number(word.deepseekQuality?.score)) && Array.isArray(word.deepseekQuality?.flags)).length;
 const initialLayerStats = {
   coreIntensive: sandbox.getModeStats(bank, "core-intensive"),
   syllabusRecognition: sandbox.getModeStats(bank, "syllabus-recognition"),
@@ -136,6 +141,13 @@ assert(bank.words.filter((word) => word.paperHits > 0).length >= 50, "Past-paper
 assert(bank.words.filter((word) => word.recognitionOnly).length >= 1500, "Recognition-only tier is underfilled");
 assert(major?.polysemy && major.example.includes("major in humanities") && major.examContext?.analysis.includes("主修"), "major is not enriched to the assume-level standard");
 assert(conditionWord?.polysemy && conditionWord.example.includes("instant gratification") && conditionWord.examContext?.analysis.includes("conditioned"), "condition is not enriched to the assume-level standard");
+assert(syntaxReviewed / highValueWords.length >= 0.95, `DeepSeek syntax coverage is below target: ${syntaxReviewed}/${highValueWords.length}`);
+assert(qualityReviewed / highValueWords.length >= 0.95, `DeepSeek quality coverage is below target: ${qualityReviewed}/${highValueWords.length}`);
+["crisis", "demand", "condition", "quality", "subject"].forEach((id) => {
+  const word = bank.words.find((item) => item.id === id || item.word === id);
+  assert(word?.deepseekSyntax?.subject && word?.deepseekSyntax?.predicate && word?.deepseekSyntax?.targetRole, `Required syntax review missing for ${id}`);
+  assert(Number.isFinite(Number(word?.deepseekQuality?.score)) && word?.deepseekQuality?.review, `Required quality review missing for ${id}`);
+});
 assert(!bank.words.some((word) => /^Kaoyan .+ vocabulary item/i.test(word.en || "")), "Generic English explanation remains");
 assert(!bank.words.some((word) => /^In exam reading, .+ often appears/i.test(word.example || "") || /^In exam reading, .+ should be recognized/i.test(word.example || "") || /^The sentence uses /i.test(word.example || "") || /specific object, standard, or attitude/i.test(word.example || "")), "Generic or meta example remains");
 assert(!sandbox.buildExamExample({ word: "crisis", id: "crisis", cn: "危机", examSense: "危机", tags: ["阅读"], level: "阅读高频" }).includes("The sentence uses"), "Fallback example generator still returns meta-analysis wording");
@@ -236,7 +248,10 @@ assert(css.includes(".pronounce-button"), "Pronunciation button CSS is missing")
 assert(css.includes(".reward-drop"), "Reward drop CSS is missing");
 assert(appSource.includes("renderQualityAudit") && appSource.includes("assessContextQuality"), "Context quality audit view is missing");
 assert(appSource.includes("buildQualityFixHint") && css.includes(".quality-hint"), "DeepSeek quality repair hints are missing");
+assert(appSource.includes("normalizeQualityReview") && appSource.includes("DeepSeek 审稿"), "DeepSeek quality review UI is missing");
+assert(appSource.includes("normalizeSyntaxReview") && appSource.includes("deepseekSyntax"), "DeepSeek syntax-first UI is missing");
 assert(appSource.includes("analyzeSentenceStructure") && appSource.includes("buildRelationHint") && css.includes(".syntax-strip") && css.includes(".syntax-note"), "Sentence structure parser UI is missing");
+assert(appSource.includes("规则审计待 AI 复核") && appSource.includes("AI 建议重写"), "Quality audit status labels are missing");
 assert(oaldExtractor.includes("--from-bank") && oaldExtractor.includes("extract_audio") && oaldExtractor.includes("audioExtracted"), "OALD local extractor does not support full-bank audio extraction");
 assert(css.includes("body.study-focus {\n    overflow: auto;"), "Mobile focus mode should allow vertical scrolling");
 assert(css.includes(".study-focus .action-row {\n    position: fixed;"), "Mobile study actions are not fixed to the bottom");

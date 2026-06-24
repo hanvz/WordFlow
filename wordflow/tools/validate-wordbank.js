@@ -8,6 +8,8 @@ require("../data/pastpapers-index.js");
 require("../data/pastpapers-vocab-stats.js");
 require("../data/deepseek-context-overrides.js");
 require("../data/deepseek-lexical-overrides.js");
+require("../data/deepseek-syntax-overrides.js");
+require("../data/deepseek-quality-reviews.js");
 require("../data/word-banks.js");
 
 const bank = global.WORD_BANKS.find((item) => item.id === "kaoyan");
@@ -27,6 +29,10 @@ const missing = bank.words
     })
   }))
   .filter((item) => item.fields.length);
+const highValueWords = bank.words.filter(isHighValueWord);
+const requiredReviewIds = ["crisis", "demand", "condition", "quality", "subject"];
+const reviewedSyntax = highValueWords.filter((word) => hasSyntaxReview(word)).length;
+const reviewedQuality = highValueWords.filter((word) => hasQualityReview(word)).length;
 
 const stats = {
   targetSize: bank.targetSize || 0,
@@ -55,6 +61,11 @@ const stats = {
   familiarMeaning: bank.words.filter((word) => word.polysemy && word.familiarMeaning).length,
   morphology: bank.words.filter((word) => (word.morphology?.parts || []).length > 0).length,
   family: bank.words.filter((word) => (word.family || []).length > 0).length,
+  highValue: highValueWords.length,
+  deepseekSyntax: reviewedSyntax,
+  deepseekQuality: reviewedQuality,
+  deepseekSyntaxCoverage: highValueWords.length ? Number((reviewedSyntax / highValueWords.length).toFixed(4)) : 0,
+  deepseekQualityCoverage: highValueWords.length ? Number((reviewedQuality / highValueWords.length).toFixed(4)) : 0,
   missing
 };
 
@@ -96,6 +107,17 @@ if (stats.morphology < 2000 || stats.family < 2000) {
   throw new Error(`Morphology/family coverage is below target: morphology=${stats.morphology}, family=${stats.family}`);
 }
 
+if (stats.highValue < 1500 || stats.deepseekSyntax / stats.highValue < 0.95 || stats.deepseekQuality / stats.highValue < 0.95) {
+  throw new Error(`DeepSeek review coverage below target: syntax=${stats.deepseekSyntax}/${stats.highValue}, quality=${stats.deepseekQuality}/${stats.highValue}`);
+}
+
+requiredReviewIds.forEach((id) => {
+  const word = bank.words.find((item) => item.id === id || item.word === id);
+  if (!word || !hasSyntaxReview(word) || !hasQualityReview(word)) {
+    throw new Error(`Required DeepSeek syntax/quality review missing for ${id}`);
+  }
+});
+
 function countDuplicateValues(words, field) {
   const seen = new Set();
   const duplicates = new Set();
@@ -129,6 +151,20 @@ function isBadExampleCn(value) {
     (value.includes("先看") && value.includes("周围的短语")) ||
     value.includes("在这里帮助说明一个对象、标准或态度") ||
     value.includes("题目可能会通过");
+}
+
+function isHighValueWord(word) {
+  return !word.recognitionOnly || word.polysemy || word.paperHits > 0 || word.tags?.includes("熟词生义");
+}
+
+function hasSyntaxReview(word) {
+  const review = word.deepseekSyntax;
+  return Boolean(review?.subject && review?.predicate && review?.objectOrComplement && review?.targetRole && review?.readingHint);
+}
+
+function hasQualityReview(word) {
+  const review = word.deepseekQuality;
+  return Boolean(review && Number.isFinite(Number(review.score)) && Array.isArray(review.flags) && review.review && review.suggestedFix);
 }
 
 if (stats.indexedPapers < 6) {
