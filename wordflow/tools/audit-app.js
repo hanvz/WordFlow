@@ -91,6 +91,7 @@ function loadApp() {
     "data/pastpapers-index.js",
     "data/pastpapers-vocab-stats.js",
     "data/deepseek-context-overrides.js",
+    "data/deepseek-lexical-overrides.js",
     "data/word-banks.js",
     "app.js"
   ].forEach((file) => {
@@ -109,6 +110,7 @@ function assert(condition, message) {
 const sandbox = loadApp();
 const css = fs.readFileSync("styles.css", "utf8");
 const appSource = fs.readFileSync("app.js", "utf8");
+const oaldExtractor = fs.readFileSync("tools/extract-oald-local.py", "utf8");
 const bank = sandbox.window.WORD_BANKS.find((item) => item.id === "kaoyan");
 const ids = bank.words.map((word) => word.id);
 const dashboard = getElement("appView").innerHTML;
@@ -231,6 +233,10 @@ assert(css.includes("font-size: clamp(3.8rem, 10vw, 8.4rem)"), "Focus word size 
 assert(css.includes(".study-answer-grid") && css.includes(".study-detail-grid"), "Study CSS is missing complete card grids");
 assert(css.includes(".pronounce-button"), "Pronunciation button CSS is missing");
 assert(css.includes(".reward-drop"), "Reward drop CSS is missing");
+assert(appSource.includes("renderQualityAudit") && appSource.includes("assessContextQuality"), "Context quality audit view is missing");
+assert(appSource.includes("buildQualityFixHint") && css.includes(".quality-hint"), "DeepSeek quality repair hints are missing");
+assert(appSource.includes("analyzeSentenceStructure") && appSource.includes("buildRelationHint") && css.includes(".syntax-strip") && css.includes(".syntax-note"), "Sentence structure parser UI is missing");
+assert(oaldExtractor.includes("--from-bank") && oaldExtractor.includes("extract_audio") && oaldExtractor.includes("audioExtracted"), "OALD local extractor does not support full-bank audio extraction");
 assert(css.includes("body.study-focus {\n    overflow: hidden;"), "Mobile focus mode does not lock body overflow");
 
 console.log(JSON.stringify({

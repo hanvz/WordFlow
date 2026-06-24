@@ -8,7 +8,8 @@ const viewMeta = {
   study: "开始背词",
   review: "复习队列",
   quiz: "快速测验",
-  library: "词库管理"
+  library: "词库管理",
+  quality: "语境质检"
 };
 
 const STUDY_MODES = [
@@ -490,7 +491,8 @@ function render() {
     study: renderStudy,
     review: renderReview,
     quiz: renderQuiz,
-    library: renderLibrary
+    library: renderLibrary,
+    quality: renderQualityAudit
   };
 
   (views[state.view] || renderDashboard)(bank);
@@ -897,6 +899,7 @@ function renderRevealedStudy(word, record, plan) {
             <div class="definition-cn">${escapeHtml(getPrimarySense(word))}</div>
             <p class="full-sense">${escapeHtml(word.cn)}</p>
             <p class="definition-en">${escapeHtml(word.en)}</p>
+            ${word.oaldDefinition ? `<p class="micro-copy">OALD：${escapeHtml(word.oaldDefinition)}</p>` : ""}
           </div>
         </div>
       </div>
@@ -1001,8 +1004,116 @@ function renderExamContext(word) {
       <span class="example-cn">${escapeHtml(context.translation || word.exampleCn)}</span>
       ${context.analysis ? `<p class="micro-copy">${escapeHtml(context.analysis)}</p>` : ""}
       ${context.year ? `<span class="word-meta">${escapeHtml(context.year)}</span>` : ""}
+      ${renderSentenceStructure(word, context.sentence)}
     </div>
   `;
+}
+
+function renderSentenceStructure(word, sentence) {
+  const structure = analyzeSentenceStructure(sentence, word.word);
+  return `
+    <div class="syntax-card">
+      <div class="syntax-strip">
+        <div>
+          <span>主语段</span>
+          <strong>${escapeHtml(structure.subject)}</strong>
+        </div>
+        <div>
+          <span>谓语触发</span>
+          <strong>${escapeHtml(structure.predicate)}</strong>
+        </div>
+        <div>
+          <span>后续成分</span>
+          <strong>${escapeHtml(structure.complement)}</strong>
+        </div>
+        <div>
+          <span>目标词作用</span>
+          <strong>${escapeHtml(structure.targetRole)}</strong>
+        </div>
+      </div>
+      <p class="syntax-note">${escapeHtml(structure.relationHint)}</p>
+    </div>
+  `;
+}
+
+function analyzeSentenceStructure(sentence, targetWord) {
+  const source = String(sentence || "").replace(/\s+/g, " ").trim();
+  const targetPattern = new RegExp(`\\b${escapeRegExp(targetWord)}\\b`, "i");
+  const clauses = splitSentenceClauses(source);
+  const main = clauses.find((item) => targetPattern.test(item)) || clauses[0] || source;
+  const tokens = tokenizeSentence(main);
+  const verbIndex = findPredicateIndex(tokens);
+  const subject = tokens.slice(0, verbIndex > 0 ? verbIndex : Math.min(tokens.length, 6)).join(" ");
+  const predicate = verbIndex >= 0 ? cleanToken(tokens[verbIndex]) : "看全句谓语";
+  const complement = verbIndex >= 0 ? tokens.slice(verbIndex + 1).join(" ") || "无明显宾语" : tokens.slice(6).join(" ") || "看修饰关系";
+  const lowerTarget = String(targetWord || "").toLowerCase();
+  const targetIndex = tokens.findIndex((token) => cleanToken(token).toLowerCase() === lowerTarget);
+  const relationHint = buildRelationHint(tokens, targetIndex, verbIndex);
+  const targetRole = targetIndex < 0
+    ? "目标词不在主句片段中"
+    : targetIndex < Math.max(verbIndex, 0)
+      ? "主语/修饰语"
+      : targetIndex === verbIndex
+        ? "谓语核心"
+        : "宾语/补足语/后置修饰";
+  return {
+    subject: subject || "看句首名词短语",
+    predicate,
+    complement: complement || "看后续成分",
+    targetRole,
+    relationHint
+  };
+}
+
+function splitSentenceClauses(source) {
+  return String(source || "")
+    .split(/\s*(?:;|:|,|\b(?:although|because|while|when|if|whereas)\b)\s*/i)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function tokenizeSentence(clause) {
+  return String(clause || "")
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+}
+
+function findPredicateIndex(tokens) {
+  const auxiliaryIndex = tokens.findIndex((token, index) => index > 0 && isAuxiliaryVerb(token));
+  if (auxiliaryIndex >= 0) return auxiliaryIndex;
+  return tokens.findIndex((token, index) => index > 0 && isLikelyVerb(token));
+}
+
+function cleanToken(token) {
+  return String(token || "").replace(/[^\w-]/g, "");
+}
+
+function isAuxiliaryVerb(token) {
+  const auxiliaries = new Set(["is", "are", "was", "were", "be", "being", "been", "has", "have", "had", "do", "does", "did", "can", "could", "may", "might", "must", "should", "will", "would"]);
+  return auxiliaries.has(cleanToken(token).toLowerCase());
+}
+
+function isLikelyVerb(token) {
+  const clean = cleanToken(token).toLowerCase();
+  if (!clean) return false;
+  const commonVerbs = new Set(["appears", "appear", "helps", "help", "shows", "show", "suggests", "suggest", "argues", "argue", "claims", "claim", "means", "mean", "requires", "require", "reflects", "reflect", "depends", "depend", "links", "link", "separates", "separate", "regards", "regard", "offers", "offer", "fails", "fail", "drives", "drive"]);
+  return isAuxiliaryVerb(clean) || commonVerbs.has(clean) || /(ed|ing|ize|ise|fy|ate|s)$/.test(clean);
+}
+
+function buildRelationHint(tokens, targetIndex, verbIndex) {
+  if (targetIndex < 0) return "先定位目标词所在从句，再回到主谓宾判断。";
+  const previous = cleanToken(tokens[targetIndex - 1] || "").toLowerCase();
+  const next = cleanToken(tokens[targetIndex + 1] || "").toLowerCase();
+  if (previous === "of") return "目标词跟在 of 后，优先看它限定的是前面的名词。";
+  if (["for", "to", "with", "by", "in", "on"].includes(previous)) return `目标词处在 ${previous} 短语里，先判断这个介词短语修饰谁。`;
+  if (["that", "which", "who"].includes(next)) return "目标词后接从句，后面的解释往往会限定它的考研义。";
+  if (verbIndex >= 0 && targetIndex > verbIndex) return "目标词在谓语之后，重点看它是宾语、补语还是后置修饰的一部分。";
+  return "目标词在主语或修饰区，先看它是否决定全句讨论对象。";
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function renderMorphology(word) {
@@ -1280,6 +1391,127 @@ function chooseQuiz(id) {
   daily.learned += firstSeen ? 1 : 0;
   saveState();
   render();
+}
+
+function renderQualityAudit(bank) {
+  const words = getEnrichedWords(bank);
+  const rows = words
+    .map((word) => ({ word, audit: assessContextQuality(word) }))
+    .sort((a, b) => a.audit.score - b.audit.score || b.audit.flags.length - a.audit.flags.length);
+  const weakRows = rows.filter((row) => row.audit.flags.length);
+  const strongCount = rows.length - weakRows.length;
+  const sourceStats = rows.reduce((acc, row) => {
+    const source = row.word.examContext?.source || "无来源";
+    acc[source] = (acc[source] || 0) + 1;
+    return acc;
+  }, {});
+  const app = $("#appView");
+
+  app.innerHTML = `
+    <section class="panel">
+      <div class="panel-head">
+        <div>
+          <h2>DeepSeek 语境质量审计</h2>
+          <p class="micro-copy">自动筛查过短、过泛、缺少目标词、熟词生义提示不足和长句负荷过高的语境。</p>
+        </div>
+        <span class="level-badge">${strongCount}/${rows.length} 通过规则</span>
+      </div>
+      <div class="metrics-grid compact-metrics">
+        ${metric("待人工复核", `${weakRows.length}`, "按风险分从高到低排列")}
+        ${metric("平均分", `${Math.round(rows.reduce((sum, row) => sum + row.audit.score, 0) / rows.length)}`, "满分 100")}
+        ${metric("熟词生义", `${words.filter((word) => word.polysemy).length}`, "重点看常见义对照")}
+        ${metric("本地兜底", `${sourceStats["本地兜底校准语境"] || 0}`, "AI 多次失败后的兜底项")}
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>风险语境</h2>
+        <span class="level-badge">前 ${Math.min(80, weakRows.length)} 条</span>
+      </div>
+      <div class="quality-list">
+        ${weakRows.slice(0, 80).map(renderQualityRow).join("") || emptyState("暂未发现风险语境", "当前规则没有筛出明显问题。")}
+      </div>
+    </section>
+  `;
+}
+
+function assessContextQuality(word) {
+  const context = getStudyContext(word);
+  const sentence = context.sentence || "";
+  const translation = context.translation || "";
+  const analysis = context.analysis || "";
+  const flags = [];
+  let score = 100;
+  const wordPattern = new RegExp(`\\b${escapeRegExp(word.word)}\\b`, "i");
+  const tokenCount = sentence.split(/\s+/).filter(Boolean).length;
+
+  if (!wordPattern.test(sentence)) {
+    flags.push("例句未含目标词");
+    score -= 35;
+  }
+  if (tokenCount < 8) {
+    flags.push("句子偏短");
+    score -= 12;
+  }
+  if (tokenCount > 30) {
+    flags.push("句子偏长");
+    score -= 8;
+  }
+  if (!translation || translation.length < 8) {
+    flags.push("中文翻译不足");
+    score -= 15;
+  }
+  if (!analysis || analysis.length < 10) {
+    flags.push("解析不足");
+    score -= 18;
+  }
+  if (/先把|前后搭配是否贴合|原义/.test(analysis)) {
+    flags.push("解析模板化");
+    score -= 10;
+  }
+  if (word.polysemy && !word.familiarMeaning) {
+    flags.push("缺常见义对照");
+    score -= 16;
+  }
+  if (word.polysemy && word.familiarMeaning && !analysis.includes("常见义") && !analysis.includes(word.familiarMeaning)) {
+    flags.push("熟词生义提示弱");
+    score -= 8;
+  }
+
+  return { score: clamp(score, 0, 100), flags };
+}
+
+function renderQualityRow(row) {
+  const { word, audit } = row;
+  const context = getStudyContext(word);
+  return `
+    <article class="quality-row">
+      <div>
+        <strong>${escapeHtml(word.word)}</strong>
+        <span class="word-meta">${escapeHtml(getPrimarySense(word))}</span>
+      </div>
+      <p>${renderChallengeSentence(context.sentence, word.word)}</p>
+      <span class="example-cn">${escapeHtml(context.translation)}</span>
+      <div class="chip-row">
+        <span class="level-badge">${audit.score}/100</span>
+        ${audit.flags.map((flag) => `<span class="tag hot-tag">${escapeHtml(flag)}</span>`).join("")}
+      </div>
+      <p class="quality-hint">DeepSeek 修订方向：${escapeHtml(buildQualityFixHint(word, audit.flags))}</p>
+    </article>
+  `;
+}
+
+function buildQualityFixHint(word, flags) {
+  if (!flags.length) return "当前语境可保留，后续只需人工抽查真题贴合度。";
+  const tasks = [];
+  if (flags.includes("例句未含目标词")) tasks.push(`重写英文句子，必须自然包含 ${word.word}`);
+  if (flags.includes("句子偏短")) tasks.push("扩展到 12-24 词，加入考研阅读常见的论证或评价关系");
+  if (flags.includes("句子偏长")) tasks.push("压缩长句，保留主干和一个关键修饰关系");
+  if (flags.includes("中文翻译不足")) tasks.push("补完整中文翻译，避免只翻目标词");
+  if (flags.includes("解析不足") || flags.includes("解析模板化")) tasks.push("说明搭配、主干关系和为什么取该考研义");
+  if (flags.includes("熟词生义提示弱")) tasks.push(`明确指出常见义“${word.familiarMeaning || "常见义"}”在本句不成立`);
+  return tasks.slice(0, 3).join("；") || "围绕考研义、搭配和句子关系重写解析。";
 }
 
 function renderLibrary(bank) {

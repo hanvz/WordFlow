@@ -29,6 +29,8 @@
 - 牛津参考：用户提供的 OALD MDX/MDD 作为后续释义校对来源，当前前端只记录精简学习字段。
 - DeepSeek：通过 OpenClaw 调用 `deepseek/deepseek-v4-pro` 做垂直方向校准和熟词生义种子校对，不把大批量词义完全交给模型生成。
 - DeepSeek API 覆盖层：`tools/enrich-contexts-deepseek.js` 可批量生成更自然的考研同域语境，输出到 `data/deepseek-context-overrides.js`，不直接改原始词库。
+- DeepSeek 词汇增强层：`tools/enrich-lexical-deepseek.js` 批量补熟词生义常见义、词根拆解和词族，输出到 `data/deepseek-lexical-overrides.js`。
+- OALD 本地层：`tools/extract-oald-local.py` 可从用户本机 OALD MDX/MDD 抽取精简释义、音标和本地音频覆盖，输出文件默认被 Git 忽略，避免把牛津版权内容发布到公开仓库。
 
 重新生成速认包前，先下载 ECDICT CSV 到临时目录：
 
@@ -87,6 +89,55 @@ node tools/audit-app.js
 - `--ids quality,demand`：只处理指定词。
 - `--force`：已有覆盖也重新生成。
 - `--out data/deepseek-context-overrides.js`：指定输出文件。
+
+### DeepSeek 批量补词根词族
+
+熟词生义常见义和核心词词根词族使用独立覆盖层：
+
+```bash
+node tools/enrich-lexical-deepseek.js --mode all --familiarLimit 10000 --morphologyLimit 2000 --batchSize 16 --concurrency 4 --apply
+node tools/validate-wordbank.js
+```
+
+当前验证门槛：
+
+- 熟词生义 familiarMeaning：必须覆盖全部熟词生义词。
+- morphology/family：必须至少覆盖 2000 个词。
+
+### OALD 本地抽取
+
+首次使用需要项目内虚拟环境：
+
+```bash
+python3 -m venv .venv-mdict
+.venv-mdict/bin/python -m pip install -r tools/requirements-mdict.txt
+```
+
+如果 `python-lzo` 找不到 Homebrew 的 lzo 头文件，可使用：
+
+```bash
+CFLAGS=-I/opt/homebrew/opt/lzo/include LDFLAGS=-L/opt/homebrew/opt/lzo/lib .venv-mdict/bin/python -m pip install python-lzo
+```
+
+抽取少量本地参考：
+
+```bash
+.venv-mdict/bin/python tools/extract-oald-local.py --words school,subject,demand,quality,condition --extract-audio
+```
+
+抽取当前考研全库本地参考：
+
+```bash
+.venv-mdict/bin/python tools/extract-oald-local.py --from-bank --extract-audio
+```
+
+当前本机实测：5822 个考研词全部匹配到 OALD 词条，抽出 5771 个本地英音 mp3；其余 51 个词条没有主发音引用，会由浏览器 TTS 兜底。脚本会输出缺失词条、缺音频和无音频引用样本，方便后续人工补齐。
+
+生成的 `data/oald-local-overrides.generated.js` 和 `assets/oald-audio/` 不提交到 Git，只供本机静态页面使用。
+
+### 语境质检与长难句
+
+页面新增“语境质检”入口，会自动筛查例句缺目标词、翻译/解析不足、解析模板化、熟词生义提示弱等风险项。背词答案页的语境卡会显示轻量“长难句主干”解析，标出主语段、谓语触发、后续成分和目标词作用。
 
 ## 本地打开
 

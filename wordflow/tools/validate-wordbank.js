@@ -7,6 +7,7 @@ require("../data/kaoyan-syllabus-recognition-pack.js");
 require("../data/pastpapers-index.js");
 require("../data/pastpapers-vocab-stats.js");
 require("../data/deepseek-context-overrides.js");
+require("../data/deepseek-lexical-overrides.js");
 require("../data/word-banks.js");
 
 const bank = global.WORD_BANKS.find((item) => item.id === "kaoyan");
@@ -51,6 +52,9 @@ const stats = {
   duplicateEnglish: countDuplicateValues(bank.words, "en"),
   duplicateExamples: countDuplicateValues(bank.words, "example"),
   duplicateExampleCn: countDuplicateValues(bank.words, "exampleCn"),
+  familiarMeaning: bank.words.filter((word) => word.polysemy && word.familiarMeaning).length,
+  morphology: bank.words.filter((word) => (word.morphology?.parts || []).length > 0).length,
+  family: bank.words.filter((word) => (word.family || []).length > 0).length,
   missing
 };
 
@@ -82,6 +86,14 @@ if (stats.genericEnglish || stats.genericExamples || stats.genericExampleCn || s
 
 if (stats.duplicateEnglish || stats.duplicateExamples || stats.duplicateExampleCn) {
   throw new Error(`Duplicate study content remains: en=${stats.duplicateEnglish}, example=${stats.duplicateExamples}, exampleCn=${stats.duplicateExampleCn}`);
+}
+
+if (stats.familiarMeaning < stats.polysemy) {
+  throw new Error(`Polysemy familiar meanings are incomplete: ${stats.familiarMeaning}/${stats.polysemy}`);
+}
+
+if (stats.morphology < 2000 || stats.family < 2000) {
+  throw new Error(`Morphology/family coverage is below target: morphology=${stats.morphology}, family=${stats.family}`);
 }
 
 function countDuplicateValues(words, field) {
