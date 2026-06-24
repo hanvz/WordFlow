@@ -1340,7 +1340,7 @@ select:focus {
 
 @media (max-width: 760px) {
   body.study-focus {
-    overflow: hidden;
+    overflow: auto;
   }
 
   .workspace {
@@ -1387,34 +1387,81 @@ select:focus {
   }
 
   .study-focus .study-card {
-    padding: 1rem;
+    min-height: 100svh;
+    max-height: none;
+    overflow: visible;
+    padding: 0.75rem 1rem calc(7.5rem + env(safe-area-inset-bottom));
   }
 
   .study-focus .focus-topline {
     align-items: stretch;
     flex-direction: column;
+    gap: 0.5rem;
+    order: 1;
   }
 
   .study-focus .focus-actions {
     justify-content: space-between;
   }
 
-.reward-drop {
-  align-items: stretch;
-  flex-direction: column;
-}
+  .study-focus .study-progress-strip {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    order: 0;
+    padding: 0.6rem 0.7rem;
+    border-radius: 0 0 8px 8px;
+    background: color-mix(in srgb, var(--surface) 94%, transparent);
+    backdrop-filter: blur(14px);
+  }
+
+  .study-focus .study-progress-strip > div > span {
+    font-size: 0.76rem;
+  }
+
+  .study-focus .mode-bar {
+    min-height: 0.42rem;
+  }
+
+  .study-focus .action-row {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.6rem;
+    padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line);
+    background: color-mix(in srgb, var(--surface) 96%, transparent);
+    box-shadow: 0 -16px 42px rgba(0, 0, 0, 0.34);
+    backdrop-filter: blur(16px);
+  }
+
+  .study-focus .action-row:has(.primary-button) {
+    grid-template-columns: 1fr;
+  }
+
+  .study-focus .reward-drop {
+    align-items: stretch;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+  }
 
   .study-focus .word-title strong {
     font-size: clamp(3.8rem, 22vw, 6.4rem);
   }
 
   .study-focus .definition-panel {
-    min-height: 18rem;
+    min-height: 16rem;
   }
 
   .study-focus .grade-button,
   .study-focus .primary-button {
+    min-height: 3.1rem;
     width: 100%;
+    padding: 0 0.65rem;
   }
 }
 

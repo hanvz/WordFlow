@@ -238,7 +238,10 @@ assert(appSource.includes("renderQualityAudit") && appSource.includes("assessCon
 assert(appSource.includes("buildQualityFixHint") && css.includes(".quality-hint"), "DeepSeek quality repair hints are missing");
 assert(appSource.includes("analyzeSentenceStructure") && appSource.includes("buildRelationHint") && css.includes(".syntax-strip") && css.includes(".syntax-note"), "Sentence structure parser UI is missing");
 assert(oaldExtractor.includes("--from-bank") && oaldExtractor.includes("extract_audio") && oaldExtractor.includes("audioExtracted"), "OALD local extractor does not support full-bank audio extraction");
-assert(css.includes("body.study-focus {\n    overflow: hidden;"), "Mobile focus mode does not lock body overflow");
+assert(css.includes("body.study-focus {\n    overflow: auto;"), "Mobile focus mode should allow vertical scrolling");
+assert(css.includes(".study-focus .action-row {\n    position: fixed;"), "Mobile study actions are not fixed to the bottom");
+assert(css.includes(".study-focus .study-progress-strip {\n    position: sticky;"), "Mobile study progress strip is not sticky at the top");
+assert(css.includes("calc(7.5rem + env(safe-area-inset-bottom))"), "Mobile study card does not reserve space for fixed actions");
 
 console.log(JSON.stringify({
   ok: true,
